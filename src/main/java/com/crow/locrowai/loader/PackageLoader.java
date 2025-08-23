@@ -21,7 +21,7 @@ import static com.crow.locrowai.LocrowAI.PY_VERSION;
 public class PackageLoader {
     public static boolean installed() throws IOException {
         Path root = FMLPaths.GAMEDIR.get().resolve("locrowai");
-        System.out.println(root);
+
         if (!Files.exists(root)) {
             Files.createDirectory(root);
             return false;

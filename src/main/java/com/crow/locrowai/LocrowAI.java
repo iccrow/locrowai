@@ -23,6 +23,8 @@ import org.slf4j.Logger;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -31,7 +33,7 @@ public class LocrowAI
 {
     // Define mod id in a common place for everything to reference
     public static final String MODID = "locrowai";
-    public static final String PY_VERSION = "0.1.0";
+    public static final String PY_VERSION = "0.1.1";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
     private static Process process;
@@ -85,15 +87,29 @@ public class LocrowAI
                     String uri = URIBuilder.pythonBuildUrl(base, PY_VERSION, probeResult);
                     LOGGER.info("[Setup] Package location: " + uri);
                     PackageLoader.downloadAndUnzip(uri, FMLPaths.GAMEDIR.get());
+                    Path pyPath = FMLPaths.GAMEDIR.get().resolve("locrowai").resolve(PY_VERSION);
+
+                    // Build the process: use "cmd /c" to run a .bat file on Windows
+                    ProcessBuilder pb = new ProcessBuilder("cmd.exe", "/c", pyPath.resolve("setup.bat").toString());
+
+                    // Redirect stdout + stderr into the log file
+                    pb.directory(pyPath.toFile());
+                    pb.redirectErrorStream(true); // merge stderr into stdout
+                    pb.redirectOutput(ProcessBuilder.Redirect.to(pyPath.resolve("setup_log.txt").toFile()));
+
+                    // Start and wait for exit
+                    LOGGER.info("[Setup] Installing Python dependencies");
+                    Process p = pb.start();
+                    int exitCode = p.waitFor();
                     if (awaitingStartup.get()) {
                         outThread.start();
                         awaitingStartup.set(false);
                     }
 
                     if (FMLEnvironment.dist.isClient()) SetupToast.done();
-                    LOGGER.info("[Setup] PyEnv install is complete!");
+                    LOGGER.info("[Setup] PyEnv install is complete with exit code {}! Log saved to {}.", exitCode, pyPath.resolve("setup_log.txt"));
                 }
-            } catch (IOException e) {
+            } catch (IOException | InterruptedException e) {
                 throw new RuntimeException(e);
             }
         });
