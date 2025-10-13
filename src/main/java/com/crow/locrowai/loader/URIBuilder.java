@@ -1,7 +1,16 @@
 package com.crow.locrowai.loader;
 
+import org.apache.commons.io.IOUtils;
+
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.nio.charset.StandardCharsets;
 import java.util.List;
 import java.util.Locale;
+
+import static com.crow.locrowai.LocrowAI.PY_TEMPLATE;
+import static com.crow.locrowai.LocrowAI.PY_VERSION;
 
 public final class URIBuilder {
     public static String osKey(SystemProbe.OsInfo os) {
@@ -46,8 +55,7 @@ public final class URIBuilder {
 //        return "cpu";
 //    }
 
-    /** Final URL: <base>/<ver>/<os>/<arch>/<accel>/pybuild.zip */
-    public static String pythonBuildUrl(String base, String version, SystemProbe.ProbeResult res) {
+    public static String fetchLatestVersion(String base, String template, SystemProbe.ProbeResult res) throws IOException {
         String os = osKey(res.os());
         String arch = archKey(res.os().arch());
         String vendor = vendorKey(res.gpus());
@@ -57,10 +65,25 @@ public final class URIBuilder {
         if (os.equals("unknown")) os = "linux";                 // safe default
         if (arch.equals("unknown")) arch = "x86_64";            // most common
 //        if (accel.equals("cpu") && arch.equals("arm")) arch = "arm64"; // normalize odd ARM reports
+        String url = String.format("%s/%s/%s/%s/%s/latest.txt",
+                trimSlash(base), template, os, arch, vendor);
+        return IOUtils.toString(new URL(url), StandardCharsets.UTF_8).strip();
+    }
 
+    /** Final URL: <base>/<ver>/<os>/<arch>/<accel>/x.y.z.zip */
+    public static String pythonBuildUrl(String base, SystemProbe.ProbeResult res) throws IOException {
+        String os = osKey(res.os());
+        String arch = archKey(res.os().arch());
+        String vendor = vendorKey(res.gpus());
+//        String accel = accelKey(vendor, res.nvidia());
+
+        // Fallbacks to ensure a valid path every time:
+        if (os.equals("unknown")) os = "linux";                 // safe default
+        if (arch.equals("unknown")) arch = "x86_64";            // most common
+//        if (accel.equals("cpu") && arch.equals("arm")) arch = "arm64"; // normalize odd ARM reports
         // Example: https://huggingface.co/iccrow/minecraft-locrowai/resolve/main/builds/0.1.0/windows/x86_64/nvidia/pyenv.zip
-        return String.format("%s/%s/%s/%s/%s/pyenv.zip",
-                trimSlash(base), version, os, arch, vendor);
+        return String.format("%s/%s/%s/%s/%s/%s.zip",
+                trimSlash(base), PY_TEMPLATE, os, arch, vendor, PY_VERSION());
     }
 
     private static String trimSlash(String s) {

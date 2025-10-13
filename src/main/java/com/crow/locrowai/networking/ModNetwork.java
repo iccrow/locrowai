@@ -19,10 +19,10 @@ public class ModNetwork {
     private static int id = 0;
 
     public static void register() {
-        CHANNEL.registerMessage(id++, ExecutePacket.class,
-                ExecutePacket::toBytes,
-                ExecutePacket::new,
-                ExecutePacket::handle
+        CHANNEL.registerMessage(id++, ExecuteChunkPacket.class,
+                ExecuteChunkPacket::toBytes,
+                ExecuteChunkPacket::new,
+                ExecuteChunkPacket::handle
         );
 
         CHANNEL.registerMessage(id++, ResultChunkPacket.class,

@@ -5,20 +5,17 @@ import net.minecraft.client.gui.components.toasts.SystemToast;
 import net.minecraft.network.chat.Component;
 
 public final class SetupToast {
-    private static boolean warn_shown;
     private static boolean done_shown;
 
-    public static void warn() {
-        if (warn_shown) return;
-        warn_shown = true;
+    public static void warmedUp() {
 
         Minecraft.getInstance().execute(() -> {
             var toasts = Minecraft.getInstance().getToasts();
             SystemToast.add(
                     toasts,
-                    SystemToast.SystemToastIds.PACK_LOAD_FAILURE,
-                    Component.literal("Setting up AI packages…"),
-                    Component.literal("Some features will be unavailable for a moment.")
+                    SystemToast.SystemToastIds.PERIODIC_NOTIFICATION,
+                    Component.literal("AI packages are warmed up"),
+                    Component.literal("Local AI features are now available.")
             );
         });
     }
@@ -32,8 +29,8 @@ public final class SetupToast {
             SystemToast.add(
                     toasts,
                     SystemToast.SystemToastIds.PERIODIC_NOTIFICATION,
-                    Component.literal("Finished setting up AI packages"),
-                    Component.literal("Local AI features are now available.")
+                    Component.literal("Finished installing AI packages"),
+                    Component.literal("Local AI features will be available after warmup.")
             );
         });
     }

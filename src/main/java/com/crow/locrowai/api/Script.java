@@ -1,8 +1,8 @@
 package com.crow.locrowai.api;
 
-import com.crow.locrowai.Config;
+import com.crow.locrowai.config.Config;
 import com.crow.locrowai.LocrowAI;
-import com.crow.locrowai.networking.ExecutePacket;
+import com.crow.locrowai.networking.ChunkSender;
 import com.crow.locrowai.networking.ModNetwork;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
@@ -79,21 +79,7 @@ public class Script {
             UUID jobID = UUID.randomUUID();
 
             try {
-                ModNetwork.CHANNEL.send(
-                        PacketDistributor.PLAYER.with(() -> {
-                            PlayerList playerList = ServerLifecycleHooks.getCurrentServer().getPlayerList();
-                            for (String name : Config.volunteerNames) {
-                                ServerPlayer player = playerList.getPlayerByName(name);
-                                if (player != null) {
-                                    queue.put(jobID, consumer);
-                                    return player;
-                                }
-                            }
-                            LocrowAI.LOGGER().warn("No volunteer players online! AI feature request ignored! Disable offloading or add a new volunteer to fix this.");
-                            return null;
-                        }),
-                        new ExecutePacket(this.blueprint, jobID)
-                );
+                ChunkSender.sendExecute(this.blueprint, jobID);
             } catch (Exception e) {
                 e.printStackTrace();
             }

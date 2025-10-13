@@ -1,5 +1,7 @@
-package com.crow.locrowai;
+package com.crow.locrowai.config;
 
+import com.crow.locrowai.LocrowAI;
+import net.minecraftforge.common.ForgeConfig;
 import net.minecraftforge.common.ForgeConfigSpec;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -8,7 +10,6 @@ import net.minecraftforge.fml.event.config.ModConfigEvent;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
-import java.util.stream.Collectors;
 
 @Mod.EventBusSubscriber(modid = LocrowAI.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class Config
@@ -24,7 +25,7 @@ public class Config
             .comment("A list of player names to search for offloading the AI process to, in order of priority.")
             .defineListAllowEmpty("volunteerNames", List.of(), Config::validateNames);
 
-    static final ForgeConfigSpec SPEC = BUILDER.build();
+    public static final ForgeConfigSpec SPEC = BUILDER.build();
 
     public static boolean offloading;
     public static List<String> volunteerNames;
@@ -39,5 +40,17 @@ public class Config
     {
         offloading = OFFLOADING.get();
         volunteerNames = new ArrayList<>(VOLUNTEERS.get());
+    }
+
+    public static void setOffloading(boolean option) {
+        OFFLOADING.set(option);
+        OFFLOADING.save();
+        offloading = option;
+    }
+
+    public static void setVolunteers(List<String> names) {
+        VOLUNTEERS.set(names);
+        volunteerNames = names;
+
     }
 }
