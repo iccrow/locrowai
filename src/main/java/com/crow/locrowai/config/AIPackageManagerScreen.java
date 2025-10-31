@@ -1,9 +1,9 @@
 package com.crow.locrowai.config;
 
 import com.crow.locrowai.LocrowAI;
-import com.crow.locrowai.loader.PackageLoader;
-import com.crow.locrowai.loader.ProgressManager;
-import com.crow.locrowai.loader.SystemProbe;
+import com.crow.locrowai.installer.EnvironmentInstaller;
+import com.crow.locrowai.installer.InstallationManager;
+import com.crow.locrowai.installer.SystemProbe;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphics;
@@ -92,11 +92,11 @@ public class AIPackageManagerScreen extends Screen {
 
         // Install
         installButton = this.addRenderableWidget(Button.builder(Component.literal("Install AI Packages"), btn -> {
-            if (actionRunning.get() || ProgressManager.installing.get()) return;
+            if (actionRunning.get() || InstallationManager.installing.get()) return;
             actionRunning.set(true);
             new Thread(() -> {
                 try {
-                    PackageLoader.install(base, probeResult);
+                    EnvironmentInstaller.install(base, probeResult);
                 } finally {
                     actionRunning.set(false);
                     scheduleComputeTotalSize();
@@ -106,7 +106,7 @@ public class AIPackageManagerScreen extends Screen {
 
         // Delete
         deleteButton = this.addRenderableWidget(Button.builder(Component.literal("Delete AI Packages"), btn -> {
-            if (actionRunning.get() || ProgressManager.installing.get()) return;
+            if (actionRunning.get() || InstallationManager.installing.get()) return;
             confirmAndRun("Delete AI packages? This will remove installed files.", () -> {
                 actionRunning.set(true);
                 new Thread(() -> {
@@ -209,10 +209,10 @@ public class AIPackageManagerScreen extends Screen {
     }
 
     private void updateButtonsState() {
-        boolean installing = ProgressManager.installing.get();
+        boolean installing = InstallationManager.installing.get();
         boolean installed = false;
         try {
-            installed = PackageLoader.installed();
+            installed = EnvironmentInstaller.installed();
         } catch (IOException ignored) {
         }
 

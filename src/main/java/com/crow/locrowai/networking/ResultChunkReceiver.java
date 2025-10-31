@@ -1,9 +1,8 @@
 package com.crow.locrowai.networking;
 
 import com.crow.locrowai.LocrowAI;
-import com.crow.locrowai.api.Script;
+import com.crow.locrowai.api.registration.AIRegistry;
 import com.google.gson.JsonParser;
-import net.minecraftforge.network.NetworkEvent;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -30,7 +29,7 @@ public class ResultChunkReceiver {
         }
     }
 
-    public static void onChunk(UUID id, int remaining, byte[] data) {
+    public static void onChunk(String MODID, UUID id, int remaining, byte[] data) {
 
         Assembly asm = INFLIGHT.compute(id, (k, v) -> {
             if (v == null) return new Assembly(remaining);
@@ -67,7 +66,7 @@ public class ResultChunkReceiver {
 
             try {
                 String json = new String(payload, StandardCharsets.UTF_8);
-                Script.finish(JsonParser.parseString(json).getAsJsonObject(), id);
+                AIRegistry.getContext(MODID).finish(JsonParser.parseString(json).getAsJsonObject(), id);
             } catch (Exception e) {
                 LocrowAI.LOGGER().error("Result parse/finish failed for {}", id, e);
             }

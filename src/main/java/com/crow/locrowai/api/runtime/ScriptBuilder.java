@@ -1,17 +1,17 @@
-package com.crow.locrowai.api;
+package com.crow.locrowai.api.runtime;
 
 import com.crow.locrowai.LocrowAI;
+import com.crow.locrowai.api.AIContext;
+import com.crow.locrowai.api.runtime.exceptions.UnauthorizedAICallException;
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class ScriptBuilder {
 
     private final transient Gson gson = new Gson();
+    private final transient Set<String> callIDs = new HashSet<>();
 
     private final String api_version = LocrowAI.PY_VERSION();
 
@@ -27,6 +27,7 @@ public class ScriptBuilder {
     }
 
     public ScriptBuilder then(Call call) {
+        callIDs.addAll(call.iterCallIDs());
         script.add(call);
         return this;
     }
@@ -37,6 +38,6 @@ public class ScriptBuilder {
     }
 
     public Script build() {
-        return new Script(gson.toJson(this));
+        return new Script(callIDs, gson.toJson(this));
     }
 }

@@ -1,7 +1,7 @@
-package com.crow.locrowai.events;
+package com.crow.locrowai.installer;
 
 import com.crow.locrowai.config.AIPackageManagerScreen;
-import com.crow.locrowai.loader.ProgressManager;
+import com.crow.locrowai.installer.InstallationManager;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphics;
@@ -19,14 +19,14 @@ import net.minecraftforge.fml.common.Mod;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 @Mod.EventBusSubscriber(value = Dist.CLIENT, bus = Mod.EventBusSubscriber.Bus.FORGE)
-public class ClientEvents {
+public class ProgressBarManager {
 
     private static final AtomicBoolean pass = new AtomicBoolean();
 
     // Add a button to start/cancel the install
     @SubscribeEvent
     public static void onScreenInit(ScreenEvent.Init.Post event) {
-        if (!ProgressManager.installing.get() && !ProgressManager.hadError.get()) return;
+        if (!InstallationManager.installing.get() && !InstallationManager.hadError.get()) return;
         Screen screen = event.getScreen();
         if (!(screen instanceof JoinMultiplayerScreen) && !(screen instanceof SelectWorldScreen)) return;
         if (pass.get()) {
@@ -37,11 +37,11 @@ public class ClientEvents {
         String line1 = "ERROR", line3 = "ERROR";
         int titleColor = 0xFFFFFF;
 
-        if (ProgressManager.installing.get()) {
+        if (InstallationManager.installing.get()) {
             line1 = "AI packages are still installing!";
             line3 = "Proceeding will install the packages in the background.";
             titleColor = 0xFFFF55;
-        } else if (ProgressManager.hadError.get()) {
+        } else if (InstallationManager.hadError.get()) {
             line1 = "AI packages failed to install!";
             line3 = "Visit the Locrow AI Mod Config Page to try to resolve the issue.";
             titleColor = 0xFF5555;
@@ -72,8 +72,8 @@ public class ClientEvents {
         if (!(screen instanceof TitleScreen) && !(screen instanceof PauseScreen) && !(screen instanceof AIPackageManagerScreen)) return;
 
 
-        if (!ProgressManager.installing.get() && !ProgressManager.hadError.get()) return;
-        int color = ProgressManager.hadError.get() ? 0xAAAA3333 : 0xAA33AA33;
+        if (!InstallationManager.installing.get() && !InstallationManager.hadError.get()) return;
+        int color = InstallationManager.hadError.get() ? 0xAAAA3333 : 0xAA33AA33;
         GuiGraphics gui = event.getGuiGraphics();
         Minecraft mc = Minecraft.getInstance();
         Font font = mc.font;
@@ -86,18 +86,18 @@ public class ClientEvents {
         int textY = y + 11;
 
         // stage label (above)
-        String stageLabel = ProgressManager.hadError.get() ? "An error occurred" : ProgressManager.getCurrentStageName();
+        String stageLabel = InstallationManager.hadError.get() ? "An error occurred" : InstallationManager.getCurrentStageName();
         gui.drawString(font, stageLabel, (screenW - font.width(stageLabel)) / 2, textY, 0xFFFFFFFF, false);
 
         // background
         gui.fill(x - 2, y - 2, x + barWidth + 2, y + barHeight + 2, 0xAA000000);
 
         // draw segment separators and segment fills
-        double total = ProgressManager.STAGES.stream().mapToDouble(s -> s.weight()).sum();
+        double total = InstallationManager.STAGES.stream().mapToDouble(s -> s.weight()).sum();
         // precompute segment widths
         double pos = 0;
-        int segments = ProgressManager.STAGES.size();
-        int currentIndex = ProgressManager.currentStageIndex.get();
+        int segments = InstallationManager.STAGES.size();
+        int currentIndex = InstallationManager.currentStageIndex.get();
 
         // draw empty (base) bar
         gui.fill(x, y, x + barWidth, y + barHeight, 0xFF333333);
@@ -105,7 +105,7 @@ public class ClientEvents {
         // draw completed segments + current partial
         int px = x;
         for (int i = 0; i < segments; i++) {
-            double wFrac = total == 0 ? (1.0 / segments) : (ProgressManager.STAGES.get(i).weight() / total);
+            double wFrac = total == 0 ? (1.0 / segments) : (InstallationManager.STAGES.get(i).weight() / total);
             int segWidth = (int) Math.round(barWidth * wFrac);
             if (segWidth <= 0) continue;
 
@@ -113,7 +113,7 @@ public class ClientEvents {
                 // fully completed
                 gui.fill(px, y, px + segWidth, y + barHeight, color); // green if installing, red if error
             } else if (i == currentIndex) {
-                int filled = (int) (segWidth * (ProgressManager.stagePercent.get() / 100.0f));
+                int filled = (int) (segWidth * (InstallationManager.stagePercent.get() / 100.0f));
                 if (filled > 0) gui.fill(px, y, px + filled, y + barHeight, color);
             }
             // draw vertical separator line
@@ -122,7 +122,7 @@ public class ClientEvents {
         }
 
         // percentage text on top-right of bar
-        String pct = ProgressManager.getOverallPercent() + "%";
+        String pct = InstallationManager.getOverallPercent() + "%";
         gui.drawString(font, pct, x + barWidth - font.width(pct), textY, 0xFFFFFFFF, false);
     }
 }

@@ -2,6 +2,9 @@ package com.crow.locrowai;
 
 import com.crow.locrowai.config.AIPackageManagerScreen;
 import com.crow.locrowai.config.Config;
+import com.crow.locrowai.installer.EnvironmentInstaller;
+import com.crow.locrowai.installer.SystemProbe;
+import com.crow.locrowai.installer.URIBuilder;
 import com.crow.locrowai.loader.*;
 import com.crow.locrowai.networking.ModNetwork;
 import com.mojang.logging.LogUtils;
@@ -88,7 +91,7 @@ public class LocrowAI
             throw new RuntimeException(e);
         }
         setupThread = new Thread(() -> {
-            PackageLoader.install(base, probeResult);
+            EnvironmentInstaller.install(base, probeResult);
         }, "Locrow-AI-Python-Installer");
 
         setupThread.start();

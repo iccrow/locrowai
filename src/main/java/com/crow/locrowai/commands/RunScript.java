@@ -1,7 +1,8 @@
 package com.crow.locrowai.commands;
 
 import com.crow.locrowai.LocrowAI;
-import com.crow.locrowai.api.Script;
+import com.crow.locrowai.api.registration.AIRegistry;
+import com.crow.locrowai.api.runtime.Script;
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.arguments.StringArgumentType;
 import net.minecraft.commands.CommandSourceStack;
@@ -17,12 +18,12 @@ public class RunScript {
                         .then(argument("script", StringArgumentType.string())
                                 .executes(context -> {
                                     String script = StringArgumentType.getString(context, "script");
-                                    new Script(script).execute(jsonObject -> {
-                                        LocrowAI.LOGGER().info(jsonObject.toString());
-                                        context.getSource().sendSystemMessage(Component.literal(jsonObject.toString()));
-                                    });
-
-                                    return 1;
+                                    AIRegistry.getContext(LocrowAI.MODID).execute(new Script(null, script))
+                                            .thenAccept(jsonObject -> {
+                                                LocrowAI.LOGGER().info(jsonObject.toString());
+                                                context.getSource().sendSystemMessage(Component.literal(jsonObject.toString()));
+                                            });
+                                    return 0;
                                 })
                         )
                 )

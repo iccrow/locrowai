@@ -1,4 +1,4 @@
-package com.crow.locrowai.loader;
+package com.crow.locrowai.installer;
 
 import oshi.SystemInfo;
 import oshi.hardware.GraphicsCard;

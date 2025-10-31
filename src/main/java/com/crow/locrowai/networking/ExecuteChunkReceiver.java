@@ -1,7 +1,10 @@
 package com.crow.locrowai.networking;
 
 import com.crow.locrowai.LocrowAI;
-import com.crow.locrowai.api.Script;
+import com.crow.locrowai.api.registration.AIRegistry;
+import com.crow.locrowai.api.runtime.Script;
+import net.minecraft.client.Minecraft;
+import net.minecraftforge.network.PacketDistributor;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -28,7 +31,7 @@ public class ExecuteChunkReceiver {
         }
     }
 
-    public static void onChunk(UUID id, int remaining, byte[] data) {
+    public static void onChunk(String MODID, UUID id, int remaining, byte[] data) {
         Assembly asm = INFLIGHT.compute(id, (k, v) -> v == null ? new Assembly(remaining) : v);
 
         if (asm.chunks[asm.total - remaining] == null) {
@@ -61,13 +64,27 @@ public class ExecuteChunkReceiver {
             String script = new String(payload, StandardCharsets.UTF_8);
 
             if (!LocrowAI.isRunning() && !LocrowAI.isSettingUp()) {
-                LocrowAI.startAIProcess(() -> Script.execute(script, results -> {
-                    net.minecraft.client.Minecraft.getInstance().execute(() -> ChunkSender.sendResult(id, results));
-                }));
+                LocrowAI.startAIProcess(() -> AIRegistry.getContext(MODID).execute(new Script(null, script))
+                                .thenAccept(results ->
+                                        ChunkSender.sendResult(MODID, id, results.getAsString()))
+                                .exceptionally(err -> {
+                                    ModNetwork.CHANNEL.send(
+                                            PacketDistributor.SERVER.noArg(),
+                                            new OffloadErrorPacket(MODID, id, err.getClass().getSimpleName(), err.getMessage())
+                                    );
+                                    return null;
+                                }));
             } else {
-                Script.execute(script, results -> {
-                    net.minecraft.client.Minecraft.getInstance().execute(() -> ChunkSender.sendResult(id, results));
-                });
+                AIRegistry.getContext(MODID).execute(new Script(null, script))
+                        .thenAccept(results ->
+                                ChunkSender.sendResult(MODID, id, results.getAsString()))
+                        .exceptionally(err -> {
+                            ModNetwork.CHANNEL.send(
+                                    PacketDistributor.SERVER.noArg(),
+                                    new OffloadErrorPacket(MODID, id, err.getClass().getSimpleName(), err.getMessage())
+                            );
+                            return null;
+                        });
             }
         }
     }

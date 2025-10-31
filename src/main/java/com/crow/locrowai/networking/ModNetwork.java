@@ -2,6 +2,7 @@ package com.crow.locrowai.networking;
 
 import com.crow.locrowai.LocrowAI;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraftforge.network.NetworkDirection;
 import net.minecraftforge.network.NetworkRegistry;
 import net.minecraftforge.network.simple.SimpleChannel;
 
@@ -29,7 +30,14 @@ public class ModNetwork {
                 ResultChunkPacket::toBytes,
                 ResultChunkPacket::new,
                 ResultChunkPacket::handle,
-                Optional.of(net.minecraftforge.network.NetworkDirection.PLAY_TO_SERVER)
+                Optional.of(NetworkDirection.PLAY_TO_SERVER)
+        );
+
+        CHANNEL.registerMessage(id++, OffloadErrorPacket.class,
+                OffloadErrorPacket::toBytes,
+                OffloadErrorPacket::new,
+                OffloadErrorPacket::handle,
+                Optional.of(NetworkDirection.PLAY_TO_SERVER)
         );
     }
 }

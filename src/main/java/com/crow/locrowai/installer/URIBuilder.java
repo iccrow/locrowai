@@ -1,9 +1,9 @@
-package com.crow.locrowai.loader;
+package com.crow.locrowai.installer;
 
+import com.crow.locrowai.installer.SystemProbe;
 import org.apache.commons.io.IOUtils;
 
 import java.io.IOException;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.List;

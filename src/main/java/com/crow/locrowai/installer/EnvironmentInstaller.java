@@ -1,7 +1,8 @@
-package com.crow.locrowai.loader;
+package com.crow.locrowai.installer;
 
 import com.crow.locrowai.config.Config;
 import com.crow.locrowai.LocrowAI;
+import com.crow.locrowai.loader.SetupToast;
 import net.minecraftforge.fml.loading.FMLEnvironment;
 import net.minecraftforge.fml.loading.FMLPaths;
 
@@ -21,9 +22,9 @@ import java.util.Set;
 
 import static com.crow.locrowai.LocrowAI.*;
 import static com.crow.locrowai.LocrowAI.LOGGER;
-import static com.crow.locrowai.loader.ProgressManager.*;
+import static com.crow.locrowai.installer.InstallationManager.*;
 
-public class PackageLoader {
+public class EnvironmentInstaller {
 
     private static final int DOWNLOAD_INDEX = 0;
 
@@ -116,7 +117,7 @@ public class PackageLoader {
 
     public static void install(String base, SystemProbe.ProbeResult probeResult) {
         try {
-            if (!PackageLoader.installed()) {
+            if (!EnvironmentInstaller.installed()) {
                 if (Config.offloading)
                     return;
 
@@ -143,7 +144,7 @@ public class PackageLoader {
 
                 String uri = URIBuilder.pythonBuildUrl(base, probeResult);
                 LOGGER().info("Package location: " + uri);
-                PackageLoader.downloadAndUnzip(uri, FMLPaths.GAMEDIR.get());
+                EnvironmentInstaller.downloadAndUnzip(uri, FMLPaths.GAMEDIR.get());
 
                 currentStageIndex.set(SETUP_INDEX);
                 stagePercent.set(0);

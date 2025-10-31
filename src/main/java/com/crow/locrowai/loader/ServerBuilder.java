@@ -1,5 +1,7 @@
 package com.crow.locrowai.loader;
 
+import com.crow.locrowai.installer.SystemProbe;
+
 import java.nio.file.Path;
 import java.util.Locale;
 

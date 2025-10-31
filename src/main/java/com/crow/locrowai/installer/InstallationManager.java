@@ -1,14 +1,13 @@
-package com.crow.locrowai.loader;
+package com.crow.locrowai.installer;
 
 import com.google.common.util.concurrent.AtomicDouble;
 
 import java.util.List;
-import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
 
-public class ProgressManager {
+public class InstallationManager {
 
     public record Stage(String name, double weight) {} // weight = relative portion of the bar
 
@@ -51,42 +50,6 @@ public class ProgressManager {
         int idx = currentStageIndex.get();
         if (idx >= 0 && idx < STAGES.size()) return STAGES.get(idx).name();
         return "";
-    }
-
-    public static void startInstallSimulation() {
-        if (installing.get()) return;
-        installing.set(true);
-        currentStageIndex.set(0);
-        stagePercent.set(0);
-        subLabel.set("");
-        CompletableFuture.runAsync(() -> {
-            try {
-                for (int s = 0; s < STAGES.size(); s++) {
-                    currentStageIndex.set(s);
-                    stagePercent.set(0);
-                    Stage stage = STAGES.get(s);
-                    if (stage.weight() == 0) {
-                        // "Done" stage: set to 100 and break
-                        stagePercent.set(100);
-                        break;
-                    }
-                    // Simulate sub-steps within a stage; replace this with real work.
-                    int steps = 100;
-                    for (int i = 0; i <= steps; i++) {
-                        if (!installing.get()) return; // allow cancellation
-                        // Example sublabel update:
-                        if (i % 25 == 0) subLabel.set("Step " + (i/25 + 1) + " / 4");
-                        stagePercent.set(i);
-                        try { Thread.sleep(100); } catch (InterruptedException e) { Thread.currentThread().interrupt(); return; }
-                    }
-                }
-                // mark finished
-                currentStageIndex.set(STAGES.size() - 1);
-                stagePercent.set(100);
-            } finally {
-                installing.set(false);
-            }
-        });
     }
 
     public static void cancelInstall() {

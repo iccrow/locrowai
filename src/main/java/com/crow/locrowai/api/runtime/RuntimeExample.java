@@ -1,10 +1,15 @@
-package com.crow.locrowai.api;
+package com.crow.locrowai.api.runtime;
+
+import com.crow.locrowai.api.registration.RegistrationExample;
 
 import java.util.List;
 import java.util.Map;
 
-public class APIUsageExample {
+import static com.crow.locrowai.api.registration.RegistrationExample.*;
+
+public class RuntimeExample {
     public static void run() {
+
         ScriptBuilder scriptBuilder = new ScriptBuilder();
 
         scriptBuilder.then(new Call() // create a new call without an id
@@ -39,9 +44,8 @@ public class APIUsageExample {
         Script script = scriptBuilder.build();
         System.out.println(script.getJsonBlueprint());
 
-        // run the script and print the "script" result when they arrive
-//        script.execute(results -> {
-//            System.out.println(results.get("script").getAsString());
-//        });
+        // run the script and print the "transcript" result when they arrive
+        context.execute(script).thenAccept(results -> System.out.println(results.get("transcript").getAsString()))
+                .exceptionally(err -> null);
     }
 }

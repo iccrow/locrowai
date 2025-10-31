@@ -1,4 +1,4 @@
-package com.crow.locrowai.api;
+package com.crow.locrowai.api.runtime;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -6,6 +6,7 @@ import com.google.gson.JsonElement;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class Call {
@@ -57,5 +58,17 @@ public class Call {
     public Call condition(Conditional condition) {
         this.condition = condition;
         return this;
+    }
+
+    public List<String> iterCallIDs() {
+        if (calls == null) return List.of(call);
+
+        List<String> out = new ArrayList<>();
+
+        for (Call call1 : calls) {
+            out.addAll(call1.iterCallIDs());
+        }
+
+        return out;
     }
 }

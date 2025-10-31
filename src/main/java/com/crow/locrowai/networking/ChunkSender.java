@@ -10,7 +10,7 @@ import java.util.zip.GZIPOutputStream;
 
 public class ChunkSender {
 
-    public static void sendResult(UUID uuid, String json) {
+    public static void sendResult(String MODID, UUID uuid, String json) {
         byte[] bytes = json.getBytes(StandardCharsets.UTF_8);
 
         try (ByteArrayOutputStream bout = new ByteArrayOutputStream();
@@ -32,7 +32,7 @@ public class ChunkSender {
 
             ModNetwork.CHANNEL.send(
                     PacketDistributor.SERVER.noArg(),
-                    new ResultChunkPacket(uuid, total - i, slice)
+                    new ResultChunkPacket(MODID, uuid, total - i, slice)
             );
         }
     }
@@ -40,7 +40,7 @@ public class ChunkSender {
     /**
      * Compress and send a large script as chunks to the server.
      */
-    public static void sendExecute(String script, UUID uuid) {
+    public static void sendExecute(String script, String MODID, UUID uuid) {
         byte[] bytes = script.getBytes(StandardCharsets.UTF_8);
 
         // Compress using GZIP
@@ -63,7 +63,7 @@ public class ChunkSender {
             // Send each chunk
             ModNetwork.CHANNEL.send(
                     net.minecraftforge.network.PacketDistributor.SERVER.noArg(),
-                    new ExecuteChunkPacket(uuid, total - i, slice)
+                    new ExecuteChunkPacket(MODID, uuid, total - i, slice)
             );
         }
     }
