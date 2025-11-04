@@ -2,22 +2,26 @@ package com.crow.locrowai.api.registration;
 
 import com.crow.locrowai.api.AIContext;
 
+import com.crow.locrowai.installer.InstallationManager;
+import com.google.gson.Gson;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.fml.ModContainer;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.forgespi.language.IModInfo;
 import net.minecraftforge.forgespi.language.ModFileScanData;
 import org.objectweb.asm.Type;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.*;
 
 public class AIRegistry {
     private static final Type PLUGIN_ANNOT = Type.getType(LocrowAIPlugin.class);
 
     private static final Map<String, AIContext> contexts = new HashMap<>();
-    private static final List<String> registry = new ArrayList<>();
+    private static final Map<String, AIExtension> registry = new HashMap<>();
+    private static final Map<String, ClassLoader> loaders = new HashMap<>();
 
     public static void init() {
         ModList modList = ModList.get();
@@ -44,6 +48,7 @@ public class AIRegistry {
                 AIContext context = new AIContext(MODID, loader);
 
                 contexts.put(MODID, context);
+                loaders.put(MODID, loader);
 
                 AIPlugin registrant = (AIPlugin) clazz.getDeclaredConstructor().newInstance();
 
@@ -52,7 +57,7 @@ public class AIRegistry {
                 List<AIExtension> pending = context.finishRegistration();
 
                 for (AIExtension extension : pending) {
-
+                    registry.put(extension.getId(), extension);
                 }
 
             } catch (Exception e) {
@@ -60,9 +65,22 @@ public class AIRegistry {
                 e.printStackTrace();
             }
         }
+
+
     }
 
     public static AIContext getContext(String MODID) {
         return contexts.get(MODID);
+    }
+
+    public static AIExtension getExtension(String MODID) {
+        return registry.get(MODID);
+    }
+    public static List<AIExtension> getExtensions() {
+        return registry.values().stream().toList();
+    }
+
+    public static ClassLoader getLoader(String MODID) {
+        return loaders.get(MODID);
     }
 }

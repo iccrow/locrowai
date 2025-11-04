@@ -13,9 +13,17 @@ public class RegistrationExample implements AIPlugin {
         RegistrationExample.context = context;
 
         // Used for registering a new extension
-        context.registerExtension(ResourceLocation.fromNamespaceAndPath("locrowai", "locrowai/extensions/llm"));
+        context.registerExtension(ResourceLocation.fromNamespaceAndPath("locrowai", "extensions/audio/"));
+        context.registerExtension(ResourceLocation.fromNamespaceAndPath("locrowai", "extensions/base64/"));
+        context.registerExtension(ResourceLocation.fromNamespaceAndPath("locrowai", "extensions/llm/"));
+        context.registerExtension(ResourceLocation.fromNamespaceAndPath("locrowai", "extensions/math/"));
+        context.registerExtension(ResourceLocation.fromNamespaceAndPath("locrowai", "extensions/rvc/"));
+        context.registerExtension(ResourceLocation.fromNamespaceAndPath("locrowai", "extensions/tensor/"));
+        context.registerExtension(ResourceLocation.fromNamespaceAndPath("locrowai", "extensions/tts/"));
+        context.registerExtension(ResourceLocation.fromNamespaceAndPath("locrowai", "extensions/utils/"));
+        context.registerExtension(ResourceLocation.fromNamespaceAndPath("locrowai", "extensions/whisper/"));
 
         // Used for declaring usage of extensions registered in other mods
-        context.declareExtension("audio");
+        context.declareExtension("utils");
     }
 }

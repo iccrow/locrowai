@@ -1,0 +1,16 @@
+import base64
+from pydantic import BaseModel
+
+from api import Function, register
+
+class DecodeParams(BaseModel):
+    base64: str
+
+class DecodeReturns(BaseModel):
+    bytes: bytes
+
+@register("/base64/decode")
+class DecodeFunc(Function[DecodeParams, DecodeReturns]):
+
+    def exec(self):
+        self.returns = DecodeReturns(bytes=base64.b64decode(self.params.base64))

@@ -1,0 +1,38 @@
+{
+    "id": "core",
+    "version": "0.4.0.dev1",
+    "description": "A Python server core for running AI scripts from a JSON API!",
+    "tags": [
+        "api",
+        "json",
+        "ai",
+        "core"
+    ],
+    "author": "iccrow",
+    "models": [],
+    "hashes": {
+        "api.py": "9229ffa5a7d408d0828aa4ca7f0b334369adbf06a5e082f9be3dec0edb340d8d",
+        "app.py": "5bcc80bfcff887927ee7a4d668c6a2e71b841e107578125fb76ee5da728edbd0",
+        "loader.py": "4152abc6e89119b7e5476e6c234d9d879e4d050272733a5b508a7ef2db076505",
+        "python.bat": "dc7f0f7e63c7de2161f4a0760bacf974525b7c258ac6309bbf72b9dfdef3ad71",
+        "run.bat": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "python.sh": null,
+        "run.sh": null
+    },
+    "requirements": [
+        "annotated_types",
+        "anyio",
+        "click",
+        "exceptiongroup",
+        "fastapi",
+        "orjson",
+        "pydantic",
+        "pydantic_core",
+        "python_multipart",
+        "sniffio",
+        "starlette",
+        "typing_extensions",
+        "typing_inspection",
+        "uvicorn"
+    ]
+}

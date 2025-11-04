@@ -1,8 +1,10 @@
 package com.crow.locrowai;
 
+import com.crow.locrowai.api.registration.AIRegistry;
 import com.crow.locrowai.config.AIPackageManagerScreen;
 import com.crow.locrowai.config.Config;
 import com.crow.locrowai.installer.EnvironmentInstaller;
+import com.crow.locrowai.installer.InstallationManager;
 import com.crow.locrowai.installer.SystemProbe;
 import com.crow.locrowai.installer.URIBuilder;
 import com.crow.locrowai.loader.*;
@@ -35,7 +37,7 @@ public class LocrowAI
 {
     // Define mod id in a common place for everything to reference
     public static final String MODID = "locrowai";
-    public static final String PY_TEMPLATE = "0.3.x";
+    public static final String PY_TEMPLATE = "0.4.x";
     private static String PY_VERSION = PY_TEMPLATE;
 
     private static final String base = "https://huggingface.co/iccrow/minecraft-locrowai/resolve/main/builds/";
@@ -76,23 +78,16 @@ public class LocrowAI
     private void commonSetup(final FMLCommonSetupEvent event)
     {
         event.enqueueWork(ModNetwork::register);
-        probeResult = SystemProbe.probe();
-//        System.out.println(result.os().name());
-//        System.out.println(result.os().arch());
-//        System.out.println(result.os().bits() + "\n\n");
-//        for (SystemProbe.GpuInfo card : result.gpus()) {
-//            System.out.println(card.vendor());
-//            System.out.println(card.model());
-//            System.out.println(card.deviceId() + "\n\n");
-//        }
+
         try {
-            PY_VERSION = URIBuilder.fetchLatestVersion(base, PY_VERSION, probeResult);
+            PY_VERSION = URIBuilder.fetchLatestVersion();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        setupThread = new Thread(() -> {
-            EnvironmentInstaller.install(base, probeResult);
-        }, "Locrow-AI-Python-Installer");
+
+        AIRegistry.init();
+
+        setupThread = new Thread(InstallationManager::init, "Locrow-AI-Backend-Installer");
 
         setupThread.start();
 

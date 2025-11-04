@@ -1,0 +1,32 @@
+{
+    "id": "llm",
+    "version": "0.1.0",
+    "description": "Large language model chat and inference utilities.",
+    "tags": [
+        "llm",
+        "chat",
+        "inference",
+        "ai"
+    ],
+    "author": "iccrow",
+    "models": [],
+    "hashes": {
+        "chat.py": "b1702424fe5a4794dc0495e2737521ff42e81a7953c394dbfc4898b5ac854a93",
+        "__init__.py": "c899ccd7a8f73b30f1b320002fb50a36d0181ed9cb611c6a0e688b75b332ab83"
+    },
+    "requirements": [
+        "annotated_types",
+        "diskcache",
+        "fsspec",
+        "huggingface_hub",
+        "jinja2",
+        "llama_cpp",
+        "markupsafe",
+        "numpy",
+        "pydantic",
+        "requests",
+        "tqdm",
+        "typing_extensions",
+        "urllib3"
+    ]
+}

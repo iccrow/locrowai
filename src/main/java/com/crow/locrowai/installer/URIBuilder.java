@@ -4,6 +4,7 @@ import com.crow.locrowai.installer.SystemProbe;
 import org.apache.commons.io.IOUtils;
 
 import java.io.IOException;
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.List;
@@ -13,6 +14,11 @@ import static com.crow.locrowai.LocrowAI.PY_TEMPLATE;
 import static com.crow.locrowai.LocrowAI.PY_VERSION;
 
 public final class URIBuilder {
+
+    private static final String base = "https://github.com/astral-sh/python-build-standalone/releases/download";
+    private static final String PY_VERSION = "3.10.19";
+    private static final String PY_RELEASE = "20251031";
+
     public static String osKey(SystemProbe.OsInfo os) {
         String fam = os.name().toLowerCase(Locale.ROOT);
         if (fam.contains("win")) return "windows";
@@ -55,36 +61,51 @@ public final class URIBuilder {
 //        return "cpu";
 //    }
 
-    public static String fetchLatestVersion(String base, String template, SystemProbe.ProbeResult res) throws IOException {
-        String os = osKey(res.os());
-        String arch = archKey(res.os().arch());
-        String vendor = vendorKey(res.gpus());
-//        String accel = accelKey(vendor, res.nvidia());
-
-        // Fallbacks to ensure a valid path every time:
-        if (os.equals("unknown")) os = "linux";                 // safe default
-        if (arch.equals("unknown")) arch = "x86_64";            // most common
-//        if (accel.equals("cpu") && arch.equals("arm")) arch = "arm64"; // normalize odd ARM reports
-        String url = String.format("%s/%s/%s/%s/%s/latest.txt",
-                trimSlash(base), template, os, arch, vendor);
-        return IOUtils.toString(new URL(url), StandardCharsets.UTF_8).strip();
+    public static String fetchLatestVersion() throws IOException {
+//        SystemProbe.ProbeResult res = SystemProbe.result;
+//        String os = osKey(res.os());
+//        String arch = archKey(res.os().arch());
+//        String vendor = vendorKey(res.gpus());
+////        String accel = accelKey(vendor, res.nvidia());
+//
+//        // Fallbacks to ensure a valid path every time:
+//        if (os.equals("unknown")) os = "linux";                 // safe default
+//        if (arch.equals("unknown")) arch = "x86_64";            // most common
+////        if (accel.equals("cpu") && arch.equals("arm")) arch = "arm64"; // normalize odd ARM reports
+//        String url = String.format("%s/%s/%s/%s/%s/latest.txt",
+//                trimSlash(base), PY_TEMPLATE, os, arch, vendor);
+//        return IOUtils.toString(new URL(url), StandardCharsets.UTF_8).strip();
+        return "0.4.0.dev1";
     }
 
-    /** Final URL: <base>/<ver>/<os>/<arch>/<accel>/x.y.z.zip */
-    public static String pythonBuildUrl(String base, SystemProbe.ProbeResult res) throws IOException {
+    public static String buildPythonUrl() {
+        SystemProbe.ProbeResult res = SystemProbe.result;
         String os = osKey(res.os());
         String arch = archKey(res.os().arch());
-        String vendor = vendorKey(res.gpus());
-//        String accel = accelKey(vendor, res.nvidia());
+        String vendor;
 
-        // Fallbacks to ensure a valid path every time:
-        if (os.equals("unknown")) os = "linux";                 // safe default
-        if (arch.equals("unknown")) arch = "x86_64";            // most common
-//        if (accel.equals("cpu") && arch.equals("arm")) arch = "arm64"; // normalize odd ARM reports
-        // Example: https://huggingface.co/iccrow/minecraft-locrowai/resolve/main/builds/0.1.0/windows/x86_64/nvidia/pyenv.zip
-        return String.format("%s/%s/%s/%s/%s/%s.zip",
-                trimSlash(base), PY_TEMPLATE, os, arch, vendor, PY_VERSION());
+        // Fallback to ensure a valid path every time:
+        if (arch.equals("unknown")) arch = "x86_64";
+
+        // Determine vendor triplet component
+        switch (os) {
+            case "windows" -> vendor = "pc-windows-msvc";
+            case "linux" -> vendor = "unknown-linux-gnu";
+            case "macos" -> vendor = "apple-darwin";
+            default -> vendor = "unknown-linux-gnu"; // safe fallback
+        }
+
+        return String.format(
+                "%s/%s/cpython-%s+%s-%s-%s-install_only_stripped.tar.gz",
+                trimSlash(base),
+                PY_RELEASE,
+                PY_VERSION,
+                PY_RELEASE,
+                arch,
+                vendor
+        );
     }
+
 
     private static String trimSlash(String s) {
         if (s.endsWith("/")) return s.substring(0, s.length() - 1);

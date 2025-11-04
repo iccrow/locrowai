@@ -1,0 +1,37 @@
+{
+    "id": "whisper",
+    "version": "0.1.0",
+    "description": "Whisper speech recognition and inference utilities for AI workflows.",
+    "tags": [
+        "whisper",
+        "speech",
+        "recognition",
+        "ai"
+    ],
+    "author": "iccrow",
+    "models": [],
+    "hashes": {
+        "infer.py": "134023694141fa7ef628816eee3f61b34126d7f5860974762e38e670c471f6b0",
+        "whisper.py": "8ba53bc93ec40b4371eb2ee11c498fa76820d28df01bfcf376c174032f8d3eb1",
+        "__init__.py": "3f1ecc9655f074d9c8740cd7ba0e01398443f2dd55b220fa3d91b58b2402bc9a"
+    },
+    "requirements": [
+        "annotated_types",
+        "av",
+        "ctranslate2",
+        "faster_whisper",
+        "huggingface_hub",
+        "numpy",
+        "packaging",
+        "pkg_resources",
+        "platformdirs",
+        "pydantic",
+        "requests",
+        "tokenizers",
+        "torch",
+        "tqdm",
+        "transformers",
+        "urllib3",
+        "yaml"
+    ]
+}

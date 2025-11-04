@@ -15,6 +15,8 @@ public class SystemProbe {
 
     private static SystemInfo si = new SystemInfo();
 
+    public static final ProbeResult result = probe();
+
     public static ProbeResult probe() {
         return new ProbeResult(osInfo(), GpuInfo());
     }

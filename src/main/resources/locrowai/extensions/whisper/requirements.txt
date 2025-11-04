@@ -1,0 +1,17 @@
+annotated_types
+av
+ctranslate2
+faster-whisper
+huggingface-hub
+numpy
+packaging
+setuptools
+platformdirs
+pydantic
+requests
+tokenizers
+torch
+tqdm
+transformers
+urllib3
+PyYAML

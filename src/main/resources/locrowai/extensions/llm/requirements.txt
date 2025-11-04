@@ -1,0 +1,13 @@
+annotated_types
+diskcache
+fsspec
+huggingface-hub
+jinja2
+llama_cpp
+MarkupSafe
+numpy
+pydantic
+requests
+tqdm
+typing_extensions
+urllib3

@@ -96,7 +96,7 @@ public class AIPackageManagerScreen extends Screen {
             actionRunning.set(true);
             new Thread(() -> {
                 try {
-                    EnvironmentInstaller.install(base, probeResult);
+//                    EnvironmentInstaller.install(base, probeResult);
                 } finally {
                     actionRunning.set(false);
                     scheduleComputeTotalSize();

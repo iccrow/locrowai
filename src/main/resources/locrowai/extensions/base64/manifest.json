@@ -1,0 +1,22 @@
+{
+    "id": "base64",
+    "version": "0.1.0",
+    "description": "Base64 encoding and decoding utilities for data transformation.",
+    "tags": [
+        "base64",
+        "encoding",
+        "decoding",
+        "data"
+    ],
+    "author": "iccrow",
+    "models": [],
+    "hashes": {
+        "decode.py": "42c30626516016347efe5a80c8f433f9224c715926859b9bdb353dc00d020255",
+        "encode.py": "d0ae8534e521caa44c1d6ebe47579e2546808c5edef33c3611490a70ca3522f6",
+        "__init__.py": "d0ee037bb68b6796e3fa8b9b98f00dfb9131cc2f617781568df477a934df369d"
+    },
+    "requirements": [
+        "annotated_types",
+        "pydantic"
+    ]
+}

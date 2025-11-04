@@ -2,10 +2,7 @@ package com.crow.locrowai.api;
 
 import com.crow.locrowai.LocrowAI;
 import com.crow.locrowai.api.registration.AIExtension;
-import com.crow.locrowai.api.registration.exceptions.AIRegistrationClosedException;
-import com.crow.locrowai.api.registration.exceptions.MissingManifestException;
-import com.crow.locrowai.api.registration.exceptions.MissingManifestSignatureException;
-import com.crow.locrowai.api.registration.exceptions.MissingSecurityKeyException;
+import com.crow.locrowai.api.registration.exceptions.*;
 import com.crow.locrowai.api.runtime.Script;
 import com.crow.locrowai.api.runtime.exceptions.AIBackendException;
 import com.crow.locrowai.api.runtime.exceptions.MissingAIPackagesException;
@@ -27,8 +24,8 @@ import java.util.concurrent.CompletableFuture;
 
 public class AIContext {
 
-    private final ResourceLocation LOCROW_AI_KEY = ResourceLocation.fromNamespaceAndPath(LocrowAI.MODID,
-            LocrowAI.MODID + "/public_key.pem");
+    private final ResourceLocation LOCROW_AI_KEY = ResourceLocation.fromNamespaceAndPath(
+            LocrowAI.MODID, "/public_key.pem");
 
     private final List<AIExtension> pendingRegistration = new ArrayList<>();
     private final List<String> declared = new ArrayList<>();
@@ -42,16 +39,19 @@ public class AIContext {
         this.loader = loader;
     }
 
-    public void registerExtension(ResourceLocation extension) {
+    public void registerExtension(ResourceLocation extension) throws AIRegistrationException {
         this.registerExtension(extension, LOCROW_AI_KEY);
     }
 
-    public void registerExtension(ResourceLocation extension, ResourceLocation public_key) {
+    public void registerExtension(ResourceLocation extension, ResourceLocation public_key) throws AIRegistrationException {
+
         if (this.registrationComplete) throw new AIRegistrationClosedException(extension.toString());
-        if (public_key == null || this.loader.getResource(public_key.getPath()) == null)
+        if (public_key == null || this.loader.getResource("/" + LocrowAI.MODID + "/" + public_key.getPath()) == null)
             throw new MissingSecurityKeyException(extension.toString());
 
-        String path = extension.getPath().endsWith("/") ? extension.getPath() : "/" + extension.getPath();
+        String path = extension.getPath().endsWith("/") ?
+                "/" + LocrowAI.MODID + "/" + extension.getPath() :
+                "/" + LocrowAI.MODID + "/" + extension.getPath() + "/";
         ResourceLocation manifest = extension.withPath(path + "manifest.json");
         ResourceLocation sig = extension.withPath(path + "manifest.json.sig.b64");
 
@@ -60,7 +60,11 @@ public class AIContext {
         if (this.loader.getResource(sig.getPath()) == null)
             throw new MissingManifestSignatureException(extension.toString());
 
-        this.pendingRegistration.add(new AIExtension(extension, manifest, sig, public_key));
+        try {
+            this.pendingRegistration.add(new AIExtension(this.MODID, this.loader, extension, public_key));
+        } catch (IOException e) {
+
+        }
     }
 
     public void declareExtension(String id) {

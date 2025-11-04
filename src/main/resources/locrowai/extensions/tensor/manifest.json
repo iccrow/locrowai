@@ -1,0 +1,27 @@
+{
+    "id": "tensor",
+    "version": "0.1.0",
+    "description": "Tensor operations and similarity utilities for AI workflows.",
+    "tags": [
+        "tensor",
+        "similarity",
+        "operations",
+        "ai"
+    ],
+    "author": "iccrow",
+    "models": [],
+    "hashes": {
+        "argmax.py": "4ae499f581a3a293872ea0c86b40bb16b865b5cd1c99783b6d2d8daa5fe20c5d",
+        "cache.py": "df551ba5f07686ac5140e2ba723a40e8ecdadc2b82d0febe9d49b9639debbfcc",
+        "centroid.py": "caded30c9987bbdef07ae8d269a4c61e0572d0374ad5dd367e095bc32d6fdea9",
+        "serialize.py": "8e438d6e4c25d6618439b900e4b8445351d64af580b10716e8796521de7035a4",
+        "sim.py": "0a9c9d52eaeee48efb7986b1fe801b49b54e31af5b1b1fe70aeb1ef48ba20fbf",
+        "stack.py": "ba5a327a738b4a87389d13fd358a1a055b1b6b1386c740a5b23fbbadc69d5553",
+        "__init__.py": "5cf8cca553d71d82b95232c596d133e66f227173a15d8a059e23ae48d271dc3f"
+    },
+    "requirements": [
+        "annotated_types",
+        "pydantic",
+        "torch"
+    ]
+}
