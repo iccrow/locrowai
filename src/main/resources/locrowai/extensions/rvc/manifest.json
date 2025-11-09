@@ -11,14 +11,12 @@
     "author": "iccrow",
     "models": [],
     "hashes": {
-        "infer.py": "fd34790d212703feea5d26d550b5322dd3ec6f4df9bc2a71dfb80c1c68854843",
+        "infer.py": "e14e3e16d4799f7497b04b915746daaa8abfcea6a4a2c09eb5c77e19c045a60f",
         "rvc.py": "d4edda3a603c5b906060137ce938d0f48619e03bb89bc3324049465defc2442d",
         "__init__.py": "3f1ecc9655f074d9c8740cd7ba0e01398443f2dd55b220fa3d91b58b2402bc9a"
     },
     "requirements": [
         "_distutils_hack",
-        "_win32sysloader",
-        "absl",
         "annotated_types",
         "antlr4",
         "attr",
@@ -29,10 +27,8 @@
         "distutils",
         "fairseq",
         "faiss",
-        "fsspec",
         "hydra",
         "librosa",
-        "llvmlite",
         "lxml",
         "more_itertools",
         "mpmath",
@@ -43,8 +39,6 @@
         "parselmouth",
         "portalocker",
         "pydantic",
-        "pythoncom",
-        "pywintypes",
         "pyworld",
         "requests",
         "resampy",
@@ -64,8 +58,6 @@
         "tqdm",
         "typing_extensions",
         "wcwidth",
-        "win32api",
-        "win32com",
         "yaml"
     ]
 }

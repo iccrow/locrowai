@@ -22,7 +22,8 @@ class EmbedFunc(Function[EmbedParams, EmbedReturns]):
 
         self.returns = EmbedReturns(embeddings=embeddings)
     
-    @classmethod
-    def warmup(cls):
-        dummy_signal = torch.zeros((1, 16000))
-        _ = model.encode_batch(dummy_signal)
+    @staticmethod
+    def warmup():
+        params = EmbedParams(path="sample/audio.wav")
+        func = EmbedFunc(params=params)
+        func.exec()

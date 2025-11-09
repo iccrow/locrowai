@@ -11,20 +11,28 @@
     "author": "iccrow",
     "models": [],
     "hashes": {
-        "api.py": "9229ffa5a7d408d0828aa4ca7f0b334369adbf06a5e082f9be3dec0edb340d8d",
-        "app.py": "5bcc80bfcff887927ee7a4d668c6a2e71b841e107578125fb76ee5da728edbd0",
+        "api.py": "43b9ab7984532877775be133485e30adf59d00fe86e0df14cc7fe6b74db579f6",
+        "app.py": "f16071984dcd9012486d84fb2bed0d040ce4ecf8bbdb2f3a840807b9c8c48808",
+        "import_tracker.py": "dbfefbc431d4e1d60b706186003fb151816247c595b46526f45f0425f0180966",
         "loader.py": "4152abc6e89119b7e5476e6c234d9d879e4d050272733a5b508a7ef2db076505",
-        "python.bat": "dc7f0f7e63c7de2161f4a0760bacf974525b7c258ac6309bbf72b9dfdef3ad71",
-        "run.bat": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "python.sh": null,
-        "run.sh": null
+        "python.bat": "93aa1bffecafbd8ef4eac96fa8a741a01c91fa2a5087b60ed935445ad15a0709",
+        "python.sh": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "remove_pycache.bat": "f620e719454273dde88a0d8beec9566ed08150bcce540c2b6910f528fc0bb495",
+        "run.bat": "7827ac4b6e51aa6ae73c9bb3c741e9be87add841ed73bcdca5866e36d35f4155",
+        "run.sh": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "seal_core.py": "5b7eaa23cc8343fa04441f501d18e9b0e664916eb62dcbea4ffe56e795cd9909",
+        "seal_extensions.py": "78c9205b903b0ab449b5a6398c93fb47e5d6fb2f7e65bf439d7ee8dc38ba51d0",
+        "sample/audio.wav": null,
+        "sample/speaker.wav": null
     },
     "requirements": [
         "annotated_types",
         "anyio",
+        "cryptography",
         "click",
         "exceptiongroup",
         "fastapi",
+        "h11",
         "orjson",
         "pydantic",
         "pydantic_core",
@@ -33,6 +41,7 @@
         "starlette",
         "typing_extensions",
         "typing_inspection",
-        "uvicorn"
+        "uvicorn",
+        "websockets"
     ]
 }

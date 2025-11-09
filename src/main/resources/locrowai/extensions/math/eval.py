@@ -145,3 +145,9 @@ class MathEvalFunc(Function[EvalParams, EvalReturns]):
             raise ValueError("Expression did not evaluate to a numeric result")
 
         self.returns = EvalReturns(result=float(result))
+
+    @staticmethod
+    def warmup():
+        params = EvalParams(expr="1 + 2 * 3")
+        func = MathEvalFunc(params=params)
+        func.exec()

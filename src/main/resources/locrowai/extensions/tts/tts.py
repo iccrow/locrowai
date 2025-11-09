@@ -48,3 +48,13 @@ class TTSFunc(Function[TTSParams, TTSReturns]):
         sf.write(buffer, audio, 24000, format="WAV")
 
         self.returns = TTSReturns(audio = buffer.getvalue(), timestamps=timestamps)
+
+    @staticmethod
+    def warmup():
+        params = TTSParams(
+            text="Hello, this is a warmup test.",
+            voice="am_michael",
+            speed=1.0
+        )
+        func = TTSFunc(params=params)
+        func.exec()

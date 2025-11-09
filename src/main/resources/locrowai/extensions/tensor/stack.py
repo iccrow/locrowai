@@ -19,3 +19,12 @@ class StackFunc(Function[StackParams, StackReturns]):
         stacked = torch.vstack([self.params.tensor1, self.params.tensor2])
         
         self.returns = StackReturns(tensor=stacked)
+
+    @staticmethod
+    def warmup():
+        params = StackParams(
+            tensor1=torch.randn(5, 10),
+            tensor2=torch.randn(5, 10)
+        )
+        func = StackFunc(params=params)
+        func.exec()

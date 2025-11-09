@@ -32,3 +32,11 @@ class InferFunc(Function[InferParams, InferReturns]):
             })
 
         self.returns = InferReturns(transcript=transcript, timestamps=timestamps, language=info.language, language_probability=info.language_probability)
+
+    @staticmethod
+    def warmup():
+        params = InferParams(
+            path="sample/audio.wav"
+        )
+        func = InferFunc(params=params)
+        func.exec()

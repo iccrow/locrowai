@@ -2,18 +2,12 @@ package com.crow.locrowai.api.registration;
 
 import com.crow.locrowai.api.AIContext;
 
-import com.crow.locrowai.installer.InstallationManager;
-import com.google.gson.Gson;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.fml.ModContainer;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.forgespi.language.IModInfo;
 import net.minecraftforge.forgespi.language.ModFileScanData;
 import org.objectweb.asm.Type;
 
-import java.io.BufferedReader;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.*;
 
 public class AIRegistry {
@@ -21,6 +15,7 @@ public class AIRegistry {
 
     private static final Map<String, AIContext> contexts = new HashMap<>();
     private static final Map<String, AIExtension> registry = new HashMap<>();
+    private static final Set<String> declared = new HashSet<>();
     private static final Map<String, ClassLoader> loaders = new HashMap<>();
 
     public static void init() {
@@ -54,11 +49,13 @@ public class AIRegistry {
 
                 registrant.register(context);
 
-                List<AIExtension> pending = context.finishRegistration();
+                AIContext.RegistrationResults results = context.finishRegistration();
 
-                for (AIExtension extension : pending) {
+                for (AIExtension extension : results.registered()) {
                     registry.put(extension.getId(), extension);
                 }
+
+                declared.addAll(results.declared());
 
             } catch (Exception e) {
 
@@ -66,11 +63,16 @@ public class AIRegistry {
             }
         }
 
-
+        registry.keySet().retainAll(declared);
+        declared.retainAll(registry.keySet());
     }
 
     public static AIContext getContext(String MODID) {
         return contexts.get(MODID);
+    }
+
+    public static Set<String> getDeclared() {
+        return Set.copyOf(declared);
     }
 
     public static AIExtension getExtension(String MODID) {

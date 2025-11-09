@@ -251,3 +251,19 @@ def run(data: Params):
         func.cleanup()
 
     return JSONResponse(safe_returns)
+
+class FreezeParams(BaseModel):
+    functions: List[str] | None = None
+
+@app.post('/freeze')
+def freeze(data: FreezeParams):
+    if data.functions is not None:
+        for fn in data.functions:
+            if fn in functions and hasattr(functions[fn], "freeze"):
+                functions[fn].freeze()
+    else:
+        for fn in functions:
+            if hasattr(fn, "freeze"):
+                functions[fn].freeze()
+
+    return JSONResponse({"status": "success"})

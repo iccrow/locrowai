@@ -14,3 +14,9 @@ class DecodeFunc(Function[DecodeParams, DecodeReturns]):
 
     def exec(self):
         self.returns = DecodeReturns(bytes=base64.b64decode(self.params.base64))
+
+    @staticmethod
+    def warmup():
+        params = DecodeParams(base64=base64.b64encode(b"sample").decode())
+        func = DecodeFunc(params=params)
+        func.exec()

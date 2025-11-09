@@ -1,33 +1,38 @@
 package com.crow.locrowai.api;
 
-import com.crow.locrowai.LocrowAI;
+import com.crow.locrowai.api.registration.AIRegistry;
+import com.crow.locrowai.internal.LocrowAI;
 import com.crow.locrowai.api.registration.AIExtension;
 import com.crow.locrowai.api.registration.exceptions.*;
 import com.crow.locrowai.api.runtime.Script;
 import com.crow.locrowai.api.runtime.exceptions.AIBackendException;
 import com.crow.locrowai.api.runtime.exceptions.MissingAIPackagesException;
 import com.crow.locrowai.api.runtime.exceptions.UnauthorizedAICallException;
-import com.crow.locrowai.config.Config;
-import com.crow.locrowai.installer.EnvironmentInstaller;
-import com.crow.locrowai.networking.ChunkSender;
+import com.crow.locrowai.internal.Config;
+import com.crow.locrowai.internal.backend.InstallationManager;
+import com.crow.locrowai.internal.backend.SecurityManager;
+import com.crow.locrowai.internal.backend.LoadManager;
+import com.crow.locrowai.internal.networking.ChunkSender;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import net.minecraft.resources.ResourceLocation;
 
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
+import java.nio.file.Path;
 import java.util.*;
 import java.util.concurrent.CompletableFuture;
 
 public class AIContext {
 
-    private final ResourceLocation LOCROW_AI_KEY = ResourceLocation.fromNamespaceAndPath(
-            LocrowAI.MODID, "/public_key.pem");
+    public record RegistrationResults(List<AIExtension> registered, List<String> declared) {}
+
+    private final Path LOCROW_AI_KEY = Path.of(LocrowAI.MODID).resolve("public_key.pem");
 
     private final List<AIExtension> pendingRegistration = new ArrayList<>();
+    private boolean registerChecked = false;
     private final List<String> declared = new ArrayList<>();
     private boolean registrationComplete = false;
     private final Map<UUID, CompletableFuture<JsonObject>> queue = new HashMap<>();
@@ -39,30 +44,37 @@ public class AIContext {
         this.loader = loader;
     }
 
-    public void registerExtension(ResourceLocation extension) throws AIRegistrationException {
-        this.registerExtension(extension, LOCROW_AI_KEY);
+    public void registerExtension(Path source) throws AIRegistrationException {
+        this.registerExtension(source, LOCROW_AI_KEY);
     }
 
-    public void registerExtension(ResourceLocation extension, ResourceLocation public_key) throws AIRegistrationException {
+    public void registerExtension(Path source, Path public_key) throws AIRegistrationException {
+        if (this.registrationComplete) throw new AIRegistrationClosedException(source.toString());
 
-        if (this.registrationComplete) throw new AIRegistrationClosedException(extension.toString());
-        if (public_key == null || this.loader.getResource("/" + LocrowAI.MODID + "/" + public_key.getPath()) == null)
-            throw new MissingSecurityKeyException(extension.toString());
+        if (source == null)
+            throw new IllegalArgumentException("Extension source path cannot be null.");
+        if (public_key == null)
+            throw new IllegalArgumentException("Extension security key cannot be null.");
 
-        String path = extension.getPath().endsWith("/") ?
-                "/" + LocrowAI.MODID + "/" + extension.getPath() :
-                "/" + LocrowAI.MODID + "/" + extension.getPath() + "/";
-        ResourceLocation manifest = extension.withPath(path + "manifest.json");
-        ResourceLocation sig = extension.withPath(path + "manifest.json.sig.b64");
+        if (source.isAbsolute())
+            throw new IllegalArgumentException("Extension source path must be relative (resource path expected).");
+        if (public_key.isAbsolute())
+            throw new IllegalArgumentException("Extension source path must be relative (resource path expected).");
 
-        if (this.loader.getResource(manifest.getPath()) == null)
-            throw new MissingManifestException(extension.toString());
-        if (this.loader.getResource(sig.getPath()) == null)
-            throw new MissingManifestSignatureException(extension.toString());
+
+        Path manifest = source.resolve("manifest.json");
+        Path sig = source.resolve("manifest.json.sig.b64");
+
+        if (this.loader.getResource(public_key.toString()) == null)
+            throw new MissingSecurityKeyException(public_key.toString());
+        if (this.loader.getResource(manifest.toString()) == null)
+            throw new MissingManifestException(source.toString());
+        if (this.loader.getResource(sig.toString()) == null)
+            throw new MissingManifestSignatureException(source.toString());
 
         try {
-            this.pendingRegistration.add(new AIExtension(this.MODID, this.loader, extension, public_key));
-        } catch (IOException e) {
+            this.pendingRegistration.add(new AIExtension(this.MODID, this.loader, source, SecurityManager.getKey(new SecurityManager.KeyMap(loader, public_key))));
+        } catch (IOException ignored) {
 
         }
     }
@@ -73,26 +85,25 @@ public class AIContext {
         this.declared.add(id);
     }
 
-    public List<AIExtension> finishRegistration() {
+    public RegistrationResults finishRegistration() {
         this.registrationComplete = true;
 
-        return this.pendingRegistration;
+        return new RegistrationResults(this.pendingRegistration, this.declared);
     }
 
     public boolean isCallProhibited(String callID) {
+        if (!registerChecked) {
+            declared.retainAll(AIRegistry.getDeclared());
+            registerChecked = true;
+        }
+
         return !declared.contains(callID.split("/")[1]);
     }
 
     public CompletableFuture<JsonObject> execute(Script script) {
         CompletableFuture<JsonObject> future = new CompletableFuture<>();
 
-        boolean installed;
-        try {
-            installed = EnvironmentInstaller.installed();
-        } catch (IOException e) {
-            future.completeExceptionally(new MissingAIPackagesException());
-            return future;
-        }
+        boolean installed = InstallationManager.isFullyInstalled();
 
         if (!installed) {
             future.completeExceptionally(new MissingAIPackagesException());
@@ -119,7 +130,7 @@ public class AIContext {
             }
         } else {
             HttpRequest request = HttpRequest.newBuilder()
-                    .uri(URI.create("http://127.0.0.1:8000/run"))
+                    .uri(URI.create("http://127.0.0.1:" + LoadManager.getPort() + "/run"))
                     .header("Content-Type", "application/json")
                     .POST(HttpRequest.BodyPublishers.ofString(script.getJsonBlueprint()))
                     .build();

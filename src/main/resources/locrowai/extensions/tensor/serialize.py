@@ -17,3 +17,11 @@ class SerializeFunc(Function[SerializeParams, SerializeReturns]):
         array = self.params.tensor.tolist()
         
         self.returns = SerializeReturns(array=array)
+
+    @staticmethod
+    def warmup():
+        params = SerializeParams(
+            tensor=torch.randn(10)
+        )
+        func = SerializeFunc(params=params)
+        func.exec()

@@ -11,7 +11,7 @@
     "author": "iccrow",
     "models": [],
     "hashes": {
-        "infer.py": "134023694141fa7ef628816eee3f61b34126d7f5860974762e38e670c471f6b0",
+        "infer.py": "da1bbb6924fa0270b9f7f7ca67ab328dce49d818a147ea55ea543dda7bc404ba",
         "whisper.py": "8ba53bc93ec40b4371eb2ee11c498fa76820d28df01bfcf376c174032f8d3eb1",
         "__init__.py": "3f1ecc9655f074d9c8740cd7ba0e01398443f2dd55b220fa3d91b58b2402bc9a"
     },

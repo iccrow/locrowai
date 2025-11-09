@@ -20,3 +20,13 @@ class ResampleFunc(Function[ResampleParams, ResampleReturns]):
         audio = librosa.resample(audio, orig_sr=self.params.original_sr, target_sr=self.params.target_sr)
 
         self.returns = ResampleReturns(audio=audio.tobytes())
+    
+    @staticmethod
+    def warmup():
+        params = ResampleParams(
+            audio=(np.zeros(16000, dtype=np.float32)).tobytes(),
+            original_sr=16000,
+            target_sr=8000
+        )
+        func = ResampleFunc(params=params)
+        func.exec()

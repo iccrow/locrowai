@@ -22,3 +22,12 @@ class CentroidFunc(Function[CentroidParams, CentroidReturns]):
             centroid = torch.nn.functional.normalize(centroid, p=2, dim=0)
         
         self.returns = CentroidReturns(centroid=centroid)
+
+    @staticmethod
+    def warmup():
+        params = CentroidParams(
+            tensor=torch.randn(5, 10),
+            normalize=True
+        )
+        func = CentroidFunc(params=params)
+        func.exec()

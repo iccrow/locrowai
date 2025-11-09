@@ -19,3 +19,13 @@ class PCMConvertFunc(Function[PCMConvertParams, PCMConvertReturns]):
         data, _ = sf.read(audio_io, dtype='int16')
 
         self.returns = PCMConvertReturns(audio=data.tobytes())
+    
+    @staticmethod
+    def warmup():
+        audio = io.BytesIO()
+        sf.write(audio, [0.0], 16000, format='WAV', subtype='PCM_16')
+        params = PCMConvertParams(
+            audio=audio.getvalue()
+        )
+        func = PCMConvertFunc(params=params)
+        func.exec()

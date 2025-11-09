@@ -1,8 +1,6 @@
 package com.crow.locrowai.api.runtime;
 
-import com.crow.locrowai.LocrowAI;
-import com.crow.locrowai.api.AIContext;
-import com.crow.locrowai.api.runtime.exceptions.UnauthorizedAICallException;
+import com.crow.locrowai.internal.LocrowAI;
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 
@@ -13,7 +11,7 @@ public class ScriptBuilder {
     private final transient Gson gson = new Gson();
     private final transient Set<String> callIDs = new HashSet<>();
 
-    private final String api_version = LocrowAI.PY_VERSION();
+    private final String api_version = "0.4.0.dev1";
 
     private final Map<String, JsonElement> vars = new HashMap<>();
 

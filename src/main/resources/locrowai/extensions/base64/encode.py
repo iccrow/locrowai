@@ -14,3 +14,9 @@ class EncodeFunc(Function[EncodeParams, EncodeReturns]):
 
     def exec(self):
         self.returns = EncodeReturns(base64=base64.b64encode(self.params.bytes))
+    
+    @staticmethod
+    def warmup():
+        params = EncodeParams(bytes=b"sample")
+        func = EncodeFunc(params=params)
+        func.exec()

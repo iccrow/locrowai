@@ -1,14 +1,22 @@
 package com.crow.locrowai.api.registration;
 
-import com.crow.locrowai.LocrowAI;
+import com.crow.locrowai.api.registration.exceptions.MissingManifestSignatureException;
+import com.crow.locrowai.api.registration.exceptions.MissingSecurityKeyException;
+import com.crow.locrowai.internal.LocrowAI;
 import com.crow.locrowai.api.registration.exceptions.MissingManifestException;
-import com.crow.locrowai.installer.InstallationManager;
+import com.crow.locrowai.internal.backend.InstallationManager;
 import com.google.gson.Gson;
 import net.minecraft.resources.ResourceLocation;
 
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.security.KeyFactory;
+import java.security.NoSuchAlgorithmException;
+import java.security.PublicKey;
+import java.security.spec.InvalidKeySpecException;
+import java.security.spec.X509EncodedKeySpec;
+import java.util.Base64;
 import java.util.List;
 import java.util.Set;
 
@@ -21,44 +29,34 @@ public class AIExtension {
     private final String author;
     private final List<String> tags;
     private final String description;
+    private final String sourceCode;
     private final String MODID;
     private final List<String> requirements;
     private final List<PackageManifest.ModelCard> models;
     private final Set<String> files;
-    private final ResourceLocation loc;
-    private final ResourceLocation manifest;
-    private final ResourceLocation sig;
-    private final ResourceLocation key;
+    private final Path source;
+    private final Path manifest;
+    private final Path sig;
+    private final PublicKey key;
 
     public AIExtension(String MODID, ClassLoader loader,
-                       ResourceLocation loc, ResourceLocation securityKey) throws IOException, MissingManifestException {
+                       Path source, PublicKey key) throws IOException {
         this.MODID = MODID;
-        this.loc = loc;
-        this.key = securityKey;
+        this.source = source;
 
-        String path = loc.getPath().endsWith("/") ?
-                "/" + LocrowAI.MODID + "/" + loc.getPath() :
-                "/" + LocrowAI.MODID + "/" + loc.getPath() + "/";
-        ResourceLocation manLoc = loc.withPath(path + "manifest.json");
-        ResourceLocation sig = loc.withPath(path + "manifest.json.sig.b64");
+        this.key = key;
 
-        this.manifest = manLoc;
-        this.sig = sig;
+        this.manifest = this.source.resolve("manifest.json");
+        this.sig = this.source.resolve("manifest.json.sig.b64");
 
-        InputStream stream = loader.getResourceAsStream(manLoc.getPath());
-        if (stream == null) throw new MissingManifestException(manLoc.toString());
-
-        BufferedReader reader = new BufferedReader(new InputStreamReader(stream));
-
-        PackageManifest manifest = gson.fromJson(reader, PackageManifest.class);
-        stream.close();
-        reader.close();
+        PackageManifest manifest = PackageManifest.fetch(loader, this.manifest);
 
         this.id = manifest.id;
         this.version = manifest.version;
         this.author = manifest.author;
         this.tags = manifest.tags;
         this.description = manifest.description;
+        this.sourceCode = manifest.source_code;
         this.requirements = manifest.requirements;
         this.models = manifest.models;
         this.files = manifest.hashes.keySet();
@@ -84,32 +82,33 @@ public class AIExtension {
         return this.files;
     }
 
-    public ResourceLocation getLoc() {
-        return loc;
+    public Path getSource() {
+        return source;
     }
 
-    public ResourceLocation getManifest() {
+    public Path getManifest() {
         return manifest;
     }
 
-    public ResourceLocation getSig() {
+    public Path getSig() {
         return sig;
     }
 
-    public ResourceLocation getKey() {
+    public PublicKey getKey() {
         return key;
     }
 
     public boolean installed() throws IOException {
-        Path path = InstallationManager.getInstallPath();
+        Path backend = InstallationManager.getBackendPath();
+        Path ext = backend.resolve("extensions").resolve(this.id);
 
-        File manifest = path.resolve("extensions").resolve(this.id).resolve("manifest.json").toFile();
-
-        if (!manifest.exists()) return false;
-
-        BufferedReader reader = Files.newBufferedReader(manifest.toPath());
-
-        return gson.fromJson(reader, PackageManifest.class).version.equals(this.version);
+        try {
+            PackageManifest manifest = PackageManifest.fetch(ext.resolve("manifest.json"), this.getKey());
+            return manifest.version.equals(this.version);
+        } catch (MissingManifestException | MissingManifestSignatureException | MissingSecurityKeyException | SecurityException e) {
+            e.printStackTrace();
+            return false;
+        }
     }
 
     @Override
@@ -118,7 +117,7 @@ public class AIExtension {
                 "id='" + id + '\'' +
                 ", MODID='" + MODID + '\'' +
                 ", requirements=" + requirements +
-                ", loc=" + loc +
+                ", source=" + source +
                 ", manifest=" + manifest +
                 ", sig=" + sig +
                 ", key=" + key +

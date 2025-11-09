@@ -37,3 +37,15 @@ class InferFunc(Function[InferParams, InferReturns]):
             buf = io.BytesIO()
             sf.write(buf, audio, samplerate=sr, format="WAV")
             self.returns = InferReturns(audio=buf.getvalue())
+    
+    @staticmethod
+    def warmup():
+        buf = io.BytesIO()
+        audio, sr = sf.read("sample/speaker.wav", dtype='float32')
+        sf.write(buf, audio, samplerate=sr, format="WAV")
+        params = InferParams(
+            audio=buf.getvalue(),
+            model='villager'
+        )
+        func = InferFunc(params=params)
+        func.exec()

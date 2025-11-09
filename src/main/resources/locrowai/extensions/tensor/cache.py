@@ -18,6 +18,7 @@ class CacheFunc(Function[CacheParams, CacheReturns]):
 
     def exec(self):
         path = f"extensions/tensor/cache/{uuid.uuid4()}.pt"
+        os.makedirs(os.path.dirname(path), exist_ok=True)
 
         torch.save(self.params.tensor, path)
         
@@ -27,3 +28,12 @@ class CacheFunc(Function[CacheParams, CacheReturns]):
     def cleanup(self):
         if self.params.auto_cleanup:
             os.remove(self.returns.path)
+    
+    @staticmethod
+    def warmup():
+        params = CacheParams(
+            tensor=torch.zeros(10).numpy().tobytes()
+        )
+        func = CacheFunc(params=params)
+        func.exec()
+        func.cleanup()

@@ -11,7 +11,7 @@
     "author": "iccrow",
     "models": [],
     "hashes": {
-        "chat.py": "b1702424fe5a4794dc0495e2737521ff42e81a7953c394dbfc4898b5ac854a93",
+        "chat.py": "c3d2048e3f612aa5bb3099dcee1d8a3e349c5e8b1388a7573c34f964a6c14764",
         "__init__.py": "c899ccd7a8f73b30f1b320002fb50a36d0181ed9cb611c6a0e688b75b332ab83"
     },
     "requirements": [

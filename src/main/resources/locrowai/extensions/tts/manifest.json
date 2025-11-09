@@ -11,7 +11,7 @@
     "author": "iccrow",
     "models": [],
     "hashes": {
-        "tts.py": "d42345a973c397a3fa5ddf907308d45708fde635528e9f4956b88647ff0f4a84",
+        "tts.py": "0d05a01eaba413571ba6bd5421690259fd86d661e26170c4ffe79a6fed681d71",
         "__init__.py": "7e9ed850675dae452dac6da21237ef042e4554241fbd5c49509335d945e57582"
     },
     "requirements": [
@@ -36,6 +36,7 @@
         "cymem",
         "cython",
         "dateutil",
+        "defusedxml",
         "espeakng_loader",
         "exceptiongroup",
         "huggingface_hub",
@@ -59,7 +60,6 @@
         "packaging",
         "phonemizer",
         "preshed",
-        "psutil",
         "pydantic",
         "pydantic_core",
         "pygments",

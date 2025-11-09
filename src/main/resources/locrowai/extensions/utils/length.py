@@ -24,3 +24,9 @@ class LengthFunc(Function[LengthParams, LengthReturns]):
         length = len(self.params.value)
         
         self.returns = LengthReturns(length=length)
+
+    @staticmethod
+    def warmup():
+        params = LengthParams(value=[1, 2, 3, 4, 5])
+        func = LengthFunc(params=params)
+        func.exec()

@@ -21,7 +21,8 @@ class PCMCacheFunc(Function[PCMCacheParams, PCMCacheReturns]):
 
     def exec(self):
         path = f"extensions/audio/cache/{uuid.uuid4()}.wav"
-
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        
         # Convert raw PCM bytes to numpy array
         dtype = np.int16 if self.params.dtype == "int16" else np.float32
         data = np.frombuffer(self.params.audio, dtype=dtype)
@@ -38,3 +39,13 @@ class PCMCacheFunc(Function[PCMCacheParams, PCMCacheReturns]):
     def cleanup(self):
         if self.params.auto_cleanup:
             os.remove(self.returns.path)
+    
+    @staticmethod
+    def warmup():
+        params = PCMCacheParams(
+            audio=(np.zeros(16000, dtype=np.int16)).tobytes(),
+            samplerate=16000
+        )
+        func = PCMCacheFunc(params=params)
+        func.exec()
+        func.cleanup()

@@ -21,3 +21,12 @@ class SimFunc(Function[SimParams, SimReturns]):
         similarities = similarity(self.params.tensor1, self.params.tensor2)
         
         self.returns = SimReturns(similarities=similarities)
+
+    @staticmethod
+    def warmup():
+        params = SimParams(
+            tensor1=torch.randn(5, 10),
+            tensor2=torch.randn(5, 10)
+        )
+        func = SimFunc(params=params)
+        func.exec()

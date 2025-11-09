@@ -17,3 +17,11 @@ class SimFunc(Function[SimParams, SimReturns]):
         index = self.params.tensor.argmax().item()
         
         self.returns = SimReturns(index=index)
+    
+    @staticmethod
+    def warmup():
+        params = SimParams(
+            tensor=torch.tensor([1.0, 3.0, 2.0])
+        )
+        func = SimFunc(params=params)
+        func.exec()

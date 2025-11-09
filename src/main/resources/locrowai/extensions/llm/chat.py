@@ -38,3 +38,14 @@ class ChatFunc(Function[ChatParams, ChatReturns]):
         msg = res.choices[0].message
         
         self.returns = ChatReturns(role=msg.role, content=msg.content)
+    
+    @staticmethod
+    def warmup():
+        params = ChatParams(
+            temperature=0.7,
+            messages=[
+                Message(role="user", content="Hello, how are you?")
+            ]
+        )
+        func = ChatFunc(params=params)
+        func.exec()

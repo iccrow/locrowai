@@ -11,12 +11,12 @@
     "author": "iccrow",
     "models": [],
     "hashes": {
-        "argmax.py": "4ae499f581a3a293872ea0c86b40bb16b865b5cd1c99783b6d2d8daa5fe20c5d",
-        "cache.py": "df551ba5f07686ac5140e2ba723a40e8ecdadc2b82d0febe9d49b9639debbfcc",
-        "centroid.py": "caded30c9987bbdef07ae8d269a4c61e0572d0374ad5dd367e095bc32d6fdea9",
-        "serialize.py": "8e438d6e4c25d6618439b900e4b8445351d64af580b10716e8796521de7035a4",
-        "sim.py": "0a9c9d52eaeee48efb7986b1fe801b49b54e31af5b1b1fe70aeb1ef48ba20fbf",
-        "stack.py": "ba5a327a738b4a87389d13fd358a1a055b1b6b1386c740a5b23fbbadc69d5553",
+        "argmax.py": "61d6dfa77406a4f515a7513ad8126b69521c96caad983b00886b64df3604eccc",
+        "cache.py": "f55b0202514352a36199f2a40840495e89137c5e6d19371732f2c99e5c59e95f",
+        "centroid.py": "114e8bdff2dd6662bcb6784bbe89118937a3b3d4524c24afd321056b517bfa58",
+        "serialize.py": "866925a18c06695d7d3171dc8c330d938aa41f437d2ef6781a83bf2ad7eb27c8",
+        "sim.py": "1f3fd7d8efe0850509931e7f08ca1c1531e7847f033801a4ecea3084887771eb",
+        "stack.py": "1ba231de4340f4b5a9965ed71f633632555ef6484733ab6e489c6aff67f8c6e5",
         "__init__.py": "5cf8cca553d71d82b95232c596d133e66f227173a15d8a059e23ae48d271dc3f"
     },
     "requirements": [
