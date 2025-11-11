@@ -1,0 +1,9 @@
+{
+    "id": "soundfile-0.12.1-py2.py3-none-win_amd64",
+    "hashes": {
+        "_soundfile.py": "1fc1ec211ebeca8879c229fa9b458669070b7eaed64d309a72f146c426fc1f60",
+        "soundfile.py": "c40329db956b2dd1aee349bea622f36630d3db7169752c43308f44c541603a57",
+        "_soundfile_data/__init__.py": "3723e81d0145341d5ae3c67a745373192a70c7f672ad028f76c95129339aafe9",
+        "_soundfile_data/libsndfile_64bit.dll": "cd5c68b6ab7ca062951c5f5504f5bf5aa534f0f86ed857650b357b8ffdf5d0cd"
+    }
+}

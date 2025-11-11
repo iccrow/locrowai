@@ -1,0 +1,11 @@
+{
+    "id": "stack_data-0.6.3-py3-none-any",
+    "hashes": {
+        "stack_data/__init__.py": "a02d0f23f72687a4767af1c52e05056eb31912017f62f0a1ea91d76cfba83d2c",
+        "stack_data/core.py": "12bf047de33bb1c3489791baa6645219a26ca59bc7c8c18b81def4a970e7065e",
+        "stack_data/formatting.py": "74889ac38ec7e0f2ec5d946c782d231278a3e5116cf7c940aa5f2bec35784a5d",
+        "stack_data/serializing.py": "b402695ca71838019d03ed24f10026257673713d9428999e1c2002fde672b4ed",
+        "stack_data/utils.py": "9c7939cddde3cff96db3a9dfff19a66d529320ce5cc112bae458a95f75fe8323",
+        "stack_data/version.py": "d08097f0f792996a223f220456233145892f0a3404d4abd03c9a7da39d8a463c"
+    }
+}

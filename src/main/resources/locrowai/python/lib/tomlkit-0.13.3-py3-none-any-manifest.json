@@ -1,0 +1,18 @@
+{
+    "id": "tomlkit-0.13.3-py3-none-any",
+    "hashes": {
+        "tomlkit/__init__.py": "148d37325022edd8743312cfad372060981896dfcc37dfa95b55f6c297fc5baf",
+        "tomlkit/_compat.py": "829ecfeea361d32635760d30ca38820db570153754a3ba744308d5e13dc5ba7b",
+        "tomlkit/_types.py": "e3686dda6fbfa493ef43fb8c28c2097f828be85f4dd0da036b47f299f4de202e",
+        "tomlkit/_utils.py": "9b83b25aaf67c3930669b1e140a4c8bb562d503f12549ca84c89874cde8bed87",
+        "tomlkit/api.py": "ab766644cf3bb4a0a18ec9eea9a8fa1201ed4f149f7be7cf8406f931b220ff75",
+        "tomlkit/container.py": "f78d32961ffc25fad3119b02498eaae4f249f13bc9bce86e55a828441fa1ca88",
+        "tomlkit/exceptions.py": "7bed222a3bfebb69e013a1ba5cc3b16a804d9ca05f3cd8c32e66b0e180c7a685",
+        "tomlkit/items.py": "d782acd571735ec25561a06c1da242fc8cfd10aa1da746d1389cc5dc75e305e9",
+        "tomlkit/parser.py": "19a4d2d0d42511e9647751939670c54f736d41da797c2d63d74fe59cade939d2",
+        "tomlkit/source.py": "362b61ee698f9a14dfe5d31245ce356d8f5cb88451ff80a8a8e8c2f9fc737c2a",
+        "tomlkit/toml_char.py": "c37b10674768959d6a8d9d91c63fecbef96944d34607f7e37c17180f48059c3b",
+        "tomlkit/toml_document.py": "3824e45977773f9f04653e120fcfdd75cd58a6431aaad952e7fb2d1d306630e2",
+        "tomlkit/toml_file.py": "f19cd266fd82d51f5071ed96675db68a39e5f4b51927fd674b5c4b2d04fb397e"
+    }
+}

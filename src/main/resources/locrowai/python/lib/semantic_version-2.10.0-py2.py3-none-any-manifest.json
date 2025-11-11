@@ -1,0 +1,8 @@
+{
+    "id": "semantic_version-2.10.0-py2.py3-none-any",
+    "hashes": {
+        "semantic_version/__init__.py": "e9fe5cfae05dc73672c8c98a41b8a3710150fe49bda42cf90b96165d6d41d38f",
+        "semantic_version/base.py": "5ae2dda8883883dcebbb162cacf82873cb9a4630fcaf01baa275864f0ca57104",
+        "semantic_version/django_fields.py": "72da8d1c8acad81c21a8491771405b46f4c63bbc1955d254d6e6fe313caa0add"
+    }
+}

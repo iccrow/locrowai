@@ -1,0 +1,18 @@
+{
+    "id": "referencing-0.36.2-py3-none-any",
+    "hashes": {
+        "referencing/__init__.py": "e4864a5da007fc55b20894646939f55dca6d2df83d72f78b6fdbb99d853124ab",
+        "referencing/_attrs.py": "6e04fe28c84354b786b56c4cfd218a61e2da6411734f691454574090e7178bc8",
+        "referencing/_core.py": "d1225f656ebc74eacb31a15d84ccaec98cdbd018bd77405c3e31b08a37ac7fd1",
+        "referencing/exceptions.py": "cc581a120e9688a793e7c310b8a36c8060e71ecce9dba738a11782eac17d8073",
+        "referencing/jsonschema.py": "8c55112053a7bb1b44e1da0f2f5c520deb90e0e85dc4dcd29fc31145b4de5729",
+        "referencing/retrieval.py": "41894ebe1890783235d972b07b3859dd7394cea053144f1be53a5f0136a603b2",
+        "referencing/typing.py": "5a351b9d9ea33c0777d5c9c214069e588544373c87b47749c8e95e96fd4663bd",
+        "referencing/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "referencing/tests/test_core.py": "79aa74080688db7be33086d5c848fddaa2dd769de21c7dc0c42e7908a50de0b5",
+        "referencing/tests/test_exceptions.py": "ede39d1f2a1b5ccb7bfa1e409e71fbbbc8b0dae1cf687ed4e01b3d2612e08d6a",
+        "referencing/tests/test_jsonschema.py": "e109e35163803009f9c9e03c66d95d264848e78bf02962560742c3ccd771e717",
+        "referencing/tests/test_referencing_suite.py": "c03eaf78c7cbb14bb4b3830b8e6ee94bc720e1c21f2fb14c044367824ef7cc22",
+        "referencing/tests/test_retrieval.py": "bdc6e77c0e13a957aa5335b4ef7c0efa72dea9522fd2b41958d5afd33f649b8f"
+    }
+}

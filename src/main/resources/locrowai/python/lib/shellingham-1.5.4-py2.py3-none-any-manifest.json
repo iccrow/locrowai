@@ -1,0 +1,12 @@
+{
+    "id": "shellingham-1.5.4-py2.py3-none-any",
+    "hashes": {
+        "shellingham/__init__.py": "a4029750f294770c84ac2d198d2fb9c3e7d17526e675c7ef9e9b7fc75c96aad0",
+        "shellingham/_core.py": "bfe093affec5edc240b4d9f3a5ad4dfc797c69f918e728830388e81a6b1406ed",
+        "shellingham/nt.py": "9ba27a4aec32a95565c574fd05cfbd17fd71f93e6ed2008516b4401762c891e8",
+        "shellingham/posix/__init__.py": "a41ebdaadbd927fc887f8f27978f997d2df02f0c2e5ee9275ce6610670b64f5a",
+        "shellingham/posix/_core.py": "fefd7c51a5dbcebe26b8d86bdfe987d4575276367f74e5d0aed532a2621b2984",
+        "shellingham/posix/proc.py": "9d253122e412a2dbda0d6efa8b4a1340033d699f4f5c12c500492d5a58d2282a",
+        "shellingham/posix/ps.py": "346983282ba484da7495a87060268c5e984161a55b85b891f41b44d0e913f2a5"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "id": "MarkupSafe-3.0.2-cp310-cp310-win_amd64",
+    "hashes": {
+        "markupsafe/__init__.py": "a5111eacfc2f8a707adad34230ec2ac414b660757a479d9672ad5dfab078679a",
+        "markupsafe/_native.py": "da9b64278d3209ca7d92adcbd4daa98237e9641fa86e789828514a50e9078784",
+        "markupsafe/_speedups.c": "4a09548e7e34b62f5881000efbe3a0912caff6d5eaf6fbda1f2561428c2ce0e9",
+        "markupsafe/_speedups.cp310-win_amd64.pyd": "453be1f94cc94d7ec9ff88fe0398d99a7ab044a05ed294220cf77f8fad237edf"
+    }
+}

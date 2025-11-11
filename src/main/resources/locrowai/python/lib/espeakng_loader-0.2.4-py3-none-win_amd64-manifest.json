@@ -1,0 +1,7 @@
+{
+    "id": "espeakng_loader-0.2.4-py3-none-win_amd64",
+    "hashes": {
+        "espeakng_loader/__init__.py": "3f15f0c4aae3f7ba6e5db81408f259985e515f7d0be77406096a19d229c0548b",
+        "espeakng_loader/espeak-ng.dll": "646d387acbc7ac2aa45e3625aa00a6835ae5d446ff8b0748298c3900b4dde258"
+    }
+}

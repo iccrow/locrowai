@@ -1,0 +1,7 @@
+{
+    "id": "groovy-0.1.2-py3-none-any",
+    "hashes": {
+        "groovy/__init__.py": "ae764bb99e07a57f13ccce7c31435603a1a6f14de7993458ce5842c1c7d044d3",
+        "groovy/transpiler.py": "1d919b6ed564ef3f7eae68b879c99753967cfe77f2d12d11c777a507937eb6cb"
+    }
+}

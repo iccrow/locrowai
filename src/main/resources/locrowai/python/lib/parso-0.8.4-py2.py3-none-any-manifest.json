@@ -1,0 +1,26 @@
+{
+    "id": "parso-0.8.4-py2.py3-none-any",
+    "hashes": {
+        "parso/__init__.py": "198ae2438260c832b0e86793d9fafa8ae68846e57009e9009a56669eb567c9b3",
+        "parso/_compatibility.py": "cbe7c04c9d5dc9aa15af2d7be42303040d3cf08193c4286408a0f6754027b2b5",
+        "parso/cache.py": "2b240165d4ee0578438cb9b04d22ce832428ab834bb7fc0daf5f3cd834e4396e",
+        "parso/file_io.py": "d926d742e3298c0690d0e62fc595ce825fa853de39f82ac87a2dde11a9965a69",
+        "parso/grammar.py": "2bb1ef574615eb072303e2267c4de1ada8d7212d1531c4599093da4fdf8adeb2",
+        "parso/normalizer.py": "81e606f54650e99a5a7d373f0a25d0a01b7c54899d06c88dc3afc624b79219b8",
+        "parso/parser.py": "aa522b462912c4071c7ec0ba07a63db0f5b21214741c805a09b36f795d4e7001",
+        "parso/tree.py": "75e67af2e02ad23a1d11eba626905859759c8885dc0587e9b0ba5ed5fd562cef",
+        "parso/utils.py": "a96f2426ec3da722bc59a222dfb157e3890d8c068882ed79106bfb57f4783e61",
+        "parso/pgen2/__init__.py": "9057d166c49178ce3d57460827f706d3f4cc4dec36b7820c6c6f7928ed8123c1",
+        "parso/pgen2/generator.py": "3c78c2a71ed033676e199a86c3918e41022073a444de370a57b2305dc3a0261c",
+        "parso/pgen2/grammar_parser.py": "927261ddae34fc9c5491bd0778f1bbf19668aa3a4f364dee67034ecf6124915e",
+        "parso/python/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "parso/python/diff.py": "8f2aea5912a49723cf7b36512911f1a0a6e1932c22094a061ff2b51dc452c8c0",
+        "parso/python/errors.py": "5659b173430b50d4d89d534c11654eebc253a64997ccb106fec87bae412de9d0",
+        "parso/python/parser.py": "e4e314df6c9b3c5ea470a51d6dc7cd3640ce2bc849cb407b7ea8ba6fe19fc2ac",
+        "parso/python/pep8.py": "b6cb91b255d9bdf8a8f0b4c12006df1318c1213d5fdd78f1de282ddbc7e6dc6e",
+        "parso/python/prefix.py": "04cf7755e9c103556cfaa93600948b04c24d9f90436f25592c867949c4f81485",
+        "parso/python/token.py": "d1dce641fe8be7d6c425bf4c5d86eb0edab76c01cd753ba4f8f98e868c7cd46e",
+        "parso/python/tokenize.py": "92a986f1211d91b2c6dc67fa810c9e4197aba78ca1cf35d7d7814260e649e662",
+        "parso/python/tree.py": "6f0279e32e0db7f79b52a5e2144ed065b06994d9a270bd490efcbef28f80bfba"
+    }
+}

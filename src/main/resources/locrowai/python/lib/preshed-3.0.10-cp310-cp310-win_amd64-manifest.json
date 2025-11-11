@@ -1,0 +1,22 @@
+{
+    "id": "preshed-3.0.10-cp310-cp310-win_amd64",
+    "hashes": {
+        "preshed/__init__.pxd": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "preshed/__init__.py": "e71d5709107c6fbd2ba2f52b143bec5a6e464fe48ae4268c7c574a64d7a9dd43",
+        "preshed/about.py": "6b3027087267d1093812979e1befb4d237c6004145c0900793a556cd2806b2f2",
+        "preshed/bloom.cp310-win_amd64.pyd": "52f60afbed36132c78c13a5fd233984c04148c903036e024ede9e316e4836245",
+        "preshed/bloom.pxd": "dae56fe4bc3a90aff14e65b816eaad2c501f91fb961a863e1e2c43b520cac5c0",
+        "preshed/bloom.pyx": "2620c05c824a11fc377d918a3b6d41d5795af1cc4fb56ef0f261212fef9faa33",
+        "preshed/counter.cp310-win_amd64.pyd": "30b1246cd577dd5d748c21d7e0e8febfd08d46cd191a4d8cd64e5d2cd6347baa",
+        "preshed/counter.pxd": "fc8d33489437a9b2acf617f1292c07e406d8504dbde32e7b792084b99723e65b",
+        "preshed/counter.pyx": "6edda7cfbfb2dcd65fe1594b0f23c2baafad9aa5fa347d0a37da10ad2a10a9a0",
+        "preshed/maps.cp310-win_amd64.pyd": "fbb759b516b75ff2eaa18e8542ec94f9e491d2f8885c9dad71e45b0af1c8ac1c",
+        "preshed/maps.pxd": "19c851095a7da1f0ab5ebf6cc9d84cce6c7ee9df2dd39790e1fb65d5ffd054b5",
+        "preshed/maps.pyx": "d93872b8e3f1fca6a436a00f8471439c3af22eea07ae13836b4d305faea6ca15",
+        "preshed/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "preshed/tests/test_bloom.py": "6bc8f13f32f049723c937281350ff14a1ba1809584dcaa6bbf84fb3514e2efb8",
+        "preshed/tests/test_counter.py": "3ce39e12afc0f01138a3f882871ca919cbd9c926d864832b347d581a7ad01bdd",
+        "preshed/tests/test_hashing.py": "61ab1a1ea42d83a7414e91146884434ca97789c804655c0f17b1a1708a7a4988",
+        "preshed/tests/test_pop.py": "ce83c9d144b37ac2f81540717b3a4703dde0dd9d66849e5efbee4173a3532dbd"
+    }
+}

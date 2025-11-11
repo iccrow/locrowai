@@ -1,0 +1,14 @@
+{
+    "id": "portalocker-3.2.0-py3-none-any",
+    "hashes": {
+        "portalocker/__about__.py": "5694ce3540287a159b9f0fc102aec3123b5f1e2e80f02a3cc592741484c7d075",
+        "portalocker/__init__.py": "4554d27efbb4aca971e64eab5b9b012d0540ec9e13af418a6ecbf31fb109df4a",
+        "portalocker/__main__.py": "8b405f59df30917a2d17c20a5eafc3f3256cdeba27cacee94a6d737bd417cc9c",
+        "portalocker/constants.py": "e186981596710576b5c173339bfc5a7d3c2c1df190a8668da35bc7be50ae7863",
+        "portalocker/exceptions.py": "c10329e24fc54f4b9591e87506526bc7590927419869e6bf3d3e341e8ca4d2be",
+        "portalocker/portalocker.py": "df98c8b4d3c4127f8e0a8666008cbfc78c69928b0b060aed76e5a10be1fa359d",
+        "portalocker/redis.py": "f22b181c75eb4181c0858b05d78355460e75a024de4899144b8d62ce83f58981",
+        "portalocker/types.py": "e6f2d08065fb583f2b333a5f704dc5b02d9c0efdb22cc2d2ff3b71f4963d71ab",
+        "portalocker/utils.py": "c861d79110faa5b0100006359adb75f1ce4e28750f16fa0b86c6960b3c831e47"
+    }
+}

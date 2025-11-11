@@ -1,0 +1,21 @@
+{
+    "id": "typer-0.16.0-py3-none-any",
+    "hashes": {
+        "typer/__init__.py": "0f7bbe17696d2fe7e8e12f061a9d20f8e11aa2f7d34a9f96e9e02fd632aa054f",
+        "typer/__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+        "typer/_completion_classes.py": "3f1f5b579e98e09fc5f52fec508da23e9521fe2fbe0a1a1cc6b9381c0badd871",
+        "typer/_completion_shared.py": "e2514e5215d2af2d9b21947d6a5ed4ab7de2b69812ce0e9e6a0aae032b0d98e1",
+        "typer/_types.py": "9122f184a997dfb6338b3423a985005a6aff2457025b9be111ce18b210d30bd4",
+        "typer/_typing.py": "9ec67e4ca70c94602daa259733ad2bf7baeab56319c5d8708ff6242e8f3f9de3",
+        "typer/cli.py": "61a5e90ee77bc11b430ac26c5a41352f404f5a1a481c068f6ef64d2d327ce78c",
+        "typer/colors.py": "7b8da3f2e079db484ba57e42ff47e247738ea0814c6e13b700366fbfa865015f",
+        "typer/completion.py": "775022a6daec13051e48f41a200e688afe13dd7cb7303ab9a375488cadfd41e8",
+        "typer/core.py": "4ec76da0960e39ae3eb29a646326ec01b2c9ea0377109c8f497509bb989be6b0",
+        "typer/main.py": "5296f686b5e2772cc2912650e417438a91b7738291539bfb2fe7d5fbd6f5f4cc",
+        "typer/models.py": "43abfd05062eb4d947e388bb7e7d186d9f8e7915ec8226f5a3fb51e204e6aa8c",
+        "typer/params.py": "311542c113f334c90e75853a54d54691ac17fe00286336e209f2ffb58711eb1f",
+        "typer/rich_utils.py": "b2fca04d34943acf782b7aff54d9e63233b518e5c655ad06a97e7d93673beda5",
+        "typer/testing.py": "31bfc7a939293f0db8aac558c4242b0c9a63abfa0e1e582a6696ae5a87f192ad",
+        "typer/utils.py": "1b4a9d7435f4e98b47b8c24d0a68fe7eb2c96246317d46bb8b03ba28e4d7d852"
+    }
+}

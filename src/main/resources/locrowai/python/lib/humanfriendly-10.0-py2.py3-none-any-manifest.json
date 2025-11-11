@@ -1,0 +1,21 @@
+{
+    "id": "humanfriendly-10.0-py2.py3-none-any",
+    "hashes": {
+        "humanfriendly/__init__.py": "b0f08c42fd7a9b7a7cc58c1ddcdde452cd6b7b05490776460c1905d3ff2feafa",
+        "humanfriendly/case.py": "7e42229e3e15d52f179773824984a0a8aa06cc209b5493a32396739d58824f54",
+        "humanfriendly/cli.py": "6691aa4c72f07cb8c5002b1069c62437d0e205990679c3f3207cac96258dd62f",
+        "humanfriendly/compat.py": "eeaa0518c3458b31a1b39048ca230a4c352adbd0f1cee5c65f8311a192e8e26b",
+        "humanfriendly/decorators.py": "8afc41f94f5d7d75230a5e0667c83f80a142e1adeecb10d58bedeb9713e3bc9a",
+        "humanfriendly/deprecation.py": "6ddc75fd3f0bd6017adf9138d44e9b613aa27bd3f7a3bad8ea7e30a218e42cb9",
+        "humanfriendly/prompts.py": "f0f489d47a6bde577a62409a5d0b131c07a9f41b5329894a9908b54626872047",
+        "humanfriendly/sphinx.py": "06b1712bead7dcb37888caa0345b8e4f07987e9a58a7ef8edc7a96065bb4e4cd",
+        "humanfriendly/tables.py": "9420e710acb26519ab207ac3954cf356983dcfa94a38ef2574fe1f8758333012",
+        "humanfriendly/testing.py": "844aec9813790ab7a3e64d4ffc8d1d8502bc200c05af520e67d9103c8ad9532b",
+        "humanfriendly/tests.py": "ddb91ab2b460c347007591478264e8e03507817127947b51a2afedd8c11a7db7",
+        "humanfriendly/text.py": "fd6046e126786d3e521fde332d475f981e8d5dbbdce200581021264185c9d6c1",
+        "humanfriendly/usage.py": "0213e8e8372f68144814658d72d536d8c70cccddd1c9ce99082f3792dd996e4e",
+        "humanfriendly/terminal/__init__.py": "e41cf15472ab8b39dc9518eb5b060493697572dd2ad1676ea4922b92e23d8257",
+        "humanfriendly/terminal/html.py": "fdcb146788480f4013c13bcf5d4f0aac07ba6730ff8144bbfed3771660870384",
+        "humanfriendly/terminal/spinners.py": "a3b9e49fcac1753aabf971c84fdef6b08808bb1883ca643990f56407347bbad1"
+    }
+}

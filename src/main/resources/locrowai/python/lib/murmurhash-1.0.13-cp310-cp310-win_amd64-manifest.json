@@ -1,0 +1,16 @@
+{
+    "id": "murmurhash-1.0.13-cp310-cp310-win_amd64",
+    "hashes": {
+        "murmurhash/__init__.pxd": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "murmurhash/__init__.py": "6d3a7c6307359a66b1d9a2ddd13aefaf1f061c35d1edebd6fb10632cfc100228",
+        "murmurhash/about.py": "f2dbbe81cf05fca665a9525f6c3d664e6b157deb49f5c1f00dd4ca3d1ffe8dda",
+        "murmurhash/mrmr.cp310-win_amd64.pyd": "89f4bc37b3c846aacd422bab36a22760c98229785adc9ae07d1442622299c0ab",
+        "murmurhash/mrmr.pxd": "cc0edb058a8e625d477ef769f54442b927fe6e7b38fa5e343865e24411295ff8",
+        "murmurhash/mrmr.pyx": "0b2227eab3d634c3ea07498d53e65e447ae0af81223f9bb52e87c337713e0679",
+        "murmurhash/include/murmurhash/MurmurHash2.h": "5dd07b9bcaf09a49940f8c6f9117454537967598e13bdc3fe89b5a0d0a26d560",
+        "murmurhash/include/murmurhash/MurmurHash3.h": "2f64c8b511cb006e75586a773b28e5e4857ff3fc5633d23b5d09a3b34fd487e5",
+        "murmurhash/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "murmurhash/tests/test_hash.py": "6e112a0308d29647e830f0af9115bdfe7ccd3b545a824d9026d4b8fd48eb2e09",
+        "murmurhash/tests/test_import.py": "c512704c0587815e3bea16eb9f05717345fb668688408549a6fece785fad3350"
+    }
+}

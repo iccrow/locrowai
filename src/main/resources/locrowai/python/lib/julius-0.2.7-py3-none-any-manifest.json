@@ -1,0 +1,13 @@
+{
+    "id": "julius-0.2.7-py3-none-any",
+    "hashes": {
+        "julius/__init__.py": "3b71bb8319225fecc80efbd2659ee2b3abd21aff4c7bab04c85b6d9914f66028",
+        "julius/bands.py": "efb81e4262ab302ae14b4855ca0714f5f01599dbde13b83dfb39c08be122f2af",
+        "julius/core.py": "4f0ce5b63a3a1e7daf5721740f65e15e63ac31508d3e669d5e16d828b96ca9d4",
+        "julius/fftconv.py": "4a24ff5f389228c7bf92007dedd09082e5471ae724ceaf8698aeff1892509853",
+        "julius/filters.py": "915d4418416b0a1100f088a959bb6d39935e98b23dba6fe9784c6f184f3433e2",
+        "julius/lowpass.py": "3dd0d86f1a581615621cef78b438c9a3bd55816874d1b124a1ce953f8913ee68",
+        "julius/resample.py": "94a66e6d7c2527510d3067f31daa5ac98331cad9c0cf2423d8cbb9c5912a26db",
+        "julius/utils.py": "b65ddefe9dc5c291ccebf312db3f25fc29439c29a4178d40a8bd702ba8d7b669"
+    }
+}

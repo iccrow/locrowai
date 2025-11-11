@@ -1,0 +1,29 @@
+{
+    "id": "spacy_legacy-3.0.12-py2.py3-none-any",
+    "hashes": {
+        "spacy_legacy/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "spacy_legacy/loggers.py": "ec71379cbeaf71f26298af97c332445ffd54fe8f3544219ed197470163fe28e1",
+        "spacy_legacy/scorers.py": "53fef78b204496d67f23c2086cb398b7135d8fc00ef6656ab01625acaea0b62b",
+        "spacy_legacy/architectures/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "spacy_legacy/architectures/entity_linker.py": "b4250f928d5469fcde37f32e132b5d3850b6a59d8d8a48d9ccc95abec4cf22ce",
+        "spacy_legacy/architectures/parser.py": "7ed28b5751253f6bb1e869dc64433a66a11f5999c881161e572fe93fc452b5ab",
+        "spacy_legacy/architectures/tagger.py": "6c0ec5d24f7155c319217397e5af5e82bf25460a60c073747972213b7293acd4",
+        "spacy_legacy/architectures/textcat.py": "e9da21b4569636c7200d7cd438379f3dd2a58339a3d8bd2141ad343d5f0172bd",
+        "spacy_legacy/architectures/tok2vec.py": "b8c9a26183b82d11849af8ea38267dbbe27808c53c1654a99a1fa0d6a98cc52b",
+        "spacy_legacy/components/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "spacy_legacy/components/entity_linker.py": "c3faf425efeaddc2e498db1b4b5595291ce9c44f98e6a7a0296c684ec6e16b45",
+        "spacy_legacy/layers/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "spacy_legacy/layers/staticvectors_v1.py": "d87d9663e3ef2f74056aa1f43b1a410c3b997ea3221f16650bf88471b9fccc26",
+        "spacy_legacy/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "spacy_legacy/tests/test_layer.py": "461dc629977bbcee1f9161623845176b08736318321d1e28921eb6a0ff2623ce",
+        "spacy_legacy/tests/test_legacy.py": "98ca7cd26f111ffb3d044e608dce5afec968d6809e19e4c692b0141ac661cc91",
+        "spacy_legacy/tests/test_logger.py": "1e13666e106deee9ae347e77cb6bf8849966730b80ce420286b9eccfb22f3645",
+        "spacy_legacy/tests/test_scorers.py": "886c95cebe39ac9074cdc3f0414ee336e7ae1ca11290d3c63e23aa04e3f53167",
+        "spacy_legacy/tests/parser/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "spacy_legacy/tests/parser/test_parser.py": "1dec2a4555a5c4ffb6319786a1117c3ec0ef54a21bb5d0cc155588d95a8028e7",
+        "spacy_legacy/tests/pipeline/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "spacy_legacy/tests/pipeline/test_tagger.py": "d61c77ff2934f3de1017c5037b303a0e13daa3ace930e8358de4895a801fc352",
+        "spacy_legacy/tests/pipeline/test_textcat.py": "4081fe1691ce2c56bb91d8acf7754f4c0cbd77663f21990c7f8a64dc0eff98cd",
+        "spacy_legacy/tests/pipeline/test_tok2vec.py": "848075f7d77bdab9cc365ca70d60cd0760cf631079000bc4f77d1477606d87ef"
+    }
+}

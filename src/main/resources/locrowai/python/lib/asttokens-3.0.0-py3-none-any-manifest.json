@@ -1,0 +1,12 @@
+{
+    "id": "asttokens-3.0.0-py3-none-any",
+    "hashes": {
+        "asttokens/__init__.py": "f1e38d0375fef6cf77faffb6804a33e3ae3d7c3529bf306d8450792ddedd1c08",
+        "asttokens/astroid_compat.py": "8a569505159c1e943764b05206cf6eb14c272d6dceadf9fab0cf3d70c37cccd2",
+        "asttokens/asttokens.py": "090674a695e04f31c66cae1da88e2da122f2c07222a8d2bc8c856a6d00a5cd82",
+        "asttokens/line_numbers.py": "3836dd947238221b7852749fb3198e1c2215c387365d7ee3f8c75a09ae85f1ba",
+        "asttokens/mark_tokens.py": "60a13cf081e763242236f945971a94f810e14515a46188cc12c8f12a517572ac",
+        "asttokens/util.py": "ce4b333d4546474f94c59248f88e254eb03bc87d8850ecfc2019b019ab3ea5bb",
+        "asttokens/version.py": "10f9a05ce7562a4b394bffd9307ecdbbac6901e56b6697f1685cb8a7292ec9e2"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": "babel-2.17.0-py3-none-any",
+    "hashes": {
+        "babel/__init__.py": "3b0dca1e986bb70e164852be17369c191f09557e49419d5809d7c9283f14612d",
+        "babel/core.py": "41bb96c96060e11265610e40be0f9c8bbd63e19434ed5506861571748f72f90a",
+        "babel/dates.py": "7c909a89fa6f79ddf745fe53d6d871c4f1ba7773263d4f7dc2720ed91000fa67",
+        "babel/languages.py": "d8b0d357d5a2cc0b9955a9b4bdfc3e43e40a6024291790f12db995a1ab7b4ca2",
+        "babel/lists.py": "6389b58127040d99470307836fe1f927a6c4865cd316684a096cb04b687a57c3",
+        "babel/localedata.py": "8338777cc648900d24ef47aa5d2440e3a9db19697ee017d09c1e7d733526a7ba",
+        "babel/numbers.py": "1a18c511d92c1247e6bcf37b5631a3969b5bb6655a6e8059751681e733cc66f6",
+        "babel/plural.py": "f4d58f2ed625785f20b22db74bd38846d8785a1343e7a1397dd15ab7055bfae2",
+        "babel/support.py": "3cbc5a925c637b3e29cac110d67deb19b18c44a38f90e7accf2ef7459d6a72d5",
+        "babel/units.py": "2bc0838bccfabbd7a7bc78cfd6cdbf4ea0ef56d6de83acc137a42e92caed8c85",
+        "babel/util.py": "802d9cedec4aa62f720c02f2a0be321865b74be064003019c3d748597c3de533",
+        "babel/localtime/__init__.py": "ffa79df590c899a1245507426cd8adc42bd14bb0a58e96b9c2c6a1d1f97feb6f",
+        "babel/localtime/_fallback.py": "9013cc4d7c9c45e9ffea54714a3f950867179b30f5824949a49ee8bb118bb8c5",
+        "babel/localtime/_helpers.py": "6662dcf26e3a5bedc6b6cb2d2c176bc3a054dd9852a1bf2f28793181c646f6ec",
+        "babel/localtime/_unix.py": "eb7ac0fe92563391442a92775c00a12fa128b2ee64fad95aec2ea7e26064a724",
+        "babel/localtime/_win32.py": "9d2367c5230e54096faaf5f9d21f47482cc17cfee68fc9e327cd09677a4e2169",
+        "babel/messages/__init__.py": "d6669e5642ec59d5d8a2f100c4639c1a534733cd0f7e98599a68af649a39c93c",
+        "babel/messages/_compat.py": "0cdc8234cc07e6f5e097fa6aedc518cf755c442da020fa9e40b3b99cde677961",
+        "babel/messages/catalog.py": "db6df5b5891acb039e79bf7a9f19b5dda4fdacb53dccf0aac80fa179d7ff4137",
+        "babel/messages/checkers.py": "56eb653d9410fdae02aac18136bcb0802e50c96e723a11a9c19d93de535e9aa6",
+        "babel/messages/extract.py": "35131730f8ec7738ab51d9a04f74855a47999d1414a63dd519c50f5fb031b0fb",
+        "babel/messages/frontend.py": "5acc693913e2909f2e86eed3336f74cba77b571c37e5e7587860651022cd92cb",
+        "babel/messages/jslexer.py": "ea718865f5f4750958d30949d73cb9c96c2839a10b63f656576e9ae6e29db084",
+        "babel/messages/mofile.py": "41fd17faf211613410a5226a5856379d73e00b3c72516033aed95ed9f22920f5",
+        "babel/messages/plurals.py": "8ec127a1f5396f83d92889685f4323721612c43debd51459fc67c4551b844d64",
+        "babel/messages/pofile.py": "94c965c535d84416b79bcc15b315ec26c6b28c239e3ca61866d152654e43545e",
+        "babel/messages/setuptools_frontend.py": "9b597d347b9ac23d694a7719782f3671425f770c626ff0bb25251bff61216d43"
+    }
+}

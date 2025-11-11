@@ -1,0 +1,9 @@
+{
+    "id": "jsonschema_specifications-2025.4.1-py3-none-any",
+    "hashes": {
+        "jsonschema_specifications/__init__.py": "aa84c1d83298eeabcdac684c3c7ea0b6600944b8a599543e7c56704faaf2ab0d",
+        "jsonschema_specifications/_core.py": "b4585cd42325789dc024e2bf6e3c4ea4541376bb140a51467c5c4f054fc279b3",
+        "jsonschema_specifications/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "jsonschema_specifications/tests/test_jsonschema_specifications.py": "5a46d8456e80e85a19d2b8af4a17ea54b482b00887276c7c4f1a840894d73d36"
+    }
+}

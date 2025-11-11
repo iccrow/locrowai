@@ -1,0 +1,8 @@
+{
+    "id": "termcolor-3.1.0-py3-none-any",
+    "hashes": {
+        "termcolor/__init__.py": "a53be7cf03aece56affe5069e0faccef97771145cf0def9bba00fe67c186f179",
+        "termcolor/__main__.py": "def2ea0de65d7b2351586a4d152a15bfbfb3485797e7d4012a345008b14c7472",
+        "termcolor/termcolor.py": "073c8789f62859b92c5c517bc988dd81615282e19290004d35eb1f4a5ac74111"
+    }
+}

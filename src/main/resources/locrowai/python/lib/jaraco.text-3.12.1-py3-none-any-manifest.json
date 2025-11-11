@@ -1,0 +1,11 @@
+{
+    "id": "jaraco.text-3.12.1-py3-none-any",
+    "hashes": {
+        "jaraco/text/__init__.py": "636614a9747fa2b5280da6384a43d17ba65985be4750707f021f5108db15ca1a",
+        "jaraco/text/layouts.py": "1d30bc6924cb67bb978a9c8e5daa51302d79f23b9e7232ba455c22b5f999f7fc",
+        "jaraco/text/show-newlines.py": "58641aeb97bc97285bf762d438ba959fa29a0ada1e560570b3a5ad49198b93ac",
+        "jaraco/text/strip-prefix.py": "35f55757c255368ea7a9cb980127cc57bff2e04a3cccc42a942386bc09d1215c",
+        "jaraco/text/to-dvorak.py": "d5235c6d2b2f212a575e0f8b9f26c81c763e45414e42bdfacdc1e4635a5616ac",
+        "jaraco/text/to-qwerty.py": "b3850c4149cfc059ff741e6e642dbb06eac7390718a277417f322954be69133c"
+    }
+}

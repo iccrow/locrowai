@@ -1,0 +1,33 @@
+{
+    "id": "wheel-0.45.1-py3-none-any",
+    "hashes": {
+        "wheel/__init__.py": "9abc4c9ef757002babfcb59e81b51f879839cac599addeb75099fcf74c2f18d9",
+        "wheel/__main__.py": "3643149ee4c219c3a4818d0804b8010950bf04619c58e471d8af236064b5d941",
+        "wheel/_bdist_wheel.py": "520842423487fe955f71987aa118f34b0fd342171fdda9d2c753a488b48bf363",
+        "wheel/_setuptools_logging.py": "fb9282fa59ded2294e5162037ce92a6a951618c15986e2980c86af219881e643",
+        "wheel/bdist_wheel.py": "b697fd5ae7e248ed51b84320e683e121f486f0333388267fe26b82285ebd0aaa",
+        "wheel/macosx_libfile.py": "935c7b084dcb3ed3951aa8fa3574359d319854f69e46b855cd41bf28fab7cc3b",
+        "wheel/metadata.py": "242e29ee395066ed9b513010d9f7af92a2e383f5fa8273724612e7e8e50ed6d7",
+        "wheel/util.py": "68beda89b1f061481f73c5a5a252f9b577645780dab5b2716476f59301c52405",
+        "wheel/wheelfile.py": "5120adb4d949c1a7f1b79d5860514a1bb8e7c73f1d7e16f2a8064bea331303db",
+        "wheel/cli/__init__.py": "369abafe32a2d3776121c46799bb85870be2549c703b4b5812712158cbfd709a",
+        "wheel/cli/convert.py": "062d27b445dbf674e5942c56793450e23fa73ecdeccd64842a2a46fc68273244",
+        "wheel/cli/pack.py": "08015c1dd055ba5bec1d82659dd2953bb28c23d26a053673e628b43cac7108eb",
+        "wheel/cli/tags.py": "947c3e2da5ab912e49cbfa96730fbaa528de34ceb20230e7a8a2371392534c25",
+        "wheel/cli/unpack.py": "63f27bca7c4f4a81454d3ec7d1f3206c195512bc320c670e6e099ee4c06ecf9f",
+        "wheel/vendored/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "wheel/vendored/packaging/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "wheel/vendored/packaging/_elffile.py": "85b98af0e0fa67b7d8ea1c229c7114703d5bcbb73390688d62eed28671449369",
+        "wheel/vendored/packaging/_manylinux.py": "3fbb1d479ffb5c1634f4b55860f8479b274c2482303d75ac878a2593be14ba3e",
+        "wheel/vendored/packaging/_musllinux.py": "cf5b3c4e8da1434be99ff77e3b68b9ab11b010af1698694bb7777fdba57b35e6",
+        "wheel/vendored/packaging/_parser.py": "e2d4f87a64a5daa4da53b553404d576bda358cc3c2b017b3b18071c8d31437eb",
+        "wheel/vendored/packaging/_structures.py": "ab77953666d62461bf4b40e2b7f4b7028f2a42acffe4f6135c500a0597b9cabe",
+        "wheel/vendored/packaging/_tokenizer.py": "6a50ad6f05e138502614667a050fb0093485a11009db3fb2b087fbfff31327f9",
+        "wheel/vendored/packaging/markers.py": "fd348f2350612583bb069f40cd398743122a1c45576938e60e1f46fb0f2accf0",
+        "wheel/vendored/packaging/requirements.py": "760a01795a6b3eed9813a43c9c67f038f4e30131db45afd918bc978451259fa4",
+        "wheel/vendored/packaging/specifiers.py": "2164add12acb48fef685e5a1002f142f4786bdab3b5c84078ea8958957e63ca1",
+        "wheel/vendored/packaging/tags.py": "7de7475e2387901c4d6535e8b57bfcb973e630553d69ef93281ba38181e281c0",
+        "wheel/vendored/packaging/utils.py": "5e07663f7cb1f7ec101058ceecebcc8fd46311fe49951e4714547af6fed243d1",
+        "wheel/vendored/packaging/version.py": "3c525a6190f1060cb191f6211f7490c38a9f13d202096ad39a2b6fab5e32ddbb"
+    }
+}

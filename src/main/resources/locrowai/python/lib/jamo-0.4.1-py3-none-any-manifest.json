@@ -1,0 +1,7 @@
+{
+    "id": "jamo-0.4.1-py3-none-any",
+    "hashes": {
+        "jamo/__init__.py": "c8d4cdd6903229b6b7be785e6a987a39aee6a73e76d8d0ee329409a7ff88389f",
+        "jamo/jamo.py": "544ee39c083dd489774a2209b5e5afe2ed6e55c45d07b61abffce178c8137672"
+    }
+}

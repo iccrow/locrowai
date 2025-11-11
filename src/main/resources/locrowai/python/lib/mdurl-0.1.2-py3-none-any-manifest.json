@@ -1,0 +1,11 @@
+{
+    "id": "mdurl-0.1.2-py3-none-any",
+    "hashes": {
+        "mdurl/__init__.py": "d6fa44f3d3725e7888459342ff87fa04f9b751be1b3e7b637f2ca12d147ba295",
+        "mdurl/_decode.py": "dd0fe00d0a94fff4ef0dbbbbc7e6fd2e36d5978416cb983fa85c258dcbaf37f6",
+        "mdurl/_encode.py": "82824b505b75878ad564daaa9bdb75e4dc365be6c55d8404cb7691d352265afb",
+        "mdurl/_format.py": "c5972dd2675e3d70341f7900ab18c6b650793bce86df90c060c1a4038e02981e",
+        "mdurl/_parse.py": "7b365290cdbfe0d436671d38eec11d7091bb3584111478992bb63c20d1c5cf06",
+        "mdurl/_url.py": "e6442745037603f1b8b2f2e747365c1b46dfa03f406c1ad80d7a2eb031d9df3d"
+    }
+}

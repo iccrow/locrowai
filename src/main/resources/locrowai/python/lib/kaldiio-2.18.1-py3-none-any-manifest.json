@@ -1,0 +1,12 @@
+{
+    "id": "kaldiio-2.18.1-py3-none-any",
+    "hashes": {
+        "kaldiio/__init__.py": "3428eeb5d49c39a1c230af4360bbdbe3039e1f08aa686ecdd8f938f1d339585f",
+        "kaldiio/compression_header.py": "58dd3337d9cedaebeded4949796432206867736abfb0bd7bcee334231acd8e01",
+        "kaldiio/highlevel.py": "da881fe5d010a180b733b9edd66e99ba8428ae737c1694f0d380e09d911c7333",
+        "kaldiio/matio.py": "ae967159ed1894d05e541bf14069c67a2ab9d2b7dcad0fe5aaf8252972f3dc47",
+        "kaldiio/python_wave.py": "2f5d53ca7745ea2979d0ec7b0ca771f21e0940c5786b708f4c09dd17e82b255f",
+        "kaldiio/utils.py": "901341c797c9c3e15da03916b81204779994d3ea03dd0d0a6277fe1d64cf457e",
+        "kaldiio/wavio.py": "f14ee0959a25ad2aac5ac6f30a66d92730523ff651f6c398dc761ccf09361c9d"
+    }
+}

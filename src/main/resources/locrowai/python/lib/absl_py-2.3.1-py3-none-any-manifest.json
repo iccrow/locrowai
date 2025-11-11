@@ -1,0 +1,27 @@
+{
+    "id": "absl_py-2.3.1-py3-none-any",
+    "hashes": {
+        "absl/__init__.py": "f622793f09e8621d76ced71e71c8c3d896e74afc7a77625512512eae7f5ca899",
+        "absl/app.py": "d162698cb698720717b65f4d4e7fa2e634847c0a3078c83849701e9765cb1746",
+        "absl/command_name.py": "1605943079a55f4c90c44b8c3d7c45c67e5ac9659948b07472af15c77eb54e95",
+        "absl/flags/__init__.py": "9ffb8b7922bed79ff50ca2dbd305e2be6b7a03cc6f0030c2f3b0f5ca825da955",
+        "absl/flags/_argument_parser.py": "6abce41c0dc26cf25d27b762a94cac91da1a2ed2adf008a3d44642547fea2475",
+        "absl/flags/_defines.py": "3402b8f3d346bf760cbdb623d89ce5eaaf3d1e602d98c23ae5d8b52ff44aed71",
+        "absl/flags/_exceptions.py": "159ce5ce1be48ea3c8993c57a9b4b5a523d82abfd3bed39de5e965be88952c32",
+        "absl/flags/_flag.py": "99d30916494a41d0a2f56b163ef5259814684362003d6d19d250c82a3d0bb31f",
+        "absl/flags/_flagvalues.py": "706cccb16c6d86a1987e911245e4522425e3a51ba3a2c4a64d3f9e7c95b709b4",
+        "absl/flags/_helpers.py": "3076e0b5191b369567aebeff342764162ff1defa106bed7e6f2a6ab2e9c70891",
+        "absl/flags/_validators.py": "55cb09b59ce886588dc6c23def8344098a5ea330fcaecc073475e082b43804ba",
+        "absl/flags/_validators_classes.py": "3c6516cceeefdf03ce1dbf6578828acebcb7abea4f78a0a8301fceee9acb7676",
+        "absl/flags/argparse_flags.py": "bac26e760329cb73fa56fabbf8b98935ad918f7ca01ccde1c034c677599b0337",
+        "absl/logging/__init__.py": "5e972626b144cc32b68964e5983c2d35249c4a21a235e74589b5ae5b4b5631b9",
+        "absl/logging/converter.py": "e9e07299fbfd50d9288340466ade073d69710bfa12aaf1dc438ea39d276d68c8",
+        "absl/testing/__init__.py": "edc339eecc24d93d47739c319adf89a5c691eb17dd3c9c8bfe5c91aa0383bee3",
+        "absl/testing/_bazelize_command.py": "aa98a8574da59f6b01049f647651e03692a4f3fc31773da124629b1ba11664c2",
+        "absl/testing/_pretty_print_reporter.py": "3d987d35749705b5c38b414e93e04e9a9b1ef0b5daf7612bd7ab60c8146880cb",
+        "absl/testing/absltest.py": "3d6e1ce125653943d2bc52216b28a6258d8b11b27b040a23a1beaef52054adc9",
+        "absl/testing/flagsaver.py": "1c85b31726b2cbe3daf13a9301717b06d1d0eecf5493af0a13c015540334a34c",
+        "absl/testing/parameterized.py": "4e94e55935178e29067940c4e39020b9bbe7987b0f6c5363fb052d0304fe7ba1",
+        "absl/testing/xml_reporter.py": "60590ced244e5bc69ea020a7f08b0667872a5eee31f0cc0bd68378dbe3ad3ca2"
+    }
+}

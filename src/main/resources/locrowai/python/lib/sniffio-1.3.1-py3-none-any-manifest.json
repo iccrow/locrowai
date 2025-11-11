@@ -1,0 +1,10 @@
+{
+    "id": "sniffio-1.3.1-py3-none-any",
+    "hashes": {
+        "sniffio/__init__.py": "f562442655eeef296e3f462d239490f4cf4e4d07db34791a75aacad6f5c60cf3",
+        "sniffio/_impl.py": "526505319a62b8eadc8e7b8786e62260cc5e08d59faaef6406568f7f4c64e97f",
+        "sniffio/_version.py": "8957ace71c2c1de4734037b105a021cb1fed68db76b9c7c0ec2580a38403b7a4",
+        "sniffio/_tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sniffio/_tests/test_sniffio.py": "30c2596498d0ad48bde5100d34cf9aff9e4166ab80fe0bf8ac7535a5ebdc4c23"
+    }
+}

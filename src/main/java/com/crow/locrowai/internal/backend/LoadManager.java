@@ -1,9 +1,14 @@
 package com.crow.locrowai.internal.backend;
 
+import com.crow.locrowai.internal.AIBackendManagerScreen;
 import com.crow.locrowai.internal.LocrowAI;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.components.toasts.SystemToast;
+import net.minecraft.client.gui.screens.ConfirmScreen;
+import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.Style;
+import net.minecraft.network.chat.TextColor;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.fml.DistExecutor;
 
@@ -44,8 +49,6 @@ public class LoadManager {
             logger.write("[" + LocalTime.now() + "]: " + line);
             logger.newLine();
             logger.flush();
-
-
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -188,6 +191,54 @@ public class LoadManager {
         });
 
         return future;
+    }
+
+    static DistExecutor.SafeRunnable showTamperWarning() {
+        return new DistExecutor.SafeRunnable() {
+            @Override
+            public void run() {
+                if (!EventManager.screenReady.get()) {
+                    EventManager.awaitingTamperWarning.set(true);
+                    return;
+                }
+
+                Minecraft mc = Minecraft.getInstance();
+                mc.execute(() -> {
+                    Screen prevScreen = mc.screen;
+
+                    String titleText = "AI Backend Verification Failed!";
+                    int titleColor = 0xFF5555;
+
+                    Component message = Component.empty()
+                            .append(Component.literal("The AI backend could not be verified. Files may have been tampered with.\n\n")
+                                    .withStyle(Style.EMPTY.withColor(TextColor.fromRgb(0xFFFFFF))))
+                            .append(Component.literal("You can manage the backend, proceed anyway, or go back.")
+                                    .withStyle(Style.EMPTY.withColor(TextColor.fromRgb(0xAAAAAA))));
+
+                    mc.setScreen(
+                            new ConfirmScreen(
+                                    result -> {
+                                        EventManager.awaitingTamperWarning.set(false);
+                                        if (result) {
+                                            InstallationManager.installing.set(false);
+                                            InstallationManager.hadError.set(false);
+                                            Minecraft.getInstance().setScreen(prevScreen);
+                                            LoadManager.load();
+                                        } else {
+                                            // Manage Backend
+                                            Minecraft.getInstance().setScreen(new AIBackendManagerScreen(prevScreen));
+                                        }
+                                    },
+                                    Component.literal(titleText).withStyle(Style.EMPTY.withColor(TextColor.fromRgb(titleColor))),
+                                    message,
+                                    Component.literal("Proceed Anyway"),
+                                    Component.literal("Manage Backend")
+                            )
+                    );
+                });
+
+            }
+        };
     }
 
     static DistExecutor.SafeRunnable coldToast() {

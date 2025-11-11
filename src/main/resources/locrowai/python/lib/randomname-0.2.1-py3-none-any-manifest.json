@@ -1,0 +1,11 @@
+{
+    "id": "randomname-0.2.1-py3-none-any",
+    "hashes": {
+        "randomname/__init__.py": "c7f31be030f4356339175da952bd1039eb42ba21b9bba9f389899530bfb99241",
+        "randomname/__main__.py": "22f4e34d886f54eea1f49a5ae398be15fce370a709cb58f0900658fc292089b4",
+        "randomname/core.py": "e3c6f406f27d081d4cde2fd95729dbed11b1f91f1a4592e6e891b8724e93d39e",
+        "randomname/util.py": "122da4d2f462f20be170f0971565f9f38403e16de2fe475152919564e02a66d9",
+        "randomname/__pyinstaller/__init__.py": "ec8b5283ca147a9ace3a99a8153adf6f3f579973b36eb5a066734c3cc8c2f8fd",
+        "randomname/__pyinstaller/hook-randomname.py": "1f68fed007b040e1966300ca3511a66c5abcd97f0715b94f3d41f85cbe94a7b2"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "id": "pydantic_core-2.33.2-cp310-cp310-win_amd64",
+    "hashes": {
+        "pydantic_core/core_schema.py": "0dde97753c3b138c1e3d661ab7d5aed86fcb89f68389db386e3869134626ace2",
+        "pydantic_core/__init__.py": "97fba68b21328d4af0816785bad91cff4980d2f1d539436106811599d0801f57",
+        "pydantic_core/_pydantic_core.cp310-win_amd64.pyd": "c47d5d5811326d08324e656b96d0b60792be1719de62342c9409d2abe8957c0f"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "id": "segments-2.3.0-py2.py3-none-any",
+    "hashes": {
+        "segments/__init__.py": "39ee7248d8369d1ed32367eadc62f2807fd98884c8ade205293202926e9067c1",
+        "segments/__main__.py": "b32f548d82756c1f608c44ff10c92434349a940e336dbdb7421f2d325dff52fe",
+        "segments/errors.py": "4e955c3540b1d58219a99d54adcfb7d28469b733aa0fdf20038b695c5b50c820",
+        "segments/profile.py": "74eada1bf6b17cc833bb203f57f9f175e4ef19f025f5376f0b629387d7a683f6",
+        "segments/tokenizer.py": "cb2ade577601b7f805c0ef083fca07cc847f125e3ac045e9b1c5f0e7be28d34c",
+        "segments/tree.py": "01e4e9df533b5c1eb2a2e7a348f3628538adcc18f191b9eff40cda2bdf50e613",
+        "segments/util.py": "6fb5bae21c8a7b409e79f0df16ef335c20c9324c98ef391dbccb6f32e4baea5f"
+    }
+}

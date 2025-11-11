@@ -1,0 +1,22 @@
+{
+    "id": "pycparser-2.22-py3-none-any",
+    "hashes": {
+        "pycparser/__init__.py": "86b7fe032b9560d1d01930f436fd9bcb0c684cddcdd590acd379bef7e4034b5e",
+        "pycparser/_ast_gen.py": "d094559c35be270fb7223565a3c8def6b6c0729e8aa3bb681c09c1e738bb8744",
+        "pycparser/_build_tables.py": "e1dfd4908c49e187c74d59fac41cc1039db00e8eeac60d41e9a64025825ab3d4",
+        "pycparser/ast_transforms.py": "193318954816997779c09572a2f5d8d6acf302a8f1cc2a55560d3aeb874a181b",
+        "pycparser/c_ast.py": "1d678eadf61d098d2ee57698844d62eb4b95c84df231675cc73102517f83a89c",
+        "pycparser/c_generator.py": "ca2e8c72ac6ff3c279b9ef24e7e9951b1877889dfb883e10c85fac59c1a30bef",
+        "pycparser/c_lexer.py": "452523ab44911fc764bf0ad0b25048658d805ceae94297bea0ed6e7495e8b599",
+        "pycparser/c_parser.py": "5949c81cdc9d977d9006e454aabaa4f85da5c81e9644fe015181442ea5444f2c",
+        "pycparser/lextab.py": "35cdc8d3f0fc5e57fe04ea5f38a904bc5c3eacfb853cfc008e470bb9bc13094e",
+        "pycparser/plyparser.py": "f2d2cea04cad71aa6f5abaf525f09fec3a20fb0ba506d4b562b0ecf12ec97cca",
+        "pycparser/yacctab.py": "07a724f1010f9d18b4e154b12842fac4768ff2c104b136d6b70b237ca1c00603",
+        "pycparser/ply/__init__.py": "ab8b3ce90c11b1845adb42fdb9e4b17e1fa13e28697ed0630cebd86b6fd24b66",
+        "pycparser/ply/cpp.py": "52d0b7ca54d6a79ff530a03e3cb0aec0a411f3348e9e51ae18621dce3f314bdf",
+        "pycparser/ply/ctokens.py": "30a92c9cde344de84f86055fc422618e3fc18cbf78ddaa6b78004a633f9b9746",
+        "pycparser/ply/lex.py": "ac2322d328e56668c7e523578ff61db3557148391a1b6b614bbdf9d58bdf37e2",
+        "pycparser/ply/yacc.py": "79ab520e444b811afa5f7fa1a0393f49042fd3ae51d0174bd8aedf439e028153",
+        "pycparser/ply/ygen.py": "d8960d798b6b3f3d49ccb48b3b77781ac4bccc953c8d8fc8fc2475548f605ab0"
+    }
+}

@@ -1,6 +1,6 @@
 package com.crow.locrowai.internal.backend;
 
-import com.crow.locrowai.api.registration.exceptions.MissingSecurityKeyException;
+import com.crow.locrowai.api.registration.PackageManifest;
 import com.crow.locrowai.internal.LocrowAI;
 import com.crow.locrowai.api.registration.AIExtension;
 import com.crow.locrowai.api.registration.AIRegistry;
@@ -11,10 +11,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.components.toasts.SystemToast;
 import net.minecraft.network.chat.Component;
 import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.DistExecutor;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.loading.FMLPaths;
 import org.jetbrains.annotations.ApiStatus;
 
@@ -23,12 +20,6 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
-import java.security.KeyFactory;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.security.PublicKey;
-import java.security.spec.InvalidKeySpecException;
-import java.security.spec.X509EncodedKeySpec;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.temporal.ChronoUnit;
@@ -39,8 +30,8 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
-import java.util.function.Supplier;
 import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import static com.crow.locrowai.internal.LocrowAI.MODID;
 
@@ -53,8 +44,10 @@ public class InstallationManager {
     public static final List<Stage> STAGES = List.of(
             new Stage("Downloading AI Backend", 1),
             new Stage("Installing AI Backend", 1),
-            new Stage("Installing AI Extensions", 2),
-            new Stage("Verifying Install", 1),
+            new Stage("Installing AI Extensions", 1),
+            new Stage("Verifying AI Backend", 1),
+            new Stage("Verifying AI Extensions", 1),
+            new Stage("Testing AI Backend", 1),
             new Stage("Done", 0) // zero weight for final "done" state (you can still display it)
     );
 
@@ -77,9 +70,17 @@ public class InstallationManager {
 
     public static final String CORE_INDEX = "https://pypi.fury.io/iccrow/";
     public static final Map<String, String> TORCH_INDICES = Map.of(
-            "cuda", "https://download.pytorch.org/whl/cu121"
+            "cuda", "https://download.pytorch.org/whl/cu121",
+            "cpu", "https://download.pytorch.org/whl/cpu"
     );
     public static final String PYPI_INDEX = "https://pypi.org/simple/";
+
+    public static final Map<String, String> GPU_VERSION_TAGS = Map.of(
+            "cuda", "+cu121",
+            "cpu", "+cpu"
+    );
+
+    public static final Set<String> DEFAULT_LIBS = Set.of("setuptools==80.9.0", "pip==23.0.1", "wheel==0.45.1");
 
     static void queueLib(ProcessBuilder builder) throws InterruptedException {
         libQueue.put(builder);
@@ -108,6 +109,27 @@ public class InstallationManager {
         return !handledLibs.add(module);
     }
 
+    static int libCount() throws IOException {
+        Set<String> libs = new HashSet<>();
+
+        PackageManifest manifest = PackageManifest.fetch(
+                InstallationManager.getBackendPath().resolve("core-manifest.json"),
+                SecurityManager.OFFICIAL_KEY
+        );
+
+        for (String requirement : manifest.requirements) {
+            libs.addAll(List.of(InstallationManager.getLib(requirement).split(" ")));
+        }
+
+        for (AIExtension extension : AIRegistry.getExtensions()) {
+            for (String requirement : extension.getRequirements()) {
+                libs.addAll(List.of(InstallationManager.getLib(requirement).split(" ")));
+            }
+        }
+        LocrowAI.LOGGER().info(Arrays.toString(libs.toArray()));
+        return libs.size();
+    }
+
     public static boolean libInstalled(String lib) throws IOException, InterruptedException {
         Path dir = InstallationManager.getBackendPath();
         ProcessBuilder builder = SystemProbe.buildScriptProcess(
@@ -125,11 +147,10 @@ public class InstallationManager {
 
     public static boolean isFullyInstalled() {
         try {
-            boolean extensionsInstalled = true;
             for (AIExtension extension : AIRegistry.getExtensions()) {
-                extensionsInstalled = extensionsInstalled && extension.installed();
+                if (!extension.installed()) return false;
             }
-            return EnvironmentInstaller.installed() && extensionsInstalled;
+            return EnvironmentInstaller.installed();
         } catch (IOException e) {
             return false;
         }
@@ -139,11 +160,13 @@ public class InstallationManager {
         try {
             if (line == null) return;
 
+            LocrowAI.LOGGER().info(line);
+
+            if (logger == null) return;
+
             logger.write("[" + LocalTime.now() + "]: " + line);
             logger.newLine();
             logger.flush();
-
-            LocrowAI.LOGGER().info(line);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -153,14 +176,26 @@ public class InstallationManager {
         try {
             Path root = getRootPath();
             Path setupLogs = root.resolve("logs").resolve("setup");
+            Path backend = InstallationManager.getBackendPath();
 
             Files.createDirectories(setupLogs);
+            Files.createDirectories(backend);
 
             logger = new BufferedWriter(
                     new OutputStreamWriter(
                             new FileOutputStream(
                                     setupLogs.resolve(
                                             LocalDateTime.now().truncatedTo(ChronoUnit.MINUTES).toString().replace(":", "-") + ".log"
+                                    ).toFile(), true
+                            ), StandardCharsets.UTF_8
+                    )
+            );
+
+            cacheWriter = new BufferedWriter(
+                    new OutputStreamWriter(
+                            new FileOutputStream(
+                                    backend.resolve(
+                                            "wheels.txt"
                                     ).toFile(), true
                             ), StandardCharsets.UTF_8
                     )
@@ -181,7 +216,7 @@ public class InstallationManager {
                     installing.set(false);
                     return;
                 }
-                    LoadManager.load();
+                LoadManager.load();
                 DistExecutor.safeRunWhenOn(Dist.CLIENT, InstallationManager::toast);
             } catch (Exception e) {
                 e.printStackTrace();
@@ -192,6 +227,7 @@ public class InstallationManager {
             } finally {
                 try {
                     logger.close();
+                    cacheWriter.close();
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
@@ -261,13 +297,23 @@ public class InstallationManager {
 
         logMessage("Verifying AI backend files...");
         logMessage("Verifying core backend files...");
-        EnvironmentInstaller.verify();
-        if (hadError.get()) return;
+        if (!EnvironmentInstaller.verify()) {
+            hadError.set(true);
+            return;
+        }
         logMessage("Verified core backend files.");
+        currentStageIndex.set(4);
+        stagePercent.set(0);
+
         logMessage("Verifying extension files...");
-        ExtensionInstaller.verify();
-        if (hadError.get()) return;
+        if (!ExtensionInstaller.verify()) {
+            hadError.set(true);
+            return;
+        }
         logMessage("Verified extension files.");
+        currentStageIndex.set(5);
+        stagePercent.set(0);
+
         logMessage("Running backend test...");
         ProcessBuilder builder = SystemProbe.buildScriptProcess(backend, "python", "app.py");
         builder.redirectErrorStream(true);
@@ -286,7 +332,7 @@ public class InstallationManager {
         }
         logMessage("Verified AI backend files.");
 
-        currentStageIndex.set(4);
+        currentStageIndex.set(6);
         stagePercent.set(0);
 
         installing.set(false);
@@ -333,6 +379,17 @@ public class InstallationManager {
         return root.resolve("backend");
     }
 
+    public static Path getLatestLogPath() {
+        Path path = getRootPath().resolve("logs").resolve("setup");
+        File[] logs = path.toFile().listFiles((d, name) -> name.endsWith(".log"));
+
+        if (logs == null || logs.length == 0) return null;
+
+        Arrays.sort(logs, Comparator.comparing(File::getName).reversed());
+
+        return logs[0].toPath();
+    }
+
     static void copyFilesFromResources(ClassLoader loader, Path resourcePath, Path destination, List<String> files) throws IOException {
         if (!Files.exists(destination))
             Files.createDirectory(destination);
@@ -350,9 +407,20 @@ public class InstallationManager {
         }
     }
 
-    static void installPythonLibraries(List<String> requirements, double stageDelta) throws InterruptedException, IOException {
+    private static Pattern wheelPattern = Pattern.compile("([\\w\\-\\.\\+%]+\\.whl)");
+    private static Set<String> wheelCache = new HashSet<>();
+    private static BufferedWriter cacheWriter;
+    static void cacheWheelName(String name) throws IOException {
+        if (wheelCache.add(name) && cacheWriter != null) {
+            cacheWriter.write(name);
+            cacheWriter.newLine();
+            cacheWriter.flush();
+        }
+    }
 
-        String torchIndex = InstallationManager.TORCH_INDICES.get("cuda");
+    static void installPythonLibraries(List<String> requirements, double stageDelta) throws InterruptedException, IOException {
+        String gpuBackend = SystemProbe.getGPUBackend();
+        String torchIndex = InstallationManager.TORCH_INDICES.get(gpuBackend);
         logMessage("Searching for PyTorch libraries at " + torchIndex);
 
         for (String requirement : requirements) {
@@ -360,10 +428,10 @@ public class InstallationManager {
             if (pip == null) {
                 throw new UnsupportedRequirementException(requirement);
             }
-            pip = pip.replace("+xxxxx", "+cu121");
+            pip = pip.replace("+xxxxx", GPU_VERSION_TAGS.get(gpuBackend));
 
             if (InstallationManager.handleLib(pip) ||
-                    InstallationManager.libInstalled(requirement)) {
+                    (InstallationManager.libInstalled(requirement) && !DEFAULT_LIBS.contains(pip))) {
                 InstallationManager.stagePercent.addAndGet(stageDelta);
                 continue;
             }
@@ -411,6 +479,12 @@ public class InstallationManager {
                     String line;
                     while ((line = reader.readLine()) != null) {
                         sb.append(line).append("\n");
+
+                        Matcher matcher = wheelPattern.matcher(line);
+                        if (matcher.find()) {
+                            String wheelName = matcher.group(1).replace("%2B", "+").replace(".whl", "");
+                            InstallationManager.cacheWheelName(wheelName);
+                        }
                     }
 
                     logMessage(sb.toString().trim());

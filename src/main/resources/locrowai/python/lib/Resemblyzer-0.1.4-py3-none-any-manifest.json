@@ -1,0 +1,9 @@
+{
+    "id": "Resemblyzer-0.1.4-py3-none-any",
+    "hashes": {
+        "resemblyzer/__init__.py": "69c841861afb2210b02b0ac80fd6936e48cbf802ba0da03b6baa63505e09f0e1",
+        "resemblyzer/audio.py": "c43bd9e415b97487b8f1f6e0bcf4d41055ef2b2dc6a7a6d5c2dd35dcea360ff4",
+        "resemblyzer/hparams.py": "511abe53b7515263ff33e1c0eaf82f7ffaa165f977b90def312182a15dfb81ae",
+        "resemblyzer/voice_encoder.py": "c9ad016fcc4e627d44b27f4597001eec360a6c6f41286297c820a65acfe90767"
+    }
+}

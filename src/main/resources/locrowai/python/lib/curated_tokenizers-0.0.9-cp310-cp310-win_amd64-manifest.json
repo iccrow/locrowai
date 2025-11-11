@@ -1,0 +1,23 @@
+{
+    "id": "curated_tokenizers-0.0.9-cp310-cp310-win_amd64",
+    "hashes": {
+        "curated_tokenizers/__init__.py": "2396259b9c27219a36172224f27493a2434e72d066c77ee03354f0f9b75c899f",
+        "curated_tokenizers/_bbpe.cp310-win_amd64.pyd": "590a35bf747853911c6fbbe2b56063bd6342e8752438361b2f685daecfc511f4",
+        "curated_tokenizers/_bbpe.cpp": "b8c1d1c563a149ccd9fe0cd6cced3ad956baadb7dd0f34e1a1a3b72ba84c08fa",
+        "curated_tokenizers/_bbpe.pxd": "527a57dc8fb456922599294f26f06c09f293565b77d37c4073bc6baf63b16b2d",
+        "curated_tokenizers/_bbpe.pyx": "b648ecbdcd3efdc03d59982128d1571a005bf71b586c79c6941305f718747d47",
+        "curated_tokenizers/_spp.cp310-win_amd64.pyd": "71d5593d833c5fa20b0d9b711678990f715af8694b64834cb098ccf11c773cad",
+        "curated_tokenizers/_spp.cpp": "65ff827b16d28075d33dbf4df3411731914730d84ae0da53859562926cc7e6d6",
+        "curated_tokenizers/_spp.pxd": "a50932c6a773bb9b6dbd45b5b37a20553a74005bb1f03687d17cee210feb727c",
+        "curated_tokenizers/_spp.pyx": "e375b208a6a3b96c661ed24f52628daa4be526a9a50c43d27c13284af1b39bb3",
+        "curated_tokenizers/_wordpiece.cp310-win_amd64.pyd": "61cc8c2e8d951237fa63e06f15b0fb1f0a7b160f0af287bd63d2c7917009324b",
+        "curated_tokenizers/_wordpiece.cpp": "3a71efa26623b568e54e35f90fee361ecf6fc8962cdb20b3fa8704b5fe8da7ab",
+        "curated_tokenizers/_wordpiece.pxd": "c8e105750cc26060cfe06105184571e65a2f745e61e41b8781eb34c9f2dd505e",
+        "curated_tokenizers/_wordpiece.pyx": "15cbfc0f97d6d8a7335ff19eabe75fc60ecfb6cfd6289009769cf9d6b15ccc80",
+        "curated_tokenizers/config.h": "a2a60b63bf47fb4043b3a81be25bc89641e9344acbd06f8efaff288149ceed64",
+        "curated_tokenizers/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "curated_tokenizers/tests/test_bbpe_processor.py": "8e59b64c14202d4a7e830cff2ff0c049c82054fce4133d250fdddee90b0ac460",
+        "curated_tokenizers/tests/test_sp.py": "31147f55865b4428ddf4859e7881b97deab48ce61562a22cdf1b25dc7afaf482",
+        "curated_tokenizers/tests/test_word_piece_processor.py": "482180e518411fbb60d17e826d26a0f76172891d9d9c952bf0fb81d1b6cddd8e"
+    }
+}

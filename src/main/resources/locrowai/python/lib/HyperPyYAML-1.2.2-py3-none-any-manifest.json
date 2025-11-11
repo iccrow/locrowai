@@ -1,0 +1,7 @@
+{
+    "id": "HyperPyYAML-1.2.2-py3-none-any",
+    "hashes": {
+        "hyperpyyaml/__init__.py": "11a5fa7f726d13d41f3508ae1451e35a754c507495dd7c26c1892fefe8a30c81",
+        "hyperpyyaml/core.py": "2f5755a754cfc4b881b9e57193caab0694ca2efc1b1387a3dfcaffdc0249b884"
+    }
+}

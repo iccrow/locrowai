@@ -1,0 +1,23 @@
+{
+    "id": "docstring_parser-0.17.0-py3-none-any",
+    "hashes": {
+        "docstring_parser/__init__.py": "efc58aa12b5da3bcef09c114d529b6ccbbd4fc14462b24d88e549c144075e279",
+        "docstring_parser/attrdoc.py": "82b6b32d6f64a852059af8cff70698b538e0504bab96bcc16413cc103e3244d9",
+        "docstring_parser/common.py": "5ae6b5e94a6f64bf27aa6ad1330a61d8f3cd0f1efbe1a2b75859d29e3bd53cfc",
+        "docstring_parser/epydoc.py": "ea89ef511989ea04b3e432bbafea7b2e488e9528d1422b6423698d1481cf4101",
+        "docstring_parser/google.py": "8e1ad14bfbfc78e54ed7d722434399b77007f4b37fda6f170fa6262113d0e924",
+        "docstring_parser/numpydoc.py": "9bf2b6fe27128f0cd79f1d787431a22fdc3143b2179d54f8a7341a2db7964edf",
+        "docstring_parser/parser.py": "001f91ed7dfab22519d6ba91402de3b592a001026791419d3c38d125be78cbd9",
+        "docstring_parser/rest.py": "095bc68e25ed8ed78bd0303e39adb249b1c5f7545cb57f0d8207e9ac41d3f7dd",
+        "docstring_parser/util.py": "f159865e1b8c71692bbed65248a2215f870a6a426658820b7df63a2414008828",
+        "docstring_parser/tests/__init__.py": "e9550b82192e7c792ab597f28816a6c1940d040df3edfe1330470172552a4ca1",
+        "docstring_parser/tests/_pydoctor.py": "9e8b0095c9bfa2fa5eb574d69eb2dec2a9cfe046bba4cff16c0040b29062bdc7",
+        "docstring_parser/tests/test_epydoc.py": "87a6a0849738280177b090f92a1c0ba93c974e9a791825c4385513bb254b090a",
+        "docstring_parser/tests/test_google.py": "a150568b9a96bb4540057a755d8b1287c99eadba51fab719200742b14454adcc",
+        "docstring_parser/tests/test_numpydoc.py": "a917dca2ac0f1cfc4ff3731702057598b822dd5bb8bd26f61202b7491ba3f547",
+        "docstring_parser/tests/test_parse_from_object.py": "9f7807b0627ccc07ea23afb80bf2325f67a0ad617ff8b4b1f4d9f9f468ef55e1",
+        "docstring_parser/tests/test_parser.py": "e94b952854e3ef9d350b38dd03c03e9aba514bade103c5a8afefc7defb24b2fa",
+        "docstring_parser/tests/test_rest.py": "57ffb3d697c0c5305a6ce90ff5ede19bfc501843f27cfc68df86f9172c6b9c41",
+        "docstring_parser/tests/test_util.py": "acdf2f31429fc8c98a743c4a57a46b8cf5cf3d0725997ef070de9a4ab8f83452"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "id": "dlinfo-2.0.0-py3-none-any",
+    "hashes": {
+        "dlinfo/__init__.py": "9ae2659358c5401cf97bbd2123937c9ed95a2b26cfbb8f3dd07a11bb530a67f3",
+        "dlinfo/_glibc.py": "3d811bd992cbdbdc40a1d2d11da09cbb6060dc5ee52cccb123516ac3dddd2aaa",
+        "dlinfo/_macosx.py": "87c94e89e2e6efe8682188738a9c851ee8f9d8919ec18540bc669fc1c6280162"
+    }
+}

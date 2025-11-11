@@ -1,10 +1,20 @@
 package com.crow.locrowai.internal.backend;
 
 import com.crow.locrowai.api.registration.AIRegistry;
+import com.crow.locrowai.internal.AIBackendManagerScreen;
 import com.crow.locrowai.internal.LocrowAI;
 import com.crow.locrowai.api.registration.AIExtension;
 import com.crow.locrowai.api.registration.PackageManifest;
+import com.google.common.util.concurrent.AtomicDouble;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.screens.ConfirmScreen;
+import net.minecraft.client.gui.screens.Screen;
+import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.Style;
+import net.minecraft.network.chat.TextColor;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.fml.DistExecutor;
 import org.apache.commons.io.FileUtils;
 
 import java.io.*;
@@ -14,15 +24,28 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.*;
 import java.util.concurrent.*;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 class ExtensionInstaller {
 
+    static AtomicBoolean allowThirdParty = new AtomicBoolean(false);
+    static AtomicBoolean decidedThirdParty = new AtomicBoolean(false);
+
     static void install(AIExtension extension, ClassLoader loader, int total) throws IOException, InterruptedException {
         if (extension.installed()) {
-            InstallationManager.logMessage("Skipping extension '" + extension.getId() + "' as it is already installed!");
+            InstallationManager.logMessage("Skipping extension '" + extension.getId() + "' as it is already installed.");
             InstallationManager.stagePercent.addAndGet(100.0 * extension.getRequirements().size() / total);
             return;
         };
+
+        if (!extension.getKey().equals(SecurityManager.OFFICIAL_KEY) || !allowThirdParty.get()) {
+            DistExecutor.safeRunWhenOn(Dist.CLIENT, ExtensionInstaller::showThirdPartyWarning);
+            if (!allowThirdParty.get()) {
+                InstallationManager.logMessage("Skipping third party extension '" + extension.getId() + "' as the user declined third party extensions.");
+                InstallationManager.stagePercent.addAndGet(100.0 * extension.getRequirements().size() / total);
+                return;
+            }
+        }
 
         Path source = extension.getSource();
 
@@ -62,7 +85,9 @@ class ExtensionInstaller {
         }
     }
 
-    static void verify() throws IOException {
+    static boolean verify() throws IOException {
+        AtomicBoolean success = new AtomicBoolean(true);
+        AtomicDouble delta = new AtomicDouble(100);
         Path loc = InstallationManager.getBackendPath().resolve("extensions");
         Set<String> declared = AIRegistry.getDeclared();
 
@@ -78,7 +103,7 @@ class ExtensionInstaller {
                 String name = ext.getFileName().toString();
                 if (!declared.contains(name)) {
                     InstallationManager.logMessage("Backend contains undeclared extension '" + name + "'. File may be malicious!");
-                    InstallationManager.hadError.set(true);
+                    success.set(false);
                     continue;
                 }
 
@@ -90,16 +115,21 @@ class ExtensionInstaller {
 
                     // Add verification task for each file
                     tasks.add(() -> {
-                        if (InstallationManager.hadError.get()) return null;
+                        if (!success.get()) return null;
                         if (!Files.exists(path) || (expectedHash != null && !SecurityManager.verifyHash(path, expectedHash))) {
                             InstallationManager.logMessage("Error verifying file: 'extensions/" + name + "/" + file + "'. File may be missing or have been tampered with.");
-                            InstallationManager.hadError.set(true);
+                            success.set(false);
                         }
+                        InstallationManager.stagePercent.addAndGet(delta.get());
                         return null;
                     });
                 }
             }
         }
+
+        int size = tasks.size();
+        if (size == 0) size = 1;
+        delta.set(100.0 / size);
 
         try {
             // Run all tasks in parallel
@@ -111,7 +141,7 @@ class ExtensionInstaller {
                     f.get();
                 } catch (ExecutionException e) {
                     e.getCause().printStackTrace();
-                    InstallationManager.hadError.set(true);
+                    success.set(false);
                 }
             }
         } catch (InterruptedException e) {
@@ -119,5 +149,63 @@ class ExtensionInstaller {
         } finally {
             executor.shutdown();
         }
+
+        return success.get();
+    }
+
+    static DistExecutor.SafeRunnable showThirdPartyWarning() {
+        return new DistExecutor.SafeRunnable() {
+            @Override
+            public void run() {
+                if (decidedThirdParty.get()) return;
+
+                if (!EventManager.screenReady.get()) {
+                    while (!EventManager.screenReady.get()) {
+                        try {
+                            Thread.sleep(50);
+                        } catch (InterruptedException e) {
+                            throw new RuntimeException(e);
+                        }
+                    }
+                }
+
+                Minecraft mc = Minecraft.getInstance();
+                mc.execute(() -> {
+                    Screen prevScreen = mc.screen;
+
+                    String titleText = "Third Party AI Extensions Detected!";
+                    int titleColor = 0xFFFF55;
+
+                    Component message = Component.empty()
+                            .append(Component.literal("Your mod pack uses unreviewed, third party AI extensions.\n\n")
+                                    .withStyle(Style.EMPTY.withColor(TextColor.fromRgb(0xFFFFFF))))
+                            .append(Component.literal("You can disable these extensions or proceed if you trust them.")
+                                    .withStyle(Style.EMPTY.withColor(TextColor.fromRgb(0xAAAAAA))));
+
+                    mc.setScreen(
+                            new ConfirmScreen(
+                                    result -> {
+                                        EventManager.awaitingThirdPartyWarning.set(false);
+                                        decidedThirdParty.set(true);
+                                        allowThirdParty.set(result);
+                                        Minecraft.getInstance().setScreen(prevScreen);
+                                    },
+                                    Component.literal(titleText).withStyle(Style.EMPTY.withColor(TextColor.fromRgb(titleColor))),
+                                    message,
+                                    Component.literal("Proceed Anyway"),
+                                    Component.literal("Disable Extras")
+                            )
+                    );
+                });
+                EventManager.awaitingThirdPartyWarning.set(true);
+                while (EventManager.awaitingThirdPartyWarning.get()) {
+                    try {
+                        Thread.sleep(50);
+                    } catch (InterruptedException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+        };
     }
 }

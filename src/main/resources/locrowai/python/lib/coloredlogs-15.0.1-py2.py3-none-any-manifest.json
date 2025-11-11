@@ -1,0 +1,12 @@
+{
+    "id": "coloredlogs-15.0.1-py2.py3-none-any",
+    "hashes": {
+        "coloredlogs/__init__.py": "1716a2235a50d09cd161bc762b97ff02bf566b599e64b8395ca1961ca80f04da",
+        "coloredlogs/cli.py": "89a1e05157873e5e6221e70a1b558932c94e24429d844bac6f18fb078af5b072",
+        "coloredlogs/demo.py": "09a3d518e07aac2b490f27aa9345412e2d2dd398e05049e2b81fff558a39921a",
+        "coloredlogs/syslog.py": "f97c91533236d102934ed56a84902d7d873e963c3472bb23c6a8d60e3aab72a5",
+        "coloredlogs/tests.py": "a1efe95a74c67cd108eeca58dff540eb67d7ff4f59115155111bebf6c04caa73",
+        "coloredlogs/converter/__init__.py": "b74f1ef55f3e11df72f5e35262fdf1d431f485781a5c7266416a79e23fdada79",
+        "coloredlogs/converter/colors.py": "d4dd8fa426be11830c5b20ba0f0ed21b6597d600baec5f45e4eb5e7855b9d923"
+    }
+}

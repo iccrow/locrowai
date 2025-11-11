@@ -1,0 +1,7 @@
+{
+    "id": "jiter-0.10.0-cp310-cp310-win_amd64",
+    "hashes": {
+        "jiter/__init__.py": "169f4790e8b18986034a20bff34be6889fec0a80864fc380878f3296d9b494fd",
+        "jiter/jiter.cp310-win_amd64.pyd": "3dfc9cd09a6fe26d8b1f22642326c27a7ee726f678ec9cf769c72fbb516e7596"
+    }
+}

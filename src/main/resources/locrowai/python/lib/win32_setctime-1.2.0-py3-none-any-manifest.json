@@ -1,0 +1,7 @@
+{
+    "id": "win32_setctime-1.2.0-py3-none-any",
+    "hashes": {
+        "win32_setctime/__init__.py": "970503c746d442512613af38c7fc9028cf4e8c8478e3ec7e95fecfe43e184d66",
+        "win32_setctime/_setctime.py": "4c3f3e9577e86f78b6774c520a7e36aede1ee85880c9f8aef1c01f71428f642c"
+    }
+}

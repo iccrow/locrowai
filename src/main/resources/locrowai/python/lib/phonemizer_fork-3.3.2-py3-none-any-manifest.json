@@ -1,0 +1,28 @@
+{
+    "id": "phonemizer_fork-3.3.2-py3-none-any",
+    "hashes": {
+        "phonemizer/__init__.py": "2b67c2666def4af0f710ca1f87e11f6d0c0726dc161c1bf7be880c22393fb925",
+        "phonemizer/logger.py": "17d205b8c21a804a74c189f78d417430e69ed786e4e25e51d04ac588f6d8aa34",
+        "phonemizer/main.py": "3b545458d5dab96e09315c7c8c7238090201784c6edec8e23b433389ad775320",
+        "phonemizer/phonemize.py": "570267abfaa4c43ec7d86f31f7c2b1da7d546f543f81d7e88e15f3761d1b4ad1",
+        "phonemizer/punctuation.py": "e8f87c8f4dcac4e24cf2243ebd51698ea53d4c2ac2ca2a060324e6f6f84ec374",
+        "phonemizer/separator.py": "99b4ac5e537caa7c43172a7cc1a66c9ee3fc00db8ff3a6b7763fcc906745dfe1",
+        "phonemizer/utils.py": "f8575908abdd34e89556e023868073237b5fc2926ecdd1b8103b904d65b90873",
+        "phonemizer/version.py": "06679d0b3ac7ad6ac2822ca0d68d59ae21c68cd93ac3d84365fc427a7f47c4f9",
+        "phonemizer/backend/__init__.py": "8b8512651ec3c53680ba5e812732b8b5c2c7ee11047425c8e09f99c03dcb15e0",
+        "phonemizer/backend/base.py": "77a903e95008663143c34dd131c9ddd8cd646d76e667533dfaa14ccd5a36bead",
+        "phonemizer/backend/segments.py": "e9281afad224311bf946685d413cc33282b2c99ccaffa0f93a45eff19903f722",
+        "phonemizer/backend/espeak/__init__.py": "caf5117a7d2277cb90e62de61a13c36c1db67ae3f28eb629a50aa79d75cc6062",
+        "phonemizer/backend/espeak/api.py": "e0fb8775e9b1a35d030686954b860f1ec7367d42ea82939df026e67d144d3bf8",
+        "phonemizer/backend/espeak/base.py": "12982d26e98022c9fceab53b3bb34337d92aa61ed3f489a1db2ba76a7f8a5d8a",
+        "phonemizer/backend/espeak/espeak.py": "19ce919f95e60b8fa8e6b67bf4b27d375449e381be51406b9ffd7c04970d0f4d",
+        "phonemizer/backend/espeak/language_switch.py": "d44758a56385c14dac954560dd044e61b70ca0c323edff37850a0151d202727a",
+        "phonemizer/backend/espeak/mbrola.py": "0bad8c96557d01d80aa109d4d3dfc2ac3d013be4e6eb0be7ba6c24f769a8354b",
+        "phonemizer/backend/espeak/voice.py": "ad175088b5a8406e10c58abaf0be956aad976bdb1fb754ee4d2650d7e12c90a8",
+        "phonemizer/backend/espeak/words_mismatch.py": "a95665402fab3946ceeb7e6aadcedcb571c715338241ac86ee1f64504b2d1958",
+        "phonemizer/backend/espeak/wrapper.py": "a37e2701939ea9d8744e003327c46a5bdfddbbdc47cd776e187a31bd54a0021c",
+        "phonemizer/backend/festival/__init__.py": "9c70ed4b398778a6eb28453698378f557e4b1e0042d3da91b0b9622e9ce0f2c6",
+        "phonemizer/backend/festival/festival.py": "ed582fe4eea35b0d1b79962269d4529f11220a3a81e355096284322dc24ab1bb",
+        "phonemizer/backend/festival/lispy.py": "c62a4fa0507e1321560f39dbf4059070ca58ce119b14976067811f9f34a0f642"
+    }
+}

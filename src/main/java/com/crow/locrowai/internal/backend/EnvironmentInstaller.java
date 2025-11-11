@@ -1,11 +1,13 @@
 package com.crow.locrowai.internal.backend;
 
+import com.crow.locrowai.api.registration.AIRegistry;
 import com.crow.locrowai.api.registration.PackageManifest;
 import com.crow.locrowai.api.registration.exceptions.MissingManifestException;
 import com.crow.locrowai.api.registration.exceptions.MissingManifestSignatureException;
 import com.crow.locrowai.api.registration.exceptions.MissingSecurityKeyException;
 import com.crow.locrowai.internal.LocrowAI;
 
+import com.google.common.util.concurrent.AtomicDouble;
 import org.apache.commons.compress.archivers.tar.TarArchiveEntry;
 import org.apache.commons.compress.archivers.tar.TarArchiveInputStream;
 import org.apache.commons.compress.compressors.gzip.GzipCompressorInputStream;
@@ -19,6 +21,8 @@ import java.nio.file.*;
 import java.nio.file.attribute.PosixFilePermission;
 import java.util.*;
 import java.util.concurrent.*;
+import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.concurrent.atomic.AtomicInteger;
 
 class EnvironmentInstaller {
 
@@ -31,7 +35,7 @@ class EnvironmentInstaller {
             PackageManifest manifest = PackageManifest.fetch(path.resolve("core-manifest.json"), SecurityManager.OFFICIAL_KEY);
             return manifest.version.equals("0.4.0.dev1");
         } catch (MissingManifestException | MissingManifestSignatureException | MissingSecurityKeyException | SecurityException e) {
-            e.printStackTrace();
+//            e.printStackTrace();
             return false;
         }
     }
@@ -101,8 +105,27 @@ class EnvironmentInstaller {
         }
     }
 
-    static void verify() throws IOException {
+    static boolean verify() throws IOException {
+        AtomicBoolean success = new AtomicBoolean(true);
+        AtomicDouble delta = new AtomicDouble(100);
+
         Path backend = InstallationManager.getBackendPath();
+        Set<String> wheels = Set.copyOf(Files.readAllLines(backend.resolve("wheels.txt")));
+        if (InstallationManager.libCount() != wheels.size()) {
+            InstallationManager.logMessage("Expected lib count of " + InstallationManager.libCount() + " does not match cached wheel count of " + wheels.size() + "!");
+            return false;
+        }
+        Path sitePackages;
+        Path scriptOrBin;
+        if (SystemProbe.osKey(SystemProbe.result.os()).equals("windows")) {
+            sitePackages = backend.resolve("venv").resolve("Lib").resolve("site-packages");
+            scriptOrBin = backend.resolve("venv").resolve("Scripts");
+        } else {
+            sitePackages = backend.resolve("venv").resolve("lib").resolve("python3.10").resolve("site-packages");
+            scriptOrBin = backend.resolve("venv").resolve("bin");
+        }
+
+
         PackageManifest manifest = PackageManifest.fetch(
                 backend.resolve("core-manifest.json"),
                 SecurityManager.OFFICIAL_KEY
@@ -126,16 +149,47 @@ class EnvironmentInstaller {
         try {
             // Submit verification tasks for core manifest
             List<Callable<Void>> tasks = new ArrayList<>();
+            for (String wheel : wheels) {
+                Path wheelPath = Path.of(LocrowAI.MODID, "python", "lib", wheel + "-manifest.json");
+                PackageManifest wheelManifest = PackageManifest.fetch(LocrowAI.class.getClassLoader(), wheelPath);
+
+                for (String name : wheelManifest.hashes.keySet()) {
+                    Path path;
+                    String expectedHash = wheelManifest.hashes.get(name);
+
+                    if (name.contains(".data/purelib") || name.contains(".data/platlib")) {
+                        String relative = name.split("\\.data/(?:purelib|platlib)/")[1];
+                        path = sitePackages.resolve(relative);
+                    } else if (name.contains(".data/scripts")) {
+                        String relative = name.split("\\.data/scripts/")[1];
+                        path = scriptOrBin.resolve(relative);
+                    } else {
+                        path = sitePackages.resolve(name);
+                    }
+
+                    tasks.add(() -> {
+                        if (!success.get()) return null;
+                        if (!Files.exists(path) || (expectedHash != null && !SecurityManager.verifyHash(path, expectedHash))) {
+                            InstallationManager.logMessage("Error verifying file: '" + path + "'. File may be missing or have been tampered with.");
+                            success.set(false);
+                        }
+                        InstallationManager.stagePercent.addAndGet(delta.get());
+                        return null;
+                    });
+                }
+            }
+
             for (String name : manifest.hashes.keySet()) {
                 Path path = backend.resolve(name);
                 String expectedHash = manifest.hashes.get(name);
 
                 tasks.add(() -> {
-                    if (InstallationManager.hadError.get()) return null;
+                    if (!success.get()) return null;
                     if (!Files.exists(path) || (expectedHash != null && !SecurityManager.verifyHash(path, expectedHash))) {
                         InstallationManager.logMessage("Error verifying file: 'core/" + name + "'. File may be missing or have been tampered with.");
-                        InstallationManager.hadError.set(true);
+                        success.set(false);
                     }
+                    InstallationManager.stagePercent.addAndGet(delta.get());
                     return null;
                 });
             }
@@ -146,14 +200,19 @@ class EnvironmentInstaller {
                 String expectedHash = pythonManifest.hashes.get(name);
 
                 tasks.add(() -> {
-                    if (InstallationManager.hadError.get()) return null;
+                    if (!success.get()) return null;
                     if (!Files.exists(path) || (expectedHash != null && !SecurityManager.verifyHash(path, expectedHash))) {
                         InstallationManager.logMessage("Error verifying file: 'python/" + name + "'. File may be missing or have been tampered with.");
-                        InstallationManager.hadError.set(true);
+                        success.set(false);
                     }
+                    InstallationManager.stagePercent.addAndGet(delta.get());
                     return null;
                 });
             }
+
+            int size = tasks.size();
+            if (size == 0) size = 1;
+            delta.set(100.0 / size);
 
             // Execute all tasks in parallel
             List<Future<Void>> futures = executor.invokeAll(tasks);
@@ -164,7 +223,7 @@ class EnvironmentInstaller {
                     f.get();
                 } catch (ExecutionException e) {
                     e.getCause().printStackTrace();
-                    InstallationManager.hadError.set(true);
+                    success.set(false);
                 }
             }
 
@@ -173,6 +232,12 @@ class EnvironmentInstaller {
         } finally {
             executor.shutdown();
         }
+
+
+
+
+
+        return success.get();
     }
 
     /** Untar a .tar.gz archive safely (prevents tar-slip) and preserves executable bit when possible. */

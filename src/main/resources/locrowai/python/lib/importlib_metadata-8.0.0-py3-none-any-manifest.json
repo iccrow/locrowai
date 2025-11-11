@@ -1,0 +1,17 @@
+{
+    "id": "importlib_metadata-8.0.0-py3-none-any",
+    "hashes": {
+        "importlib_metadata/__init__.py": "b59341fb6de1f018b18bdb82ad0aa3f587f469e0bef89a2c772dc8651210781d",
+        "importlib_metadata/_adapters.py": "ac88564f006f600d5b57b8bee457d55f7f2a1170d35c5792e5c6f9c49b4fde4b",
+        "importlib_metadata/_collections.py": "089d0e4c21c88d6034648552e2fa0e440b27d91e11d9c40112d3ec6442690126",
+        "importlib_metadata/_compat.py": "ef740aacdf4a368699ce16d7e723c20996be15a00bc177bc4cf94347bd898015",
+        "importlib_metadata/_functools.py": "3ec636fb8aeb297e1155e442d681a9d65075a660bd78a37cf3f7fe6c3f6e3a80",
+        "importlib_metadata/_itertools.py": "72faffdaff0145bc5c225e71e6575fa9d1e3848f188bcb3cca4e741bf9e6ea34",
+        "importlib_metadata/_meta.py": "9f167b0bc19595c04500a5b254e9ff767ee8b7fb7005c6e6d4d9af8c87ad0472",
+        "importlib_metadata/_text.py": "1c2b0592c66924b7933f734493f9e0ac079755146d4ebb7287d78e001a113f80",
+        "importlib_metadata/diagnose.py": "9e4491322a309669212d884a86f0a0f60966b7fd750a8c7e1262f311ba984daf",
+        "importlib_metadata/compat/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "importlib_metadata/compat/py311.py": "baa9be2beba88728f5d38d931f86bd12bfc8e68efaebb0efba5703fa00bf7d20",
+        "importlib_metadata/compat/py39.py": "70f90cbfafb48a52bed09c3f4e49f4c586ce28965ce1624a407a30d1cd93e38c"
+    }
+}

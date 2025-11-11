@@ -1,0 +1,8 @@
+{
+    "id": "inflect-7.3.1-py3-none-any",
+    "hashes": {
+        "inflect/__init__.py": "271cb51c95d9899f3990778b021926bf3e84313745a817be76ebeddf847a20e7",
+        "inflect/compat/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "inflect/compat/py38.py": "a0e6d57d59d65fdfcea673ae1099f59856c9c55870c91e5ea5b8933570c36aca"
+    }
+}

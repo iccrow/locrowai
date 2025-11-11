@@ -1,0 +1,7 @@
+{
+    "id": "orjson-3.11.2-cp310-cp310-win_amd64",
+    "hashes": {
+        "orjson/__init__.py": "198ed4eeaa6df801c493b327403dc7b4fb5882c58a51d7942500bffe84ea1e37",
+        "orjson/orjson.cp310-win_amd64.pyd": "1128ef1666ecf7aa8d8319527aec27e5c083586767d3f10c0f8abb3bd354aac7"
+    }
+}

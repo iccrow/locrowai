@@ -1,0 +1,12 @@
+{
+    "id": "confection-0.1.5-py3-none-any",
+    "hashes": {
+        "confection/__init__.py": "c2e86db314fa6859345c4a2ef4ff8c9b12272944b96bb784821088caf6d7607b",
+        "confection/util.py": "d22a211d074380577c79ce7b9a18f8d7303bc2284abd33dc5ca2efec9a0a2dba",
+        "confection/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "confection/tests/conftest.py": "d3a4089816c6c44ee902fdf1f0931e84937dc6f183f18f67ef532161020c3766",
+        "confection/tests/test_config.py": "a649c648b8a1a2d33b88b8b42987827ce4f1d6e1d6c5a5dc2960b28f1ccb63f2",
+        "confection/tests/test_frozen_structures.py": "389caa93ec58e21bbcc83ac06d7f1c4a9bc0f4594ba65e3d1884a1d5c990d9c6",
+        "confection/tests/util.py": "092521f703a6e4e3007636c33f8bc34f418e747193f118180aaf02521c7548b9"
+    }
+}

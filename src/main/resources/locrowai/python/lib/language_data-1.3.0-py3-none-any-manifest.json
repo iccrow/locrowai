@@ -1,0 +1,13 @@
+{
+    "id": "language_data-1.3.0-py3-none-any",
+    "hashes": {
+        "language_data/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "language_data/build_data.py": "ccf376d904ff297d17edf2d6381760bdb9ad090138038a60e0456a7ed5c99cfb",
+        "language_data/language_lists.py": "c01fbd3746c332de543d998ca537de91eef5003352debe24609016b8c799b10c",
+        "language_data/name_data.py": "2d939ed64f52c3b98cbc427fc3f1eea26f30eda84f839909ddd0d72f35e1a0d3",
+        "language_data/names.py": "69a61ae2ca9a5dfba06ed8662da68530baa59eed6709f685656b9756a1c4c5cb",
+        "language_data/population_data.py": "16bb6945a59e85758215bcb90b3547671c50129a7839d3044525ea5e8b814a2f",
+        "language_data/registry_parser.py": "e9497fb26fcc75a29a2a1d8176801f8ef398f5ce39f960fff954a20dd3b0a817",
+        "language_data/util.py": "62c634a8ae668eb76e5b8c1ff858b336f9248e958bb5750be4576092d939cdf2"
+    }
+}

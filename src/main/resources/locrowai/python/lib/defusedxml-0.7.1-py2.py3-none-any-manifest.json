@@ -1,0 +1,16 @@
+{
+    "id": "defusedxml-0.7.1-py2.py3-none-any",
+    "hashes": {
+        "defusedxml/ElementTree.py": "18b4aaa42cf9f285c63c6cb37ff1f296c3d2f7f75c1953f948de1d2bbcafc8fc",
+        "defusedxml/__init__.py": "45ccde695246eb8a76160cb58e50b36ee45d72110f9c468206bc6093c249fe93",
+        "defusedxml/cElementTree.py": "3e968a321deb536f6c63c6a600ae1fcc740a97c81c0180f48752c2a16eb646d9",
+        "defusedxml/common.py": "ddddba8cd5b87cd5f38235a1bd47ecf3701f8b3e44571143ba941bba09123197",
+        "defusedxml/expatbuilder.py": "6f8434e6fb01309e52b6489315fe26cb6ac61a8d60672125fe10b931e1533800",
+        "defusedxml/expatreader.py": "28ea52af0912be3e5218e63da535ce336e839f3d34aec26ddf75ae795bf3a6f7",
+        "defusedxml/lxml.py": "1d6f8b14a76b7cc4731dd8b455cb9cab8fa7f32cfbbff390c04416160d494180",
+        "defusedxml/minidom.py": "dd0720ca057026a7160d0dc86768a897ccec1f8731dc1457ef448f71dd1b1b68",
+        "defusedxml/pulldom.py": "0d88f60f695cef1a31677f207f3ba35e67739ddf28bf30ea1855eac976edc639",
+        "defusedxml/sax.py": "f92174f0cb1cda6584600330eb6a49e4533059c70e72d1529d0c032d82cb9551",
+        "defusedxml/xmlrpc.py": "eeb6507b2deda9771cd61aeb337469ace20253a7e2167cbd07d9789e64e2a310"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "id": "pynndescent-0.5.13-py3-none-any",
+    "hashes": {
+        "pynndescent/__init__.py": "3ec96fbfb6fd43243ea4900ea0dc8c51e4b3848e26759ab3365af2cf9232cbc0",
+        "pynndescent/distances.py": "ed62ea564cb832d53e86e89e7ff89cc40964407a93f74082a271f1253850c633",
+        "pynndescent/graph_utils.py": "793b444a7da9b68f1ae786f30619c080517e481f240747a9664f9c84a54c7f19",
+        "pynndescent/optimal_transport.py": "320b3d7ae0eb563e60d7a62387de282960b1ab1a94b376935691bb8cc4967ed0",
+        "pynndescent/pynndescent_.py": "6e9e29ef1e7b05efb6c197cc44754a9b6acdeb6abce8020bb1a0bc1e97ddd521",
+        "pynndescent/rp_trees.py": "bf8a974911e37e1b146d26ee391bac4237af7856985386b34dfebb254d833afc",
+        "pynndescent/sparse.py": "6ff61cfd2b90bc7c940f15525e9bcaa5bf6207e9ef6e8e92bd886f5304d43374",
+        "pynndescent/sparse_nndescent.py": "03f8c9e8cf6d2a837599791ffb9c92d3c05914df54075a297c651c658641999e",
+        "pynndescent/threaded_rp_trees.py": "42618dc884da404098a47f8c8cc7406530609bc5fcb70ca193496cadc59a7da7",
+        "pynndescent/utils.py": "7faae371df33d5fc7faea0264b3651fb4a435211eebc46067f96e17c3cc52308"
+    }
+}

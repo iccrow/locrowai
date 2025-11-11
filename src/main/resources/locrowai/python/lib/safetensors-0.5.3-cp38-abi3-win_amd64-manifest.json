@@ -1,0 +1,13 @@
+{
+    "id": "safetensors-0.5.3-cp38-abi3-win_amd64",
+    "hashes": {
+        "safetensors/flax.py": "97209f5d64f03aa90abdf21bb1fcb5953368b25a999b946306fbe0e9dd593595",
+        "safetensors/mlx.py": "31f842065f4cf6e5b906716781183708da1b8bb7d95f14b7ba527db28f3670d1",
+        "safetensors/numpy.py": "1c1030cbd6d740828cfee937dbc917899f2d00886d8aae2eb2782a016bbf97c6",
+        "safetensors/paddle.py": "64ac9eaf3c756f055bfa1075d2c2909e9488d33fd4fa20e49e6044ab15731512",
+        "safetensors/tensorflow.py": "86f38b1638ab126fa6665cca7306de359bad81c2ad5319da10fd9596b19df997",
+        "safetensors/torch.py": "f0813222404860b2fd9534aab5a6ecb99b29547829b5861cd57d9df12f00597b",
+        "safetensors/__init__.py": "c71127e607382561e3034c2769f6f45b0c2ad66d905f095b9b99ec22d191a8ed",
+        "safetensors/_safetensors_rust.pyd": "4cb45b0e12a81dba2341a8dbf575537e789e9268870953eb449c919f442da6ac"
+    }
+}

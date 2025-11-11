@@ -1,0 +1,18 @@
+{
+    "id": "typeguard-4.3.0-py3-none-any",
+    "hashes": {
+        "typeguard/__init__.py": "3a7878c37f1e94f0a3b65714dc963d93787bd0d8ecc5722401f966427f99d056",
+        "typeguard/_checkers.py": "251ae02a271d3847c8068344b5e81808422586969df9ad6ed449bb1828f45822",
+        "typeguard/_config.py": "9c8cfc4300dafa814edcbf4ef3feacaf396677df6949bcb6c0e33859bec5fc1d",
+        "typeguard/_decorators.py": "bfa76c21e5af3e113118b3ffc1717e4660d4ca365ffc0936f20ee0049fefd3ed",
+        "typeguard/_exceptions.py": "6483de895f8505de449b0d8469677616f96caf08b8a1cc13d9f54604802d1dc4",
+        "typeguard/_functions.py": "89b81200a6b9a6d226d5e47d0111b4052a3300524f14d01266a84f57241eaa28",
+        "typeguard/_importhook.py": "ba08c20ef15c756314ed4ba0aa5246f7522954da44231b51afef7db3487593b3",
+        "typeguard/_memo.py": "d63b9057fbf19c3d8960a6d2ade6e242e8f8a0a1f3ea7ebbbfda5803e0822128",
+        "typeguard/_pytest_plugin.py": "f9f712aa4bf9e2b21f205f290dabd8e5840f923e0e5fc18cb7f94bec24120f82",
+        "typeguard/_suppression.py": "5507f3c5cc086eede27f47fb54190a33b86460e03bb4d170f5aee3301b26320e",
+        "typeguard/_transformer.py": "f476bbfd085dc285278bfea1bdd63e8596ee11eae0a301eb34bdafcc721a9056",
+        "typeguard/_union_transformer.py": "bffe36afbfba1ee457d92a05c27c89f84e4f9715e955e5093c9475f8753da92a",
+        "typeguard/_utils.py": "e4784ed6b3e7e5fd4ceb29a454012fed79a5cf5717fa3d0e9d3325c87aaaad1f"
+    }
+}

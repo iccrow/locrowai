@@ -1,0 +1,15 @@
+{
+    "id": "torchcrepe-0.0.24-py3-none-any",
+    "hashes": {
+        "torchcrepe/__init__.py": "342f0c620521cf2f45da04e3b736258266ddf597858936e436f6bf32c932baea",
+        "torchcrepe/__main__.py": "1a78dc8221c99ab831c83a9ffc5f0cfb8cf6381ce015351cc9ff5fc0e0b02c6f",
+        "torchcrepe/convert.py": "f5b10b93e7d5b9b16ec5d590c292c3d31716ba3ed5d3ebca1a3741d19ce37485",
+        "torchcrepe/core.py": "a94d90e76670322889efedaf86c5812a599f96140535d49b1b4e9e6dc1b05840",
+        "torchcrepe/decode.py": "cf3380cf1ece5bc9c73936a7927ad42e224b71b4936366264b24f725c1550522",
+        "torchcrepe/filter.py": "6ea4c0c0ce42cc2483e820f911ce333d09300304378b7a1af95c87a40f6fd4bd",
+        "torchcrepe/load.py": "201b0bf68f83053881a053bbdc56a75205dd84e0ec0d2c02751b6e6c3e9737bb",
+        "torchcrepe/loudness.py": "d7599ba8cbbf6536441def147212063a25bcab3e51d4bfb4495df05712d04807",
+        "torchcrepe/model.py": "028e240a191d5ddb28d0af6febe999b9f692f22459e49bf9c5681c9dfea4bd22",
+        "torchcrepe/threshold.py": "a45e8c189ba46c0c4e3c0b7d58fb1db75a2f61d6a7bad75e8fcec3ce5c83ec74"
+    }
+}

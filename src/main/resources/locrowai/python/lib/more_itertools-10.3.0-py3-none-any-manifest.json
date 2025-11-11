@@ -1,0 +1,8 @@
+{
+    "id": "more_itertools-10.3.0-py3-none-any",
+    "hashes": {
+        "more_itertools/__init__.py": "76d01b1a34c39a7fe08625396177e1c83cb4a610255d576de649590397d46be4",
+        "more_itertools/more.py": "d44e64cc59dc44a4c3c34718bf5c915cc80376e9ecb4b41dd504ad7272fa53dd",
+        "more_itertools/recipes.py": "59e76185f846560aface28bc7c86c62559914f0d1929188b2a76010c626fe276"
+    }
+}

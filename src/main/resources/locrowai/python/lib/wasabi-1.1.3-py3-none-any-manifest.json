@@ -1,0 +1,19 @@
+{
+    "id": "wasabi-1.1.3-py3-none-any",
+    "hashes": {
+        "wasabi/__init__.py": "d9328f16a12e6eba9ffff065577c7677f696f308e52a3eaf276bed6646aadbae",
+        "wasabi/compat.py": "2b2bc5547d8556cedfd024c4f41d3cc4d0537b214ff40e65174cf2733a824522",
+        "wasabi/markdown.py": "8804213521ef72c166a88a4a1edbfa9f3651a043983937a4f047c401d9205856",
+        "wasabi/printer.py": "ebf70123ef97ac8a2fae71dda5047edd8c2907ccd8f6c35c86e97fe096c37cfd",
+        "wasabi/tables.py": "46ed7ed37d29f219cac211642105b2772ffff5213c74648e39a20f0bc204fdcc",
+        "wasabi/traceback_printer.py": "9673403ad53e2a7285c937df54c22e009b03d0038c859862f34855b77b05d3a4",
+        "wasabi/util.py": "c50666ffd3e05ef56f278644b1914d8a55ec008f1b9482ef5903326dd122256a",
+        "wasabi/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "wasabi/tests/test_jupyter.py": "413c3ffd27b6d34d3737f467f363fc3469fca1397acf5749be6810c30c998c31",
+        "wasabi/tests/test_markdown.py": "2c05dac394daff94a12f8f4abbf4c21f946e495f3c85bc3294e83890f349bd29",
+        "wasabi/tests/test_printer.py": "9cb9b9a8b6afcc099c08ce3b906b2aa18e5f6a240e246de50253d82b5de57a9d",
+        "wasabi/tests/test_tables.py": "957fe84f01a53b4d5fa4d116500000d0ad344076c928f8e940bc9b831db70454",
+        "wasabi/tests/test_traceback.py": "0e4c3a28f57f94b6250502527d53fff5ab3eb643f1e22e827cef1bca8cd16f44",
+        "wasabi/tests/test_util.py": "ff258ab0e338c00bea19b01e5cdb00b235504b3f5239b6b614c741138ea7f038"
+    }
+}

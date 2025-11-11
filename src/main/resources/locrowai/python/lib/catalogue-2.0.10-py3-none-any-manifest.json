@@ -1,0 +1,10 @@
+{
+    "id": "catalogue-2.0.10-py3-none-any",
+    "hashes": {
+        "catalogue/__init__.py": "0eb8dd35905d1af2717e1f99a6cb5883862b86b6c2fb3d2de9f480fb90c9376c",
+        "catalogue/_importlib_metadata/__init__.py": "66b6bc8345ef10d38cc5a50c45df388e3e14073b914149c1eb25313480730091",
+        "catalogue/_importlib_metadata/_compat.py": "572ba660bc15356dfd157a955785ca536c91e5e4691f2712ec0ea90f11551316",
+        "catalogue/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "catalogue/tests/test_catalogue.py": "dd1cf3a0884a4f2b364da1db416b4e09c86c48c9a227492cdf8543dd782ba16f"
+    }
+}

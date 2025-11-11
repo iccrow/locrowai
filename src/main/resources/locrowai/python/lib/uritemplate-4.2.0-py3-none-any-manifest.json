@@ -1,0 +1,10 @@
+{
+    "id": "uritemplate-4.2.0-py3-none-any",
+    "hashes": {
+        "uritemplate/__init__.py": "e153ca368bef62ab5fdbe35631fa16fcbe4b764819a61d050097495cb92dbf95",
+        "uritemplate/api.py": "23fb453afaef50f7e62c67ef6f8083c9e65bd8386a190f2811e4c04fe8c43b9b",
+        "uritemplate/orderedset.py": "e19f2ef2ec37dfd0ff456bdb52c96fe5de849c0db0c500baeb7d7ba132f3a74a",
+        "uritemplate/template.py": "eeea5f00b436c815f113c8a92aac778343fb4e031141122d5d1a1a1b97682e79",
+        "uritemplate/variable.py": "670993165a9046fa7d4ddf4549b3f80a8f67d6551e7d9635eff2bf8efd654c16"
+    }
+}

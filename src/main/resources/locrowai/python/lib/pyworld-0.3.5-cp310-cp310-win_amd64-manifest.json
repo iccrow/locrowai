@@ -1,0 +1,7 @@
+{
+    "id": "pyworld-0.3.5-cp310-cp310-win_amd64",
+    "hashes": {
+        "pyworld/__init__.py": "5eee9bf2e81f67204a3502e14a8e9d74ad6bf1b60578644b0f5ec30e89bc4693",
+        "pyworld/pyworld.cp310-win_amd64.pyd": "5190fe9061a94767bca3fca118cb7961c66befebf6ce900e2b9bb0f1887fa91f"
+    }
+}

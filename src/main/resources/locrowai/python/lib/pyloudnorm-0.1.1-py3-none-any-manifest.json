@@ -1,0 +1,10 @@
+{
+    "id": "pyloudnorm-0.1.1-py3-none-any",
+    "hashes": {
+        "pyloudnorm/__init__.py": "4537fc38e05119abfbd343d9df912cc2ad8bff3117b58465f99b7269eab9e5b2",
+        "pyloudnorm/iirfilter.py": "4e20bb7c0a1b75eedee0dfefad1f5a238488551a82677fac6f7311d3ccdf56e3",
+        "pyloudnorm/meter.py": "97566b9bc402c43e1c5ce0ca788930c01d40326ed5dc48f0c6f79c489366d823",
+        "pyloudnorm/normalize.py": "e0601829d64e665a4763cb3616ac0b2dadbcf21b60d610fc2f4ea140fe752167",
+        "pyloudnorm/util.py": "38554a8fda0ff773504735d6d5533378a0ab699bf6a7e4f748dd2e10cc32b947"
+    }
+}

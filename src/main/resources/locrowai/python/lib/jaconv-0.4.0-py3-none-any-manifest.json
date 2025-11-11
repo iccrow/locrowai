@@ -1,0 +1,9 @@
+{
+    "id": "jaconv-0.4.0-py3-none-any",
+    "hashes": {
+        "jaconv/__init__.py": "a16d74e7c7c5c483a54fe735ab03746ec76c43ddbb40f3df14f7f7e559ac2400",
+        "jaconv/compat.py": "d9e766026e6aa6cd8691aa58cba1c5ee5e4902d33d25285de3f3fc11928e0ae5",
+        "jaconv/conv_table.py": "89bdff0654748617cbadab1754b98e97c44ad815eab5dac72d21218a43141340",
+        "jaconv/jaconv.py": "2b64a23a06785721a09c59f512044164a8129c2bfcf15bffb81758848bce1915"
+    }
+}

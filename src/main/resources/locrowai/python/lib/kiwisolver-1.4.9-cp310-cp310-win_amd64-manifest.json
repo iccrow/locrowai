@@ -1,0 +1,8 @@
+{
+    "id": "kiwisolver-1.4.9-cp310-cp310-win_amd64",
+    "hashes": {
+        "kiwisolver/__init__.py": "946ef370f77a5c43bff9d7f7f6d94762af53278deb218a97f6e337d5fbdea17a",
+        "kiwisolver/_cext.cp310-win_amd64.pyd": "ba21e92e687e237f0737845c0fc8aefd3d2217c4a76f95ce652848bf401a1c49",
+        "kiwisolver/exceptions.py": "3a22bd5acc61d361ec3f1f8b62ea6a94bef6c4b2d525e7cbfb1ed963502e89a0"
+    }
+}

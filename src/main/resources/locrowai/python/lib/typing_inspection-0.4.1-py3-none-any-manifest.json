@@ -1,0 +1,8 @@
+{
+    "id": "typing_inspection-0.4.1-py3-none-any",
+    "hashes": {
+        "typing_inspection/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "typing_inspection/introspection.py": "743e4077827a8407c5e9407304ee2ca92b35876c9b4154e1910a1f2d659504fd",
+        "typing_inspection/typing_objects.py": "5da5a3e85fd981d806ed0f3f639a71dc1008ea415c885b8a3c9452588b722648"
+    }
+}

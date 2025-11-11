@@ -1,0 +1,7 @@
+{
+    "id": "annotated_types-0.7.0-py3-none-any",
+    "hashes": {
+        "annotated_types/__init__.py": "4729cbb112941062342a2997c9d943d5f6447c4cd6c03a345289f7cce2a11b54",
+        "annotated_types/test_cases.py": "cc7157e84a5c31b189f05cc16036cee7a6cfc31fc360855229b64cfb8077fe58"
+    }
+}

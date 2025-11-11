@@ -24,7 +24,7 @@ public class LocrowAI
 
         if (FMLEnvironment.dist.isClient()) {
             context.registerExtensionPoint(ConfigScreenHandler.ConfigScreenFactory.class,
-                    () -> new ConfigScreenHandler.ConfigScreenFactory((mc, prevScreen) -> new AIPackageManagerScreen(prevScreen)));
+                    () -> new ConfigScreenHandler.ConfigScreenFactory((mc, prevScreen) -> new AIBackendManagerScreen(prevScreen)));
         }
     }
 

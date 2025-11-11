@@ -1,0 +1,14 @@
+{
+    "id": "editdistance-0.8.1-cp310-cp310-win_amd64",
+    "hashes": {
+        "editdistance/__init__.pxd": "278441eefe7f8ab5ad92b4eb43140cd695be16db36b43cc126729f9fedaf74f9",
+        "editdistance/__init__.py": "b10605f7ed1197a5d329cd457f01f5ffbd9cf2a6c87c825b8e7403491434a502",
+        "editdistance/_editdistance.cpp": "e5b7c4acade485026af020226130b8201b7d6695db330e46a7fd356d8f06407c",
+        "editdistance/_editdistance.h": "7d09af39f3b20cdc0147f3fb1e744c248e995e5c8233fae17adca8db289deb5d",
+        "editdistance/bycython.cp310-win_amd64.pyd": "3617d3c8bb2ab89961e6c3492975a924b2016f2e8d7122d955967fb9934ec365",
+        "editdistance/bycython.cpp": "750a0175894dd1126740577f8f282d06337077f35939d46a1b6791edd51f5037",
+        "editdistance/bycython.pxd": "54e70a26413ebf2df5ce5f65f889cf61eff38d8ef9c4865eb0955179d6c94fc3",
+        "editdistance/bycython.pyx": "981db930cb9e90ca40b8a25b7bfb288afdc83026af4326acbbf475d178308696",
+        "editdistance/def.h": "20867eedfe26911b6f9855d6810267c0688928d7eb30e391a9dc29a719e28ca5"
+    }
+}

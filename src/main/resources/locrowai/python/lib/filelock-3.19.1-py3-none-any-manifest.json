@@ -1,0 +1,14 @@
+{
+    "id": "filelock-3.19.1-py3-none-any",
+    "hashes": {
+        "filelock/__init__.py": "fedffe380197a3fab23daf65350d589f355812f496dc8d289cfab3a689ac5558",
+        "filelock/_api.py": "d9a01305e277fa3b4c8f93929bb104e77f6235a4c1b1fd77297b5c04ca22f283",
+        "filelock/_error.py": "fb98cc7234eeeb4600bc03b551ba830f5188123564c2bf31085c0306d31e6038",
+        "filelock/_soft.py": "85aaad73f4c1fca25b62fd9af22b8401c94ab8ce1f306d6f4dca76f2c2bdd7d7",
+        "filelock/_unix.py": "7863ace200e067ee5f1a7254cfe3a424379990033382f61c0fc8550fa5c7edee",
+        "filelock/_util.py": "4070683452187db013861a2d1f743c13669c15cf38c291b8f7e4febaed35ed91",
+        "filelock/_windows.py": "f24e1720197fcd955f182da0cf4904afc0d906fa4d6bcc1d53da9e33562b05bf",
+        "filelock/asyncio.py": "2c3f7292c0b6e055749a1fe1ce0cd58b89a63a316055509bed92db2ea25caace",
+        "filelock/version.py": "5b47d0246aa2f31a86ab19bc11d87ea0f64023768987958fb4c62925bd45c0a4"
+    }
+}

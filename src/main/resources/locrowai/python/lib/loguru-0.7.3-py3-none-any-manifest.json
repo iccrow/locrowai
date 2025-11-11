@@ -1,0 +1,24 @@
+{
+    "id": "loguru-0.7.3-py3-none-any",
+    "hashes": {
+        "loguru/__init__.py": "196e5e0ff9f2234516dcb9385ccbf6524c0a6d72b0a97ca5c81bd225a7c3df19",
+        "loguru/_asyncio_loop.py": "2daf17ccb8ef458a4d8b295990e1702ca81df9644c5f34d9640a04ce52faf306",
+        "loguru/_better_exceptions.py": "20f2376022ac6cbded0f44e984f8529e9c8172941c81238ab24355f04243f10c",
+        "loguru/_colorama.py": "e48737715229a7341aee6cf65db2892e68e288fa479b80156ea85289729522cd",
+        "loguru/_colorizer.py": "b078c95d14406b209e17a7ad812314a40f21309e5520691e13300d3afb1e9bdc",
+        "loguru/_contextvars.py": "2e7b3817163f065daa9cb7772e657b087fedd69d34e728e40ffcec740776bf96",
+        "loguru/_ctime_functions.py": "33cb728b1d3db3b0a195a31009f80d4fcf9424282c877b7645c80db2dcde94d1",
+        "loguru/_datetime.py": "fe68a0f6c4fed1b08f7bcb4450a54ea88f2be4e08c73517c36dd2dd48c5e2195",
+        "loguru/_defaults.py": "4ca5edeae7f0f72bb4d333add0a6b0a049957a7bd1a7a12476bd52fe7d6f8ab7",
+        "loguru/_error_interceptor.py": "1d19bd1317d956b149fae26bd6e18abdbb1469ba4a0a3d2bb2d39f826ec2e418",
+        "loguru/_file_sink.py": "3246ec2bfe0774729d0e72270cfdaabb5c77bf905d83b26c0b7e69896a63515a",
+        "loguru/_filters.py": "cffff6abc93f5c03b5a8b7f739ea9b377518378b195af7a5dbfe6c8db9179fb8",
+        "loguru/_get_frame.py": "51c4cc5e379297722187559eb0be1e965e1330364df4f5be48f772895610b658",
+        "loguru/_handler.py": "0529f45bd00a3524891e2415bb7005c57f0684ad2844a92084762d1619e97607",
+        "loguru/_locks_machinery.py": "00f105834631ee98e708b8a0e58327052652c39c9ff31c9b9b6a5de2e1b8e2bc",
+        "loguru/_logger.py": "569946c9f694f27227c06bf108add2dd8866efc562c779a47e5e01aaaa4f6960",
+        "loguru/_recattrs.py": "8efe77b3d9d252043419c61623213f719e540ede0d57311319a89346da62ac31",
+        "loguru/_simple_sinks.py": "899d5792f9f17dec3f0158db6761d9d3f730f1ad7df786021a71f95e62fdf2c4",
+        "loguru/_string_parsers.py": "1315374e15cab45a52eca672aa3c67fb30fdb2a6eee56874b60af59d0f1d68aa"
+    }
+}

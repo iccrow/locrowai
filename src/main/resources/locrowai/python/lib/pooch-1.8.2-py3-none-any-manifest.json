@@ -1,0 +1,21 @@
+{
+    "id": "pooch-1.8.2-py3-none-any",
+    "hashes": {
+        "pooch/__init__.py": "bb00b39e104e72e7baa7924485d210f2f7732c8827f43720c709870168d4a716",
+        "pooch/_version.py": "c3278e1964d44fbad35aa459992fd798702da6b071d633ba2fb1713de613c8c3",
+        "pooch/core.py": "a12e6be2af02ac8de306cadef35474a7cc354e7da01464be8453b0fa86f5f11e",
+        "pooch/downloaders.py": "3beebbefc4af3925b6f8795405bbadb19e96ca907711b435530bbd8dd9ef6de9",
+        "pooch/hashes.py": "e18943d2223731758e53339ecab4cea1dbdfdf8c5def80ca0907d928f95c67da",
+        "pooch/processors.py": "8cf436297ea3d36b8b3eca15b5200d6276b7dbddcd1a169312b1c37c9143924f",
+        "pooch/utils.py": "88d5a469857c8253549a714dcb869b1fe9a9c80a9e579fe611d1f2bda8c88ca2",
+        "pooch/tests/__init__.py": "3267491c52f387b940776d0fc45f58121119050e5d5fbb19f08c5a38108d777c",
+        "pooch/tests/test_core.py": "11e8b4ca917577dfa06a5d7a402d18a216ee02b82d6c7c04e5d45ea646d94a53",
+        "pooch/tests/test_downloaders.py": "808e2bba881b7325e1d0af6c739e3f51d01848e36c2d7b919229a327c3c2f2e2",
+        "pooch/tests/test_hashes.py": "a32e637b10033249019c39d3eb283fd59d5b9b1ec465ca23f008c6e65bbb3cc5",
+        "pooch/tests/test_integration.py": "f9a295f2711bb90648d00ce817eba39b6c395d92aabe52918e1f25fe8189cc2e",
+        "pooch/tests/test_processors.py": "1313ac51d5b54faaa306f845e292ff9084c9e56336ceaf421c68a83399e3da93",
+        "pooch/tests/test_utils.py": "838ba312e97b1e1647347519fab89646e149540ddd8bb206a53377bd829717d4",
+        "pooch/tests/test_version.py": "455c373295b0e8fea3075029d92871eb8cc4b356ba3413f6711153d3ded70f2f",
+        "pooch/tests/utils.py": "96591fce482626dd7610d2109a9bd62d09ebaa016b5ddc3c4c5fd76456756f39"
+    }
+}

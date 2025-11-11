@@ -1,0 +1,7 @@
+{
+    "id": "addict-2.4.0-py3-none-any",
+    "hashes": {
+        "addict/__init__.py": "c6694d898615a000f7fc57e681f38cd9c737c08d7b19282c3013836c546cfe66",
+        "addict/addict.py": "49c39f72568033bba0c99a17396d871cbf60097b7f5cf7be8b96d32e263cb9f5"
+    }
+}

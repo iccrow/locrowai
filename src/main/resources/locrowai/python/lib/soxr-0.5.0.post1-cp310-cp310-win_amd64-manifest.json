@@ -1,0 +1,8 @@
+{
+    "id": "soxr-0.5.0.post1-cp310-cp310-win_amd64",
+    "hashes": {
+        "soxr/__init__.py": "0ba6cdb64739e28c666389fd27329c1ca25485573e252b1a4bc376f2d0cfb52f",
+        "soxr/_version.py": "70f1aa4dd369e9aa3f18cd6fc20ac3c3ee5e99db0e2ac604327ccfb5085411c1",
+        "soxr/soxr_ext.cp310-win_amd64.pyd": "31f6cd725e6d9aea84ecd247d6a6216e660b6964cef56d46b5989d9d4bf8b085"
+    }
+}

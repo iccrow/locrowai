@@ -1,0 +1,33 @@
+{
+    "id": "ctranslate2-4.6.0-cp310-cp310-win_amd64",
+    "hashes": {
+        "ctranslate2/__init__.py": "1e6925c14dc10a752040000641e0813abe38412e57d27a6bfd60e4061d9ee8ba",
+        "ctranslate2/_ext.cp310-win_amd64.pyd": "7ff18feb19e65431b7635bb991e0cfdafbdc81cff19d9ca21c89cec95c94e9b4",
+        "ctranslate2/ctranslate2.dll": "c2a933043b4db2de21e1dcba94a5cfa8ef39e3ddfdfd14be2b9bc2e1cd55be2b",
+        "ctranslate2/cudnn64_9.dll": "c07cc47f2fa4a566593c7af4aa7e57edf09a985a0fddd14cb8d6f456e252af05",
+        "ctranslate2/extensions.py": "6b13b6148f1d762166964a3603343a55c76d17ede10c0ed598f1a74c892b3e42",
+        "ctranslate2/libiomp5md.dll": "0b63b72e3db22583c64f21f4675738152adf9674b3c47011a7acb4744dc7d992",
+        "ctranslate2/logging.py": "3fd7af1ddc6e331fe21efc098c401212afa3e74eb61fae0f979f9f263c44b879",
+        "ctranslate2/version.py": "6190283c2ccf7136ccb7729518f512f77d500b5fd2b085632376f1b4c0bb9f95",
+        "ctranslate2/converters/__init__.py": "b9f6237177f6b0ae1f89701453ab482725a636e2e32857ff287dc658b5dee25b",
+        "ctranslate2/converters/converter.py": "4246fc3462cb9a0a8c4fa1d9905abad73c1bc72ab736559c6b12d9e80a7e60e4",
+        "ctranslate2/converters/eole_ct2.py": "454703247ff6014b748c3b39a00a9c704ead40f6cef4b43a26656b882d434f2f",
+        "ctranslate2/converters/fairseq.py": "b90a5df9fb5848ee1ce96744c02532b995a1cd65f55131bb746382e84b5c0d51",
+        "ctranslate2/converters/marian.py": "d7fecfdc46c80cf39dc896ed6ff2e9f8b0813c16fd03c13d3a1ce8c85c136fae",
+        "ctranslate2/converters/openai_gpt2.py": "d6b5ca3366544591d646fe17675df97cf9155a9338ad31beabb551ece0fa77e0",
+        "ctranslate2/converters/opennmt_py.py": "56f6bad1acfab46aa5417b345200b4f6bfdf083deedaeeb050907ef15e0e5054",
+        "ctranslate2/converters/opennmt_tf.py": "b81469db0cf9c6b89241c03f7344b47a463bc2ce91a515ffd0429e31174cefeb",
+        "ctranslate2/converters/opus_mt.py": "e4a6cf693881861a2b3f33294ee8087c827c4a072a1df2546c9ad628137e0e3b",
+        "ctranslate2/converters/transformers.py": "5b38a1eea9aa3697a7fc477129a0281162cc578451d7a195b2bc2b6c1f658fc0",
+        "ctranslate2/converters/utils.py": "c3b346dfd971fbd74e74be7b3aa2954dd0bffe8a64b8ff110028354cb9542703",
+        "ctranslate2/models/__init__.py": "e77a7df2e7a6b6ebd53f3f312bbfcb6ce841894249bbe73e35d98e1c981d5eeb",
+        "ctranslate2/specs/__init__.py": "f4669bb52c9ccf39d8aa2a944ba5ef50b8bca50dffdd1351a205e86c63f41bcd",
+        "ctranslate2/specs/attention_spec.py": "8a8b376994566d9f0f99c622f695c869de7694cc1ea8e5205796496e414e2a61",
+        "ctranslate2/specs/common_spec.py": "7eb7930e140ccb93d8a1f06b8a3e3f14382b2a890c600a5648f2290126489497",
+        "ctranslate2/specs/model_spec.py": "6ad0806330c4233c89d5309ac8519956eb47a9259ad70c3ebdb6743a2209aa1f",
+        "ctranslate2/specs/transformer_spec.py": "bc14e705a67c9ec951105f0548928fe95bdec9802f4b6fcbd21f32a8f021a58d",
+        "ctranslate2/specs/wav2vec2_spec.py": "3484ecb8eb9fd85e5b535f9a5e2b7cf9612d595f5f1f612aec0efce7b532621a",
+        "ctranslate2/specs/wav2vec2bert_spec.py": "520b6c2560bd98c809edb9f84ffc60d6e5cad2ba80e3ef6d4f628c19580f2a7c",
+        "ctranslate2/specs/whisper_spec.py": "fef9b5b1ce723a8c0e2788b2bdcc4c5eb82df9470b26b653f0eb4fb1c5177104"
+    }
+}

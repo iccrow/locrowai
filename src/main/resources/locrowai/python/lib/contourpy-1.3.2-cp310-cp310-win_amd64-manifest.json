@@ -1,0 +1,23 @@
+{
+    "id": "contourpy-1.3.2-cp310-cp310-win_amd64",
+    "hashes": {
+        "contourpy/_contourpy.cp310-win_amd64.pyd": "4e99eee3c18e2dffef03dab37db38c3cd5b03c271336a59f1c2cbd074cf435d5",
+        "contourpy/__init__.py": "831101d51159059e31d871cedd466e11b9ec099bec61d8328d2aab1e06928ffd",
+        "contourpy/_version.py": "b82bfbdeb8121172efd166767ef269c02a410857313a1f785ea48371c201acbf",
+        "contourpy/array.py": "b5e96fe8a62a464edff7ce7e15bad4ae64d38a0150ac83194070aeb51b1b1936",
+        "contourpy/chunk.py": "be4d4483a355c73d77316cf8c656c703f3c2193683d7c21e5191b4af659cd991",
+        "contourpy/convert.py": "09eb202736251ffd82c101d52c7fffe2f07679aa37afb400dd61fc24be39cfcf",
+        "contourpy/dechunk.py": "7e1e29e54691071a310eb62cdeb70bdd4212cf61e3ed49217a5ee198dba54ea9",
+        "contourpy/enum_util.py": "852c2467d399e1a55d161e83efbe02d31cce3eb330d1bc406d9756151a6d46dc",
+        "contourpy/typecheck.py": "c72480dcaee26b02024632448ac154f25662f5c6b7c353a592c630f8794e6608",
+        "contourpy/types.py": "39bdc4215986e687371e33ff317fabed1b0947b8559df7ea988eb147fd6a7200",
+        "contourpy/util/__init__.py": "6ea2d87819bf9fab6e94eca4f2682a74b51bc17d86b6dbc29b42a478d6c04a56",
+        "contourpy/util/bokeh_renderer.py": "fe707915570cf4c8d34c626bf7523477152cddfa3824d7dd6c47aa9326708285",
+        "contourpy/util/bokeh_util.py": "d18943d883f35bf4d24bfb3ab46eb31934e12703dfaac128fe9249b1455b2610",
+        "contourpy/util/data.py": "947101c8d22589eff8c9025a97988e154c5f14cf697d34e7411bb23fd04a751b",
+        "contourpy/util/mpl_renderer.py": "35c7d3f0fd1c062c8bbdc9c921fab7571670e9d62bec4c7c52290f4b6feb464a",
+        "contourpy/util/mpl_util.py": "ea83134f7ca694c83a3e0f7d4504970436b7ada6446540d908fbb7cbe7f84b41",
+        "contourpy/util/renderer.py": "50a4a5f5a7561eb7992c3c239e825d00af7508a577f67de4281b3069fdccce9d",
+        "contourpy/util/_build_config.py": "8cfd85f1b737feaafd98037ab14026b59026f2bb0436aa106555c1c7a8a703b3"
+    }
+}

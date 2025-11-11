@@ -28,7 +28,7 @@ import java.util.stream.Stream;
  * - draggable scrollbar
  */
 
-public class AIPackageManagerScreen extends Screen {
+public class AIBackendManagerScreen extends Screen {
     private static final int TOP_BAR_HEIGHT = 36;
     private final Screen parent;
 
@@ -49,8 +49,8 @@ public class AIPackageManagerScreen extends Screen {
 
     // Paths
     private final Path modGameDir = FMLPaths.GAMEDIR.get();
-    private final Path aiEnvDir = modGameDir.resolve(LocrowAI.MODID).resolve("0.4.0.dev1");
-    private final Path setupLog = aiEnvDir.resolve("setup_log.txt");
+    private final Path aiEnvDir = InstallationManager.getBackendPath();
+    private Path setupLog = InstallationManager.getLatestLogPath();
 
     // Async size computation
     private final AtomicLong totalSizeBytes = new AtomicLong(-1);
@@ -62,7 +62,7 @@ public class AIPackageManagerScreen extends Screen {
 
     private final AtomicBoolean sizeComputing = new AtomicBoolean(false);
 
-    public AIPackageManagerScreen(Screen parent) {
+    public AIBackendManagerScreen(Screen parent) {
         super(Component.literal("AI Package Manager"));
         this.parent = parent;
     }
@@ -316,7 +316,8 @@ public class AIPackageManagerScreen extends Screen {
     }
 
     private List<String> readLogLinesRaw() {
-        if (!Files.exists(setupLog)) return List.of("No log found.");
+        setupLog = InstallationManager.getLatestLogPath();
+        if (setupLog == null || !Files.exists(setupLog)) return List.of("No log found.");
         try {
             return Files.readAllLines(setupLog, StandardCharsets.UTF_8);
         } catch (IOException e) {

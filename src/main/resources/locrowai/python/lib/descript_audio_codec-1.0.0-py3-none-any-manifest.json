@@ -1,0 +1,23 @@
+{
+    "id": "descript_audio_codec-1.0.0-py3-none-any",
+    "hashes": {
+        "dac/__init__.py": "15575d30dc28e2ac6978b1c4f67b3b79a8e4198e1645ef7ccbfb2706b988b5fe",
+        "dac/__main__.py": "94c3f738a79bdccaebfc1c92b015a46ddb9d9bbba1a41c29ef38d082b61dce6e",
+        "dac/compare/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "dac/compare/encodec.py": "1d05139a912522dd7793142f1917914187d531f3c818635979841727ffbcf704",
+        "dac/model/__init__.py": "19c5e09cc2236f7b32c3dcc4b8aaedf84e22bac100ddbd62fdd82b7bc702655b",
+        "dac/model/base.py": "2361726838faae352f1265d514e3e2f8d978a2b278dcf66bb5799dfbd2ba7b83",
+        "dac/model/dac.py": "412c6bb1fddfd01a96e4f73df6934a5cdcbc9c6ee50e2b462433917dbceb7300",
+        "dac/model/discriminator.py": "2fa20d5955c2402dc7ee204e1d86275074c475203b0ece97aafc934aab9ff6e1",
+        "dac/nn/__init__.py": "9c3815860820bc1ef0e10c71140c90634b9eeef2bbf2a00445763ed4552c149a",
+        "dac/nn/layers.py": "ec2649649d787b166a138d5ad9dcd585aeabbcd93670771b30cbbbab731c4b63",
+        "dac/nn/loss.py": "47900c21076f850bf07fa9aa8b8a66b53613801d9ca3861867c35b3a6c8b3e70",
+        "dac/nn/quantize.py": "e2dc61f32f6123aa48a0aeb934a0d9a41ea29a5eae8db28119c791885c9f1b07",
+        "dac/utils/__init__.py": "ac4e097f5db5f730bdd944bfd7ddf66761e776ba22d14d5ad7e3d6bd902addf5",
+        "dac/utils/decode.py": "8b64cc408e25f5b2dbab01cf787d456552901e887a88c8aae53ee3f6832bab17",
+        "dac/utils/encode.py": "6052fd02ba78c37401c2b5087a8b50ea9e2be806975c317ba8534cdfc47f0f4c",
+        "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "tests/test_cli.py": "d5beb1a00f799c137e2b822925fd8c1ce4ca1ffcbfe5242a7352bea1127fc083",
+        "tests/test_train.py": "99cbd2e1326ac15cad61fce8d124d89c4753682955d8370a9f0cd95e4c9e279b"
+    }
+}

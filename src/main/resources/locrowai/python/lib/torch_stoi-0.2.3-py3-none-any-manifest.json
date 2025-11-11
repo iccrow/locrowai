@@ -1,0 +1,8 @@
+{
+    "id": "torch_stoi-0.2.3-py3-none-any",
+    "hashes": {
+        "torch_stoi/__init__.py": "8000b477a5e893f3f00d8832896e17765353739f3cc8e3555de821c36c78a415",
+        "torch_stoi/debug.py": "c5195fd2ea7ecc2ed8a99271e5e9e63bb7cf9f11da15b13e8e63b9508b49b525",
+        "torch_stoi/stoi.py": "e223df792f3400e1319afde52ebfb90e7dfb8314c43016cceb0292aca671faae"
+    }
+}

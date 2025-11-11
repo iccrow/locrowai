@@ -1,0 +1,8 @@
+{
+    "id": "distro-1.9.0-py3-none-any",
+    "hashes": {
+        "distro/__init__.py": "d9f1e317e49f80fbe3c8d67588787fc23a96751fd8a393831f0642d232c13e17",
+        "distro/__main__.py": "6eef5ddd389fa0a72264572a441bb2815dc64ae4e19d50ff9b620ae1ccfde95b",
+        "distro/distro.py": "5ea6de7da7008434f8cebfedae76c0d79798f2f74ae064e08609af506ac433fe"
+    }
+}

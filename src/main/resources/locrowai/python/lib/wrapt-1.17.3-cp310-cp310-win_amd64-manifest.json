@@ -1,0 +1,14 @@
+{
+    "id": "wrapt-1.17.3-cp310-cp310-win_amd64",
+    "hashes": {
+        "wrapt/__init__.py": "51457a890ba6dba22f6f308837cc39fc2b0d2fc8b470998cac3df0ff47016c4c",
+        "wrapt/__wrapt__.py": "7616c1c984fb0d562cbcad807cd253b5e9a2a12365fd6b469eff6bbbc35dd0f3",
+        "wrapt/_wrappers.cp310-win_amd64.pyd": "2c8cf54464fe83c2f2dd533f4f9b60eb5c39cf85fc04d4129f62244cb2331fd2",
+        "wrapt/arguments.py": "92929fd0da2a23c943ab1890ba7767cf1dd3a8aff0e9d6ebc470ac522422aa92",
+        "wrapt/decorators.py": "da999c838d804f6bd2c7dc5d1d50b71eefe404001254d1a453aad70480065baf",
+        "wrapt/importer.py": "d32b175de34c7977ae85cc30ede6fc10f7be205a5f6e6ddb64a752da1a2609ea",
+        "wrapt/patches.py": "3ddd901840f0b230369419c29b2c665d3ee1ad1c7b1360f0fb33a0202ba80b2f",
+        "wrapt/weakrefs.py": "c816ffac0c9d816e063e7cbed92dd7868875a0389bb13b165b179ba5c4a2a62e",
+        "wrapt/wrappers.py": "31b0731693174b3e2d26dc5b4cad16a0fcde38676fe8e493814329268cef3036"
+    }
+}

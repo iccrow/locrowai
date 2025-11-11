@@ -1,0 +1,23 @@
+{
+    "id": "python_dateutil-2.9.0.post0-py2.py3-none-any",
+    "hashes": {
+        "dateutil/__init__.py": "32a6a6ebb58ef4891399417223aeaf4ba2284974e9f46dfcf0369d1f62c230b6",
+        "dateutil/_common.py": "efbc34cb2b64af19586d29fefa50d53d431a6d45d147d237941bffbd0454a946",
+        "dateutil/_version.py": "055d37d4ec430c09b2e7c9de520e72caa2e42daa88c3b89b2bd02cde388c89bd",
+        "dateutil/easter.py": "772062fa52af8a61f5bbf93aa7b6742492bbd9086a56d541b2a072be910f2af7",
+        "dateutil/relativedelta.py": "218fe6825323a196d87ebbe5a1363671ed366a25633c892265faa03536517ee0",
+        "dateutil/rrule.py": "289cca95a09dd6311bbb8037f1996db256a801487d9d26dd6ce15d8e9ef429ec",
+        "dateutil/tzwin.py": "ec0af8bdd4029e733498a4773148db20ab19ac155f1e0770b0965cfe619845ec",
+        "dateutil/utils.py": "74a09c844c3c78e6e2d25a064f1f75ba70719bfed41a5537bff16314c76ac183",
+        "dateutil/parser/__init__.py": "c1693a185bb14e98e8820086b6091c789a2d8b8a558e5e3f7c7417a4d39a4988",
+        "dateutil/parser/_parser.py": "ee494377289c92c401fd7825fb7500981c33098a2bd40219aa4948713e9d1fff",
+        "dateutil/parser/isoparser.py": "f05cbdf7d6e709dd5fad274e62e3ab6967c94ed7795bba90e7537036e1ff8573",
+        "dateutil/tz/__init__.py": "17e333d77bfa8d8b1e92541ff537bd27a9f370b0e6ab8ee03916bad4adf9fc50",
+        "dateutil/tz/_common.py": "720cc34c036c397bc473ce9c605efb12c962b9269bf0fbb0a6c979f9b5f7fd2e",
+        "dateutil/tz/_factories.py": "ba76fa5d0357acf32f7a4b13094f8083c8e6559b384a88e83d47001e95a7aef5",
+        "dateutil/tz/tz.py": "1149c474c7de4e15e263a978b21f7205a6d9eb7fcf3b3cb4d734ac87db619f5a",
+        "dateutil/tz/win.py": "c49b335a04b0135c4fc7f1c98f86647a9cae902fe1372d35e9631c5e16d1681f",
+        "dateutil/zoneinfo/__init__.py": "298834a6d842323729e4c5d21220499f79cc8d978d65abfbae5270e7eb73d52e",
+        "dateutil/zoneinfo/rebuild.py": "322a98cc2207bcd6cc1fe2dd4582effb84f410803b8432ade462d1d084532dd2"
+    }
+}

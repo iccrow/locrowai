@@ -1,0 +1,15 @@
+{
+    "id": "csvw-3.5.1-py2.py3-none-any",
+    "hashes": {
+        "csvw/__init__.py": "aef84d3491329d9bd463292417f67bfb3052f317a0ff720ed62a23efb5d10ea0",
+        "csvw/__main__.py": "37515ff01bb3f3fc69d456f0fe734711c9aafd65b693c48a88b7a0b90e7f1794",
+        "csvw/datatypes.py": "80a59df969a80e0ca8a6b9948a85375bb9ec32ee0de7670fd68e391f2789dd04",
+        "csvw/db.py": "da2c8584c9a2a0f270c30e38ef03754baa354dca56d15cf9727478cc07f1c125",
+        "csvw/dsv.py": "172d39c58f9f7f01b8d6424779a689f9b89ca03a6b29a607ffdf040f56235456",
+        "csvw/dsv_dialects.py": "4d4562fa0b585c2f8e84741b659ca4a6f9ce7c782086c14a934c04ee3a2401a4",
+        "csvw/frictionless.py": "62e0b7e9b2fb06cdde959f8c2292c1a5c34890a0ade3d8c0d3e56a1b2356e3ed",
+        "csvw/jsonld.py": "370f9597c1c6de0282ac05b959d0ecdf072daf5f0573f47fad34b1a86c99a84f",
+        "csvw/metadata.py": "955135bcda5745c23157c7b8adc669e6dd928563261fa19b70726b3cfeae7c47",
+        "csvw/utils.py": "e3ac165e98e6a5dedeb16f7a31e08fc9da82310a1763199b95a9702a66e7ceb7"
+    }
+}

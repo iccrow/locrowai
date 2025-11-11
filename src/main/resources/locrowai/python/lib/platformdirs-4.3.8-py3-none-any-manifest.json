@@ -1,0 +1,13 @@
+{
+    "id": "platformdirs-4.3.8-py3-none-any",
+    "hashes": {
+        "platformdirs/__init__.py": "88e451cbafe567db572ef3b45ba7c93e7f1057b179df68af97e7f658699a6c17",
+        "platformdirs/__main__.py": "1e7b14407a6205a893c70726c15c3e9c568f755359b5021d8b57960ed23e3332",
+        "platformdirs/android.py": "af40ec85505ff913b58d72465fc0b84e297b1755d6b7e6e47563209af1226988",
+        "platformdirs/api.py": "53d133237118c5c5d6502b48191965aab70df7d8b62d26359aadbe1adb14c044",
+        "platformdirs/macos.py": "5256f2159f11ceedf19dd0aa4041eb7ec613787c187456a9d48a33fb2c6f793e",
+        "platformdirs/unix.py": "5999a4500fbe2f724d4469b3df6b37e587e80f789c6bac4a20f74257f1e12dcb",
+        "platformdirs/version.py": "75d37711c50f7deafb09baa6c85366834dd1deefaa0e7df64ff7cbb31db9f829",
+        "platformdirs/windows.py": "205a62a21501c313ed0b39722b036dc725b8264f2169ae96f28e7d99fac35d5a"
+    }
+}

@@ -106,7 +106,7 @@ public class AIExtension {
             PackageManifest manifest = PackageManifest.fetch(ext.resolve("manifest.json"), this.getKey());
             return manifest.version.equals(this.version);
         } catch (MissingManifestException | MissingManifestSignatureException | MissingSecurityKeyException | SecurityException e) {
-            e.printStackTrace();
+//            e.printStackTrace();
             return false;
         }
     }

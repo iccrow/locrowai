@@ -1,0 +1,8 @@
+{
+    "id": "certifi-2025.8.3-py3-none-any",
+    "hashes": {
+        "certifi/__init__.py": "d1ae6ba3829361ea77ecea3467c4f27023d768394e12dbee8f6a4d599ff5b7c6",
+        "certifi/__main__.py": "c410688fdd394d45812d118034e71fee88ba7beddd30fe1c1281bd3b232cd758",
+        "certifi/core.py": "5c55f2727746e697f7edac9e17c377d8752e0da7ecca191531b3b80403d61dad"
+    }
+}

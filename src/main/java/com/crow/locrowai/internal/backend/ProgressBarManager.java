@@ -1,6 +1,6 @@
 package com.crow.locrowai.internal.backend;
 
-import com.crow.locrowai.internal.AIPackageManagerScreen;
+import com.crow.locrowai.internal.AIBackendManagerScreen;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphics;
@@ -33,16 +33,18 @@ class ProgressBarManager {
             return;
         }
         Minecraft mc = Minecraft.getInstance();
-        String line1 = "ERROR", line3 = "ERROR";
+        String line1 = "ERROR", line3 = "ERROR", back = "ERROR";
         int titleColor = 0xFFFFFF;
 
         if (InstallationManager.installing.get()) {
-            line1 = "AI packages are still installing!";
-            line3 = "Proceeding will install the packages in the background.";
+            line1 = "The AI backend is still installing!";
+            line3 = "Proceeding will install the AI backend in the background.";
+            back = "Go Back";
             titleColor = 0xFFFF55;
         } else if (InstallationManager.hadError.get()) {
-            line1 = "AI packages failed to install!";
+            line1 = "The AI backend failed to install!";
             line3 = "Visit the Locrow AI Mod Config Page to try to resolve the issue.";
+            back = "Manage Backend";
             titleColor = 0xFF5555;
         }
 
@@ -57,18 +59,21 @@ class ProgressBarManager {
                 pass.set(true);
                 mc.setScreen(screen);
             } else {
-                mc.setScreen(new TitleScreen());
+                if (InstallationManager.hadError.get())
+                    mc.setScreen(new AIBackendManagerScreen(screen));
+                else
+                    mc.setScreen(new TitleScreen());
             }
         }, Component.literal(line1).withStyle(
                 Style.EMPTY.withColor(TextColor.fromRgb(titleColor))), message,
-                Component.literal("Proceed Anyway"), Component.literal("Go Back")));
+                Component.literal("Proceed Anyway"), Component.literal(back)));
     }
 
     // Render segmented bar and labels
     @SubscribeEvent
     static void onScreenRender(ScreenEvent.Render.Post event) {
         Screen screen = event.getScreen();
-        if (!(screen instanceof TitleScreen) && !(screen instanceof PauseScreen) && !(screen instanceof AIPackageManagerScreen)) return;
+        if (!(screen instanceof TitleScreen) && !(screen instanceof PauseScreen) && !(screen instanceof AIBackendManagerScreen)) return;
 
 
         if (!InstallationManager.installing.get() && !InstallationManager.hadError.get()) return;

@@ -1,0 +1,16 @@
+{
+    "id": "umap_learn-0.5.9.post2-py3-none-any",
+    "hashes": {
+        "umap/__init__.py": "ff3c7da50cc742c3bc3b8c5faceacbcb476fccdbe65bd582edd4dc98a415f013",
+        "umap/aligned_umap.py": "0ac061cde06b3aac49380d9914a1d742181c4d982ac534daa69beb6261868c6c",
+        "umap/distances.py": "013289a65fcc834e25d6159273bab25fce70db0f97a592a3e3a5a555fe234faa",
+        "umap/layouts.py": "8952720e64d31cd41ff88fc1b718e88e53baf542f96b442d1e4789aa7af68263",
+        "umap/parametric_umap.py": "8a1e2b3531b906e21aa385d0c1e1c4a162b8133f8c1b6da22cf0c94f216d81ac",
+        "umap/plot.py": "28f7d0bbeaba78f0471db10e94e7e991d50361ce80ca22cd4e3ed0867393b43f",
+        "umap/sparse.py": "6f193a8eef0cee00f3a03c65c77b709542553f7d39c9f98802b5ebf79c59e6e8",
+        "umap/spectral.py": "244efc06cf6026643cd2adbbbfc92f2481210e8f1f4d5ac59c2b3a61b7a9e1f8",
+        "umap/umap_.py": "6f9eab187af19b20a210e7e5265a940940cea2ede6af3f38da41ebb2edede303",
+        "umap/utils.py": "fd10eaa1c241e48a043c03d9b1c4e4957233834ecb54e10fe5e79eb2d9dc3c62",
+        "umap/validation.py": "6e17b3da7448fa35ee40b1144d0caf3dbe7f2fa9d98e39d1131822091f2d94cf"
+    }
+}

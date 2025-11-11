@@ -1,0 +1,11 @@
+{
+    "id": "pytz-2025.2-py2.py3-none-any",
+    "hashes": {
+        "pytz/__init__.py": "76697ea5b5a7fb5c6abff6561e82a83e686bb9a3badc6a08b9b9f1b459c4bc37",
+        "pytz/exceptions.py": "e37e1972e2e5a4b418f665a81aaef324c5754f2898bd5829281535a9991b0e33",
+        "pytz/lazy.py": "b68791e6e0d62818fa7b3b146787a534fe8210cb4aec23b68d2f40df49ec15ba",
+        "pytz/reference.py": "cd4b42922ec91449abceb8cdb1f303ed82f49560f1ca729cd546e8e225d2b3be",
+        "pytz/tzfile.py": "2b6cbba59b38bf27696557edadf000ffe860c35ef2d52cdcef3fd00ac7bab9d5",
+        "pytz/tzinfo.py": "5df6953a83b72ac0afb5461a09dd1fbe0057599f2d81ebc6614a0187fba213ad"
+    }
+}

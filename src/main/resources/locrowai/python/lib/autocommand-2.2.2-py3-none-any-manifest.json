@@ -1,0 +1,11 @@
+{
+    "id": "autocommand-2.2.2-py3-none-any",
+    "hashes": {
+        "autocommand/__init__.py": "ce4a39467be896f6fe5178c2c7fd80acf4c6056c142b9418e0b21020a611ec0b",
+        "autocommand/autoasync.py": "00c772af1352e29a9625f3ffc6ea0e70898e1d60fea93ef1d3ac2628dd55a7e5",
+        "autocommand/autocommand.py": "866904990ef61ed2f9e609d44558c33a7b1f62519de652d76ef4f8286e3de90c",
+        "autocommand/automain.py": "0366fc8bbe7833173f0e353d585afabea6035a5873d1c9fc9a2bbc77c12cc55f",
+        "autocommand/autoparse.py": "5955a66493dc6f350a5cfe34ada430ff41c3f2a3c9d95f551b57851669a7171c",
+        "autocommand/errors.py": "eda6b7ae887d1deaddea720aa501cd584b25584f28abb1a21d8554b91a8e4670"
+    }
+}

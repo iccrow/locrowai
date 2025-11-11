@@ -1,0 +1,15 @@
+{
+    "id": "aiofiles-23.2.1-py3-none-any",
+    "hashes": {
+        "aiofiles/__init__.py": "d6200c250c89b57dcb1884b402815325e3b5689fd12b68e905206183456822b1",
+        "aiofiles/base.py": "ad9c00d79d498bc5e5064cef0e6705d428034d8da228db8931fbcd94cd2cd04d",
+        "aiofiles/os.py": "cee146688c8608652e15beedac51449ba48b74246a4c5b12574998e923bccf73",
+        "aiofiles/ospath.py": "cea1b6545cd16fac988883968a9aac760bd99a831316f66605d931900975153e",
+        "aiofiles/tempfile/__init__.py": "84548d4ce8ce52fdfbd4ecdd7f2e852317a59f8e8d9b7c4e561e1947743de15d",
+        "aiofiles/tempfile/temptypes.py": "75d12f36330b565afb59420b09eeb2a53ab0efbc9111e2289d3935e94c3f355b",
+        "aiofiles/threadpool/__init__.py": "73f69ec65d6dd7dde229d3d96a894f1046c70eb43446bb07fc74c04e830f401a",
+        "aiofiles/threadpool/binary.py": "869fa49bd54246ed0c2f3ff000451f6c2cfb38bef1b67f621806b069ba67a795",
+        "aiofiles/threadpool/text.py": "7cd9a9c363c4923d0165295d8a925702066a5462f100b71f38c8ae0d0e7811ab",
+        "aiofiles/threadpool/utils.py": "079f5d499c0efd666cd9d145c9c29e03dd620f65eada7370d44145f183012399"
+    }
+}

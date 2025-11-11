@@ -1,0 +1,14 @@
+{
+    "id": "jmespath-0.10.0-py2.py3-none-any",
+    "hashes": {
+        "jmespath-0.10.0.data/scripts/jp.py": "3c33be32db89ef63e1efceabd80c34e70679ab6d86260b9ebfd1b4c415e8388f",
+        "jmespath/functions.py": "d59c2f08d5731d4d6115451e35b3fd2cefeffc6a893c0187fb1c45f7cbcd7a7f",
+        "jmespath/compat.py": "43f6be744386aca6bd3229ab85fa6eab9afef69a32073f590ef6f34a93c4d13c",
+        "jmespath/__init__.py": "ddc833591d737d141a22cf37183df70752c3c3a033a824c4858ff6b3924c508f",
+        "jmespath/parser.py": "5f02df7e9b42c397f73caa09608ec2fe96c05f930acf11440b09d5a83edf9370",
+        "jmespath/visitor.py": "8d21882c47ae635e9690c9317a5db2cad71b96354db4db4b5b8071d2a7d5e1c5",
+        "jmespath/lexer.py": "2c4dfe74cef99f2f51311f265e65a528a453225cfc9e3bd6cfe33edb2e2de560",
+        "jmespath/ast.py": "4a21d133599d40f46dd76476aa442efc4cdb77e8219391cbcb51e5d631c0caff",
+        "jmespath/exceptions.py": "e47468b7806fdd209376f87994041d401b2a49d68a8ee4cf4b21a6934f334af0"
+    }
+}

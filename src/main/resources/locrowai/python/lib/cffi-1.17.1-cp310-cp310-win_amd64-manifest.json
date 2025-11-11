@@ -1,0 +1,28 @@
+{
+    "id": "cffi-1.17.1-cp310-cp310-win_amd64",
+    "hashes": {
+        "_cffi_backend.cp310-win_amd64.pyd": "4f1ce205c2be986c9d38b951b6bcb6045eb363e06dacc069a41941f80be9068c",
+        "cffi/__init__.py": "1fab7f79bbdae84787a54b88b452d6d606d1a7de1e6513493832da58a75bc752",
+        "cffi/_cffi_errors.h": "cd05edeee47f9bc8145be7c8da1260d0aa129091705eff111949040d9d7bedd4",
+        "cffi/_cffi_include.h": "131866826f6acc75b35a2be37d37b40fb5e9e2b3d4915c5d36ec0684c4cccdbc",
+        "cffi/_embedding.h": "1032b0e50acbbd0a1edeea2c5c1dc7d713d54d8c6c9f7dde577038df3b00fc5c",
+        "cffi/_imp_emulation.py": "4714441bccc06c8d913c6070c3dd2eff97e2f2c59d6a1a5d8a93a83f3929ec2d",
+        "cffi/_shimmed_dist_utils.py": "0638f6c26f3265bbc5bd6131e4011f9aa6aa6726458587e8c8b2d01e45d9b9aa",
+        "cffi/api.py": "6a506fea1650923a66669941a6175a467da53cef7e08e46cfccee2c5a6ef6562",
+        "cffi/backend_ctypes.py": "879648ccb73a0455579c6c9cf713ea656512eea1b2ef21520ea5deebc49af33e",
+        "cffi/cffi_opcode.py": "243579974474fce69d057fee13bc4f3d362d31d9a9a7c23d51877a6afeda8835",
+        "cffi/commontypes.py": "ecdeb33ed08596fc57316847574f29b148dd6082b65e0b0ddf2a39760b9afefe",
+        "cffi/cparser.py": "d2a237984cd948d55c09a9e0a325cea0070bf9186940bd3c786f3bf7c4f4db8b",
+        "cffi/error.py": "bfac53892e14d24bc3732e21fc10d1a39bf7f5942e8fe20c4582efe444dd759b",
+        "cffi/ffiplatform.py": "6afc458dd8a460626812d9893bb7b0566c06fd511597a119fd668d859602aafe",
+        "cffi/lock.py": "97d4d37703083298ba8c39091a742013d72f4c847b0809ed209afc1061edde96",
+        "cffi/model.py": "5b7d14150644ef78cbe4cc7937cd584fbeeeb365b68898d39b45d87e7c33d5c8",
+        "cffi/parse_c_type.h": "39dc107f033d92dababe5081e377b11509b10c1b63d8c04d74af0b625d79b63c",
+        "cffi/pkgconfig.py": "2cfd70eef996be62b0caa2da535676e3714e58635032b80c519aef805b8e95ca",
+        "cffi/recompiler.py": "b229b84e6ee56a6b76267f2ecca374c0c629e8e0c1ca4de0ee87f8efe87d2c3e",
+        "cffi/setuptools_ext.py": "f9e6e3efd94edbf0141fe91171a8dada9298d59ff9b65a06c2c260ccaf0fdc27",
+        "cffi/vengine_cpy.py": "f146a04fa6443997fa0e3bbbfc27cdba5b9ef029ec1cb133258867a94868174e",
+        "cffi/vengine_gen.py": "0d494422b0e25629f53e7867d6c7e86a69d2e4d2ea7c970e76146879235e2518",
+        "cffi/verifier.py": "a17f23a5aa21836426dda1dcce789d01dbeb566e4de2c4181b46b7128e66225e"
+    }
+}

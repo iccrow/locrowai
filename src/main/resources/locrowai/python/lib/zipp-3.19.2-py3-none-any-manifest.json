@@ -1,0 +1,9 @@
+{
+    "id": "zipp-3.19.2-py3-none-any",
+    "hashes": {
+        "zipp/__init__.py": "42e235834d06e1f440706b7e1ea6d5d285889264a079d086198b071d8ccd6bc0",
+        "zipp/glob.py": "7ad5a99df1284727d4beb52c8bab13886984aef3f07ba1f363aa53f2383f9542",
+        "zipp/compat/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "zipp/compat/py310.py": "799a645b4cd1b6e9e484487c8e35f780219edb67a6a0a081270ef666de119210"
+    }
+}

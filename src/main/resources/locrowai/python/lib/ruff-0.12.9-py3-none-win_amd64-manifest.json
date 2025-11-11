@@ -1,0 +1,8 @@
+{
+    "id": "ruff-0.12.9-py3-none-win_amd64",
+    "hashes": {
+        "ruff/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "ruff/__main__.py": "c351217f3cf2f2d30ceebedd16b2a68b70e499367257fc49e342bfb31a0ee97d",
+        "ruff-0.12.9.data/scripts/ruff.exe": "6e7a1d626c5a424e2d90f989a32ed5e91769cfbd03a1f9692366db952ed0cc6b"
+    }
+}

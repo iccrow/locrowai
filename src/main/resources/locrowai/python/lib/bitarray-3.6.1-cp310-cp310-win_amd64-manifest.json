@@ -1,0 +1,13 @@
+{
+    "id": "bitarray-3.6.1-cp310-cp310-win_amd64",
+    "hashes": {
+        "bitarray/__init__.py": "eed656092101176549d5827d02d8f9e442ad8797f1acbbe00f757df8ab555e5e",
+        "bitarray/_bitarray.cp310-win_amd64.pyd": "a1a3421bd21ae137cf2229529ed1b50d885ba3fd046c296d99a9a3518c10de0c",
+        "bitarray/_util.cp310-win_amd64.pyd": "b78d5627c822cfb71c5d8d7271581979a1b8758709814d168187d1f32090e87d",
+        "bitarray/bitarray.h": "5bdd617f7232d07b0801d91bf4b87ec5fe4bc93a7c55c3a57ca0bcd4b4f2078a",
+        "bitarray/pythoncapi_compat.h": "42137acab7b170637a052a2fc6161d428ce3507ecde811ceb77dcc5db7f8e0ca",
+        "bitarray/test_bitarray.py": "cb7b3d82a4f6d165b5245c234788e22b99cac5a2fb25663909a24cbc642f06c7",
+        "bitarray/test_util.py": "6fea8f67b7e3d89058f0330f987e8a5acb2f0c891594d36a21f64914963c40d4",
+        "bitarray/util.py": "993a253a94139f4e7ff60012d780673cc4c6c5f87f95a1f68fff729569a0fe3d"
+    }
+}

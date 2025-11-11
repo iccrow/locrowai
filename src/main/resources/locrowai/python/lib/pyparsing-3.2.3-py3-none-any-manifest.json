@@ -1,0 +1,18 @@
+{
+    "id": "pyparsing-3.2.3-py3-none-any",
+    "hashes": {
+        "pyparsing/__init__.py": "6704dd7e2594a71f1755d12c79177c0a58f47a0b5171ae52502ab32aae7c693f",
+        "pyparsing/actions.py": "73b8f5bb9036976045e23cd07485f6ec8b2acb37d32b5bd9b825a0b48b26d654",
+        "pyparsing/common.py": "4b2640110a700c03cea547a73a5b48bfecb537eb7348dde7084ccd61c3a9883c",
+        "pyparsing/core.py": "22d6b5ae854ac2acdf6f822f5fcf0bc19825c6e8a2a3b26e5bd7a8ca592165f5",
+        "pyparsing/exceptions.py": "cc8f591ac301aa9703076a8ab2bae9606ba7d520b036bbe9b8d8526ff82806ea",
+        "pyparsing/helpers.py": "4c4ea306390805bff18da7942973e34bed7e4671ff2241ff0da1e768c0d1c163",
+        "pyparsing/results.py": "db4f0ad71802ca28e91346ae01130dab02572c23cdd18ed80ac7577f7ca76621",
+        "pyparsing/testing.py": "afe90a5dcbfff2bd46fb8beba6b06425eb90169afde0e4a6d23957746c00605d",
+        "pyparsing/unicode.py": "7686a7bfb058401e0475045f7578a06a257f483859cb26814b082f544cfa7977",
+        "pyparsing/util.py": "9277da17cfe98c72f2ecf2ff61da6c33d55a401ad00eaa382e787486e4f04e5e",
+        "pyparsing/diagram/__init__.py": "ed590b41cea9e1b9d00b70852f854fb440a28798fe6fe2e4379eeafeb5cc9333",
+        "pyparsing/tools/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "pyparsing/tools/cvt_pyparsing_pep8_names.py": "08abf120188324bbe66e756fde62b4b7235464ddee6f7790e19d5e3b9e31f3f5"
+    }
+}

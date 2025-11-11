@@ -1,0 +1,25 @@
+{
+    "id": "oss2-2.19.1-py3-none-any",
+    "hashes": {
+        "oss2/__init__.py": "83f9f9e6e505d9e566a983cba42b6d09f3042c9791c96529a3fa93641bac0dfb",
+        "oss2/api.py": "dae275ee2909a11d7148e738606e7954a2591eaaf2d82bafc67109a89a167c12",
+        "oss2/auth.py": "3d8851416c8a61c1f656377ddfded6c4286443ebae7164bd2f069fc83ec43ee3",
+        "oss2/compat.py": "b7b5fbb37fa8769569a8411aa6f2faf1d773a8c2e7d780fdddc4b01caad5e59d",
+        "oss2/crc64_combine.py": "e916a48cf5b141ecaea303c23786220c1697617c30cf5b28231b995f2449b08b",
+        "oss2/credentials.py": "cc6d63f6745ae4f1de9ab62535785109db84d5ba7f631632f48e4c89b867c8b3",
+        "oss2/crypto.py": "2b98426ca0fcfa3182cedff4f57090be21f294ce2d62057ff4d9468801e6e436",
+        "oss2/crypto_bucket.py": "395bd3c781782538ca69572b90bd36a0a5c064717badbb0a40f043a39a3c7c46",
+        "oss2/defaults.py": "1b370f62ddbc7546677cc0908150dd1804a483a8c9dd8fd63a3b30e9197b70dc",
+        "oss2/exceptions.py": "031299420c32de0870f737efdceb01d327cb30e69bc4303c377f7e1bc65bdd07",
+        "oss2/headers.py": "889f120a6207978f57ce5a9cf7ddcadeb0c817e51dc390e4ca1279703698ca0f",
+        "oss2/http.py": "2de15e519ae2bbd33327353c385ce0d010b301b92e358f97ea423280bb6e3292",
+        "oss2/iterators.py": "b176f6b2ed3fac5acf6ce42e39640178ff9a9c7e16ecd300434294a54c2c16d3",
+        "oss2/models.py": "53d591dd029bb74cc122c5988a6b0db80c8120f4e4a56dbb5f1e2bd790497e41",
+        "oss2/resumable.py": "692bf7ec28bb940f9ac9bbaae8c55371f05570d38e9fd725e2a25481dc2548df",
+        "oss2/select_params.py": "2425c081f085ad61b7cbc9af3afd349c1d86a92110d7a0c483b74df00a9aafd9",
+        "oss2/select_response.py": "e8f79a7ecf09a6f98f1165347ad6101fa039a76bdd491fb6118a60533a317da8",
+        "oss2/task_queue.py": "a773d956d982cbb6de4589f1bc4267dde9b7339194b0d16b4e8c0f8a11f97fc0",
+        "oss2/utils.py": "e3a59eb304af0e486c08bae9be29ce6c21c4ff2e1ed5dfb38b5462f9a2cfc420",
+        "oss2/xml_utils.py": "0ba6478b2197baabab2085794c824b1b938f36bf3dc0d7cd9574661ca40d7b83"
+    }
+}

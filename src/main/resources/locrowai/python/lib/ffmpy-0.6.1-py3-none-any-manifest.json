@@ -1,0 +1,7 @@
+{
+    "id": "ffmpy-0.6.1-py3-none-any",
+    "hashes": {
+        "ffmpy/__init__.py": "577e5d89ff6ae54d7a5433fe7d855a241a71b4be8e7d53f9b451b0dced67413a",
+        "ffmpy/ffmpy.py": "97986ba04ba054ebf77f71e427d5c4a78852425e06aa7d675fb50e669597882f"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "id": "cloudpathlib-0.21.1-py3-none-any",
+    "hashes": {
+        "cloudpathlib/__init__.py": "abcb6558d24a61d67d9c72fd4c6cba37c7b5718f13862856f5a726c0984ba69b",
+        "cloudpathlib/anypath.py": "d1099518ee2de8bed48fb62e55e2e290053804d711b499e18e030b6bdf345f28",
+        "cloudpathlib/client.py": "c3f6d986f1b1cb29fee5b2dafb4c278ae5d28c52518a1a60cc6fc59e8e8e7aaf",
+        "cloudpathlib/cloudpath.py": "95b68571d58297219d77b61ba62252fb35b72f00432141b6c7c64419d8f6d3cb",
+        "cloudpathlib/enums.py": "f3b30d491701a573940f9e9420e2198147ab4ae8363e91f45818a94e47d15003",
+        "cloudpathlib/exceptions.py": "35ebd20fcd3b1ca59c75bf0f2d0fd4e1d788f3036ee939813eba23b3416b6dfc",
+        "cloudpathlib/url_utils.py": "7c03bd445abd341315f2a06f926704dc304c00f02d5b93e5ed7b9707d8b8f5bf",
+        "cloudpathlib/azure/__init__.py": "7b2903d81a9bc727753527accaeeff298b259bfe57d0ea89a548d9b515fd0187",
+        "cloudpathlib/azure/azblobclient.py": "768ec22bf0b4bb57e97aeee20269405d7e9bf74ba3343a620f23d8314e294729",
+        "cloudpathlib/azure/azblobpath.py": "a5abfca5451ef720da153f78ac9f872538855f4003c920109080be6d480b51ef",
+        "cloudpathlib/gs/__init__.py": "1fca6862ba497463381e9d7a8d1253d225ce5bf661ffa925b74286a13a3c6bea",
+        "cloudpathlib/gs/gsclient.py": "3853993c8344c28c25aadf426887c8b6b94c89120269df1e5fe8990d56e26001",
+        "cloudpathlib/gs/gspath.py": "a22a577432ce223cf726cc61b3b3b9419efb7823df1a51878c855cf756e645b8",
+        "cloudpathlib/legacy/glob.py": "6362b55a313a9c64dae6d77920360dc61a30f4ebf3427f5eeafe8c1e1618217a",
+        "cloudpathlib/local/__init__.py": "44af1af2b1ccfba21a8d33d22a97f411a1ca08f61d926b82479e969644803aa4",
+        "cloudpathlib/local/localclient.py": "2d20e89cc73b9bcb042dbab0210125fbb5c3fa4df9a6e72074adf7f70d7680f6",
+        "cloudpathlib/local/localpath.py": "f3c8dbc4b533c00c0ca79d3a2c2f596201be02c7b6c5ca82dfbf343af1f13102",
+        "cloudpathlib/local/implementations/__init__.py": "4a422c2924a8b38a2acfca3f04ab072799a0057568d92104fd6608aa64af8f0b",
+        "cloudpathlib/local/implementations/azure.py": "dd989be7eb935bb1d67bc8033e287e29d19b40e9958f9678b71df8e0ee965ac9",
+        "cloudpathlib/local/implementations/gs.py": "0242d1e69d2ba8b3ef209ed992ff7af49af2ed073c1042e189ab16623237b031",
+        "cloudpathlib/local/implementations/s3.py": "ba7a26fdbe179152ff5fb57227fb8b0dcb8b19c3bc55caee396559297d2949e5",
+        "cloudpathlib/s3/__init__.py": "a386804f297d9d5438e8948aa4804b04f9dbca267935c983dadc583c0b884761",
+        "cloudpathlib/s3/s3client.py": "7b6088c7f3599ee442b5830db9be9377a8f7dab67d350807ae83242518f3f8b4",
+        "cloudpathlib/s3/s3path.py": "fdd2cbe733fc40cdcfb32e3338bc8b932b9f2c7daf7cd173dec938d2b5c3f431"
+    }
+}

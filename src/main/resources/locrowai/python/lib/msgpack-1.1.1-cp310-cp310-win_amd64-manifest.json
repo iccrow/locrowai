@@ -1,0 +1,10 @@
+{
+    "id": "msgpack-1.1.1-cp310-cp310-win_amd64",
+    "hashes": {
+        "msgpack/__init__.py": "79a8df40882296160008ae306e130cd100996be1a5cc5915885d0b627ae05fb8",
+        "msgpack/_cmsgpack.cp310-win_amd64.pyd": "a2c74078d4b4d9799a4a22f463d1dac884798d22920aa3a1b29412a5d3ac1f60",
+        "msgpack/exceptions.py": "d9f0ad733ae272a420753dcdb56e9c4ea9999f7580ec642d9a53ee4fe3612f23",
+        "msgpack/ext.py": "f600cac6e1077d859d3d1cdca45c05632b81c74a6ea6b9507e50c639a71c4611",
+        "msgpack/fallback.py": "1003fa83d37bb535af4f0d3546d9d75dd620fb3667db515c1957dd06277c6948"
+    }
+}

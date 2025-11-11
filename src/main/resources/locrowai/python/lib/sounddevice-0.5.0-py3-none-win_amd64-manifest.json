@@ -1,0 +1,9 @@
+{
+    "id": "sounddevice-0.5.0-py3-none-win_amd64",
+    "hashes": {
+        "_sounddevice.py": "9b8a984b2b27681ecfbfc47326ea7f38a406a4de73069344f3c702dfdfd9472a",
+        "sounddevice.py": "815d4e4083a1110ea7ae9e5b7985bc5cb6ff7ca979e845ff6f0338715f745d07",
+        "_sounddevice_data/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "_sounddevice_data/portaudio-binaries/libportaudio64bit.dll": "433b77811ed6a2509cd15d9af826335c458cd0ef5f424b02b97597c74e170462"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "id": "spacy_loggers-1.0.5-py3-none-any",
+    "hashes": {
+        "spacy_loggers/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "spacy_loggers/chain.py": "5830e13cad1d703e89d680e533298f6d24d7a8b5fe1ba759ccf319008f9ef6d0",
+        "spacy_loggers/clearml.py": "a0eea729081aa17de90615577d17005444b2ecc7db1ddfbb805964d84b674e75",
+        "spacy_loggers/cupy.py": "b7aed7a3dd7a87a6b9c121508ff6de4fa1636a1a7c32ba9316417c45ee3d8027",
+        "spacy_loggers/lookup.py": "66a87bc5ceacea9e9e18bdc9556a83ea7e18fe8092c392a34a77f3dde29f29a3",
+        "spacy_loggers/mlflow.py": "299ae0b87284fd49a052cb0ed85959d7dbc214018b0aad6791923f7f0743f5ef",
+        "spacy_loggers/pytorch.py": "5c688354628ba01bd3d06a81ebb03df8570888d124db6e8a952d4768f7a6642f",
+        "spacy_loggers/util.py": "a22d546fcf934e8f687efea1a7058d9bb2ad431a6c801ff56a720b6cb4a43a00",
+        "spacy_loggers/wandb.py": "429f17736b2e9c2b32de921763270d97656917994b624a5b70d12887f24b451f",
+        "spacy_loggers/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "spacy_loggers/tests/test_chain.py": "7611931f319b1aa5f00f6d15c112262ea0cecb0f832dcf4fa1d4b0e6d31ede92",
+        "spacy_loggers/tests/test_cupy.py": "c8cb49d1022fd9e80d0b83063f4a1be07a33a13e1ccb0225ab32fce9a9ca76e1",
+        "spacy_loggers/tests/test_lookup.py": "0a2c2ab338aa1e57d41711c8c4c120894b843c006b2ae1103cca651485775920",
+        "spacy_loggers/tests/test_registry.py": "90bfe07368b6bf2deac537d5268b489e0dcd9464801fbdd8f197c406473c6669",
+        "spacy_loggers/tests/util.py": "b37b76e5f3b5633242487f199e5ad16b5d02307b3d7beaad9a9b2ec2cd12aa56"
+    }
+}

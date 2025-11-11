@@ -1,0 +1,12 @@
+{
+    "id": "kokoro-0.9.4-py3-none-any",
+    "hashes": {
+        "kokoro/__init__.py": "9ef0313aea8ce55a6949240d71c5fd4371ad3245e4df4473fcf61ea24bb10a96",
+        "kokoro/__main__.py": "cc7ddae46048b6480f5d65cfca58349b7bc7f393dcb727aa71d75e7c524e455f",
+        "kokoro/custom_stft.py": "94fed3f9ac22bba31135bf8c4ea795762c7ab3ff44f1984d11e7babf27462d69",
+        "kokoro/istftnet.py": "eb45e18d73d09e5a42801dedf16b6e3fb07d9741a142cd48fb8ebc1f68c11f26",
+        "kokoro/model.py": "301c55350a068c4ed3b4cbd1209d2afb848bebca72db5657405e47e9dfb604db",
+        "kokoro/modules.py": "569e3caed16147fa4f66f7fff33ff632954d0a598094c947a5b0fd095c17d5d0",
+        "kokoro/pipeline.py": "09da32aab781f7a163cbf9f6e379d53db40957cbbab50bc26a21c8440c0eabd6"
+    }
+}

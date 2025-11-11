@@ -1,0 +1,12 @@
+{
+    "id": "jiwer-3.0.3-py3-none-any",
+    "hashes": {
+        "jiwer/__init__.py": "4c62b1a7435a73c9d3626ee716543accad5b09536d4c9497b3ac723d76a7782f",
+        "jiwer/alignment.py": "5f50d895f723e55dd55f180fc4945236589cf4098fffe9d41b63ec1a3344dab2",
+        "jiwer/cli.py": "eb339662c62deba996df5b1ce154a0ffdfc10c678e02ee39a732b6288f750971",
+        "jiwer/measures.py": "05ba9009fdd43c48b24095e774db9b51613326cc022a5b357518a6351b12d93c",
+        "jiwer/process.py": "a16e5923ea4356daa00b3fe9fede10e326e48cc384fca73b30ee722f2d7bef77",
+        "jiwer/transformations.py": "a8c73f9f18939afb64023ea5c0b5c27f45e14505601f86bfd7ac0af5a416e156",
+        "jiwer/transforms.py": "e0e0ff9b43ccb46a605e0bd8d0c17c431cccc0c6c108c19d92d3cb659f26faa2"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "id": "language_tags-1.2.0-py3-none-any",
+    "hashes": {
+        "language_tags/Subtag.py": "5a9aabf0666aaddf68cc5c5b02b28fcc64b0fa67dc67775f154d6f946ccd0d17",
+        "language_tags/Tag.py": "f038eb2c800a49d0031da9d7beefa570b66184ae9da48e80ada3c16d937c4f82",
+        "language_tags/__init__.py": "54d7df2465cce5d19908a5c79a2a6f8893062623655650715bd9a20f5e4327ce",
+        "language_tags/tags.py": "e4de7fccf2450935319d846e29881cf9c1e7979289dcb2f0cd794ca04bc17757",
+        "language_tags/data/__init__.py": "f74cbf6163e1d25f20967093997645b3762116ca81fe6c997a45f806554ff727"
+    }
+}

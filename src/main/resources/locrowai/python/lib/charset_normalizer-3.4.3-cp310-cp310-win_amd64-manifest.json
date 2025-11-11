@@ -1,0 +1,19 @@
+{
+    "id": "charset_normalizer-3.4.3-cp310-cp310-win_amd64",
+    "hashes": {
+        "charset_normalizer/__init__.py": "d0d4fc3078bb48aab78ee32a61f39dae4ce38ac2b42fbde59de3471f8a9a500b",
+        "charset_normalizer/__main__.py": "dac8ff052e87d2c536e42d5b32acfd0d5c1aea438af657214846d253efe2bbb3",
+        "charset_normalizer/api.py": "383cb8857efc6f795d4e5e6c56260f535cb3439aa47257e0488144f01b4dad32",
+        "charset_normalizer/cd.py": "baaf2757146947a1ae735e800af396b4bf0a3b7c3bbd868287c8478acb8ec938",
+        "charset_normalizer/constant.py": "982266633a41536ed4b7d9223565a805b861c50f9a455c372bb2d2c281700462",
+        "charset_normalizer/legacy.py": "ba2d3c3652aa01753763bb262be345263120451433f6bb8ceda3426d3d0e3ab1",
+        "charset_normalizer/md.cp310-win_amd64.pyd": "050db4f1acb328eaed6473dbefce5be4782fc39b5cd96b3371f1eb8ad50e3e7c",
+        "charset_normalizer/md.py": "2d2b96da13605d2805ec919d45aa4b0072ee8faa4004788ff392d3340626bbb7",
+        "charset_normalizer/md__mypyc.cp310-win_amd64.pyd": "3d91cd76d7ba0e99252288b5191c50db5be0d9e2f2bf5fead5dc7bbfff72ba2d",
+        "charset_normalizer/models.py": "651d8f13e7ea7fa7404997ea744e548649abd28d4c72249d5ce8ee36ac249af8",
+        "charset_normalizer/utils.py": "5ed58841e3aecfb72719e6cccf28b856f8b526d03ce1005221e47d3c3cc5ee9c",
+        "charset_normalizer/version.py": "95a9e25847950827f046060b7ffad9d9fd2a59a3705931174047d450bfcc32fc",
+        "charset_normalizer/cli/__init__.py": "77d314c7ed55fea0f7c7d8a0232e094f8a02e42534ca3ba593b4326567911618",
+        "charset_normalizer/cli/__main__.py": "fa97490b23f2c28b8fc85b02f3f7934a04e6be1d5812f823b2fcb5599d178da0"
+    }
+}

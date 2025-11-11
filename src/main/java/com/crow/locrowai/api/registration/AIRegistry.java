@@ -85,4 +85,6 @@ public class AIRegistry {
     public static ClassLoader getLoader(String MODID) {
         return loaders.get(MODID);
     }
+
+
 }

@@ -1,0 +1,14 @@
+{
+    "id": "audioread-3.0.1-py3-none-any",
+    "hashes": {
+        "audioread/__init__.py": "df7269b68863d66d103b9db5ea8aea8bdf903245dfb6f5324b89f1a3efba523f",
+        "audioread/base.py": "00ed562ab51442dae1de10aebc725a02efc75909c85572ef910c8e09616d5a15",
+        "audioread/exceptions.py": "453c18069325072e1b58f792c62768cfaf580978d3b691eb1c532e1d6889ea1d",
+        "audioread/ffdec.py": "03c91c226b1e4bdf58cb0ccdb2e2bc0ec391868fbabf223bf57789f7608df984",
+        "audioread/gstdec.py": "92c874f2c12037e6cb552a084e87744247908570e1eecd7fdc1314c13182bb6b",
+        "audioread/macca.py": "1ce16ebbe4a55a20997ad499c466bebb65e774bcb7ccc0ac7ce3aa029ac57c73",
+        "audioread/maddec.py": "f4c6da7469012185d583366ae9c818095d85019c1593c0164d8aec5b279ef7c8",
+        "audioread/rawread.py": "78b036de34f8d5cd5ed27c839a75c9acac20168e26341ac82e15730cfaf86aef",
+        "audioread/version.py": "de7173dd14f2774af5f695d2be0859cdfe2bbacd74eba6128d3c2912f6eb12aa"
+    }
+}

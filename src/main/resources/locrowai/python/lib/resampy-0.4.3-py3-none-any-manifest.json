@@ -1,0 +1,10 @@
+{
+    "id": "resampy-0.4.3-py3-none-any",
+    "hashes": {
+        "resampy/__init__.py": "f65e7016ed411b1d8568ea983a268eed36862d15cd12e261583f451522f43774",
+        "resampy/core.py": "37ee3601e0bca43e24c67ea840365001f464bee554b5480aa096e98aa147a479",
+        "resampy/filters.py": "31871f3246bdd78adba1d087da4472869b2b6442ae969204f1a1c963a73090ae",
+        "resampy/interpn.py": "50ce892d76ca103fc072f252e50a84d6d78da38f513135fdaf9d712c2647e247",
+        "resampy/version.py": "fe614a7caecc39917621a62b6c40422f7510d76e7bbaa6996ecb9baca6383dd2"
+    }
+}
