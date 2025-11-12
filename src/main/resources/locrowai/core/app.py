@@ -267,3 +267,25 @@ def freeze(data: FreezeParams):
                 functions[fn].freeze()
 
     return JSONResponse({"status": "success"})
+
+if __name__ == "__main__":
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Run API script or warmup functions.")
+    parser.add_argument(
+        "--warmup",
+        action="store_true",
+        help="Run the warmup() method of all registered functions."
+    )
+    args = parser.parse_args()
+
+    if args.warmup:
+        print("Running warmup for all functions...")
+        for fn_name, fn_obj in functions.items():
+            if hasattr(fn_obj, "warmup"):
+                print(f"Warmup: {fn_name}")
+                try:
+                    fn_obj.warmup()
+                except Exception as e:
+                    print(f"Error during warmup of {fn_name}: {e}")
+        print("Warmup complete.")

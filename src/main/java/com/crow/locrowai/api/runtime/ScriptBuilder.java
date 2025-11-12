@@ -11,7 +11,7 @@ public class ScriptBuilder {
     private final transient Gson gson = new Gson();
     private final transient Set<String> callIDs = new HashSet<>();
 
-    private final String api_version = "0.4.0.dev1";
+    private final String api_version = "0.4.0";
 
     private final Map<String, JsonElement> vars = new HashMap<>();
 

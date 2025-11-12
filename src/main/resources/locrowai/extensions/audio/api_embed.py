@@ -1,10 +1,9 @@
 from pydantic import BaseModel, ConfigDict
-import torch
 from torch import Tensor
 import torchaudio
 
 from api import Function, register
-from .embed_model import model
+from .classifier_loader import get_classifier
 
 class EmbedParams(BaseModel):
     path: str
@@ -17,6 +16,10 @@ class EmbedReturns(BaseModel):
 class EmbedFunc(Function[EmbedParams, EmbedReturns]):
 
     def exec(self):
+        model = get_classifier()
+        if model is None:
+            raise RuntimeError("No speaker embedding model is loaded.")
+        
         signal, fs = torchaudio.load(self.params.path)
         embeddings = model.encode_batch(signal)
 

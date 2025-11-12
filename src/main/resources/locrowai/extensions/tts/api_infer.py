@@ -1,12 +1,10 @@
-from kokoro import KPipeline
 import soundfile as sf
 from pydantic import BaseModel
 import numpy as np
 import io
 
 from api import Function, register
-
-pipeline = KPipeline(lang_code='a', repo_id="hexgrad/Kokoro-82M")
+from .model_loader import get_pipeline
 
 class TTSParams(BaseModel):
     text: str
@@ -21,6 +19,9 @@ class TTSReturns(BaseModel):
 class TTSFunc(Function[TTSParams, TTSReturns]):
     
     def exec(self):
+        pipeline = get_pipeline()
+        if pipeline is None:
+            raise RuntimeError("No TTS model is loaded.")
         
         generator = pipeline(
             self.params.text, voice=self.params.voice,

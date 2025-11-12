@@ -11,9 +11,10 @@
     "author": "iccrow",
     "models": [],
     "hashes": {
-        "infer.py": "e14e3e16d4799f7497b04b915746daaa8abfcea6a4a2c09eb5c77e19c045a60f",
-        "rvc.py": "d4edda3a603c5b906060137ce938d0f48619e03bb89bc3324049465defc2442d",
-        "__init__.py": "3f1ecc9655f074d9c8740cd7ba0e01398443f2dd55b220fa3d91b58b2402bc9a"
+        "api_infer.py": "cd78844124c455b271bb3d235ed2bd3d23653e9697d80c691d1e7b33e5074c2c",
+        "api_load_model.py": "f61c550eea4aa319253f450665582a68188b3cc3142c2ce320d518ef140109ca",
+        "model_loader.py": "266570ac6b0b6cb6118867e9ba1a5ba58a7aaa4c8f935bbad1cf7730fb63cc31",
+        "__init__.py": "66078120c55dcf162aab9536dc143d7939984c3a7c8c2370e202f5feb0dd1d0b"
     },
     "requirements": [
         "_distutils_hack",

@@ -38,7 +38,7 @@ class ExtensionInstaller {
             return;
         };
 
-        if (!extension.getKey().equals(SecurityManager.OFFICIAL_KEY) || !allowThirdParty.get()) {
+        if (!extension.getKey().equals(SecurityManager.OFFICIAL_KEY) && !allowThirdParty.get()) {
             DistExecutor.safeRunWhenOn(Dist.CLIENT, ExtensionInstaller::showThirdPartyWarning);
             if (!allowThirdParty.get()) {
                 InstallationManager.logMessage("Skipping third party extension '" + extension.getId() + "' as the user declined third party extensions.");
@@ -64,16 +64,6 @@ class ExtensionInstaller {
                 files
         );
         InstallationManager.logMessage("Copied extension '" + extension.getId() + "' files to disk.");
-
-        for (PackageManifest.ModelCard model : extension.getModels()) {
-            InstallationManager.logMessage("Downloading model '" + model.filename + "' from '" + model.repo + "'.");
-            URL url = new URL("https://huggingface.co/" + model.repo + "/resolve/" + model.revision + "/" + model.filename);
-
-            Path modelFolder = ePath.resolve(model.model_folder);
-
-            FileUtils.copyURLToFile(url, modelFolder.toFile(), 10_000, 600_000);
-            InstallationManager.logMessage("Downloaded model '" + model.filename + "' from '" + model.repo + "'.");
-        }
 
         InstallationManager.logMessage("Installing extension '" + extension.getId() + "' required Python libraries...");
         InstallationManager.installPythonLibraries(extension.getRequirements(), 100.0 / total);
@@ -127,9 +117,12 @@ class ExtensionInstaller {
             }
         }
 
-        int size = tasks.size();
-        if (size == 0) size = 1;
-        delta.set(100.0 / size);
+        if (tasks.isEmpty()) {
+            executor.shutdown();
+            return false;
+        }
+
+        delta.set(100.0 / tasks.size());
 
         try {
             // Run all tasks in parallel
@@ -141,6 +134,7 @@ class ExtensionInstaller {
                     f.get();
                 } catch (ExecutionException e) {
                     e.getCause().printStackTrace();
+                    InstallationManager.logMessage(e.getMessage());
                     success.set(false);
                 }
             }

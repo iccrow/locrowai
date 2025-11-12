@@ -16,6 +16,7 @@ public class AIRegistry {
     private static final Map<String, AIContext> contexts = new HashMap<>();
     private static final Map<String, AIExtension> registry = new HashMap<>();
     private static final Set<String> declared = new HashSet<>();
+    private static final Set<PackageManifest.ModelCard> models = new HashSet<>();
     private static final Map<String, ClassLoader> loaders = new HashMap<>();
 
     public static void init() {
@@ -53,7 +54,10 @@ public class AIRegistry {
 
                 for (AIExtension extension : results.registered()) {
                     registry.put(extension.getId(), extension);
+                    models.addAll(extension.getModels());
                 }
+
+                models.addAll(results.modelCards());
 
                 declared.addAll(results.declared());
 
@@ -79,7 +83,10 @@ public class AIRegistry {
         return registry.get(MODID);
     }
     public static List<AIExtension> getExtensions() {
-        return registry.values().stream().toList();
+        return List.copyOf(registry.values());
+    }
+    public static List<PackageManifest.ModelCard> getModels() {
+        return List.copyOf(models);
     }
 
     public static ClassLoader getLoader(String MODID) {

@@ -11,13 +11,14 @@
     "author": "iccrow",
     "models": [],
     "hashes": {
-        "cache.py": "639d089e9105df3b60ac189b14af2e855513e3705045702ede48c0afd081fef6",
-        "embed.py": "2e28a117c7fed798a62ea2f2c9bbd1e953c42e3b42bc6abfe788db631ed672b0",
-        "embed_model.py": "e434159bca9589ac085eeb1059a005d1e9019357969b6913dd2b5973af8c05a3",
-        "pcm_cache.py": "1078702330b5810e40a5cf5e8832cbd028b1646d72139c62fb77806a646267d3",
-        "resample.py": "bc268351bbdeaaf392f3966813ad3ec67eca17336de3544ba608d3a79a9193a4",
-        "wav_to_pcm.py": "d130a3e1011a2f06c84d0ecda13c0786cfed4cf38db638198a31596020e12fe1",
-        "__init__.py": "9edb89ce1e026531ef1318119c1ea01723c56729116057452daad3bf13236f31"
+        "api_embed.py": "90aef1da2942929fe6e960b028ceabcc3944d131b410fc398a7c35d22d1fadf3",
+        "api_load_classifier.py": "ff568108c432a2ff63b0be4e532012c6a7d0cb07f791a2819a3d6a4550d80ae6",
+        "api_pcm_cache.py": "1078702330b5810e40a5cf5e8832cbd028b1646d72139c62fb77806a646267d3",
+        "api_resample.py": "bc268351bbdeaaf392f3966813ad3ec67eca17336de3544ba608d3a79a9193a4",
+        "api_wav_cache.py": "639d089e9105df3b60ac189b14af2e855513e3705045702ede48c0afd081fef6",
+        "api_wav_to_pcm.py": "d130a3e1011a2f06c84d0ecda13c0786cfed4cf38db638198a31596020e12fe1",
+        "classifier_loader.py": "8af4e8545171ef2757cef10369dc845275dc3a32b947f8fbefa2cbcf59c2c11b",
+        "__init__.py": "dc00b7c8abceb4614c734fff6f8e06420448792600cbb112573d21bd2ad74d32"
     },
     "requirements": [
         "_cffi_backend",

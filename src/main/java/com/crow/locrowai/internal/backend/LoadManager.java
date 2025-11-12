@@ -11,6 +11,7 @@ import net.minecraft.network.chat.Style;
 import net.minecraft.network.chat.TextColor;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.fml.DistExecutor;
+import org.jetbrains.annotations.ApiStatus;
 
 import java.io.*;
 import java.net.URI;
@@ -27,6 +28,7 @@ import java.util.concurrent.CompletableFuture;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+@ApiStatus.Internal
 public class LoadManager {
 
     private static final Pattern pattern = Pattern.compile("https?://[^:/]+:(\\d+)");

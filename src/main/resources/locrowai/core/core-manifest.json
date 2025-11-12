@@ -1,6 +1,6 @@
 {
     "id": "core",
-    "version": "0.4.0.dev1",
+    "version": "0.4.0",
     "description": "A Python server core for running AI scripts from a JSON API!",
     "tags": [
         "api",
@@ -11,8 +11,8 @@
     "author": "iccrow",
     "models": [],
     "hashes": {
-        "api.py": "43b9ab7984532877775be133485e30adf59d00fe86e0df14cc7fe6b74db579f6",
-        "app.py": "f16071984dcd9012486d84fb2bed0d040ce4ecf8bbdb2f3a840807b9c8c48808",
+        "api.py": "3184831f17a1056e88feffc31d18f146042207f607903c5ae4192d64df8c06b4",
+        "app.py": "5dfe3136d4596eb9d346e6f616f5848191aebb8a0838268c38959ac1251263f6",
         "import_tracker.py": "dbfefbc431d4e1d60b706186003fb151816247c595b46526f45f0425f0180966",
         "loader.py": "4152abc6e89119b7e5476e6c234d9d879e4d050272733a5b508a7ef2db076505",
         "python.bat": "93aa1bffecafbd8ef4eac96fa8a741a01c91fa2a5087b60ed935445ad15a0709",
@@ -20,7 +20,7 @@
         "remove_pycache.bat": "f620e719454273dde88a0d8beec9566ed08150bcce540c2b6910f528fc0bb495",
         "run.bat": "7827ac4b6e51aa6ae73c9bb3c741e9be87add841ed73bcdca5866e36d35f4155",
         "run.sh": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "seal_core.py": "5b7eaa23cc8343fa04441f501d18e9b0e664916eb62dcbea4ffe56e795cd9909",
+        "seal_core.py": "1276fe843d93338d0833c239620bcbb70f0dc183d01e7f53538442cab503ab85",
         "seal_extensions.py": "78c9205b903b0ab449b5a6398c93fb47e5d6fb2f7e65bf439d7ee8dc38ba51d0",
         "sample/audio.wav": null,
         "sample/speaker.wav": null

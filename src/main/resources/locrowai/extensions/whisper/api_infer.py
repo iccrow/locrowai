@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 
 from api import Function, register
-from .whisper import model
+from .model_loader import get_model
 
 class InferParams(BaseModel):
     path: str
@@ -18,6 +18,7 @@ class InferReturns(BaseModel):
 class InferFunc(Function[InferParams, InferReturns]):
 
     def exec(self):
+        model = get_model()
         segments, info = model.transcribe(self.params.path, beam_size=self.params.beam_size, language=self.params.language)
         
         transcript = ""

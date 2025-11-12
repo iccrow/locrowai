@@ -28,7 +28,7 @@ public class SecurityManager {
 
     private static final Map<KeyMap, PublicKey> keyCache = new HashMap<>();
 
-    public static final PublicKey OFFICIAL_KEY = getKey(new KeyMap(LocrowAI.class.getClassLoader(), Path.of(MODID + "/public_key.pem")));
+    public static final PublicKey OFFICIAL_KEY = getKey(new KeyMap(LocrowAI.class.getClassLoader(), Path.of(MODID,"official_key.pem")));
 
     private static final int MAX_SALT_LEN;
 
@@ -41,8 +41,9 @@ public class SecurityManager {
     }
 
     public static PublicKey getKey(KeyMap map) {
-        if (keyCache.containsKey(map))
+        if (keyCache.containsKey(map)) {
             return keyCache.get(map);
+        }
 
         InputStream stream = map.loader.getResourceAsStream(map.path.toString());
         if (stream == null) throw new MissingSecurityKeyException(map.path.toString());

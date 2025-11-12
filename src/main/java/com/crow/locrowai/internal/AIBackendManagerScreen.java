@@ -10,6 +10,7 @@ import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraftforge.fml.loading.FMLPaths;
 import org.apache.commons.io.FileUtils;
+import org.jetbrains.annotations.ApiStatus;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
@@ -28,6 +29,7 @@ import java.util.stream.Stream;
  * - draggable scrollbar
  */
 
+@ApiStatus.Internal
 public class AIBackendManagerScreen extends Screen {
     private static final int TOP_BAR_HEIGHT = 36;
     private final Screen parent;

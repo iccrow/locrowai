@@ -45,6 +45,7 @@ public class InstallationManager {
             new Stage("Downloading AI Backend", 1),
             new Stage("Installing AI Backend", 1),
             new Stage("Installing AI Extensions", 1),
+            new Stage("Fetching AI Models", 1),
             new Stage("Verifying AI Backend", 1),
             new Stage("Verifying AI Extensions", 1),
             new Stage("Testing AI Backend", 1),
@@ -118,7 +119,9 @@ public class InstallationManager {
         );
 
         for (String requirement : manifest.requirements) {
-            libs.addAll(List.of(InstallationManager.getLib(requirement).split(" ")));
+            String lib = InstallationManager.getLib(requirement);
+            if (lib == null) System.out.println(requirement);
+            libs.addAll(List.of(lib.split(" ")));
         }
 
         for (AIExtension extension : AIRegistry.getExtensions()) {
@@ -126,7 +129,7 @@ public class InstallationManager {
                 libs.addAll(List.of(InstallationManager.getLib(requirement).split(" ")));
             }
         }
-        LocrowAI.LOGGER().info(Arrays.toString(libs.toArray()));
+
         return libs.size();
     }
 
@@ -137,7 +140,6 @@ public class InstallationManager {
                 "import importlib.util, sys; sys.exit(0 if importlib.util.find_spec('" + lib + "') else 1)"
         );
 
-        assert builder != null;
         Process process = builder.start();
 
         int exitCode = process.waitFor();
@@ -149,6 +151,9 @@ public class InstallationManager {
         try {
             for (AIExtension extension : AIRegistry.getExtensions()) {
                 if (!extension.installed()) return false;
+            }
+            for (PackageManifest.ModelCard model : AIRegistry.getModels()) {
+                if (!ModelFetcher.isFetched(model)) return false;
             }
             return EnvironmentInstaller.installed();
         } catch (IOException e) {
@@ -294,7 +299,13 @@ public class InstallationManager {
 
         currentStageIndex.set(3);
         stagePercent.set(0);
+        List<PackageManifest.ModelCard> modelCards = AIRegistry.getModels();
+        logMessage("Fetching " + modelCards.size() + " models...");
+        ModelFetcher.fetch(modelCards);
+        logMessage("Fetched " + modelCards.size() + " models.");
 
+        currentStageIndex.set(4);
+        stagePercent.set(0);
         logMessage("Verifying AI backend files...");
         logMessage("Verifying core backend files...");
         if (!EnvironmentInstaller.verify()) {
@@ -302,7 +313,7 @@ public class InstallationManager {
             return;
         }
         logMessage("Verified core backend files.");
-        currentStageIndex.set(4);
+        currentStageIndex.set(5);
         stagePercent.set(0);
 
         logMessage("Verifying extension files...");
@@ -311,11 +322,11 @@ public class InstallationManager {
             return;
         }
         logMessage("Verified extension files.");
-        currentStageIndex.set(5);
+        currentStageIndex.set(6);
         stagePercent.set(0);
 
         logMessage("Running backend test...");
-        ProcessBuilder builder = SystemProbe.buildScriptProcess(backend, "python", "app.py");
+        ProcessBuilder builder = SystemProbe.buildScriptProcess(backend, "python", "app.py", "--warmup");
         builder.redirectErrorStream(true);
         Process process = builder.start();
         BufferedReader reader = new BufferedReader(
@@ -332,7 +343,7 @@ public class InstallationManager {
         }
         logMessage("Verified AI backend files.");
 
-        currentStageIndex.set(6);
+        currentStageIndex.set(7);
         stagePercent.set(0);
 
         installing.set(false);

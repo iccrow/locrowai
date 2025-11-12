@@ -1,4 +1,4 @@
-from .rvc import rvc
+from .model_loader import get_rvc
 import soundfile as sf
 import numpy as np
 import os, tempfile, io
@@ -8,7 +8,6 @@ from api import Function, register
 
 class InferParams(BaseModel):
     audio: bytes
-    model: str
 
 class InferReturns(BaseModel):
     audio: bytes
@@ -17,8 +16,9 @@ class InferReturns(BaseModel):
 class InferFunc(Function[InferParams, InferReturns]):
 
     def exec(self):
-        if rvc.current_model != self.params.model + '.pth':
-            rvc.load_model(f'extensions/rvc/models/{self.params.model}.pth', index_path=f'extensions/rvc/models/{self.params.model}.index')
+        rvc = get_rvc()
+        if rvc is None:
+            raise RuntimeError("No RVC model is loaded.")
 
         with tempfile.TemporaryDirectory() as tmpdir:
             in_path = os.path.join(tmpdir, "in.wav")

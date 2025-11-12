@@ -11,8 +11,10 @@
     "author": "iccrow",
     "models": [],
     "hashes": {
-        "tts.py": "0d05a01eaba413571ba6bd5421690259fd86d661e26170c4ffe79a6fed681d71",
-        "__init__.py": "7e9ed850675dae452dac6da21237ef042e4554241fbd5c49509335d945e57582"
+        "api_infer.py": "3960fcf6784b5c659104024ab61fd3ceb0900dbc47ed57b08d208e198c0be421",
+        "api_load_model.py": "46817a5c3a0cb6fe4c68fe86918b884241e1ee26443ca2e11dc7c2780a3a2eda",
+        "model_loader.py": "52e53bc4ed6c360daccda76dd32388ed3c7cfe3aedcfb88de4a5b54e21abb033",
+        "__init__.py": "66078120c55dcf162aab9536dc143d7939984c3a7c8c2370e202f5feb0dd1d0b"
     },
     "requirements": [
         "Cython",
@@ -31,8 +33,6 @@
         "colorama",
         "confection",
         "csvw",
-        "curated_tokenizers",
-        "curated_transformers",
         "cymem",
         "cython",
         "dateutil",
@@ -79,7 +79,6 @@
         "six",
         "soundfile",
         "spacy",
-        "spacy_curated_transformers",
         "srsly",
         "sympy",
         "thinc",
@@ -92,7 +91,6 @@
         "typer",
         "typing_extensions",
         "uritemplate",
-        "urllib3",
         "wasabi",
         "weasel",
         "win32_setctime",

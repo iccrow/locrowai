@@ -1,6 +1,7 @@
 package com.crow.locrowai.api;
 
 import com.crow.locrowai.api.registration.AIRegistry;
+import com.crow.locrowai.api.registration.PackageManifest;
 import com.crow.locrowai.internal.LocrowAI;
 import com.crow.locrowai.api.registration.AIExtension;
 import com.crow.locrowai.api.registration.exceptions.*;
@@ -27,13 +28,14 @@ import java.util.concurrent.CompletableFuture;
 
 public class AIContext {
 
-    public record RegistrationResults(List<AIExtension> registered, List<String> declared) {}
+    public record RegistrationResults(List<AIExtension> registered, List<String> declared, List<PackageManifest.ModelCard> modelCards) {}
 
-    private final Path LOCROW_AI_KEY = Path.of(LocrowAI.MODID).resolve("public_key.pem");
+    private final Path LOCROW_AI_KEY = Path.of(LocrowAI.MODID, "official_key.pem");
 
     private final List<AIExtension> pendingRegistration = new ArrayList<>();
     private boolean registerChecked = false;
     private final List<String> declared = new ArrayList<>();
+    private final List<PackageManifest.ModelCard> modelCards = new ArrayList<>();
     private boolean registrationComplete = false;
     private final Map<UUID, CompletableFuture<JsonObject>> queue = new HashMap<>();
     private final String MODID;
@@ -79,6 +81,12 @@ public class AIContext {
         }
     }
 
+    public void registerModel(PackageManifest.ModelCard modelCard) {
+        if (this.registrationComplete) throw new AIRegistrationClosedException(modelCard.repo);
+
+        this.modelCards.add(modelCard);
+    }
+
     public void declareExtension(String id) {
         if (this.registrationComplete) throw new AIRegistrationClosedException(id);
 
@@ -88,7 +96,7 @@ public class AIContext {
     public RegistrationResults finishRegistration() {
         this.registrationComplete = true;
 
-        return new RegistrationResults(this.pendingRegistration, this.declared);
+        return new RegistrationResults(this.pendingRegistration, this.declared, this.modelCards);
     }
 
     public boolean isCallProhibited(String callID) {

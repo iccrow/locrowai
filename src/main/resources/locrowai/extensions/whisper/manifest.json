@@ -11,9 +11,10 @@
     "author": "iccrow",
     "models": [],
     "hashes": {
-        "infer.py": "da1bbb6924fa0270b9f7f7ca67ab328dce49d818a147ea55ea543dda7bc404ba",
-        "whisper.py": "8ba53bc93ec40b4371eb2ee11c498fa76820d28df01bfcf376c174032f8d3eb1",
-        "__init__.py": "3f1ecc9655f074d9c8740cd7ba0e01398443f2dd55b220fa3d91b58b2402bc9a"
+        "api_infer.py": "bf1a0ccfeee4f7dec97581bafa5ab5e70035811d130315d538e28fb529afc7f7",
+        "api_load_model.py": "e9e16f09feb7dde1232fff825c1a74c74285ee59a0689ade1fb07f1719a5ecdd",
+        "model_loader.py": "4c99a2d7d39da1aeb5dce0c55c6b2ccaf6d36479c2cffff1c7784d9888791085",
+        "__init__.py": "66078120c55dcf162aab9536dc143d7939984c3a7c8c2370e202f5feb0dd1d0b"
     },
     "requirements": [
         "annotated_types",
@@ -31,7 +32,6 @@
         "torch",
         "tqdm",
         "transformers",
-        "urllib3",
         "yaml"
     ]
 }

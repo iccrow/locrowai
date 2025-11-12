@@ -33,7 +33,7 @@ class EnvironmentInstaller {
 
         try {
             PackageManifest manifest = PackageManifest.fetch(path.resolve("core-manifest.json"), SecurityManager.OFFICIAL_KEY);
-            return manifest.version.equals("0.4.0.dev1");
+            return manifest.version.equals("0.4.0");
         } catch (MissingManifestException | MissingManifestSignatureException | MissingSecurityKeyException | SecurityException e) {
 //            e.printStackTrace();
             return false;
@@ -81,7 +81,7 @@ class EnvironmentInstaller {
 
         InstallationManager.logMessage("Unpacking Python package...");
 
-        untarGzFile(tar, backend);
+        ExtractUtils.untarGzFile(tar, backend);
         Files.deleteIfExists(tar);
         InstallationManager.stagePercent.set(20);
 
@@ -210,9 +210,12 @@ class EnvironmentInstaller {
                 });
             }
 
-            int size = tasks.size();
-            if (size == 0) size = 1;
-            delta.set(100.0 / size);
+            if (tasks.isEmpty()) {
+                executor.shutdown();
+                return false;
+            }
+
+            delta.set(100.0 / tasks.size());
 
             // Execute all tasks in parallel
             List<Future<Void>> futures = executor.invokeAll(tasks);
@@ -223,6 +226,7 @@ class EnvironmentInstaller {
                     f.get();
                 } catch (ExecutionException e) {
                     e.getCause().printStackTrace();
+                    InstallationManager.logMessage(e.getMessage());
                     success.set(false);
                 }
             }
@@ -233,109 +237,6 @@ class EnvironmentInstaller {
             executor.shutdown();
         }
 
-
-
-
-
         return success.get();
-    }
-
-    /** Untar a .tar.gz archive safely (prevents tar-slip) and preserves executable bit when possible. */
-    static void untarGzFile(Path tarGzPath, Path destDir) throws IOException {
-        Files.createDirectories(destDir);
-        InstallationManager.logMessage("Extracting .tar.gz package: " + tarGzPath);
-
-        try (InputStream fis = Files.newInputStream(tarGzPath);
-             GzipCompressorInputStream gis = new GzipCompressorInputStream(fis);
-             TarArchiveInputStream tis = new TarArchiveInputStream(gis)) {
-
-            TarArchiveEntry entry;
-            while ((entry = tis.getNextTarEntry()) != null) {
-                String entryName = entry.getName();
-                Path out = safeResolve(destDir, entryName);
-
-                if (entry.isDirectory()) {
-                    Files.createDirectories(out);
-                    continue;
-                }
-
-                // Handle symbolic links
-                if (entry.isSymbolicLink()) {
-                    String linkName = entry.getLinkName(); // target of symlink as stored in archive
-                    try {
-                        Path linkTarget = Path.of(linkName);
-                        // if linkTarget is relative, resolve against the entry's parent
-                        if (!linkTarget.isAbsolute()) {
-                            linkTarget = out.getParent().resolve(linkTarget).normalize();
-                        }
-                        // Prevent creating links that escape destDir
-                        if (!linkTarget.startsWith(destDir)) {
-                            InstallationManager.logMessage("Skipping symlink that would escape destination: " + entryName + " -> " + linkName);
-                        } else {
-                            // Ensure parent exists
-                            Files.createDirectories(out.getParent());
-                            try {
-                                Files.createSymbolicLink(out, destDir.relativize(linkTarget));
-                            } catch (UnsupportedOperationException | IOException ex) {
-                                InstallationManager.logMessage("Could not create symlink for " + entryName + ": " + ex.getMessage());
-                            }
-                        }
-                    } catch (Exception ex) {
-                        InstallationManager.logMessage("Failed to process symlink " + entryName + ": " + ex.getMessage());
-                    }
-                    continue;
-                }
-
-                // Regular file
-                Files.createDirectories(out.getParent());
-                try (OutputStream os = Files.newOutputStream(out,
-                        StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)) {
-                    // TarArchiveInputStream will only provide the current entry's bytes
-                    IOUtils.copy(tis, os);
-                }
-
-                // Try to restore POSIX permissions (executable bits etc.)
-                int mode = entry.getMode(); // unix mode bits
-                try {
-                    Set<PosixFilePermission> perms = modeToPosix(mode);
-                    if (!perms.isEmpty()) {
-                        Files.setPosixFilePermissions(out, perms);
-                    }
-                } catch (UnsupportedOperationException ignored) {
-                    // Filesystem does not support POSIX permissions (likely Windows) — ignore
-                }
-            }
-        }
-    }
-
-    /** Convert unix mode bits (as returned by TarArchiveEntry.getMode()) into PosixFilePermission set. */
-    static Set<PosixFilePermission> modeToPosix(int mode) {
-        Set<PosixFilePermission> perms = new HashSet<>();
-
-        // Owner
-        if ((mode & 0400) != 0) perms.add(PosixFilePermission.OWNER_READ);
-        if ((mode & 0200) != 0) perms.add(PosixFilePermission.OWNER_WRITE);
-        if ((mode & 0100) != 0) perms.add(PosixFilePermission.OWNER_EXECUTE);
-
-        // Group
-        if ((mode & 0040) != 0) perms.add(PosixFilePermission.GROUP_READ);
-        if ((mode & 0020) != 0) perms.add(PosixFilePermission.GROUP_WRITE);
-        if ((mode & 0010) != 0) perms.add(PosixFilePermission.GROUP_EXECUTE);
-
-        // Others
-        if ((mode & 0004) != 0) perms.add(PosixFilePermission.OTHERS_READ);
-        if ((mode & 0002) != 0) perms.add(PosixFilePermission.OTHERS_WRITE);
-        if ((mode & 0001) != 0) perms.add(PosixFilePermission.OTHERS_EXECUTE);
-
-        return perms;
-    }
-
-    /** Prevents archive-slip (../ escaping) */
-    static Path safeResolve(Path destDir, String entryName) throws IOException {
-        Path target = destDir.resolve(entryName).normalize();
-        if (!target.startsWith(destDir.normalize())) {
-            throw new IOException("Blocked archive entry escaping target dir: " + entryName);
-        }
-        return target;
     }
 }

@@ -11,22 +11,19 @@
     "author": "iccrow",
     "models": [],
     "hashes": {
-        "chat.py": "c3d2048e3f612aa5bb3099dcee1d8a3e349c5e8b1388a7573c34f964a6c14764",
-        "__init__.py": "c899ccd7a8f73b30f1b320002fb50a36d0181ed9cb611c6a0e688b75b332ab83"
+        "api_chat.py": "d2ff7d63d477c4467d168ff0cd8e2282748eb6f798bd768ce120cee96a4c69ff",
+        "api_load_model.py": "229aa63145f3e5f1143eff99f1e586dfefde09b369ab6c9c6626ff1fe113f5f8",
+        "model_loader.py": "96746208f5f4aa9a8f3498d2fb5e60ea4ac2d39bceb910832427590247ad1505",
+        "__init__.py": "c197036f536e8c4a714fc62c01a6c5c873932fd3de9944edb3e6e3c643625d11"
     },
     "requirements": [
         "annotated_types",
         "diskcache",
-        "fsspec",
-        "huggingface_hub",
         "jinja2",
         "llama_cpp",
         "markupsafe",
         "numpy",
         "pydantic",
-        "requests",
-        "tqdm",
-        "typing_extensions",
-        "urllib3"
+        "typing_extensions"
     ]
 }

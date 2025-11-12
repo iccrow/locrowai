@@ -63,7 +63,7 @@ for file in tqdm(core):
             data = f.read()
             file_hash = sha256_bytes(data)
             _hashes[key] = file_hash
-    elif file.suffix != ".pyc": _hashes[key] = None
+    elif file.suffix != ".pyc" and file.name != "wheels.txt": _hashes[key] = None
 
 with manifest_path.open("r+") as manifest_file:
     content = json.load(manifest_file)

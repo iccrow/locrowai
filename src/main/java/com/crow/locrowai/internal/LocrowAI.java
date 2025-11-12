@@ -6,9 +6,11 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.loading.FMLEnvironment;
+import org.jetbrains.annotations.ApiStatus;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
+@ApiStatus.Internal
 @Mod(LocrowAI.MODID)
 public class LocrowAI
 {
