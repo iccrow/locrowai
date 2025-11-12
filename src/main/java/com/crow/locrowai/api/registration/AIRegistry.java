@@ -29,6 +29,9 @@ public class AIRegistry {
 
             register(MODID, scanData, loader);
         }
+
+        registry.keySet().retainAll(declared);
+        declared.retainAll(registry.keySet());
     }
 
     public static void register(String MODID, ModFileScanData scanData, ClassLoader loader) {
@@ -66,9 +69,6 @@ public class AIRegistry {
                 e.printStackTrace();
             }
         }
-
-        registry.keySet().retainAll(declared);
-        declared.retainAll(registry.keySet());
     }
 
     public static AIContext getContext(String MODID) {
