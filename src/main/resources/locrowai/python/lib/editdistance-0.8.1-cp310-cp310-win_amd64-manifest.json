@@ -1,10 +1,6 @@
 {
     "id": "editdistance-0.8.1-cp310-cp310-win_amd64.whl",
     "hashes": {
-        ".gitignore": "45549a9ffd9963f855d72829e978a31c05b82894b14b1d8fbdd43083b20c2d86",
-        "editdistance-0.8.1.dist-info/METADATA": "72df25f676b0904c8d76c7792d287e3a14d4f3d33c8f47d3603988c963ac42d1",
-        "editdistance-0.8.1.dist-info/WHEEL": "df15826ed4d0a1a6123a3c61fc679afc45f3a6ff1c0f91d1f61f6834b84de4c0",
-        "editdistance-0.8.1.dist-info/licenses/LICENSE": "7ec8b2718ded956dc2fb79eae27904a8298b2a5538e37392c469fcf1bab1b03b",
         "editdistance/__init__.pxd": "278441eefe7f8ab5ad92b4eb43140cd695be16db36b43cc126729f9fedaf74f9",
         "editdistance/__init__.py": "b10605f7ed1197a5d329cd457f01f5ffbd9cf2a6c87c825b8e7403491434a502",
         "editdistance/_editdistance.cpp": "e5b7c4acade485026af020226130b8201b7d6695db330e46a7fd356d8f06407c",
@@ -13,7 +9,6 @@
         "editdistance/bycython.cpp": "750a0175894dd1126740577f8f282d06337077f35939d46a1b6791edd51f5037",
         "editdistance/bycython.pxd": "54e70a26413ebf2df5ce5f65f889cf61eff38d8ef9c4865eb0955179d6c94fc3",
         "editdistance/bycython.pyx": "981db930cb9e90ca40b8a25b7bfb288afdc83026af4326acbbf475d178308696",
-        "editdistance/def.h": "20867eedfe26911b6f9855d6810267c0688928d7eb30e391a9dc29a719e28ca5",
-        "editdistance-0.8.1.dist-info/RECORD": "f0dc45e63dcf0a0f0fdd6fa167893d4ce144ed81d48059c6efaa4617b3396a16"
+        "editdistance/def.h": "20867eedfe26911b6f9855d6810267c0688928d7eb30e391a9dc29a719e28ca5"
     }
 }

@@ -16,12 +16,6 @@
         "humanfriendly/usage.py": "0213e8e8372f68144814658d72d536d8c70cccddd1c9ce99082f3792dd996e4e",
         "humanfriendly/terminal/__init__.py": "e41cf15472ab8b39dc9518eb5b060493697572dd2ad1676ea4922b92e23d8257",
         "humanfriendly/terminal/html.py": "fdcb146788480f4013c13bcf5d4f0aac07ba6730ff8144bbfed3771660870384",
-        "humanfriendly/terminal/spinners.py": "a3b9e49fcac1753aabf971c84fdef6b08808bb1883ca643990f56407347bbad1",
-        "humanfriendly-10.0.dist-info/LICENSE.txt": "4ac48f4117809f2734066150450f120b3bb110ac1d3b32170795e0560dbbc1f5",
-        "humanfriendly-10.0.dist-info/METADATA": "68bb349388cdfeca602acc3455b83a7b2fe3cbe84025e27493bcbe76f3ab6c82",
-        "humanfriendly-10.0.dist-info/WHEEL": "9064fbe0b5b245466b2f85602e1ebf835d8879597ff6ef5956169dae05d95046",
-        "humanfriendly-10.0.dist-info/entry_points.txt": "854f800ec1a5b379a07f7a6506df41fa860b0ad043422509674d2486e028a977",
-        "humanfriendly-10.0.dist-info/top_level.txt": "ede2802a17249a50f86685899169a19d3b35a673ff6f317ee7a553ab40fb588a",
-        "humanfriendly-10.0.dist-info/RECORD": "52d9b85b4fc7619fddcca47a028acbb5e92df4c6bafddec3d1498384d28627b7"
+        "humanfriendly/terminal/spinners.py": "a3b9e49fcac1753aabf971c84fdef6b08808bb1883ca643990f56407347bbad1"
     }
 }

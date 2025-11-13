@@ -6,12 +6,6 @@
         "lazy_loader/tests/import_np_parallel.py": "ccfa1d003812337c0255390cfe12d85616150e87abcda601e0c5605b8936e552",
         "lazy_loader/tests/test_lazy_loader.py": "0beb1c199a7bfd98e0a5404318e4bff6afa7a53c874002b373c520c6d42939df",
         "lazy_loader/tests/fake_pkg/__init__.py": "3591dfe67c365a9dfbeda9be0a7db274f1a2d8e15aef32b3f78c8966ba1e1f30",
-        "lazy_loader/tests/fake_pkg/__init__.pyi": "4d3f9f65b6efaa1439975998dbfd5d23ef532105bc9c855270d921755f643711",
-        "lazy_loader/tests/fake_pkg/some_func.py": "5d5e4a4f2cbd7c43f91edc4a6f461b113ca69eb496c15ddc275bb7f9189605cc",
-        "lazy_loader-0.4.dist-info/LICENSE.md": "797b6937a4f976836efbbbb3ae333d7866ddc3eb3cb152972b2be348d3529372",
-        "lazy_loader-0.4.dist-info/METADATA": "c022b48b5a90cbd853aa926dfa84bf24f4e6a6e0f5646ab0fc617c5639f0bbed",
-        "lazy_loader-0.4.dist-info/WHEEL": "189eedfe4581172c1b6a02b97a8f48a14c0b5baa3239e4ca990fbd8871553714",
-        "lazy_loader-0.4.dist-info/top_level.txt": "358547f679febfec3e1406eb828acd44cf20fc6a1ec0d6f30bfd6da6da264134",
-        "lazy_loader-0.4.dist-info/RECORD": "06b8f4ef2a211551cd3b158feda4b48a7876a196b854c2aa3d0f940b282544e2"
+        "lazy_loader/tests/fake_pkg/some_func.py": "5d5e4a4f2cbd7c43f91edc4a6f461b113ca69eb496c15ddc275bb7f9189605cc"
     }
 }

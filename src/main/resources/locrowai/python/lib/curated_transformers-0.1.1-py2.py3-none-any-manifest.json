@@ -35,12 +35,6 @@
         "curated_transformers/tests/models/albert/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "curated_transformers/tests/models/albert/test_encoder.py": "e9b054462f54f0b99c3e8254cb22640267fed343c532a3a2434eaf104776c41a",
         "curated_transformers/tests/tokenization/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "curated_transformers/tokenization/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "curated_transformers-0.1.1.dist-info/LICENSE": "e4f2431f403ea0d20d108bbe1f0615a4ca3b6b765e2dbafae93908d3986d153a",
-        "curated_transformers-0.1.1.dist-info/METADATA": "690f6936edca7cc1ebc4f3278146fd44949d3731eee81040c664275479a98cb7",
-        "curated_transformers-0.1.1.dist-info/WHEEL": "6bece9151209cceab941fba10736e1880d5e1d3ccd0899fc39d46f85d357d119",
-        "curated_transformers-0.1.1.dist-info/top_level.txt": "b06b99530646e918ef9b3e2f850f926aea317b44c52ba2066afa9a9fdbe34dd9",
-        "curated_transformers-0.1.1.dist-info/zip-safe": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
-        "curated_transformers-0.1.1.dist-info/RECORD": "5771c98eec6ec1baf2cf946c440310d5ad84bbeade4a81b9001b802f4e24a573"
+        "curated_transformers/tokenization/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     }
 }

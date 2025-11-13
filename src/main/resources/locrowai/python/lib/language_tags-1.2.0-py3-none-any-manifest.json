@@ -5,25 +5,6 @@
         "language_tags/Tag.py": "f038eb2c800a49d0031da9d7beefa570b66184ae9da48e80ada3c16d937c4f82",
         "language_tags/__init__.py": "54d7df2465cce5d19908a5c79a2a6f8893062623655650715bd9a20f5e4327ce",
         "language_tags/tags.py": "e4de7fccf2450935319d846e29881cf9c1e7979289dcb2f0cd794ca04bc17757",
-        "language_tags/data/__init__.py": "f74cbf6163e1d25f20967093997645b3762116ca81fe6c997a45f806554ff727",
-        "language_tags/data/json/collection.json": "780195445880c1bcc93a2d439e135bb06276bd764fba2f23182d51bef266a6bf",
-        "language_tags/data/json/extlang.json": "f35d1f871137df6b83e7c4af9909ee5da524439dbaebfaf06bf457971960df0c",
-        "language_tags/data/json/grandfathered.json": "78e3a2d91ff2b334dfdb4175d3381189ae3dd1b4a543a30bb27b4b3da047285a",
-        "language_tags/data/json/index.json": "b4c5f8876cbf77d32d20a5347be1a70cabca42d820fcffcdbe54095d29f79b60",
-        "language_tags/data/json/language.json": "279cadc691ff6a8d4be23c2f4fa8951fc7e0d4ec2190e1121251aaf764c829b9",
-        "language_tags/data/json/macrolanguage.json": "75434de56f9a70ace4052702dc25b62548d2c9a2b608d2663517769da3632deb",
-        "language_tags/data/json/meta.json": "46bb041a79256054a75a2fb5b3fe6a8af84a8465315f96de35ba54ae7a695169",
-        "language_tags/data/json/private-use.json": "2792d08dfbfaba90fdc1a53be50f13bf5eb1358f22854774bae3efcf2b8d0a95",
-        "language_tags/data/json/redundant.json": "fa53e1ceacd8434c29953e60fc86d90e1bb7823d361757e07d6eff244f9c876c",
-        "language_tags/data/json/region.json": "b38a81f0346df49e38e3aeaf569d6e5605d877b50f1adcb6fd2c86c56ac261d5",
-        "language_tags/data/json/registry.json": "3dc6509575d076a0a94c4161aafa1bfcf6feea7425a94dc57de66f62dcd02aa1",
-        "language_tags/data/json/script.json": "a93da9184afcdcd85483462ec95c935fda26c4b83d98d91c8c2b066abe59df2c",
-        "language_tags/data/json/special.json": "ec1d7a49452e82da52e3ac029243c4f471b5a1b3bc6f52dca4eb0fa0b95ebea6",
-        "language_tags/data/json/variant.json": "bcd248b4639d162878a094e0e4df0201c25907de271937bb9172417dc41628e4",
-        "language_tags-1.2.0.dist-info/LICENSE": "9e07b99a50ee9d0b3bba384236a34763dbb85b555919bf0d20b4c4b37cc715aa",
-        "language_tags-1.2.0.dist-info/METADATA": "ee6f7f13567eb49c10cf4978f90899eecd7c6aa2fb54ee30e432fc544184b582",
-        "language_tags-1.2.0.dist-info/WHEEL": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
-        "language_tags-1.2.0.dist-info/top_level.txt": "ceca7ed597765038734882e61dc33871f2ed0268654ba677217adbff7a0bc45e",
-        "language_tags-1.2.0.dist-info/RECORD": "ebd965f8905bbc4ffd090e64b7a3ef109c3b5c4a5ddf84fc5121ad4664689ba8"
+        "language_tags/data/__init__.py": "f74cbf6163e1d25f20967093997645b3762116ca81fe6c997a45f806554ff727"
     }
 }

@@ -6,11 +6,6 @@
         "mdurl/_encode.py": "82824b505b75878ad564daaa9bdb75e4dc365be6c55d8404cb7691d352265afb",
         "mdurl/_format.py": "c5972dd2675e3d70341f7900ab18c6b650793bce86df90c060c1a4038e02981e",
         "mdurl/_parse.py": "7b365290cdbfe0d436671d38eec11d7091bb3584111478992bb63c20d1c5cf06",
-        "mdurl/_url.py": "e6442745037603f1b8b2f2e747365c1b46dfa03f406c1ad80d7a2eb031d9df3d",
-        "mdurl/py.typed": "f0f8f2675695a10a5156fb7bd66bafbaae6a13e8d315990af862c792175e6e67",
-        "mdurl-0.1.2.dist-info/LICENSE": "7c605df6e28667a9603118e98274f64a49ce3eed0d26fccce9534a345e0ef955",
-        "mdurl-0.1.2.dist-info/WHEEL": "e137ca201ff1bbed386dcda22b3ebfcc5b7e80414410353fdf51c686acce084f",
-        "mdurl-0.1.2.dist-info/METADATA": "b53b29d48f499367053fda3c81e7ce27d2558380ebbf83e66023b02eb7ddd25d",
-        "mdurl-0.1.2.dist-info/RECORD": "72e8c94bf8f6a74a6a9a113a56ae3e9cade7dcb3ce2591fe60eb161f2948167f"
+        "mdurl/_url.py": "e6442745037603f1b8b2f2e747365c1b46dfa03f406c1ad80d7a2eb031d9df3d"
     }
 }

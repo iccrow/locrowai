@@ -6,11 +6,6 @@
         "exceptiongroup/_exceptions.py": "c0fc0fb19eb8497129b6ec1be17ad321ad4c73bf2ea85e6f982ad74dd9652e7e",
         "exceptiongroup/_formatting.py": "e140ba6d43772be171117f7afe8cf381e5f4e5f0b2a6b97aa82551f9e7c1990d",
         "exceptiongroup/_suppress.py": "2d7d753d1369721c1f356c04318f769d837517fe6a15e9d0712f048c838d5ca1",
-        "exceptiongroup/_version.py": "a83b5c3d974acf12e977cbd597a7e920520c916b761cafdc3bd80b0f068711d9",
-        "exceptiongroup/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "exceptiongroup-1.3.0.dist-info/licenses/LICENSE": "6e5070d765031e0ad403a1cbf90ae6d19a0228f802e320b7acff460aa72ed47c",
-        "exceptiongroup-1.3.0.dist-info/WHEEL": "1b68144734c4b66791f27add5d425f3620775585718a03d0f9b110ba3a4d88db",
-        "exceptiongroup-1.3.0.dist-info/METADATA": "a2202afa5957a8e695d01ddd24ddf5e928ed0a9b6142fb908e656e54e6db69e4",
-        "exceptiongroup-1.3.0.dist-info/RECORD": "f6d2db5a13513c4c68783c76de0047126952bca66498021e0240c88a11be9fa2"
+        "exceptiongroup/_version.py": "a83b5c3d974acf12e977cbd597a7e920520c916b761cafdc3bd80b0f068711d9"
     }
 }

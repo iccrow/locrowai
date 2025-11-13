@@ -5,11 +5,6 @@
         "backports/tarfile/__init__.py": "3f07f6a9421f0744a89493c229cc77bf3dd412efda89db38838b007f1cbde2a8",
         "backports/tarfile/__main__.py": "630da8193d5a7ebcf6781b24cdd3d82fc45e07fde5880a6684590dd846c399ce",
         "backports/tarfile/compat/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "backports/tarfile/compat/py38.py": "898932b7f82f5a32f31944c90fd4ee4df30c8ce93e7abb17666465bd060ddaa1",
-        "backports.tarfile-1.2.0.dist-info/LICENSE": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
-        "backports.tarfile-1.2.0.dist-info/METADATA": "8215c54ead77d9dc5a108a25c6bdc72b5999aa6f62c9499a440359412afa5a51",
-        "backports.tarfile-1.2.0.dist-info/WHEEL": "189eedfe4581172c1b6a02b97a8f48a14c0b5baa3239e4ca990fbd8871553714",
-        "backports.tarfile-1.2.0.dist-info/top_level.txt": "7068da2cc3a8051d452b4029a23b73595995893b49ec91882bf1f05e212cbed5",
-        "backports.tarfile-1.2.0.dist-info/RECORD": "1f7c4820497e52742a721fc96b011542835f43349a19be575a7967012ab37f5f"
+        "backports/tarfile/compat/py38.py": "898932b7f82f5a32f31944c90fd4ee4df30c8ce93e7abb17666465bd060ddaa1"
     }
 }

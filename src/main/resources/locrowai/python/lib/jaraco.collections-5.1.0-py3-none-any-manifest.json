@@ -1,12 +1,6 @@
 {
     "id": "jaraco.collections-5.1.0-py3-none-any.whl",
     "hashes": {
-        "jaraco/collections/__init__.py": "3dcd7e4aa8d69bcd5a7753f4f86b6da64c0efcb5a59da63a814abc81c2a1dafd",
-        "jaraco/collections/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "jaraco.collections-5.1.0.dist-info/LICENSE": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
-        "jaraco.collections-5.1.0.dist-info/METADATA": "20c51a96236c0395f53b1f4c5d458e6a0721e51e16c1bff733b7aba76f5d06d8",
-        "jaraco.collections-5.1.0.dist-info/WHEEL": "31d8bd3c3370119a6d3a34e551c02d87b5c90c5b4aac761a40c3ee9597810a24",
-        "jaraco.collections-5.1.0.dist-info/top_level.txt": "d099cddcb7d71f82c845f5cbf9014e18227341664edc42f1e11d5dfe5a2ea103",
-        "jaraco.collections-5.1.0.dist-info/RECORD": "79d8c7c654a097a41d4a65912a0e808ae3ee25868d63cfad41ee83e5d0c3c2bd"
+        "jaraco/collections/__init__.py": "3dcd7e4aa8d69bcd5a7753f4f86b6da64c0efcb5a59da63a814abc81c2a1dafd"
     }
 }

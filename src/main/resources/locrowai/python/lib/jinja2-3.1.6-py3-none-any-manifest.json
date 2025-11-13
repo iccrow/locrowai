@@ -21,16 +21,10 @@
         "jinja2/nodes.py": "9b50eecdcafaaa1648f0943a57226050d8a78c07f96d0ce28d29839ccb2f531f",
         "jinja2/optimizer.py": "ac99c246543ba59b04126321b100e00bfa4ac831f13f94cf4bacd53c6b2072ef",
         "jinja2/parser.py": "94b385cb7b0498773921a1074621f5b1056721dda6a14433872789653b5d637d",
-        "jinja2/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "jinja2/runtime.py": "80393e1af76b8895ea82c19b1e0adc2933f4629eb33d7ce1ceb2290851f78c05",
         "jinja2/sandbox.py": "330d9a8ad958d88f256bb15885c5f6606f41b5461c2e70f41a1ddddbd7035ab6",
         "jinja2/tests.py": "54bb018551675a0f8fc52073d4c8519cd5a03f5a2f5e4de778ed452d031e0bd4",
         "jinja2/utils.py": "ad1a77a3d7bb64a4b87f2ad645b10bc8b729b8655315c9e8a1a39ad6ac7f1489",
-        "jinja2/visitor.py": "11c9cbd4f2307ffe1154238cc6c44db91f005c76d2d6a7c074c384da780a273e",
-        "jinja2-3.1.6.dist-info/entry_points.txt": "38bf39818535783f1cb8f9629227c59e05e97818dac65eab209f0a902ff7afe2",
-        "jinja2-3.1.6.dist-info/licenses/LICENSE.txt": "3b49dcee4105eb37bac10faf1be260408fe85d252b8e9df2e0979fc1e094437b",
-        "jinja2-3.1.6.dist-info/WHEEL": "ff6a3334508b59cf776cae1628708ef9e0d410d0e5a3e76073d714deaa2460ee",
-        "jinja2-3.1.6.dist-info/METADATA": "68c5548fb67c4132a13898d9b31ec50c6bea2abdd915d921f214355c3a6499c8",
-        "jinja2-3.1.6.dist-info/RECORD": "2e9f60b12e1a436c1ac6fdbded6090b6b791eb8d6753935c49941846e05a294d"
+        "jinja2/visitor.py": "11c9cbd4f2307ffe1154238cc6c44db91f005c76d2d6a7c074c384da780a273e"
     }
 }

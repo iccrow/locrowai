@@ -9,7 +9,6 @@
         "httpcore/_synchronization.py": "cd28b5de6002a250679278d90649d40ba84a343413e02ea28e77b367eaf44f6b",
         "httpcore/_trace.py": "724e99a08cd84e474d0087eae4c19e2aa0570edaa3397faa7d8c266456eb19ca",
         "httpcore/_utils.py": "fd12e05d8380602df9d229002d5e7d199ebc209adda1c459c4fb3d3e39b37456",
-        "httpcore/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "httpcore/_async/__init__.py": "116765dafe2d867007cc9a6a8d4e21d9af03522180bcd896ae48a2f697e14dfd",
         "httpcore/_async/connection.py": "e8e70f5ea3047dcd01537f3ffa21d4343775bca4937365154f4f57a8d6ff04e9",
         "httpcore/_async/connection_pool.py": "0ce210dacd9909ff6a7f0c61ccca6b4cf2ea08bf0ec465e2285eaa447c6f5726",
@@ -32,10 +31,6 @@
         "httpcore/_sync/http2.py": "031538ca172aebc067e6fa9d258b625ca6148fb9ef8586f1cf7bf8ad3e319ef0",
         "httpcore/_sync/http_proxy.py": "fda97fe9cacab8466edb0cafbb8f7745922625d0499e3e6818a3632ce24bd99a",
         "httpcore/_sync/interfaces.py": "b275ce378daf5031cee49049be8f03e155a4d966ade38cf63975c70eb8db97de",
-        "httpcore/_sync/socks_proxy.py": "cde8195bd4a7aa3dbff7dd831496bcfc2a6939506454be0083076e4644ad6a44",
-        "httpcore-1.0.9.dist-info/METADATA": "fe2d4fda6199128978779e0cf27f3c045c531863fcdd987eacc74f3a18d41c21",
-        "httpcore-1.0.9.dist-info/WHEEL": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
-        "httpcore-1.0.9.dist-info/licenses/LICENSE.md": "fdcb59154c74cbaba16a11242f7740bea9f23d6feb5547917d8c5f94a80392a5",
-        "httpcore-1.0.9.dist-info/RECORD": "56c7eb698ca4b47f9eb3ccbae04bdd802a651114200a9fadbff5665029d441db"
+        "httpcore/_sync/socks_proxy.py": "cde8195bd4a7aa3dbff7dd831496bcfc2a6939506454be0083076e4644ad6a44"
     }
 }

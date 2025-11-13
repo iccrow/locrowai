@@ -8,11 +8,6 @@
         "rvc_python/infer.py": "2a8599ad9f192f3f3e41d448d92a76d7b3955dac451862c650cbad8c1bbe4449",
         "rvc_python/infer_old.py": "088044f653b0cf8da9066a136cdb94d09b1f4476c85e97889b6dc9f10142a622",
         "rvc_python/configs/config.py": "6ee55ec0f8e43c015f1ac656d92169716eaa0e567ac41dc1b9b1fdc0e1d6a717",
-        "rvc_python/configs/v1/32k.json": "78c2315e848881738684b76055ae8754d7e92be3c6d61b284ecd449e5c9c8a14",
-        "rvc_python/configs/v1/40k.json": "3cef48e593ec6459ae98393d12aec068c0900104be2fc1cf965fc0bcc8f994b0",
-        "rvc_python/configs/v1/48k.json": "22a11a3259bfdc097277f859105e5b9e929d102f8b52411dd062adb27e8bfd42",
-        "rvc_python/configs/v2/32k.json": "a720ea19e7f62b4e87f07ad301ea54171af117c8124c90b6daf4abb71a3accd4",
-        "rvc_python/configs/v2/48k.json": "76bcb726de5dddde570248a866639723f50af6a1a11938901277b85d8b448cfb",
         "rvc_python/lib/audio.py": "aae47b7437057659940731239f9f2d291c12cc64b6cb03995f477aee45cefc9e",
         "rvc_python/lib/rmvpe.py": "4514c7b3d9018015f5ad3a7e7d8d4d4de320f4c8de67ac4254a371fc380f0ea6",
         "rvc_python/lib/slicer2.py": "7fcbea9a1048a65b4e94d9cdfda7377d1f4e1549f4fbff8612deebfd9ba2e681",
@@ -43,10 +38,6 @@
         "rvc_python/modules/vc/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "rvc_python/modules/vc/modules.py": "ab399c18bc08f025c8fa88b106a7fbf4e941ccb65e7d71bce5d68dbd42af63b8",
         "rvc_python/modules/vc/pipeline.py": "9b3e1ad3b9aff7177a63aca8d36c90388c62a938dfd38d333b6e40ed7a140809",
-        "rvc_python/modules/vc/utils.py": "f5e0b5670e5f50c02232cb9e239ce28ce6ae10c3583f9a27b1a394b192d78fa1",
-        "rvc_python-0.1.5.dist-info/METADATA": "36c47b1b586f7aac88d029b00db1045ba85c32307d844ce0febb35d92130685c",
-        "rvc_python-0.1.5.dist-info/WHEEL": "d7215d7625cc9af60aed0613aad44db57eba589d0ccfc3d8122114a0e514c516",
-        "rvc_python-0.1.5.dist-info/licenses/LICENSE": "b3abd6c9c27872b9386d3305af66a689fe853444c5468823f2c120c1adc00734",
-        "rvc_python-0.1.5.dist-info/RECORD": "46b832c3742f29386879fde236826c4ba31397e8a8026648ad0776f78cc68b75"
+        "rvc_python/modules/vc/utils.py": "f5e0b5670e5f50c02232cb9e239ce28ce6ae10c3583f9a27b1a394b192d78fa1"
     }
 }

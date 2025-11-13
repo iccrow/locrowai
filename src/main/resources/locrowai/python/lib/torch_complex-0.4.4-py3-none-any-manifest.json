@@ -4,10 +4,6 @@
         "torch_complex/__init__.py": "bc2613a17b966fd2b470661d442dee24987b76a325f82f0561338c714ff19fcf",
         "torch_complex/functional.py": "47f8f2cdb8e1e5623156da963d0d2f9232a5c65ead3f15e7e7c833a5afe0c281",
         "torch_complex/tensor.py": "043e1fe7d403ad506b70bb4a0eed127eae42407fb6b3d13996036a2c6d5cf3d1",
-        "torch_complex/utils.py": "71861be45aa979bd9d2f22dbf9b87d7aab9c6c2b3e3011222006a0ca835834eb",
-        "torch_complex-0.4.4.dist-info/METADATA": "8ccf843993aeea47c5c7d01b2014254e80609be95c76066192dd5a5373e0c4c6",
-        "torch_complex-0.4.4.dist-info/WHEEL": "189eedfe4581172c1b6a02b97a8f48a14c0b5baa3239e4ca990fbd8871553714",
-        "torch_complex-0.4.4.dist-info/top_level.txt": "f9a8e61d899e6fccf7b1412134bec724e3cfc99bcc6c4cfd4441d6a4801b7041",
-        "torch_complex-0.4.4.dist-info/RECORD": "9c8a36e50e9e09a6535ad60b931ccbdfd948bfa5bac275b8391acaed9392d712"
+        "torch_complex/utils.py": "71861be45aa979bd9d2f22dbf9b87d7aab9c6c2b3e3011222006a0ca835834eb"
     }
 }

@@ -1,7 +1,6 @@
 {
     "id": "protobuf-3.19.6-cp310-cp310-win_amd64.whl",
     "hashes": {
-        "protobuf-3.19.6-py3.10-nspkg.pth": "87b022cdc8c873bfb46c8cffbf5212c1abc8f04f2d7ddbc40817456ab793e9ff",
         "google/protobuf/__init__.py": "5abf51a0b68f513588e52829c5811a5c942d90cc4291b99920350417edae19f7",
         "google/protobuf/any_pb2.py": "12b1c370015b71721383afa9bc5d3c28c861abd6a2ecec6c9b415365a34250b5",
         "google/protobuf/api_pb2.py": "2c8b5b1942a7c210d97a73eb9295a896e8911efdbd951909b5bd7e0c74a338ad",
@@ -55,11 +54,6 @@
         "google/protobuf/pyext/python_pb2.py": "a8359d3ef38a1c1a2fee5cc46ff5fa892ea78d53bd44b8cfe586f5dbcb1c85c0",
         "google/protobuf/util/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "google/protobuf/util/json_format_pb2.py": "78ada2df601bc09a3adc35cac4730322c6cc9fd0c8cdc0706bf81a9abb66335f",
-        "google/protobuf/util/json_format_proto3_pb2.py": "756844ceccef8fd1eb80c37f62e16658c0ef0dabab039bb5c517cd7dfee410fc",
-        "protobuf-3.19.6.dist-info/METADATA": "d1281b5b87fc8376ff7d52f8cb048521c05f90539d16c43fba47a5027a6abbd8",
-        "protobuf-3.19.6.dist-info/WHEEL": "5b6ea960dec72ec053d63ac348bf6e7607ff99d34a2666262f6dec20ff857203",
-        "protobuf-3.19.6.dist-info/namespace_packages.txt": "ff542f48922114019fc5befd0fa0e107b494c365fa4f8af09f3fcb2eb6dc0f77",
-        "protobuf-3.19.6.dist-info/top_level.txt": "ff542f48922114019fc5befd0fa0e107b494c365fa4f8af09f3fcb2eb6dc0f77",
-        "protobuf-3.19.6.dist-info/RECORD": "ce9c9839e9d942831ced125aff2dd960fd6d74c6fde854889e40102289bb5ba2"
+        "google/protobuf/util/json_format_proto3_pb2.py": "756844ceccef8fd1eb80c37f62e16658c0ef0dabab039bb5c517cd7dfee410fc"
     }
 }

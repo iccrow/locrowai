@@ -2,11 +2,6 @@
     "id": "groovy-0.1.2-py3-none-any.whl",
     "hashes": {
         "groovy/__init__.py": "ae764bb99e07a57f13ccce7c31435603a1a6f14de7993458ce5842c1c7d044d3",
-        "groovy/transpiler.py": "1d919b6ed564ef3f7eae68b879c99753967cfe77f2d12d11c777a507937eb6cb",
-        "groovy/version.txt": "54a46c644c4eb6f128f99f7f08434918617b31b680522ed4acb57c9424372827",
-        "groovy-0.1.2.dist-info/METADATA": "4e9483c0c0f3c969f94e12c4484521260387742132520c23d7c8d19e20a99534",
-        "groovy-0.1.2.dist-info/WHEEL": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
-        "groovy-0.1.2.dist-info/licenses/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-        "groovy-0.1.2.dist-info/RECORD": "bd6d36ea86a0458da49496a3fc82fb10f4fdd20a5d6d2094f5bdfc10a39c7349"
+        "groovy/transpiler.py": "1d919b6ed564ef3f7eae68b879c99753967cfe77f2d12d11c777a507937eb6cb"
     }
 }

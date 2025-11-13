@@ -37,18 +37,12 @@
         "spacy_curated_transformers/tests/models/test_with_strided_spans.py": "b47764616ac8f197cf4b74455246d5bcdbf7f6a1be502c2ad1af7d27e5236b54",
         "spacy_curated_transformers/tests/pipeline/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "spacy_curated_transformers/tests/pipeline/test_transformer.py": "2241cfb9dbf2c7d129eee56fb32d209a6ae509e6f2b83e29bd249b580c642361",
-        "spacy_curated_transformers/tests/pipeline/toy-en-corpus.spacy": "b5dce9b0e6cab11e179532a0942b0be18eeaea7df867124695fb659bdbb9f9d8",
         "spacy_curated_transformers/tests/tokenization/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "spacy_curated_transformers/tests/tokenization/test_bbpe_encoder.py": "b2fe281854b90364877d27d54a04856fb838f1e5770b2f7d68c24dc3190c41dc",
         "spacy_curated_transformers/tests/tokenization/test_char_encoder.py": "c14b43e8b0dbda0b0e6d994bfd5da64dc86e22d8470c945f650a7828fd83cbef",
         "spacy_curated_transformers/tests/tokenization/test_sentencepiece_encoder.py": "cb91104b37e056215721b7ad7652f74304c6030fcfb503362092033a9fce9724",
         "spacy_curated_transformers/tests/tokenization/test_wordpiece_encoder.py": "2f60a1b033ba2ef8b9ca24bdf694fe827e9d1279771d8201fe79dc991179b5b9",
         "spacy_curated_transformers/tests/tokenization/test_xlmr_adapter.py": "6e3c4a9b4210c2c372d9cda48e5dd3fa07a2a3e351d3ca9f8c9f38d14e253bb0",
-        "spacy_curated_transformers/tests/tokenization/toy-chars.txt": "135852322d9e137aed41c8d41991bd4669894d99e0c330f5b1ced0b366f5ea2c",
-        "spacy_curated_transformers/tests/tokenization/toy-merges.txt": "fdd4bcd3fd72e18c7fb61fbdb257ec014cea1e1f9f79b4658e79292911ab27f3",
-        "spacy_curated_transformers/tests/tokenization/toy-vocab.json": "4073d5fd886e12f006378156f91f16bdbc1038bfdbcc79013ffe3966a35ea62e",
-        "spacy_curated_transformers/tests/tokenization/toy.model": "68e82cf4c9c3ef0be1f25a7cae2c836fcafa7d3c83821fb986411e56779ad1e2",
-        "spacy_curated_transformers/tests/tokenization/toy.wordpieces": "f4d289712d638c1ada6f2444a8c2ea1294327791aacf5370c2cb5c1d98984850",
         "spacy_curated_transformers/tokenization/__init__.py": "4a002d72f96ac4e8a64729d55e3eb16f7ed502c4f1507ecda9c4387c297fe806",
         "spacy_curated_transformers/tokenization/bbpe_encoder.py": "a356113d187d9e220ca564db021d6ccb96325388d123bdc0292744eeed9f8de4",
         "spacy_curated_transformers/tokenization/char_encoder.py": "fe9924d1186272c89cfbf9c4738e8f40ba3f94501a1b1a46c3950250cfb765b2",
@@ -56,13 +50,6 @@
         "spacy_curated_transformers/tokenization/sentencepiece_adapters.py": "7f8d81da2c1bd1f64449e973b41c23c508ea551d8273699997b5a2872bbf6f09",
         "spacy_curated_transformers/tokenization/sentencepiece_encoder.py": "425f5215089e0edf735af4590ba0a2c33dd1fd291e706135b73b6efdcb28eb95",
         "spacy_curated_transformers/tokenization/types.py": "a1aed995289d4d457a772fe9c63e0b188bbc068875f4e92d31971bc76fb02eff",
-        "spacy_curated_transformers/tokenization/wordpiece_encoder.py": "8f057a23d3d855eea341602c8fbd2dcbbb18a4134b746aa5ad760533685944d2",
-        "spacy_curated_transformers-0.3.1.dist-info/licenses/LICENSE": "e4f2431f403ea0d20d108bbe1f0615a4ca3b6b765e2dbafae93908d3986d153a",
-        "spacy_curated_transformers-0.3.1.dist-info/METADATA": "62cebcfcb8500c73423d73c4cfd066cb499a4f33fdd612cee32c0a6b7c4bf159",
-        "spacy_curated_transformers-0.3.1.dist-info/WHEEL": "24d5a1d459b551dc08415d3be609429f8315b8246cd2ca2d248abe27aadbc425",
-        "spacy_curated_transformers-0.3.1.dist-info/entry_points.txt": "df636e672b9eacfba7da36ac83744a7d2e526aaa1af9dd4d60a0b46064376ac9",
-        "spacy_curated_transformers-0.3.1.dist-info/top_level.txt": "a5ac9b173f12d14d5ac8a34b3e0c63bc17395242fa4fbbbcc29215ad88d8b43d",
-        "spacy_curated_transformers-0.3.1.dist-info/zip-safe": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
-        "spacy_curated_transformers-0.3.1.dist-info/RECORD": "a3960ab9f2df26521aab9f5d3aba1e9e396838a73a2fabe4d7f8da9f1756aab1"
+        "spacy_curated_transformers/tokenization/wordpiece_encoder.py": "8f057a23d3d855eea341602c8fbd2dcbbb18a4134b746aa5ad760533685944d2"
     }
 }

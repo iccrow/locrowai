@@ -9,9 +9,7 @@ from cryptography.hazmat.primitives.asymmetric import padding
 from cryptography.hazmat.primitives.serialization import load_pem_private_key
 
 # --- Configuration ---
-BLACKLIST = (
-    ".pyc"
-)
+HASH_EXTENSIONS = ( ".py", ".pyd", ".so", ".dll", ".dylib", ".pyx", ".pxd", ".exe", ".c", ".cpp", ".cu", ".h", ".hpp", ".lua", ".bin", ".bat", ".sh" )
 
 PRIVATE_KEY = Path("keys/private.pem")
 WHEELS_FOLDER = Path("wheels")
@@ -41,7 +39,7 @@ for wheel_file in tqdm(WHEELS_FOLDER.glob("*.whl"), desc="Processing wheels"):
     with zipfile.ZipFile(wheel_file, "r") as zf:
         for file_info in zf.infolist():
             filename = file_info.filename
-            if not filename.endswith(BLACKLIST):
+            if filename.endswith(HASH_EXTENSIONS):
                 with zf.open(file_info) as f:
                     data = f.read()
                     wheel_hashes[filename] = sha256_bytes(data)

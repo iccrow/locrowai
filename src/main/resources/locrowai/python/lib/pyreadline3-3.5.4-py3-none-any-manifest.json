@@ -14,9 +14,7 @@
         "pyreadline3/clipboard/ironpython_clipboard.py": "b18b3c32cf0495339815b39ebda83c1e8a1745f529d5d31111fe68d0ae8032fc",
         "pyreadline3/clipboard/no_clipboard.py": "a3f8c98dff0bd7cd87c3087d5efabb531d96cd23fb84ba4c93085c5365944dc2",
         "pyreadline3/clipboard/obsolete.py": "332c86a180e2e8aedab278cdaa9fcd0a9f64765b83a1893355429f103d4c4829",
-        "pyreadline3/clipboard/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "pyreadline3/clipboard/win32_clipboard.py": "073a4e08c64580b55dcb58bf17406fd0f99cfbf14e92ebf972460254dabe8295",
-        "pyreadline3/configuration/pyreadlineconfig.ini": "152a6cd9aea95a77973ec3e5af86829d01648b1311a204f7e87f9f198c16295e",
         "pyreadline3/configuration/startup.py": "d377e3daf853b6921baae40e014fcd2f886935d161f5d9af4a1a0292ddcf58e4",
         "pyreadline3/console/__init__.py": "d52c041962f50c459151f45243589f82d18bbbc54da9f9284c96065b62b37a57",
         "pyreadline3/console/ansi.py": "1771bfb0eef5f12559d74245afbf3a182503ee991158acb21c1f63f04869f9c5",
@@ -39,17 +37,11 @@
         "pyreadline3/logger/log.py": "b1756f86f6ff2ed2eebfb1683fdb18c891f2114d2b35864fc422340e01f46f16",
         "pyreadline3/logger/logger.py": "e70e9f9f8eac5ccf2bcc1d0949221817274459cb53697d6f1417819ba7d13423",
         "pyreadline3/logger/null_handler.py": "52caaedcee64f6fa8c58857a12b4e7fc70211f3a5a0cc972858b9df0eec01b14",
-        "pyreadline3/logger/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "pyreadline3/logger/socket_stream.py": "d13b02bd3eb10a62a3d0b4ddb95ef2d8540ac4faaac3a4e0bac265649f7a0f25",
         "pyreadline3/modes/__init__.py": "04ceefb255c64e3ebe01e30cb8c3754135502b36d4b5c5f41a6192457c8ad50e",
         "pyreadline3/modes/basemode.py": "e424283ad30a045aba8b9fc6fa3a95155df556ba7edd82fadac8e3cbb2d80f41",
         "pyreadline3/modes/emacs.py": "7667e8ba118172bce9c472bcfa8d0e06c2fa0430b0733764b87be8d055fe1238",
         "pyreadline3/modes/notemacs.py": "4c9fa7840a12ee2db22f961b041e15d46291db1056440b91b38d3979a980acb7",
-        "pyreadline3/modes/vi.py": "3a40d3d6376963daa7895005cb63623cdfa4addd07ec3236234c388be294d07e",
-        "pyreadline3-3.5.4.dist-info/LICENSE.md": "8fc4d8de61b40533023b16e64528d13371a2e9c68677df79ed5e93ba570471bd",
-        "pyreadline3-3.5.4.dist-info/METADATA": "9d039725afd4fac0d0967156f19f42aeefed982555402d477b255decf209002b",
-        "pyreadline3-3.5.4.dist-info/WHEEL": "195f5a3138703ffe28342b6f102d9e737a9462eb6059e033925ae8ff49b85894",
-        "pyreadline3-3.5.4.dist-info/top_level.txt": "8c5019700560d56cddb148e881866fcaa48c68100ddfcb2a5197a671a0f117d1",
-        "pyreadline3-3.5.4.dist-info/RECORD": "c3a9a7d762b54eef2b93370c416b53adbd86b137e3cee2990d99941dd352b2c0"
+        "pyreadline3/modes/vi.py": "3a40d3d6376963daa7895005cb63623cdfa4addd07ec3236234c388be294d07e"
     }
 }

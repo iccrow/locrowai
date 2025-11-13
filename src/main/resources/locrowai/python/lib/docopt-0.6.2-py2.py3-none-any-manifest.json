@@ -1,11 +1,6 @@
 {
     "id": "docopt-0.6.2-py2.py3-none-any.whl",
     "hashes": {
-        "docopt.py": "44c650ebd833d852c8731fa3f0c5759506309622300e4c1954a540d78572cc54",
-        "docopt-0.6.2.dist-info/licenses/LICENSE-MIT": "3d5df78f592ff2433c3c6ce4984091b7f497059ddb8c6b08a061ba48e37b67f2",
-        "docopt-0.6.2.dist-info/METADATA": "8fdc3d8e16b41dcbd4f5bae079b56abf0916501c9ddf2e980e6971b6b94c4ed5",
-        "docopt-0.6.2.dist-info/WHEEL": "24d5a1d459b551dc08415d3be609429f8315b8246cd2ca2d248abe27aadbc425",
-        "docopt-0.6.2.dist-info/top_level.txt": "c40bcbdb2c1339d2dd7bcc314d5c9ed76f7d8fae5874addc339f7adf0372e525",
-        "docopt-0.6.2.dist-info/RECORD": "35f2d1b9884062d349983d993a32a81858085abe4e4b4f29dd355106a3676f06"
+        "docopt.py": "44c650ebd833d852c8731fa3f0c5759506309622300e4c1954a540d78572cc54"
     }
 }

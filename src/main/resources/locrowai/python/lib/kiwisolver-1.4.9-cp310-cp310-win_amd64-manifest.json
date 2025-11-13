@@ -3,13 +3,6 @@
     "hashes": {
         "kiwisolver/__init__.py": "946ef370f77a5c43bff9d7f7f6d94762af53278deb218a97f6e337d5fbdea17a",
         "kiwisolver/_cext.cp310-win_amd64.pyd": "ba21e92e687e237f0737845c0fc8aefd3d2217c4a76f95ce652848bf401a1c49",
-        "kiwisolver/_cext.pyi": "b7cfb382a49e25f84b825062d935e2ab19f5f686b58b143ef1d35cc4319067a5",
-        "kiwisolver/exceptions.py": "3a22bd5acc61d361ec3f1f8b62ea6a94bef6c4b2d525e7cbfb1ed963502e89a0",
-        "kiwisolver/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "kiwisolver-1.4.9.dist-info/licenses/LICENSE": "ec817f05f420b00835020fb5c7067433ade3424d256dd3a78a1a8f8a5d9d87f3",
-        "kiwisolver-1.4.9.dist-info/METADATA": "9f7bc22ee908c83900551ae1605165c2aff9c6f60311682ac2c365f6c15b1424",
-        "kiwisolver-1.4.9.dist-info/WHEEL": "294b810ba97101b1c22a294ab9af11f56fd333bd7ffbd4a0e6e10fdee0d67285",
-        "kiwisolver-1.4.9.dist-info/top_level.txt": "c6ac168fba121e5a488dcc3640c25bf29b9314f7630c13bbf00669f608d387d7",
-        "kiwisolver-1.4.9.dist-info/RECORD": "46c5dcf8f686c3b9bb41e7001c6df826b31005ea1f62c051369d547437b078e3"
+        "kiwisolver/exceptions.py": "3a22bd5acc61d361ec3f1f8b62ea6a94bef6c4b2d525e7cbfb1ed963502e89a0"
     }
 }

@@ -19,7 +19,6 @@
         "openai/_types.py": "b57b50811e29c9a97b019f24bc287f282d824b005e5a288b281adc3204d9c09b",
         "openai/_version.py": "dc86892a609a2702235be6537e37855a03b1cde5b9911128fd1ca357a14fb9dc",
         "openai/pagination.py": "873b02a688e2f776d567c8ce7c1b3eb2a3ed4c6d267f532ba6276e08e6251a82",
-        "openai/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "openai/version.py": "7236d728ef14b776a2bf8625427ba07dfec0742e3c3294a775cc7deaaf3c61bf",
         "openai/_extras/__init__.py": "b1a8a7ad85ae8c2c48c8bdb8c0da4a7cc56bf99c813e59d265fa97720d92e978",
         "openai/_extras/_common.py": "3565ad81b749b0ede140643169719f564d0b8de204e40159f154bfefde6184c7",
@@ -60,7 +59,6 @@
         "openai/helpers/__init__.py": "174c7f3e0baad570b62976586dfc541be1bf1712779a5b22ec7685675c7e83d0",
         "openai/helpers/local_audio_player.py": "ecc5b0b75058121e7bf73d5bae7436994101d0195ee14a063070cabac39f6494",
         "openai/helpers/microphone.py": "ead2075991a9440e57bd4a1eafe9cf06f1dbae6c4aec25b1dff4dafaaa751f9e",
-        "openai/lib/.keep": "c2e36bcfee525e8de325a24e260cf8bc51cce35607fe0db4179711428d2f2deb",
         "openai/lib/__init__.py": "04c4df32795bba03200c0d524c3200971e1b238b7897ff1b426271774b61d27f",
         "openai/lib/_old_api.py": "5d99d706b10ab9377bd22262ae3e66196df97d9a2aaee2686db053aba6ef835d",
         "openai/lib/_pydantic.py": "305f8cfd2e1ab58a2599afaaa403140601a9d67503258e9bc67cd012d6087755",
@@ -729,11 +727,6 @@
         "openai/types/webhooks/response_completed_webhook_event.py": "38649f54d03a560ba0a657f82f15e14a493e49c56f1257a4a107a4b13f77cff4",
         "openai/types/webhooks/response_failed_webhook_event.py": "49630afe4735a3c58a7903d9b9d431ed5c14db9a001dfff22d1e9f29d5ca7761",
         "openai/types/webhooks/response_incomplete_webhook_event.py": "3b42eba67cf3c429507f4bd03b017ab3fe44014c4ce137537c477cb9cf3888bb",
-        "openai/types/webhooks/unwrap_webhook_event.py": "17a9bfabfce5e5a232cf7e13c974ce6041b02e4a0ca7c9439b8c76885de7f416",
-        "openai-1.99.9.dist-info/METADATA": "c9440a18f49983158bc3e031990e2b6b71a58761ccef8dd879dde595fd91b372",
-        "openai-1.99.9.dist-info/WHEEL": "0b615483066088b6f39d1fa4d1bff9937022ff568048e5c3b2cde5cc252c52e8",
-        "openai-1.99.9.dist-info/entry_points.txt": "9006214049b3889c2c2ace6b6980083af2762d699bcf976e9445cecec63bd6ba",
-        "openai-1.99.9.dist-info/licenses/LICENSE": "d711ed37bb19ae7249af8d093b8fc6ea758fd3554b92ac61500c1ad3cc0e3fb9",
-        "openai-1.99.9.dist-info/RECORD": "f85e00dfd2c71c6b3362cd460eb287b07250e352c794256a56e6b5e9066bd1dd"
+        "openai/types/webhooks/unwrap_webhook_event.py": "17a9bfabfce5e5a232cf7e13c974ce6041b02e4a0ca7c9439b8c76885de7f416"
     }
 }

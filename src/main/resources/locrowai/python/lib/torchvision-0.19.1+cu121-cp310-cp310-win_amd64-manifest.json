@@ -1,14 +1,6 @@
 {
     "id": "torchvision-0.19.1+cu121-cp310-cp310-win_amd64.whl",
     "hashes": {
-        "torchvision/": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "torchvision-0.19.1+cu121.dist-info/": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "torchvision/datasets/": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "torchvision/io/": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "torchvision/models/": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "torchvision/ops/": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "torchvision/transforms/": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "torchvision/tv_tensors/": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "torchvision/cudart64_12.dll": "f86bc7f6043b5441f9686862403db35ea2006d87381a359deea3599804c6b83e",
         "torchvision/extension.py": "d00e1e7d0e95f1195070c32d0e92bbe152011e90efe2272392439cf84a243c7c",
         "torchvision/image.pyd": "fac79fa2a54695e9763aa706e0e854fd8da711de4bfe8bd4a915d49e553bf15e",
@@ -23,7 +15,6 @@
         "torchvision/_meta_registrations.py": "feb3480040c59073268181a6f7cdbe5a04a6840f68d8a549a5df03b285254269",
         "torchvision/_utils.py": "91c4a7e8fdd58efe503e01c736636ee7d321f8d2dbe4c0e5631bc390d256ace3",
         "torchvision/__init__.py": "cd747a10a42625758c364ba596561b25d4bc22138b36a25a65acf853bec8e1c3",
-        "torchvision/datasets/samplers/": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "torchvision/datasets/caltech.py": "e659800c8d0a426c067000693266a2bebdaa6393683a07381e10c5f79db9b3a6",
         "torchvision/datasets/celeba.py": "8444bec47b6a81b4da830494b0e9c0aef299f98ab05b0d0a368f70bc26ec504a",
         "torchvision/datasets/cifar.py": "d87564a917567a4b3abc73cd954d4aef4ace0e6be0200c0e0eee5107f99e443b",
@@ -82,11 +73,6 @@
         "torchvision/io/_load_gpu_decoder.py": "07798f2d77ab2585ea887bfd14eda5691ac64652245e28bb0ac0f427c27f4b05",
         "torchvision/io/_video_opt.py": "9f93cbe215c29ce55a2c39527cbb56ccff322b8ca9c166f2bd085b487aced0fb",
         "torchvision/io/__init__.py": "bcd166a26ba3bd84aabe8f84fff46dc74d67e5ef09345d5ce2f7b0a8bf6d8bc2",
-        "torchvision/models/detection/": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "torchvision/models/optical_flow/": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "torchvision/models/quantization/": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "torchvision/models/segmentation/": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "torchvision/models/video/": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "torchvision/models/alexnet.py": "5dc95d3f652e3a474e51f7718ad192f2a1f32c7efc372ed50b34f32ac6962135",
         "torchvision/models/convnext.py": "98c2f75c02c6bd019edda6249b3e9d6c2ed6bacee7b595abec85628568cb57c3",
         "torchvision/models/densenet.py": "5b1bde723f1bd3d532d858caba7ed96da8290e61e597c2f673719b33cd3622fb",
@@ -167,7 +153,6 @@
         "torchvision/ops/_register_onnx_ops.py": "838339169ee7ff9653cc841c517bc472ddd816550c3cd5524107c13fe2747904",
         "torchvision/ops/_utils.py": "c45acb9cb84a0c7886d93377f6d51663e3096cb10f91ae9d91a55524500defef",
         "torchvision/ops/__init__.py": "ef089b1b1705d491c3be248db3d3bd3f095cf1d84c4857d9a34c335634c59c06",
-        "torchvision/transforms/v2/": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "torchvision/transforms/autoaugment.py": "503f140654f875608841a343503401b5cd28b0c1c73d096e2ebeec79926be1c6",
         "torchvision/transforms/functional.py": "7bf7847624c84d2ae153668d151a7c8aa7a77f21717afb20ae614101928cfd35",
         "torchvision/transforms/transforms.py": "35e169a3ceb159fda1f2f333fef5e96ea57d3f346844e129e8694dc70f684d94",
@@ -177,7 +162,6 @@
         "torchvision/transforms/_presets.py": "515c5c84d81d3cbfb88951e33b17079ddca092dc382bbea187110af24b35ce5c",
         "torchvision/transforms/_transforms_video.py": "b9bda0093e442e22bdd7c06af8fa7a9b3856ac0671963edb95fa6403c0e16f5a",
         "torchvision/transforms/__init__.py": "5823574c951b27587b61a37d51fac14afb7ef924f63c0578b0b2026d34be2f90",
-        "torchvision/transforms/v2/functional/": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "torchvision/transforms/v2/_augment.py": "85ca6895abad452b110293983ececf02855add839674b3c69cf83d2ae75c146b",
         "torchvision/transforms/v2/_auto_augment.py": "af0cc74bb099beddabdb512e23348a5b8182aec35d758a284d15c5907ddb38ea",
         "torchvision/transforms/v2/_color.py": "a45b1582dde8e7dcbca77fc6c1e54d81e951db97169ef5c0b534b222fad902c1",
@@ -208,11 +192,6 @@
         "torchvision/tv_tensors/_torch_function_helpers.py": "53bafe406da3295fca61e51027684a3e56112f0ab3ff1844b3bfcbd685e906f3",
         "torchvision/tv_tensors/_tv_tensor.py": "bfe7559be659b387dd4fa4d5700797eca9c0269b9d5547f9e55a9db50b60b611",
         "torchvision/tv_tensors/_video.py": "2ad707769b26f35ba1c78e75a0db3a6ea15eb94c3a1bd5e3aa5b4379424dbf37",
-        "torchvision/tv_tensors/__init__.py": "ed404865bada5728483be64278ab43e7d89ff395ca9004389e38d2e918c47c38",
-        "torchvision-0.19.1+cu121.dist-info/LICENSE": "c06363f9d33627dc5173b13522444cc85fbb4739f63e16d4587d5c0a165b5b1e",
-        "torchvision-0.19.1+cu121.dist-info/METADATA": "d9a1b5e2cf1e9ee06b929e7b2200381d1f3df51f3c563ce4d67e673d7922ab24",
-        "torchvision-0.19.1+cu121.dist-info/RECORD": "ffd113895e10223c2951a87af848435e491a9b6334028b5bf03fa75774fc1073",
-        "torchvision-0.19.1+cu121.dist-info/top_level.txt": "b9c259a1a96e056f411984f84ee084eb3a1963f26e48fdf4c1b0e1f88469c545",
-        "torchvision-0.19.1+cu121.dist-info/WHEEL": "7ec5bafbe5857eecd7dac71e7c4e897dc499e5d5e0e61e7dbbc96a9692f9baea"
+        "torchvision/tv_tensors/__init__.py": "ed404865bada5728483be64278ab43e7d89ff395ca9004389e38d2e918c47c38"
     }
 }

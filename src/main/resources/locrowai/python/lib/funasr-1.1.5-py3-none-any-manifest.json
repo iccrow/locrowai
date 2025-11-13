@@ -3,7 +3,6 @@
     "hashes": {
         "funasr/__init__.py": "5100f1a66ff410f096ba0f42bc446f41a79c2de241c061aa4d00e8f3b427b97e",
         "funasr/register.py": "a4cb83ae332c63c22035602e851d7dad45029a08d109d0eddbc1addd3500f9ec",
-        "funasr/version.txt": "2306deab5abc025bcdea64017c121b95106baf78145aaf4eda3883e93979ce48",
         "funasr/auto/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "funasr/auto/auto_frontend.py": "222c343a5dfb175b1bc4b1c1a5e20f6f4572aeb6c9940f9c671e80b12c3e710a",
         "funasr/auto/auto_model.py": "75fa3c48ca4ab95d4b125e49d8aa97cd491a5dbe7ab2dc60eb7e2610a203a83b",
@@ -346,11 +345,6 @@
         "funasr/utils/torch_function.py": "b8272f46a8915f4e5c9bf3c7f967476ca25a99e5df87626c07fe91a1714053b5",
         "funasr/utils/types.py": "c612bf148b63798a1fb0996d10631bae97b182e18c963666a3558d28fa8da21e",
         "funasr/utils/vad_utils.py": "e99a369711b4e3036e9e27f5e2a8933513f718747f0db6d51da6b04f0d59aec8",
-        "funasr/utils/version_checker.py": "1af449a58ce8f7c22969a69dd3002e4bfdd74fcb4ce349acb99538855c7fdbb7",
-        "funasr-1.1.5.dist-info/METADATA": "79ce24b1765d450b446127b17cf956e8bd2753608025311c005ba6c5dcdce2ec",
-        "funasr-1.1.5.dist-info/WHEEL": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f",
-        "funasr-1.1.5.dist-info/entry_points.txt": "0e1da49a76127dcf669f6dc4dc46689f4091fc8ca12a1ee0d176567b6ec6d079",
-        "funasr-1.1.5.dist-info/top_level.txt": "70a964d88ad4849d2264cabcecabba4e3525663a58dad4979a3f60fcd7bde580",
-        "funasr-1.1.5.dist-info/RECORD": "8a3d5bc50ed7a2a34569100e89b9bc95bd83a1e05a4423bb25715527c1867897"
+        "funasr/utils/version_checker.py": "1af449a58ce8f7c22969a69dd3002e4bfdd74fcb4ce349acb99538855c7fdbb7"
     }
 }

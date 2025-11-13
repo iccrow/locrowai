@@ -3,12 +3,6 @@
     "hashes": {
         "typing_inspection/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "typing_inspection/introspection.py": "743e4077827a8407c5e9407304ee2ca92b35876c9b4154e1910a1f2d659504fd",
-        "typing_inspection/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "typing_inspection/typing_objects.py": "5da5a3e85fd981d806ed0f3f639a71dc1008ea415c885b8a3c9452588b722648",
-        "typing_inspection/typing_objects.pyi": "06ee9681c02d9220c62ce571820dc59c69c85c0517c67cc3ff28050be5cd52e6",
-        "typing_inspection-0.4.1.dist-info/METADATA": "67abbcb9113094d0e1d1ae7e38de2d176765555ace9509ac21eb5cd490c24894",
-        "typing_inspection-0.4.1.dist-info/WHEEL": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
-        "typing_inspection-0.4.1.dist-info/licenses/LICENSE": "804b59b25f2c31bd278f9202a19ae49a3945aa2664387e2d0a128c7cacc61ec3",
-        "typing_inspection-0.4.1.dist-info/RECORD": "09b0a88fa1d815e7f2224dd4988bbf7b9472f6480cfb692dada5b85688644f65"
+        "typing_inspection/typing_objects.py": "5da5a3e85fd981d806ed0f3f639a71dc1008ea415c885b8a3c9452588b722648"
     }
 }

@@ -11,12 +11,6 @@
         "h11/_state.py": "ff92c6fc1191f0509c1507813c7f93307826ffe07e1147160a74287fff578c51",
         "h11/_util.py": "2d69248d7c89685940cba2eddfdc3bdd44ad925153e68bdcbe8d13918ed162e9",
         "h11/_version.py": "1954ac6cf48f0dc3ae17aa6d7c88979d52686849b7ca05db327aa5aff1a26a1c",
-        "h11/_writers.py": "a052a6e8fb637877db8f844b5fb541eca0dcd60218e778171b7fc747d96d9930",
-        "h11/py.typed": "b28c3db284f03fd4ff80401049587b19bf3ce79874e0dc2686cd967be2518193",
-        "h11-0.16.0.dist-info/licenses/LICENSE.txt": "37db5bb85926db28a427a25867f10b1232003aea1be69ccb851138adb8e6f361",
-        "h11-0.16.0.dist-info/METADATA": "28f326098ac09fcba79b8f180f96087c841fe2456215cb7b872a9c7d5cd19d64",
-        "h11-0.16.0.dist-info/WHEEL": "0a6c85234931e5c7443132e238d4116c64308c8a11d5a21807b782010e0a3c9d",
-        "h11-0.16.0.dist-info/top_level.txt": "17b742e23977cde87c4c61c43da589acc6deba859b4b7efd1b0762f98bdd722b",
-        "h11-0.16.0.dist-info/RECORD": "1f1d4d9080c9f2a995417616ead6ea614da41b477958ed0ba0e45a82c6212721"
+        "h11/_writers.py": "a052a6e8fb637877db8f844b5fb541eca0dcd60218e778171b7fc747d96d9930"
     }
 }

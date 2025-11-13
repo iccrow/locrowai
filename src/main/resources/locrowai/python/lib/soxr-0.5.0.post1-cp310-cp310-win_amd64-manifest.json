@@ -3,14 +3,6 @@
     "hashes": {
         "soxr/__init__.py": "0ba6cdb64739e28c666389fd27329c1ca25485573e252b1a4bc376f2d0cfb52f",
         "soxr/_version.py": "70f1aa4dd369e9aa3f18cd6fc20ac3c3ee5e99db0e2ac604327ccfb5085411c1",
-        "soxr/soxr_ext.cp310-win_amd64.pyd": "31f6cd725e6d9aea84ecd247d6a6216e660b6964cef56d46b5989d9d4bf8b085",
-        "soxr/soxr_ext.pyi": "3306cb70c5c177259e8ea8394e3944b7ea339a63c88a777e0332eacbd1286cb1",
-        "soxr-0.5.0.post1.dist-info/METADATA": "777202f28af32a0ae3be3e2c005f3738e2c2b8c87d4a9206cfc4afa54402e100",
-        "soxr-0.5.0.post1.dist-info/WHEEL": "598cbeaf08b291b10a944dcb927bca4ef90d8187b149d9650d2b7ca384ad8001",
-        "soxr-0.5.0.post1.dist-info/licenses/COPYING.LGPL": "317dfba8116739654c8c2d8acbc9c7edfcf34e3932e7a4b15307435228f98c3a",
-        "soxr-0.5.0.post1.dist-info/licenses/LICENSE-libsoxr.txt": "73b946c198ad27fc2ae7bea2de6ec6d1b6c0733340d1759a450150271347e5af",
-        "soxr-0.5.0.post1.dist-info/licenses/LICENSE-PFFFT.txt": "7847a2f45a0da613240a7e542980677c16613b1c8258190c15f8bf275032bb2d",
-        "soxr-0.5.0.post1.dist-info/licenses/LICENSE.txt": "16ce7f03077f25fac6a9b89fdf6136927595f6b85db9197381ee99c1ecba357b",
-        "soxr-0.5.0.post1.dist-info/RECORD": "ac82fbac247d97a6fc092e0b449766ca7a3e455ef92ca10ac8c25fbbef17ff04"
+        "soxr/soxr_ext.cp310-win_amd64.pyd": "31f6cd725e6d9aea84ecd247d6a6216e660b6964cef56d46b5989d9d4bf8b085"
     }
 }

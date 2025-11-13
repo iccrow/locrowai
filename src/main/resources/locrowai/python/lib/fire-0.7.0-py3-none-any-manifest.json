@@ -46,11 +46,6 @@
         "fire/console/encoding.py": "d4883b9b30bc1149d6e23440b02672efe51ffb01edd7560d9e84c7c28748c77b",
         "fire/console/files.py": "b7fbd5c9f8fbc7de9d51c5aa4756ddd7ca5ab41ad3d5627321604b164ecde553",
         "fire/console/platforms.py": "56b800cbe10672b00a9f2eff99c163f2af144d4e51706add7450535a0c3862eb",
-        "fire/console/text.py": "0f1a9596d7b39de6b0fd09ec836092cdde405128e896d09a368e24de0370b8fb",
-        "fire-0.7.0.dist-info/licenses/LICENSE": "a5de77b62266bca0bb97bf058992f0b0f308a83a8ca55ee10fbf6bd8ed8f7ed0",
-        "fire-0.7.0.dist-info/METADATA": "ec6a3b50f77815d8de7117dbf49f2987a16753c36af0e38566c97eca665a5f0c",
-        "fire-0.7.0.dist-info/WHEEL": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
-        "fire-0.7.0.dist-info/top_level.txt": "cb8eb7c5a5525bb3ce453cf84ae4dbb4554bb96ecc013dbeddc6d293513cc11f",
-        "fire-0.7.0.dist-info/RECORD": "ee5d99790c13eafea675ab7d14f9af46f3c8cf4c0ad8eea3f1ba6d59b5577889"
+        "fire/console/text.py": "0f1a9596d7b39de6b0fd09ec836092cdde405128e896d09a368e24de0370b8fb"
     }
 }

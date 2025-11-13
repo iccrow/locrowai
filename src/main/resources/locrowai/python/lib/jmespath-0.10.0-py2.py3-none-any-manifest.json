@@ -9,13 +9,6 @@
         "jmespath/visitor.py": "8d21882c47ae635e9690c9317a5db2cad71b96354db4db4b5b8071d2a7d5e1c5",
         "jmespath/lexer.py": "2c4dfe74cef99f2f51311f265e65a528a453225cfc9e3bd6cfe33edb2e2de560",
         "jmespath/ast.py": "4a21d133599d40f46dd76476aa442efc4cdb77e8219391cbcb51e5d631c0caff",
-        "jmespath/exceptions.py": "e47468b7806fdd209376f87994041d401b2a49d68a8ee4cf4b21a6934f334af0",
-        "jmespath-0.10.0.dist-info/DESCRIPTION.rst": "a512511338ec8a243f3d9ef6fe7523efe0be7173641e72778825420c9a675328",
-        "jmespath-0.10.0.dist-info/LICENSE.txt": "66b313cce80ed0623fc7db3f24863a0c80fd83eb341a46b57864158ae74faa56",
-        "jmespath-0.10.0.dist-info/metadata.json": "67297a82d6b086bb98d526f0b482c4cfcc6e7a0f878a88ecc91b2e76002e741b",
-        "jmespath-0.10.0.dist-info/top_level.txt": "beecbfa19d5c92979236b022f092bcfb22063ba6ddb8edeabd6d9c08c4263c7f",
-        "jmespath-0.10.0.dist-info/WHEEL": "1aba90bda9b08015789cba097b4be1611496cd6b31ef18e5b7be054f449661f1",
-        "jmespath-0.10.0.dist-info/METADATA": "d8988268f3ff251f3bbb71120bc6d92e5d7ecfedad031ea61c1eb40c8b06217d",
-        "jmespath-0.10.0.dist-info/RECORD": "5bcde01fe164529ae2cf68e20a7ecd2e5c91adf152c830484848f7e4bf06ef77"
+        "jmespath/exceptions.py": "e47468b7806fdd209376f87994041d401b2a49d68a8ee4cf4b21a6934f334af0"
     }
 }

@@ -27,9 +27,6 @@
         "aliyunsdkcore/auth/signers/signer_factory.py": "0f18b59f4d54b0d33ae2a0c93277816d3cbdc278bb362eb6b9099e9585f0f5ba",
         "aliyunsdkcore/auth/signers/sts_token_signer.py": "9442a1a31d2ca877e1c7abf459c89f9557499b312669dbb33c0a4301db1df41a",
         "aliyunsdkcore/auth/utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "aliyunsdkcore/data/endpoints.json": "089675a7471062207886ab255bf4cc55386d62d439a1ecccf450b1b37844f0ea",
-        "aliyunsdkcore/data/retry_config.json": "7f268869e761bf2a989d48a320cf0db34a24ef0db1c89294b788c9070b606f51",
-        "aliyunsdkcore/data/timeout_config.json": "2a08b8bb786d52e5b1beebb534523c4551809f81bd7fd90406b3629a1282fb6a",
         "aliyunsdkcore/endpoint/__init__.py": "ec60fa41d637f934c65176bd32b1a6d07c4807e598eb3688429e258ab0560ac2",
         "aliyunsdkcore/endpoint/chained_endpoint_resolver.py": "742723155de4eba4d42ba42a35d8be1aff7d2b3ad880bed1cb27dd2aafbd81f5",
         "aliyunsdkcore/endpoint/default_endpoint_resolver.py": "62412d884eb1631026547ce3364c928796412591f75aa6d89f85ecb81d7006ab",
@@ -81,7 +78,6 @@
         "aliyunsdkcore/vendored/requests/packages/__init__.py": "abaca075e032ca1a84ab0a45c9f6c888a738283df532ee920ebe3f3e928d695d",
         "aliyunsdkcore/vendored/requests/packages/certifi/__init__.py": "412472d54ced13e8b4f48b8620a2ae735f74934ee5b7a92d69b6de94f3086687",
         "aliyunsdkcore/vendored/requests/packages/certifi/__main__.py": "162398b75165b6cb7bc24f4345ae860a806bf2a054c65350bbf30a25fd3813ab",
-        "aliyunsdkcore/vendored/requests/packages/certifi/cacert.pem": "ec21177cb1f10f0bc3a7056ed32ff695f25893addc53e294288fc32f52eaf14a",
         "aliyunsdkcore/vendored/requests/packages/certifi/core.py": "c4f403746fec8b2e40ec17ea1966bb44985c03ad715c4a8f892af0f463728471",
         "aliyunsdkcore/vendored/requests/packages/chardet/__init__.py": "01ed8646ee10bf771cccec359c1f0f5e70d6f053bd21865a84264cba9b5ea4ca",
         "aliyunsdkcore/vendored/requests/packages/chardet/big5freq.py": "0ffccae46cb3a15b117acd0790b2738a5b45417d1b2822ceac57bdff10ef3bff",
@@ -162,11 +158,6 @@
         "aliyunsdkcore/vendored/requests/packages/urllib3/util/ssl_.py": "e75aa6c91b84b101cc5926983516a125bf550d84046d9510c84acd4b79078fba",
         "aliyunsdkcore/vendored/requests/packages/urllib3/util/timeout.py": "ee51cdae02f9607d9c2358fec999f357f27c8c195155d98585068dc8cd7fd9bf",
         "aliyunsdkcore/vendored/requests/packages/urllib3/util/url.py": "135cbfcc5963a2fe0b05e9846f96d9aa63b0f405d3d34db71ae111fb49f74211",
-        "aliyunsdkcore/vendored/requests/packages/urllib3/util/wait.py": "a78059a3f524a79245d039fa8eba3b7147ea2239d4e9616dba803aa68695e499",
-        "aliyun_python_sdk_core-2.16.0.dist-info/LICENSE": "9e33df040de0dcf956d0b40921bd22663ab670a1c3d3bcd49544c0421b9f995f",
-        "aliyun_python_sdk_core-2.16.0.dist-info/METADATA": "06799764d50befe61db5487fa46859adde1b86a14a4f1fda9ceaadb5fa10c6ca",
-        "aliyun_python_sdk_core-2.16.0.dist-info/WHEEL": "b59a1e1a3b56c5645f769944ec4ddde3954f94b3509ef6ca8989f1ee0c00cbc0",
-        "aliyun_python_sdk_core-2.16.0.dist-info/top_level.txt": "d00ef6009f927ef232f242e55d9869cabb94923b3a26c9f62c10946d73f62785",
-        "aliyun_python_sdk_core-2.16.0.dist-info/RECORD": "611ca70564b3981ad9d6fb5dab5576ee419f8e02349949355e3c0d90ddd7e6b9"
+        "aliyunsdkcore/vendored/requests/packages/urllib3/util/wait.py": "a78059a3f524a79245d039fa8eba3b7147ea2239d4e9616dba803aa68695e499"
     }
 }

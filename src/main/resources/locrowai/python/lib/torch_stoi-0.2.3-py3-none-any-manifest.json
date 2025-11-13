@@ -3,11 +3,6 @@
     "hashes": {
         "torch_stoi/__init__.py": "8000b477a5e893f3f00d8832896e17765353739f3cc8e3555de821c36c78a415",
         "torch_stoi/debug.py": "c5195fd2ea7ecc2ed8a99271e5e9e63bb7cf9f11da15b13e8e63b9508b49b525",
-        "torch_stoi/stoi.py": "e223df792f3400e1319afde52ebfb90e7dfb8314c43016cceb0292aca671faae",
-        "torch_stoi-0.2.3.dist-info/LICENSE": "18e13d20f8b94d7213dca90ed22f03d7f27416d6ebbe1bc428c7008ec7f2fb6e",
-        "torch_stoi-0.2.3.dist-info/METADATA": "2caa572835b6e584d73099ab28c5e5c8edfc2b7579b4045a768ceeccdc81fd1d",
-        "torch_stoi-0.2.3.dist-info/WHEEL": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
-        "torch_stoi-0.2.3.dist-info/top_level.txt": "26bfdd4e360866852dffc885d5f934e5f4fa2953d7a75574b5c333a27ba4f8d9",
-        "torch_stoi-0.2.3.dist-info/RECORD": "615599b6e3304d2ced0ecaa9b5286f8d9818d7ddeaa38e4140f5838351c955cb"
+        "torch_stoi/stoi.py": "e223df792f3400e1319afde52ebfb90e7dfb8314c43016cceb0292aca671faae"
     }
 }

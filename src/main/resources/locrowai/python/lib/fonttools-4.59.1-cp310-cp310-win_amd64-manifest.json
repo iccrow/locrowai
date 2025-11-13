@@ -112,7 +112,6 @@
         "fontTools/misc/filesystem/_walk.py": "594d1204a39bae3fdb0aa078f33dae12c1569cda2c49f7a4c01940111e7e1ca1",
         "fontTools/misc/filesystem/_zipfs.py": "21c20eddea562064fce4b4917285a6a1f9061b2615638ef341a5901ca9a8211b",
         "fontTools/misc/plistlib/__init__.py": "7683ea946af2d66472c12ba9d1a867c2e4fb98d782961610f36cbb91df3a8564",
-        "fontTools/misc/plistlib/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "fontTools/mtiLib/__init__.py": "8b34693c2a107cba038eb9602aa3fa80013a245f4b53bddaa87dbfaa2d0da5a3",
         "fontTools/mtiLib/__main__.py": "32755c310d53c6662079ddb4c0a723ae964322f7ad9a4cdf45528709be5db147",
         "fontTools/otlLib/__init__.py": "5a14ce340b6522d671580907362b7f1015b5f693f7d931594aa209fc61ba3de8",
@@ -282,7 +281,6 @@
         "fontTools/ttLib/tables/otTraverse.py": "4f57e76a6357aaf14f501b29166eda62cabf3f48d44894b2d5a6fdb78f29fd92",
         "fontTools/ttLib/tables/sbixGlyph.py": "6be98298ee4489b37f1deed0428846d3a420f9f08e1d688d14c01b0a9c5adb9c",
         "fontTools/ttLib/tables/sbixStrike.py": "435178ac5963f92c142850c991cb5ad68cff6f7f7776df556053b2c5a15273fa",
-        "fontTools/ttLib/tables/table_API_readme.txt": "13d970196d4ffdd1aacb515805c60b5440c39a291bb2a5b8a54b69bf544a0895",
         "fontTools/ttLib/tables/ttProgram.py": "be446da6d1fb4170f4360f0b37387e03f2e7dbb54f0b1489397816f3cefc9d2a",
         "fontTools/ufoLib/__init__.py": "1db61d56a414a4be6ccc612792e06145238a82959340bb910037f2d6d7b546fd",
         "fontTools/ufoLib/converters.py": "84f5450b42b520f5c6f2d08665038851707820b76218fbb36e0b6a4a2587667e",
@@ -338,14 +336,6 @@
         "fontTools/voltLib/error.py": "dd3b1a64103cd9a7057768f905eab75944135114ca334cf13a7505199a2f48d0",
         "fontTools/voltLib/lexer.py": "bfd578cdd04ed95a95246fff216acbf1fbff0915119a1d9e0ffd54a5b2099fd8",
         "fontTools/voltLib/parser.py": "1d2ef6831b45cef70f4b011b5188f7138d423caed9a8af6649ed272d1c67f886",
-        "fontTools/voltLib/voltToFea.py": "9d2f8e4a5c7f6be4e780620214d2b21713218ea915dce40b72fcb3c38b101729",
-        "fonttools-4.59.1.data/data/share/man/man1/ttx.1": "13bd45f6644d5a5b6d569ce59cfef0fdfaa443280f929879b3e02d55ad09b39d",
-        "fonttools-4.59.1.dist-info/licenses/LICENSE": "22bef80697ecfaa17f97e62b9a26dfa12820be05583e8dd12ad169b241274c99",
-        "fonttools-4.59.1.dist-info/licenses/LICENSE.external": "b082a5f86775b2641f01bccb8b9c82908481de5f502bb254b1e13bfc2a9f303d",
-        "fonttools-4.59.1.dist-info/METADATA": "c3876433b97760e46ea9ef88b7c3b22e441b52faf71c538b7c8b7e28f0c089f0",
-        "fonttools-4.59.1.dist-info/WHEEL": "294b810ba97101b1c22a294ab9af11f56fd333bd7ffbd4a0e6e10fdee0d67285",
-        "fonttools-4.59.1.dist-info/entry_points.txt": "f2454775dc5f156038e05483e26069982fb8b82ca7427928cfff5a3496f6dbb6",
-        "fonttools-4.59.1.dist-info/top_level.txt": "ad1811ca5ad7cde92a58eb2b87283389bd76a50ed620b7fb5068ea1309081433",
-        "fonttools-4.59.1.dist-info/RECORD": "0c6d9c68b2c417630dc6be2d9ead4f973d3bc7fb84c56d2e43fb4b8e2c9f0e0b"
+        "fontTools/voltLib/voltToFea.py": "9d2f8e4a5c7f6be4e780620214d2b21713218ea915dce40b72fcb3c38b101729"
     }
 }

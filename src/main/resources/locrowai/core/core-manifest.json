@@ -23,7 +23,7 @@
         "seal_core.py": "19c51d099b208dcef6916d20945780a75d2a6ad57a9f3b74b18edcdfe5988f54",
         "seal_extensions.py": "6399ca314484ec3472e15c4256fed06d5258db5f632f138430fbf5972e2c2fdf",
         "seal_python.py": "7d71d13d07a8d54ac96a42efe6c879febaf1ff231186245ce6ea64fa6d92c53a",
-        "seal_wheels.py": "e020378b762a4561cb6cd68bdd8aaa1f6630868285754bc952d6d1f073417c80",
+        "seal_wheels.py": "872afc01ba28b1a91dac21629313ffd607794163ba5fb7d748bc846b663fbbf2",
         "sample/audio.wav": "b972b5bce0fe86372b6e1bbf145a90050ecb299c8ce1e9e3e45cc1390519eb5a",
         "sample/speaker.wav": "8fc29aa4fff9f32ddb027fb4e32f7809b5e837ab8decdf95aebf6923abcdf35a",
         "api/extensions.py": "399e77100da47cc2dd89c59e64e79a0095af040b0b0634d5b2f395a9c8e6e3ac",

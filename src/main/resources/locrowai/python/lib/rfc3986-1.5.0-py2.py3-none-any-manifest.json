@@ -13,12 +13,6 @@
         "rfc3986/normalizers.py": "7faa0bbcd51a771643243b71dc9bea17f7b11860fb3ef2da89b6100547e1d8d1",
         "rfc3986/parseresult.py": "36f6cfa4fceeba9bad1e925ce09d9c8dc372e81edceabb1c16acd29e4b035a67",
         "rfc3986/uri.py": "2d834096bdae8d57c26ba8dc57ca3523584ebaf8aeb97b12447a524f60f2bc0c",
-        "rfc3986/validators.py": "a9cbcd9eba64d9e97ea2d24df994466743c4e3169210ff7b94a4445c6fd8b693",
-        "rfc3986-1.5.0.dist-info/AUTHORS.rst": "42394374c1e235e42fd653ea1de190e0eb6210f0b015a7c92eeeeddb70170c7a",
-        "rfc3986-1.5.0.dist-info/LICENSE": "c0ddce33bfac480a66bde40c590ede2647a4c8a729dcb0d2ce46c014473d5dd8",
-        "rfc3986-1.5.0.dist-info/METADATA": "aa4b8207f89f832a6d84d4baf8cf8838a962f85dd83d1f31cce3973c712ed96a",
-        "rfc3986-1.5.0.dist-info/WHEEL": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934",
-        "rfc3986-1.5.0.dist-info/top_level.txt": "675d107ac6f4515f406f1953215f409ce03093edf8dd69c4f392bcc5f3783a60",
-        "rfc3986-1.5.0.dist-info/RECORD": "72d833199abbfc55885c0db333fa82b2a3de76e2027a6d1d151ff8fa471c7412"
+        "rfc3986/validators.py": "a9cbcd9eba64d9e97ea2d24df994466743c4e3169210ff7b94a4445c6fd8b693"
     }
 }

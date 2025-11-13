@@ -13,13 +13,6 @@
         "typeguard/_suppression.py": "5507f3c5cc086eede27f47fb54190a33b86460e03bb4d170f5aee3301b26320e",
         "typeguard/_transformer.py": "f476bbfd085dc285278bfea1bdd63e8596ee11eae0a301eb34bdafcc721a9056",
         "typeguard/_union_transformer.py": "bffe36afbfba1ee457d92a05c27c89f84e4f9715e955e5093c9475f8753da92a",
-        "typeguard/_utils.py": "e4784ed6b3e7e5fd4ceb29a454012fed79a5cf5717fa3d0e9d3325c87aaaad1f",
-        "typeguard/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "typeguard-4.3.0.dist-info/LICENSE": "6163f7987dfb38d6bc320ce2b70b2f02b862bc41126516d552ef1cd43247e758",
-        "typeguard-4.3.0.dist-info/METADATA": "cf675c1c0a744f08580855390de87cc77d676b312582e8d4cfdb5bb8fd298d21",
-        "typeguard-4.3.0.dist-info/WHEEL": "189eedfe4581172c1b6a02b97a8f48a14c0b5baa3239e4ca990fbd8871553714",
-        "typeguard-4.3.0.dist-info/entry_points.txt": "aa9ecd43568bb624a0310aa8ea05a57c6a72d08217ce830999e4132e9cea1594",
-        "typeguard-4.3.0.dist-info/top_level.txt": "e33dbc021b83a1dc114bf73527f97c1f9d6de50bb07d3b1eb24633971a7a82bb",
-        "typeguard-4.3.0.dist-info/RECORD": "a4d7a809edb1dbd0880bd29a9f28716503b4b0f9674e9aec211135a5ee3d3338"
+        "typeguard/_utils.py": "e4784ed6b3e7e5fd4ceb29a454012fed79a5cf5717fa3d0e9d3325c87aaaad1f"
     }
 }

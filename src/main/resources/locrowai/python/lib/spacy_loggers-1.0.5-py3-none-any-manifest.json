@@ -15,13 +15,6 @@
         "spacy_loggers/tests/test_cupy.py": "c8cb49d1022fd9e80d0b83063f4a1be07a33a13e1ccb0225ab32fce9a9ca76e1",
         "spacy_loggers/tests/test_lookup.py": "0a2c2ab338aa1e57d41711c8c4c120894b843c006b2ae1103cca651485775920",
         "spacy_loggers/tests/test_registry.py": "90bfe07368b6bf2deac537d5268b489e0dcd9464801fbdd8f197c406473c6669",
-        "spacy_loggers/tests/util.py": "b37b76e5f3b5633242487f199e5ad16b5d02307b3d7beaad9a9b2ec2cd12aa56",
-        "spacy_loggers-1.0.5.dist-info/LICENSE": "95437f29c5577d43e50a0c6a5b6e74b55984e41661d1e43e32cbafa3ca557099",
-        "spacy_loggers-1.0.5.dist-info/METADATA": "18a091c9186a04bc9032859fd2ad3f853101ebe5aabff066391f0e584e692b73",
-        "spacy_loggers-1.0.5.dist-info/WHEEL": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
-        "spacy_loggers-1.0.5.dist-info/entry_points.txt": "c3ec99a3162a5673bb815566fe677f95fe6fab433660d591adb1f0896cc0947d",
-        "spacy_loggers-1.0.5.dist-info/top_level.txt": "3e97af465a4f0ff24800e3b0c6875b82ff0e98a87af0bf243b08d3442d987e9d",
-        "spacy_loggers-1.0.5.dist-info/zip-safe": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
-        "spacy_loggers-1.0.5.dist-info/RECORD": "3e512424064da7d43ed8016999b8efbc649b9b170f5cb38bdbe971a88153c0a1"
+        "spacy_loggers/tests/util.py": "b37b76e5f3b5633242487f199e5ad16b5d02307b3d7beaad9a9b2ec2cd12aa56"
     }
 }

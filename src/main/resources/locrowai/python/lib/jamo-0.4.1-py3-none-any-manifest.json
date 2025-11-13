@@ -2,14 +2,6 @@
     "id": "jamo-0.4.1-py3-none-any.whl",
     "hashes": {
         "jamo/__init__.py": "c8d4cdd6903229b6b7be785e6a987a39aee6a73e76d8d0ee329409a7ff88389f",
-        "jamo/jamo.py": "544ee39c083dd489774a2209b5e5afe2ed6e55c45d07b61abffce178c8137672",
-        "jamo/data/U+11xx.json": "39b908ff90779b71489458f1022ed818f17fdb6522a08b74465a218c5cad7c8a",
-        "jamo/data/U+31xx.json": "3951af9fab332731caf92867e3bd6a665a56b977931179312a52b39397fbea9c",
-        "jamo-0.4.1.dist-info/DESCRIPTION.rst": "983b5d8bcf7b91566198e928bd45b13d357cfc7e0212e43676dcffd2b5e16c36",
-        "jamo-0.4.1.dist-info/metadata.json": "ec46f8b1478dc47d60879aa5ef493735d9b6e832a73fd52ed961789a560e73fc",
-        "jamo-0.4.1.dist-info/top_level.txt": "5129de87adcd6a5052f4ca526ea7e66877daf0f165939d1159e943dac4f6be7f",
-        "jamo-0.4.1.dist-info/WHEEL": "acda34e4f6cdab09d78881c5b189b49b6daee199ba609b6e8051b64c7c78c378",
-        "jamo-0.4.1.dist-info/METADATA": "2c64d6c2036ac57840c56c8b5ed121d62441c8efdf65adc84ee8a4c036a23f1e",
-        "jamo-0.4.1.dist-info/RECORD": "40cd1cd23f6a16e12d74b3d342a1c2cdad2def4f1a99f9ba1d9a7097343fe1fa"
+        "jamo/jamo.py": "544ee39c083dd489774a2209b5e5afe2ed6e55c45d07b61abffce178c8137672"
     }
 }

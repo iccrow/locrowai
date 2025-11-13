@@ -4,7 +4,6 @@
         "sacrebleu/__init__.py": "890c2126104e0969f3ab399cb482eb44f31630589db5949581bc0b2a3eac0a76",
         "sacrebleu/__main__.py": "1229b64dfb7d5dca21e4f2789f6de6567a4fdfa52679c3ad0801f552997991aa",
         "sacrebleu/compat.py": "aeaf2ce92807f71801736b8ae895e81f41d667a09b7293ffe3f5faea7421c82b",
-        "sacrebleu/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "sacrebleu/sacrebleu.py": "35689d2f49b1bb7c80f3df5e7651493e649499fdb8df3121880a57338d7ae1df",
         "sacrebleu/significance.py": "3c33bb982bb9ccbfbb5cd73db40ed02acd02dd391c7eb2606caa985f09d74e9e",
         "sacrebleu/utils.py": "93db1f2983f6c2e565bb0ed17b4d8936d6c20888da4b1ae2447b6d4f09cbc8c6",
@@ -35,12 +34,6 @@
         "sacrebleu/tokenizers/tokenizer_re.py": "386724de93e1c226dfe3c0ecb32fba71939bb0735eb706f72082675181918808",
         "sacrebleu/tokenizers/tokenizer_spm.py": "a2d054b3095db4c72913de6fbc80dffbbe1e75dcb7e7ff69f3c9a0bfd2794fd8",
         "sacrebleu/tokenizers/tokenizer_ter.py": "dfb28fb31d23c2c499b2a67b509296018cadb6fa92d754b1ce41d9223ad905d0",
-        "sacrebleu/tokenizers/tokenizer_zh.py": "1a605edc4dbdb8409feb5745b11fea007373013124830c29d1702a6fc75ef705",
-        "sacrebleu-2.5.1.dist-info/LICENSE.txt": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-        "sacrebleu-2.5.1.dist-info/METADATA": "f4362c4b64b92bf2368ac0a1b26dd838315c02ac19b6aee2ad5cea44bfcc78ad",
-        "sacrebleu-2.5.1.dist-info/WHEEL": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
-        "sacrebleu-2.5.1.dist-info/entry_points.txt": "a1a70e9a6db8c140775ddee107574100133395987d45e44944d85a2aed5f0e5c",
-        "sacrebleu-2.5.1.dist-info/top_level.txt": "1f77291d73d0b50b556ca2300cdf00bb6b7c9f0ad342503da261aea05eed24e0",
-        "sacrebleu-2.5.1.dist-info/RECORD": "c0b02f9d2d11e4698b55b95b49f5ca26397a251669528feb956aa980a9d87d83"
+        "sacrebleu/tokenizers/tokenizer_zh.py": "1a605edc4dbdb8409feb5745b11fea007373013124830c29d1702a6fc75ef705"
     }
 }

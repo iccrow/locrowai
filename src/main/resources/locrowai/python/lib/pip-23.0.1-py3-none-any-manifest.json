@@ -4,7 +4,6 @@
         "pip/__init__.py": "e72ae879dcdcd9d28a6dcca70eb1d7f2f0682f1a94dbb2a616fbc799da9037dc",
         "pip/__main__.py": "997c160dfb4d2cc29fc15a8a156184feeb8166f1922225042e12e47b2b08b997",
         "pip/__pip-runner__.py": "127adf2a628ccd601daa0fc989c2c238ff58f79531ef31e1e0e6efa8bb50723a",
-        "pip/py.typed": "10156fbcf4539ff788a73e5ee50ced48276b317ed0c1ded53fddd14a82256762",
         "pip/_internal/__init__.py": "9e7142bb1acf32000bac80f14a8cbe1fa663e16e1463ad03fae2f5689caad297",
         "pip/_internal/build_env.py": "d444a9ab0d22ba94bf2bba6164ae73b21544e42cf2f41b462c55385ba127bdaf",
         "pip/_internal/cache.py": "0b79fbf159c181af6b8cf5d9aa1b7fe00e1df93db9a680bb2b4a8133b1470e15",
@@ -157,7 +156,6 @@
         "pip/_vendor/__init__.py": "7cdc4e4950f46ae125b03f1f37db6eab9a6c7e0310f91141b43e17e608e54648",
         "pip/_vendor/six.py": "4ce39f422ee71467ccac8bed76beb05f8c321c7f0ceda9279ae2dfa3670106b3",
         "pip/_vendor/typing_extensions.py": "54a67f9c7b2ecc36ca395518d824dd6afc0181f67611747296e64747351801b8",
-        "pip/_vendor/vendor.txt": "de2dd9afbfe44430fd504bdad08f1838cae8099f31b99f4e59dfd0e2399acea1",
         "pip/_vendor/cachecontrol/__init__.py": "86bc65bf7abbba9b1fc8cc3c937810f6f6a005ac75a581d2186a98959d199343",
         "pip/_vendor/cachecontrol/_cmd.py": "971517a9f353571f38cdfead7166e42d91c0e9654146d251a5f780f59aa16806",
         "pip/_vendor/cachecontrol/adapter.py": "7b0f4e60440710e8ef1a5d3a66cb97f16dc302f1d6b10287c16031212c86ba0f",
@@ -173,7 +171,6 @@
         "pip/_vendor/cachecontrol/caches/redis_cache.py": "9a9f905a89cfe34237c4918add754ef86b3d6b7523ce5aaa126a7d88b247f45e",
         "pip/_vendor/certifi/__init__.py": "6cafe79bd6cb27336f599736a197624f08362960f81d23c158668cd33503bccc",
         "pip/_vendor/certifi/__main__.py": "d64dc2afde6f0b1c464460e58eb5b7c0c76965d2f73617f4bb59fe936a9db026",
-        "pip/_vendor/certifi/cacert.pem": "2c11c3ce08ffc40d390319c72bc10d4f908e9c634494d65ed2cbc550731fd524",
         "pip/_vendor/certifi/core.py": "67088eb2ffac0ffa2e5357edf30cbfc59dcb43b51b715cf2aa3d97372aec662b",
         "pip/_vendor/chardet/__init__.py": "e7b47e1d2c63d0f5a620b30dd0616650da8431fac45526a65f28c3f96ebf7dbb",
         "pip/_vendor/chardet/big5freq.py": "96d71f3fedcf8e53470a8a397b86bb0b8cfed838414d745f63a8db31b07b3f7d",
@@ -500,12 +497,6 @@
         "pip/_vendor/webencodings/labels.py": "e003bf2b14dd76a1adacbf67b3b9003e36f409c37ac6c088c5b2b7ec763daf71",
         "pip/_vendor/webencodings/mklabels.py": "19821ecb09e968b9cfd064a273c2c55a0774515bcefe5d4d73a62817ef3b47fe",
         "pip/_vendor/webencodings/tests.py": "3ad18bca384d6357ef916d46bcb27f155f59a2a0bd027ca3afbab79314dbccdb",
-        "pip/_vendor/webencodings/x_user_defined.py": "c8ea9649d9a9cad19f52087f67a258803361a1cf81007cb279e4f5e45af8dad3",
-        "pip-23.0.1.dist-info/LICENSE.txt": "634300a669d49aeae65b12c6c48c924c51a4cdf3d1ff086dc3456dc8bcaa2104",
-        "pip-23.0.1.dist-info/METADATA": "3ce87cf6eb73f87d5ed0afb10d8f422fd82cfb1d0c8c7f805b16e1246dda6951",
-        "pip-23.0.1.dist-info/WHEEL": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
-        "pip-23.0.1.dist-info/entry_points.txt": "c3af789a31d849f992a1455549a1e843d52438105db4a28825bc8344b74a8eef",
-        "pip-23.0.1.dist-info/top_level.txt": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
-        "pip-23.0.1.dist-info/RECORD": "efd6f85dd9e1f1d3cc908b336caed9cba0bc33289087069005931446f53c889a"
+        "pip/_vendor/webencodings/x_user_defined.py": "c8ea9649d9a9cad19f52087f67a258803361a1cf81007cb279e4f5e45af8dad3"
     }
 }

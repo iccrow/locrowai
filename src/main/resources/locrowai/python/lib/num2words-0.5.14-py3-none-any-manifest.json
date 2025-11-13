@@ -62,12 +62,6 @@
         "num2words/lang_TR.py": "594f0b64a0f20b0236a9464d55ca29045485fcfa7352ab5cc857f4a2d4250194",
         "num2words/lang_UK.py": "0ae6e064c545397329e7e691cdb7252ef8296ca4a42a7e797f0d7bbb2358c9b6",
         "num2words/lang_VI.py": "67f03114e5b83124d6d336f8199c9594f141cca9574e579bfbee63d7a1533381",
-        "num2words/utils.py": "5a4cfa390464bb4134f9194d11261bfd9b85021b0c0af0fe2dda0ec6cea5bd81",
-        "num2words-0.5.14.data/scripts/num2words": "1e30aacca972194c3bd9ca45f4a1120d712975f36b413458a48528f12a0ca3fe",
-        "num2words-0.5.14.dist-info/COPYING": "1457a03d928aeb06af3ea75ef065c517e915d7e41283d550dd4fa18ab20cda12",
-        "num2words-0.5.14.dist-info/METADATA": "7b5b9217db18274db0fdb75c1e7dee83c61be4f408be4d9d796a2253d55786df",
-        "num2words-0.5.14.dist-info/WHEEL": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
-        "num2words-0.5.14.dist-info/top_level.txt": "4c24d5fb1b57eb08420b50745937b8853aa902a25a3e610716cb8d3ab7db6aad",
-        "num2words-0.5.14.dist-info/RECORD": "fffe24727d7dd2fd0773b3637050dd694899b2ee5a799f33df5e4da872e5d4d8"
+        "num2words/utils.py": "5a4cfa390464bb4134f9194d11261bfd9b85021b0c0af0fe2dda0ec6cea5bd81"
     }
 }

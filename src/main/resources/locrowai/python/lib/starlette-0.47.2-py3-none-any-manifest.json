@@ -14,7 +14,6 @@
         "starlette/endpoints.py": "647058375336c44d39aa8074fb4c2fd1a03312a5d972fe369f072eaab6264041",
         "starlette/exceptions.py": "b48a619596bc12c41f2b0dfec70e49dd93751a3691e147317c92baf40776846f",
         "starlette/formparsers.py": "35d9797465d9b68a732548ccd38339cd8852f2c4f7ddeff92702b64fb31de330",
-        "starlette/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "starlette/requests.py": "8e2b38b016c4699d661154db9c658e1c3c6cd679b7aab1d9e728b7274cd541da",
         "starlette/responses.py": "4a6c5ce19ba6fb1ecb1b393aae0eeaa6ed183c7163061d36117317dd9176049b",
         "starlette/routing.py": "21f7c91fa479e1db8342d65cbb715e88663ff41a288bf020f9788cc4750cb068",
@@ -35,10 +34,6 @@
         "starlette/middleware/httpsredirect.py": "48d4e579a6002c6a084d5ef1c1b89ce2007a55874cf1895e6bfca4722533df58",
         "starlette/middleware/sessions.py": "2206644e481b3a153db5071e415d0a8cb022369f9d2a19e0707a6ee1561a0d74",
         "starlette/middleware/trustedhost.py": "6f22825323e07b9e19e0cce7cae9c3ff60ec31f25cd94b1f5786f60eef966137",
-        "starlette/middleware/wsgi.py": "c8d421a371552b405c0d3553d8d1a660b3b1b6bc4f154a31f5a537714a860e07",
-        "starlette-0.47.2.dist-info/METADATA": "1a9dc338dac1b114175c53c23f4b9151511a77bd3fbffca2a6fdaf376203b502",
-        "starlette-0.47.2.dist-info/WHEEL": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
-        "starlette-0.47.2.dist-info/licenses/LICENSE.md": "dcb95677a02240243187e964f941847d19b17821cf99e5afae684fab328c19bf",
-        "starlette-0.47.2.dist-info/RECORD": "ff524f9a195d1fa059b2b924b8051b4fa2cc8375a3c94a17b0a2ed2a76a0a9b2"
+        "starlette/middleware/wsgi.py": "c8d421a371552b405c0d3553d8d1a660b3b1b6bc4f154a31f5a537714a860e07"
     }
 }

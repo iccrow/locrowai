@@ -1,11 +1,6 @@
 {
     "id": "pytorch_wpe-0.0.1-py3-none-any.whl",
     "hashes": {
-        "pytorch_wpe.py": "a85d8962ada882e962bd2c4888d9db5356a1d3afe25b558419c17d97d4742711",
-        "pytorch_wpe-0.0.1.dist-info/LICENCE": "075168043d6f832daca4d40e07b1666f1eeeedf0339fd55a9c9dcac14f03a1c0",
-        "pytorch_wpe-0.0.1.dist-info/METADATA": "455068a078b78f878d8aea199b8241749926acc49b170b8d65354690dd475c3e",
-        "pytorch_wpe-0.0.1.dist-info/WHEEL": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
-        "pytorch_wpe-0.0.1.dist-info/top_level.txt": "5dd65f531c52026561dc48783e7b1a7c9639e3047d531d361ded25f4e418d363",
-        "pytorch_wpe-0.0.1.dist-info/RECORD": "4dd695281e774ed91d93ab9397abf8793446a0dd5d6cb704911d324b23e5f0c1"
+        "pytorch_wpe.py": "a85d8962ada882e962bd2c4888d9db5356a1d3afe25b558419c17d97d4742711"
     }
 }

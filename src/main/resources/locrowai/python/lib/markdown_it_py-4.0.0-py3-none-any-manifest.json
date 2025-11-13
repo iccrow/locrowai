@@ -8,8 +8,6 @@
         "markdown_it/parser_block.py": "f8ccae81707add37bbd6ce0d71241988ae5b13a04791d17266ffdbbe2b9ab5d2",
         "markdown_it/parser_core.py": "4919898ea7bc742e865b310046959b6b9f5c066c630abdc6b20f21dbd3bcb109",
         "markdown_it/parser_inline.py": "cb48c28a0f0227140eee1073d19637b06bcf940293a213b02206aa9e549a4b90",
-        "markdown_it/port.yaml": "8edfeb7703a77e870e5799dcdf9adebd3c9b00040c229ffed5f95aff9dbbb151",
-        "markdown_it/py.typed": "f0f8f2675695a10a5156fb7bd66bafbaae6a13e8d315990af862c792175e6e67",
         "markdown_it/renderer.py": "2f3af4825a9de68c452f5d0339f8e35bc920e06a78d62750e2f88441a138ee80",
         "markdown_it/ruler.py": "78c02d5864407d2337dda88979dd24e7ddb704492e315b0cab572df2f53eaa5e",
         "markdown_it/token.py": "716aedf64a1d7cf762cc7abfb58af3c8864db4960d30dd7cd770cf365ba7c138",
@@ -68,12 +66,6 @@
         "markdown_it/rules_inline/newline.py": "df6f6bd15dda0e3ccdb4972fcc0de5b05623ce006b4a12c0579b9ff61c102ff3",
         "markdown_it/rules_inline/state_inline.py": "77e99e9c5cdbcf9143cb524d806045f810126ac9d523ef51b8ec56cfd3e72a7e",
         "markdown_it/rules_inline/strikethrough.py": "a7070f972864879a6a155c51092add5b974d0883ad5387838aded35434cf2150",
-        "markdown_it/rules_inline/text.py": "150a9a41152a6e730b3bd65258f59050c10a1fa26a5924929a5679222f4fe3ca",
-        "markdown_it_py-4.0.0.dist-info/entry_points.txt": "4fcd65edf1d0de9965a50e3052d40ae9af20fe9eb0c506e78ca5470a4d96306e",
-        "markdown_it_py-4.0.0.dist-info/licenses/LICENSE": "4a2260d6e2cd0f5a151a1e86dbfe7d3ed552b1e2beabf9941c1ba5c49cbce484",
-        "markdown_it_py-4.0.0.dist-info/licenses/LICENSE.markdown-it": "792c48c5a849a15fdf9e37e8bcf9e6d1dd13b32b46c642a748a0a46a9919d473",
-        "markdown_it_py-4.0.0.dist-info/WHEEL": "1b68144734c4b66791f27add5d425f3620775585718a03d0f9b110ba3a4d88db",
-        "markdown_it_py-4.0.0.dist-info/METADATA": "e9fcaa1e2daf3f96d840a09fbaaa394feaadf37a36d88a7b6b6b672487c65bfb",
-        "markdown_it_py-4.0.0.dist-info/RECORD": "0254257b89f1aba93bd34ff820ba886e5a0f168fdbe76242436dfeea685b0f27"
+        "markdown_it/rules_inline/text.py": "150a9a41152a6e730b3bd65258f59050c10a1fa26a5924929a5679222f4fe3ca"
     }
 }

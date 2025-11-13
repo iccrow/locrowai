@@ -3,11 +3,6 @@
     "hashes": {
         "pystoi/__init__.py": "48ce9882b6ba42f643f8305481a48902ddee97aa4f07bca13e44fea1b7d104ea",
         "pystoi/stoi.py": "482b30bfa8e60f1453200315afcd5564fc9e9aa1d14aeb9710a58fd7a9f52658",
-        "pystoi/utils.py": "0222df0354a248ccc7f8525eda9bda9da815e5d60106f611a5f4750d1ba7f321",
-        "pystoi-0.4.1.dist-info/LICENSE": "35c25f6087c4e1857ba6d4bc0b7957b7bc523c9ff190a9e2cccb4b5ecba018ab",
-        "pystoi-0.4.1.dist-info/METADATA": "cc783ed1abfbc02fdd7fd974933cae7708790134da128e0bea24e6e175e52d87",
-        "pystoi-0.4.1.dist-info/WHEEL": "6dbd8eb7db1c7251ca30e2c310763a076b227163a0ba08c529a26c4fbbf0310a",
-        "pystoi-0.4.1.dist-info/top_level.txt": "3e4ceefbba6809abf81fa6be2058e831e14cd79bac963805221639e242449bea",
-        "pystoi-0.4.1.dist-info/RECORD": "3a1171618fe89e28d75d520cf75cf3ed2a7da09ecb92ae109fd769d5504da25f"
+        "pystoi/utils.py": "0222df0354a248ccc7f8525eda9bda9da815e5d60106f611a5f4750d1ba7f321"
     }
 }

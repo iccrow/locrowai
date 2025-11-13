@@ -7,17 +7,12 @@
         "pyparsing/core.py": "22d6b5ae854ac2acdf6f822f5fcf0bc19825c6e8a2a3b26e5bd7a8ca592165f5",
         "pyparsing/exceptions.py": "cc8f591ac301aa9703076a8ab2bae9606ba7d520b036bbe9b8d8526ff82806ea",
         "pyparsing/helpers.py": "4c4ea306390805bff18da7942973e34bed7e4671ff2241ff0da1e768c0d1c163",
-        "pyparsing/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "pyparsing/results.py": "db4f0ad71802ca28e91346ae01130dab02572c23cdd18ed80ac7577f7ca76621",
         "pyparsing/testing.py": "afe90a5dcbfff2bd46fb8beba6b06425eb90169afde0e4a6d23957746c00605d",
         "pyparsing/unicode.py": "7686a7bfb058401e0475045f7578a06a257f483859cb26814b082f544cfa7977",
         "pyparsing/util.py": "9277da17cfe98c72f2ecf2ff61da6c33d55a401ad00eaa382e787486e4f04e5e",
         "pyparsing/diagram/__init__.py": "ed590b41cea9e1b9d00b70852f854fb440a28798fe6fe2e4379eeafeb5cc9333",
         "pyparsing/tools/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "pyparsing/tools/cvt_pyparsing_pep8_names.py": "08abf120188324bbe66e756fde62b4b7235464ddee6f7790e19d5e3b9e31f3f5",
-        "pyparsing-3.2.3.dist-info/LICENSE": "10d5120a16805804ffda8b688c220bfb4e8f39741b57320604d455a309e01972",
-        "pyparsing-3.2.3.dist-info/WHEEL": "1196c6921ec87b83e865f450f08d19b8ff5592537f4ef719e83484e546abe33e",
-        "pyparsing-3.2.3.dist-info/METADATA": "0e4470308c0c9b62d14bf0e2745860d4eb23f6457ee102d00a47bdf320393ca0",
-        "pyparsing-3.2.3.dist-info/RECORD": "f7f2c78941e0b279e558b0171ff9a62a35f13e8159c556ed7718ebefbf2cda60"
+        "pyparsing/tools/cvt_pyparsing_pep8_names.py": "08abf120188324bbe66e756fde62b4b7235464ddee6f7790e19d5e3b9e31f3f5"
     }
 }

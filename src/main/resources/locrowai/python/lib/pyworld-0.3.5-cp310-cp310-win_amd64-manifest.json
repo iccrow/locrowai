@@ -2,11 +2,6 @@
     "id": "pyworld-0.3.5-cp310-cp310-win_amd64.whl",
     "hashes": {
         "pyworld/__init__.py": "5eee9bf2e81f67204a3502e14a8e9d74ad6bf1b60578644b0f5ec30e89bc4693",
-        "pyworld/pyworld.cp310-win_amd64.pyd": "5190fe9061a94767bca3fca118cb7961c66befebf6ce900e2b9bb0f1887fa91f",
-        "pyworld-0.3.5.dist-info/LICENSE": "705066462de18626fa19884f2b87354653bc74ac13962932da1857f606739b15",
-        "pyworld-0.3.5.dist-info/METADATA": "e0a4ed25ec55d44f284596bc6ee931cc1d8a19a29b9fbb67d65c6dee094d4936",
-        "pyworld-0.3.5.dist-info/WHEEL": "af319f66051c19e2928081c660cbaa838c44e153c7c676a57571fa046d338d59",
-        "pyworld-0.3.5.dist-info/top_level.txt": "30390bb9ea81d79a937b6208a96324e3a28b56e0192a97509bf226844e82af4b",
-        "pyworld-0.3.5.dist-info/RECORD": "ae55af08bceafa653f13bb37090e44d1e1d4bad6da71567bd1ef6bc96b82ebf9"
+        "pyworld/pyworld.cp310-win_amd64.pyd": "5190fe9061a94767bca3fca118cb7961c66befebf6ce900e2b9bb0f1887fa91f"
     }
 }

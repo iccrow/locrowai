@@ -11,11 +11,6 @@
         "murmurhash/include/murmurhash/MurmurHash3.h": "2f64c8b511cb006e75586a773b28e5e4857ff3fc5633d23b5d09a3b34fd487e5",
         "murmurhash/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "murmurhash/tests/test_hash.py": "6e112a0308d29647e830f0af9115bdfe7ccd3b545a824d9026d4b8fd48eb2e09",
-        "murmurhash/tests/test_import.py": "c512704c0587815e3bea16eb9f05717345fb668688408549a6fece785fad3350",
-        "murmurhash-1.0.13.dist-info/licenses/LICENSE": "a989b0f1f8e0eb7781fe6a5c5bc535700046954873004bc63434d7f2d2fd50f9",
-        "murmurhash-1.0.13.dist-info/METADATA": "8321646d5791baab34f8e3375cb54f6403a911990991f7ca9b38dadca03425ed",
-        "murmurhash-1.0.13.dist-info/WHEEL": "77472544d255691ec75dd08a36c93654bbc557d1d0ed1ed0d4970c86e23f595d",
-        "murmurhash-1.0.13.dist-info/top_level.txt": "dfb86f23b0b8676716d753f3b473d00b131faf6e19eea25c30f6810c38f817fb",
-        "murmurhash-1.0.13.dist-info/RECORD": "365fe415d563f01d6eacf0d5657d8f327de947bb8a5cce022092afb1e1e246f5"
+        "murmurhash/tests/test_import.py": "c512704c0587815e3bea16eb9f05717345fb668688408549a6fece785fad3350"
     }
 }

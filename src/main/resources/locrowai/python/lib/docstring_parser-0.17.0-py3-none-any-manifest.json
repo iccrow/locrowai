@@ -8,7 +8,6 @@
         "docstring_parser/google.py": "8e1ad14bfbfc78e54ed7d722434399b77007f4b37fda6f170fa6262113d0e924",
         "docstring_parser/numpydoc.py": "9bf2b6fe27128f0cd79f1d787431a22fdc3143b2179d54f8a7341a2db7964edf",
         "docstring_parser/parser.py": "001f91ed7dfab22519d6ba91402de3b592a001026791419d3c38d125be78cbd9",
-        "docstring_parser/py.typed": "6d67b0f661e0332f0ba8cbbb46ea905c55cb071876091c747546d2c7edf0138f",
         "docstring_parser/rest.py": "095bc68e25ed8ed78bd0303e39adb249b1c5f7545cb57f0d8207e9ac41d3f7dd",
         "docstring_parser/util.py": "f159865e1b8c71692bbed65248a2215f870a6a426658820b7df63a2414008828",
         "docstring_parser/tests/__init__.py": "e9550b82192e7c792ab597f28816a6c1940d040df3edfe1330470172552a4ca1",
@@ -19,10 +18,6 @@
         "docstring_parser/tests/test_parse_from_object.py": "9f7807b0627ccc07ea23afb80bf2325f67a0ad617ff8b4b1f4d9f9f468ef55e1",
         "docstring_parser/tests/test_parser.py": "e94b952854e3ef9d350b38dd03c03e9aba514bade103c5a8afefc7defb24b2fa",
         "docstring_parser/tests/test_rest.py": "57ffb3d697c0c5305a6ce90ff5ede19bfc501843f27cfc68df86f9172c6b9c41",
-        "docstring_parser/tests/test_util.py": "acdf2f31429fc8c98a743c4a57a46b8cf5cf3d0725997ef070de9a4ab8f83452",
-        "docstring_parser-0.17.0.dist-info/METADATA": "81b219f3c9c43eb0fbc52809bc93e0636070c3b482946d88ba768d75b8cf80fd",
-        "docstring_parser-0.17.0.dist-info/WHEEL": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
-        "docstring_parser-0.17.0.dist-info/licenses/LICENSE.md": "dfe514a337ae8417abd31a8af707bbd6172b03e5430bb083e145899ea97a3eea",
-        "docstring_parser-0.17.0.dist-info/RECORD": "3a8c8322384bc9d35acc7e4243c9b9b000b11e7876cf056e719ccb666a0dac35"
+        "docstring_parser/tests/test_util.py": "acdf2f31429fc8c98a743c4a57a46b8cf5cf3d0725997ef070de9a4ab8f83452"
     }
 }

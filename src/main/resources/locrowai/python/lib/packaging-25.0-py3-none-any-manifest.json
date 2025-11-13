@@ -10,19 +10,12 @@
         "packaging/_tokenizer.py": "398cedeea2b1ca538027eab45f22b5a80c9cc8f4582df30f74640a4579195b22",
         "packaging/markers.py": "3f4c1edbb8e6d71533806309c418ed50508859e0714ec31e253389e9c8599806",
         "packaging/metadata.py": "f08644aea4109cd9b9ddd659b98ab8146538fdda728a731e1f540504858891f1",
-        "packaging/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "packaging/requirements.py": "818c9148075bac8c8a0d8ebaba02035108d132fc641f600b8a84e65f7b672faa",
         "packaging/specifiers.py": "82d3eee434dcf85f5b68bab71531842ba74f847182bb0c197ad698d0f495da0b",
         "packaging/tags.py": "e35b3ded6f596adaead8477b45cdea7810da1def2928abd8ab69868f06a17d79",
         "packaging/utils.py": "d05dc787d385b9182b8538066549792b6d85bf560fdad665d73ff680eea42620",
         "packaging/version.py": "a257f2ba4fc33db7e5364278c0159eb57435edcef8c770c1e74d5d7a052fec36",
         "packaging/licenses/__init__.py": "56c2b8a36ec225759f4e2f2bdb26c99ac06809d8699c15ae36bb2468254a3fb5",
-        "packaging/licenses/_spdx.py": "a009b5ced3c5c25b2608a7bb94002cbff38839f4b57160eef5b34191ebbeda7b",
-        "packaging-25.0.dist-info/licenses/LICENSE": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
-        "packaging-25.0.dist-info/licenses/LICENSE.APACHE": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
-        "packaging-25.0.dist-info/licenses/LICENSE.BSD": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
-        "packaging-25.0.dist-info/WHEEL": "1b68144734c4b66791f27add5d425f3620775585718a03d0f9b110ba3a4d88db",
-        "packaging-25.0.dist-info/METADATA": "5b611a609c38fefc3d616bf45d20aec98fb7d53f245daca9e2c30fc85c7ac282",
-        "packaging-25.0.dist-info/RECORD": "1656dc008242e7e90acedf1f114a516230657a33eb075d30f6d294fb761b9c32"
+        "packaging/licenses/_spdx.py": "a009b5ced3c5c25b2608a7bb94002cbff38839f4b57160eef5b34191ebbeda7b"
     }
 }

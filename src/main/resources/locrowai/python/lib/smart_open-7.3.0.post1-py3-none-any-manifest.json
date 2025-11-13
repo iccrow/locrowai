@@ -18,11 +18,6 @@
         "smart_open/ssh.py": "908343f4afb56da4cf54e17e8c59b829ffb15d524472d2b75244eb14c9714bc9",
         "smart_open/transport.py": "2e9492bec636bb7028e668589fd8ce5cf862bba9fa7acb6ea8a8cdff238c100b",
         "smart_open/utils.py": "eff1698e2219263c2996d8e6e68eae80e69c01bb91af83cafc4f3debdcc90528",
-        "smart_open/webhdfs.py": "53b96c831d974521e7eed62f68102388754a70f3eea8445c0f2b40ebf89ab086",
-        "smart_open-7.3.0.post1.dist-info/licenses/LICENSE": "cbedcdbba694f5aad9e5f65875bcf7137bc7e6307e1d11a8d52bba9943d82f98",
-        "smart_open-7.3.0.post1.dist-info/METADATA": "d744c888256bc3880d58ea17b38a31baa8d64dbba6cd058ae1b39e84e54d4a78",
-        "smart_open-7.3.0.post1.dist-info/WHEEL": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
-        "smart_open-7.3.0.post1.dist-info/top_level.txt": "eab955131518468dca5265e154b02a17ce926d9bd65a16b9c9be2bffcf687584",
-        "smart_open-7.3.0.post1.dist-info/RECORD": "fbd5ac7bee87f165c453e3f99083aef9776c78ff7293e6f7de17ffd91f1a2122"
+        "smart_open/webhdfs.py": "53b96c831d974521e7eed62f68102388754a70f3eea8445c0f2b40ebf89ab086"
     }
 }

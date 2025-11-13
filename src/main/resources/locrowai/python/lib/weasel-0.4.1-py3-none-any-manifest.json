@@ -38,12 +38,6 @@
         "weasel/util/modules.py": "d3e792882b48740c5b3c9a6da39500040746f988b0623d4736b926d8cc9c404e",
         "weasel/util/remote.py": "af1a98c7037e0d39704c6a9df3b16bb4c000fd961610ae817d285ca3190b62ed",
         "weasel/util/validation.py": "7d63b456ba8a3ba6aee1597bd06b4575f7b0584a2f4b818084f0c07a438b8ab0",
-        "weasel/util/versions.py": "f7dbbfbdb0224f2c76a5cfdcdea5e56c58e38c0282cca416ea2da68a5ae630d5",
-        "weasel-0.4.1.dist-info/LICENSE": "b4e5015878be0264d7a747a305338cc23cb2d3a50d6feb73847109a7b6e97e99",
-        "weasel-0.4.1.dist-info/METADATA": "2442308dea54db75bb62b95094577c4fe46fd56ba3d447d9dd63182ff819d525",
-        "weasel-0.4.1.dist-info/WHEEL": "189eedfe4581172c1b6a02b97a8f48a14c0b5baa3239e4ca990fbd8871553714",
-        "weasel-0.4.1.dist-info/entry_points.txt": "2aee9aca9d9efd41bd72783dfbb9d20ced837f21b1b1c3eb10e6f3b81400b23c",
-        "weasel-0.4.1.dist-info/top_level.txt": "abca9d8b2a78a0d8d1d4feae430b25ef458152cd013e409bd29a57dd31324f6d",
-        "weasel-0.4.1.dist-info/RECORD": "9b9597cf2c5d2d17fa7d752b9425ae844edac1e645f8ef8450f189f7b3e4ad05"
+        "weasel/util/versions.py": "f7dbbfbdb0224f2c76a5cfdcdea5e56c58e38c0282cca416ea2da68a5ae630d5"
     }
 }

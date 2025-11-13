@@ -1,12 +1,6 @@
 {
     "id": "marisa_trie-1.2.1-cp310-cp310-win_amd64.whl",
     "hashes": {
-        "marisa_trie.cp310-win_amd64.pyd": "730e875179d4d6708645dcac254ad6cc03a4d3d4fd7e041f6344e01d2652f7d9",
-        "marisa_trie-1.2.1.dist-info/AUTHORS.rst": "66a190a07fb804e823db973f5dceb299b6604e90ec99dabefc7e00e527a5bf5e",
-        "marisa_trie-1.2.1.dist-info/LICENSE": "ca63218ef57b75eabc62fc53ffeb212f7a75d72815cf556f826ef6d04029fbbc",
-        "marisa_trie-1.2.1.dist-info/METADATA": "8a7764ed782f350ba7a1aa7bc0616b8d3b08ddb7f45017db3c7fe5465e84b10c",
-        "marisa_trie-1.2.1.dist-info/WHEEL": "d198ef3a5024461885cf42049b9910ac2f436fdcc608bcf239c80b974929cf15",
-        "marisa_trie-1.2.1.dist-info/top_level.txt": "988c70a7d7af5b01b067d271c51902191c514c4d4c43b96529ac6a501ccedb02",
-        "marisa_trie-1.2.1.dist-info/RECORD": "c1020f00c3b1dd4fa65f288ff24139be683ad37cc53f0b528f494b1e186a36b3"
+        "marisa_trie.cp310-win_amd64.pyd": "730e875179d4d6708645dcac254ad6cc03a4d3d4fd7e041f6344e01d2652f7d9"
     }
 }

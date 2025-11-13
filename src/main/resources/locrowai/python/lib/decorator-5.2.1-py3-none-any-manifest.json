@@ -1,12 +1,6 @@
 {
     "id": "decorator-5.2.1-py3-none-any.whl",
     "hashes": {
-        "decorator.py": "7169cee9c28aa2142b5cd106d7e15aba2c3c763c04ddfd8f0368091a87f08170",
-        "decorator-5.2.1.dist-info/LICENSE.txt": "914ee6ed78a5efc173bda698f2708444ca9d140fcc4080c60d0503d40db39da6",
-        "decorator-5.2.1.dist-info/METADATA": "8bbe9fa7b94da3441b8a75f73412634aefc6855a7d03c8ae69bfbe9bef26281e",
-        "decorator-5.2.1.dist-info/WHEEL": "227f454cdc5e3fad0a9d3906c3bc24ea624f61dfdd4128c46665dd05d30223ef",
-        "decorator-5.2.1.dist-info/pbr.json": "00bf38a14516407c2477c3823e12d1a363498d4e4c0dd99732a447bfea68b2ab",
-        "decorator-5.2.1.dist-info/top_level.txt": "2a7e9e423a3cddcb56c5757204c398b74fd8a634630739ca615b8dcae0bf0d22",
-        "decorator-5.2.1.dist-info/RECORD": "bc2c8dc0383afa48f48f5db1f4459bbbf37db35760b0b925b72c2f69372a5e65"
+        "decorator.py": "7169cee9c28aa2142b5cd106d7e15aba2c3c763c04ddfd8f0368091a87f08170"
     }
 }

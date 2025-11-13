@@ -2,11 +2,6 @@
     "id": "annotated_types-0.7.0-py3-none-any.whl",
     "hashes": {
         "annotated_types/__init__.py": "4729cbb112941062342a2997c9d943d5f6447c4cd6c03a345289f7cce2a11b54",
-        "annotated_types/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "annotated_types/test_cases.py": "cc7157e84a5c31b189f05cc16036cee7a6cfc31fc360855229b64cfb8077fe58",
-        "annotated_types-0.7.0.dist-info/METADATA": "ee5b6ac64b09274c026051813484025939564067801f485115d9cadc207cf791",
-        "annotated_types-0.7.0.dist-info/WHEEL": "cc431c46bf4aaf4df1d68cc6c20e6ff4d4012a7de49dda7a2d2a1295583e8e15",
-        "annotated_types-0.7.0.dist-info/licenses/LICENSE": "fe1049884b1a0d9342901e88e07f32925d24b3121d9972b6a6805fb9824b095d",
-        "annotated_types-0.7.0.dist-info/RECORD": "68915929495feb5029ef0a3a39a419b170f63aa5f0ae9185ff575f256e93767a"
+        "annotated_types/test_cases.py": "cc7157e84a5c31b189f05cc16036cee7a6cfc31fc360855229b64cfb8077fe58"
     }
 }

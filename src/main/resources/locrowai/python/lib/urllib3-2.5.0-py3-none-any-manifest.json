@@ -12,14 +12,12 @@
         "urllib3/fields.py": "1427fb5142d291fd7472e4d15164d0112cf1825d564fc7b6682cb791fc998a7b",
         "urllib3/filepost.py": "53c78d67e9a928a1e1ae56c7104893c7180ad7a21e8e111aeeecf8db2a80fdd2",
         "urllib3/poolmanager.py": "a0ab203f512c008e0e5602bdfbd0f70185d94b91d857cc8a512a20f906c9f13b",
-        "urllib3/py.typed": "51a0ae3c56b71fc5006a46edfb91bc48f69c95d4ce1af26fd7ca4f8d42798036",
         "urllib3/response.py": "4d54d2bba43553453b8681d8308471c6e878ceba1e328f1be442380ce035dc4a",
         "urllib3/contrib/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "urllib3/contrib/pyopenssl.py": "5e9e589b4e558171a11dad02e3096eb6f1f163c4a72924ba58b6f6b79322bb4b",
         "urllib3/contrib/socks.py": "fa26ab75ceb51b2a6c2730fa5bacae452eca542c9fa30710ae5ffbd7d1fb9483",
         "urllib3/contrib/emscripten/__init__.py": "bba28d8338e51596ee0005daff26c247b810ef55491129c5f8821d0c0ef76ebc",
         "urllib3/contrib/emscripten/connection.py": "8fc0d1fdf944ee1b2816135f8aa1cb89a3da0ac55bcc6e388e06a1c2fb10e760",
-        "urllib3/contrib/emscripten/emscripten_fetch_worker.js": "0837d817ff420e86edc7694689dc89d738c312fc0d4f917e75c8665565c38741",
         "urllib3/contrib/emscripten/fetch.py": "91ca34ea55a843e7dd15f379d7e9f3793cb03d50441e0f3d588b2ddf71f7c5c8",
         "urllib3/contrib/emscripten/request.py": "98bdbcb33cb52af137349856a2be633666aba7c830a650d4fbb8301996398344",
         "urllib3/contrib/emscripten/response.py": "ee854f10d6191eecc4191b46e341e89e91f9b402181ec19c1cf6c9b7667453e6",
@@ -38,10 +36,6 @@
         "urllib3/util/timeout.py": "e1e4f5155799654ee1ee6603d49ab639735ee1fc5e91d36f868594919bac4690",
         "urllib3/util/url.py": "59187e4cc617a2c9a0a7c9bc953e07e6ca681f0e7252395c3027d4e77024a00b",
         "urllib3/util/util.py": "8f795b64ad633f28b00f7e13f08809cdd5846554fee04fb4bd82098bd52378d0",
-        "urllib3/util/wait.py": "fe987c22b511deca8faa2d0ea29420254947e30ce419e3390a2c80ed7186b662",
-        "urllib3-2.5.0.dist-info/METADATA": "99a6244c866dd1afa59040be84c6566c206670667225c60e791938fe7b93acd7",
-        "urllib3-2.5.0.dist-info/WHEEL": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
-        "urllib3-2.5.0.dist-info/licenses/LICENSE.txt": "130e3a64d5fdd5d096a752694634a7d9df284469de86e5732100268041e3d686",
-        "urllib3-2.5.0.dist-info/RECORD": "59ef813a7c39ec76d49c5a49148f18592400da08ac5dcc17bcc65da83350fffb"
+        "urllib3/util/wait.py": "fe987c22b511deca8faa2d0ea29420254947e30ce419e3390a2c80ed7186b662"
     }
 }

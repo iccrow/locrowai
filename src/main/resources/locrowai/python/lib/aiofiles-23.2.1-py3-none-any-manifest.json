@@ -10,11 +10,6 @@
         "aiofiles/threadpool/__init__.py": "73f69ec65d6dd7dde229d3d96a894f1046c70eb43446bb07fc74c04e830f401a",
         "aiofiles/threadpool/binary.py": "869fa49bd54246ed0c2f3ff000451f6c2cfb38bef1b67f621806b069ba67a795",
         "aiofiles/threadpool/text.py": "7cd9a9c363c4923d0165295d8a925702066a5462f100b71f38c8ae0d0e7811ab",
-        "aiofiles/threadpool/utils.py": "079f5d499c0efd666cd9d145c9c29e03dd620f65eada7370d44145f183012399",
-        "aiofiles-23.2.1.dist-info/METADATA": "728b76f29fcf363765fcc2befa5f50bb67ba40ebfd3b1747aca6e32e661ff54c",
-        "aiofiles-23.2.1.dist-info/WHEEL": "28661b735cd795875dbf0c6736dcb6dc179a2b387b62ea1222f20c3b88c486fc",
-        "aiofiles-23.2.1.dist-info/licenses/LICENSE": "cb5e8e7e5f4a3988e1063c142c60dc2df75605f4c46515e776e3aca6df976e14",
-        "aiofiles-23.2.1.dist-info/licenses/NOTICE": "104c58d1d450bd6474c09d8b64bc0182733a60ac3d8c253e334cde8294520ff1",
-        "aiofiles-23.2.1.dist-info/RECORD": "aa1ecc8cd5edd4064540c5e95a20b18fb06810a16541ac3db6e3b21d328cda4d"
+        "aiofiles/threadpool/utils.py": "079f5d499c0efd666cd9d145c9c29e03dd620f65eada7370d44145f183012399"
     }
 }

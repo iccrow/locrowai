@@ -1,13 +1,7 @@
 {
     "id": "rpds_py-0.27.0-cp310-cp310-win_amd64.whl",
     "hashes": {
-        "rpds_py-0.27.0.dist-info/METADATA": "b5fe8e56fdccc1a00c529642cdffc8a5bcd0c562e7a2bd99deacc6e9056e287a",
-        "rpds_py-0.27.0.dist-info/WHEEL": "81392c0dc526e2f104b7e5926750a761c49b04dc94b66da6a7d97395fdd8774c",
-        "rpds_py-0.27.0.dist-info/licenses/LICENSE": "8bcb72c82ea8ae74802293c41d93ad7d51434001b0ae45a603a5af0f507aee0a",
         "rpds/__init__.py": "c373205d6ee5a530880b0d0a5dbc36d105f9ef7fe46ec12758878cb0202e82f3",
-        "rpds/__init__.pyi": "84775eb57575aaae4c8e1124dde4d984b608a91f9bea5dbe71b9c3b7c53bf22f",
-        "rpds/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "rpds/rpds.cp310-win_amd64.pyd": "6d2bd31934ffac0b57b89f6112f668eb2c09b40309da202e40cf53360ed18dd4",
-        "rpds_py-0.27.0.dist-info/RECORD": "785e3c2827297eeea19cd125417bd6ea9baaedcc89a0e1dac83d059b0e21877d"
+        "rpds/rpds.cp310-win_amd64.pyd": "6d2bd31934ffac0b57b89f6112f668eb2c09b40309da202e40cf53360ed18dd4"
     }
 }

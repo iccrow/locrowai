@@ -1,11 +1,6 @@
 {
     "id": "ruamel.yaml.clib-0.2.14-cp310-cp310-win_amd64.whl",
     "hashes": {
-        "_ruamel_yaml.cp310-win_amd64.pyd": "24206e4f2e37b5de41530948c10b929a88fabea2dad1fe227b2458381fd4052a",
-        "ruamel.yaml.clib-0.2.14.dist-info/METADATA": "a989275fc9255ab4adc6efec61e891bce759e53a1be4d3607b5723dde6eeb49a",
-        "ruamel.yaml.clib-0.2.14.dist-info/RECORD": "62d772a9eb2483698dfbd433cc183cba200f47a8f9cb509b0b786b593e9e3240",
-        "ruamel.yaml.clib-0.2.14.dist-info/WHEEL": "e6ad2f9d0a525ec5879cfca33c3481dd5ef7d16d11bc06f7147bf2ff358a73ef",
-        "ruamel.yaml.clib-0.2.14.dist-info/licenses/LICENSE": "f8ad7efe71dde909f2d694f7dc69470d3dbe07c001c0b30c6bd9951e472077fa",
-        "ruamel.yaml.clib-0.2.14.dist-info/top_level.txt": "d6c25b6b7206776b1a6f7bbfea45b234f4bcc86fc01ed3f425d99a0e80785c1d"
+        "_ruamel_yaml.cp310-win_amd64.pyd": "24206e4f2e37b5de41530948c10b929a88fabea2dad1fe227b2458381fd4052a"
     }
 }

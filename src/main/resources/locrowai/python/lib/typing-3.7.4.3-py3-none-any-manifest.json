@@ -1,11 +1,6 @@
 {
     "id": "typing-3.7.4.3-py3-none-any.whl",
     "hashes": {
-        "typing.py": "9a0426d95b26a18c3efd49399383c622606ab50c569a1a7ac749eb3fb9767e5c",
-        "typing-3.7.4.3.dist-info/licenses/LICENSE": "ff17ce94e102024deb68773eb1cc74ca76da4e658f373531f0ac22d68a6bb1ad",
-        "typing-3.7.4.3.dist-info/METADATA": "51847964a9ba7322b170093653fc9920c6edc6dfda7cd157ac183e62929efd37",
-        "typing-3.7.4.3.dist-info/WHEEL": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
-        "typing-3.7.4.3.dist-info/top_level.txt": "a06f1008c4d171f7201a91156ddc015360ccf0cb618e66520da690e96587c78a",
-        "typing-3.7.4.3.dist-info/RECORD": "1f454db0cef76c02de622f1d24c250e2ad609726808085d3fefdddc00ef2ea47"
+        "typing.py": "9a0426d95b26a18c3efd49399383c622606ab50c569a1a7ac749eb3fb9767e5c"
     }
 }

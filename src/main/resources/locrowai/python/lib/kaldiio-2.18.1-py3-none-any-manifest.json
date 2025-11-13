@@ -7,11 +7,6 @@
         "kaldiio/matio.py": "ae967159ed1894d05e541bf14069c67a2ab9d2b7dcad0fe5aaf8252972f3dc47",
         "kaldiio/python_wave.py": "2f5d53ca7745ea2979d0ec7b0ca771f21e0940c5786b708f4c09dd17e82b255f",
         "kaldiio/utils.py": "901341c797c9c3e15da03916b81204779994d3ea03dd0d0a6277fe1d64cf457e",
-        "kaldiio/wavio.py": "f14ee0959a25ad2aac5ac6f30a66d92730523ff651f6c398dc761ccf09361c9d",
-        "kaldiio-2.18.1.dist-info/LICENSE": "ef2ebae3d9f21f550c6db96cb91de36050d4a03c37831c5af091c4814b6bf98a",
-        "kaldiio-2.18.1.dist-info/METADATA": "654f114c1b49054c265e4e2e894f4c4489ee3b25430fa5e549d155ef3b7d24e9",
-        "kaldiio-2.18.1.dist-info/WHEEL": "8c1ef367737d84833d69d5bbaa54c0cb270b616f67a5a58a2d1cdaa1570b29c3",
-        "kaldiio-2.18.1.dist-info/top_level.txt": "d978c495785c27af9a16ec211afcc0dc66b389044ef984cac93692c203c2b40e",
-        "kaldiio-2.18.1.dist-info/RECORD": "c36c47972ef43dd68557a21d0664a8d04b622b76ec089e072cba1daf7a5b645f"
+        "kaldiio/wavio.py": "f14ee0959a25ad2aac5ac6f30a66d92730523ff651f6c398dc761ccf09361c9d"
     }
 }

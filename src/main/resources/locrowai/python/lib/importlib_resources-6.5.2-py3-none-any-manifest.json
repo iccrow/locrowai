@@ -7,7 +7,6 @@
         "importlib_resources/_functional.py": "9cca29f5973b8356218b2939a2aafdba4bdf25c3b1e2f9efa83ee7876e2157b6",
         "importlib_resources/_itertools.py": "7838ac57a46a88d64ea202d25dfe8b3861ce61cefd14680faca34bcc52e60ab5",
         "importlib_resources/abc.py": "8a7858b188fa2eb6079f8902ada66af33a971509c35f8b2d3672d3aee85fe8d5",
-        "importlib_resources/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "importlib_resources/readers.py": "b877fd5feb260370adc5d07d207587d33f8ee77dfbf7095c10c9b3036517cea1",
         "importlib_resources/simple.py": "c099b6a8667d10c3c58512e22416bd126e6d54a6c3ed0f226d6b6de193605815",
         "importlib_resources/compat/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -31,11 +30,6 @@
         "importlib_resources/tests/zip.py": "9c6f43eaeff89eeebb36b11415f32deefcdb6b4a8effe40fc8001673a5b880fe",
         "importlib_resources/tests/compat/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "importlib_resources/tests/compat/py312.py": "a9c5a3a59850a36a04b1dc089514501ebb0c18396d9054e7113786edf2dd512f",
-        "importlib_resources/tests/compat/py39.py": "9ce8eeb780990ed4606446e55fd85686ea68f6f962fc2035dbbd3f270750cd1a",
-        "importlib_resources-6.5.2.dist-info/LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-        "importlib_resources-6.5.2.dist-info/METADATA": "ca0953ffb4bf3ecad241a55381929061fa26694943fa957be1fffd2ddd118e86",
-        "importlib_resources-6.5.2.dist-info/WHEEL": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
-        "importlib_resources-6.5.2.dist-info/top_level.txt": "7c72231d4d46670023bdcc9da6652752b4e76ef7625a31b83845592bc6f2d134",
-        "importlib_resources-6.5.2.dist-info/RECORD": "932eaecfafd226231060d6c5cb7e073df629f7ae3c3c0858d4d0aa19ef4965b8"
+        "importlib_resources/tests/compat/py39.py": "9ce8eeb780990ed4606446e55fd85686ea68f6f962fc2035dbbd3f270750cd1a"
     }
 }

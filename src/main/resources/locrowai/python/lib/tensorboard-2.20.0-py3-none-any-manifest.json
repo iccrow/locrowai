@@ -17,7 +17,6 @@
         "tensorboard/plugin_util.py": "24490a3247a2e16c1036f467764c745b109a966a57c38f01f124a70cd89d3160",
         "tensorboard/program.py": "7041508c510f4351dc79cff3daace100c5276a27af292ba294a1aea1dc753154",
         "tensorboard/version.py": "062502f9b5dd0ea0208ba665406ed3ca54de029edf4797fe7a7188c79ee1f052",
-        "tensorboard/webfiles.zip": "ac33dc846afe476a670fefd428ca7c440c4a371ea4d4f258a0b633ce2bba472f",
         "tensorboard/_vendor/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "tensorboard/_vendor/bleach/__init__.py": "b108ccad77c847171c080192c03735665f0a4dc929e6ccd27c4e8248da39ba63",
         "tensorboard/_vendor/bleach/callbacks.py": "24d4c688ce7fddb2ac1a5b6947d658133fc2fdbefebdf0e54d37500a2adb7727",
@@ -228,9 +227,6 @@
         "tensorboard/plugins/projector/metadata.py": "dfa602123b2fda48913f15fa39768926c328533b4e89148e4de81a5863665e18",
         "tensorboard/plugins/projector/projector_config_pb2.py": "28f9e0899e8faa48554e64ad95bbf513538503d5b94d8f51a6bff23bad3441fb",
         "tensorboard/plugins/projector/projector_plugin.py": "fa2dbcd1be7196acc2c709bde008a465288761c3164d6750e958ecbc82535277",
-        "tensorboard/plugins/projector/tf_projector_plugin/index.js": "4e18b58d9547f899014723fb75b48f4b01b22aa3ff6c588a37f3224642acf46f",
-        "tensorboard/plugins/projector/tf_projector_plugin/projector_binary.html": "346824b3cb562b2a4af8a7fba16af89b310fb1873f1904dd72be5d30e7f1bba8",
-        "tensorboard/plugins/projector/tf_projector_plugin/projector_binary.js": "1ed9dc3bb896b1e4e13fb87d8b2e5231bdc7f6a88cf3ae45e975db02149d5d08",
         "tensorboard/plugins/scalar/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "tensorboard/plugins/scalar/metadata.py": "1b25c0017a4f74ed8304031f4bcbb99aa0468bf70dd3db5d73f78cb80923fd5a",
         "tensorboard/plugins/scalar/plugin_data_pb2.py": "4a4fb4145cef6d4caa6a6fdccab51793833c6c2720479c44f84b53d5cdc6a225",
@@ -265,12 +261,6 @@
         "tensorboard/util/platform_util.py": "e63af8da4be2e86a91cc5c7a629a27483385620eff44bf834e593a74379f3583",
         "tensorboard/util/tb_logging.py": "2915a0676f5efdfa4ad376c24453f49c5a2a37f2a423446169e194558a8d83c3",
         "tensorboard/util/tensor_util.py": "c2d65776d4e3e7498c9e60fe3dcdf4143849cb4df85ffb233a0eaad1945549f4",
-        "tensorboard/util/timing.py": "7f6ff0f7c569291d1365d03ef3c905c5e216765e72e841c0fc39fa04e8aca455",
-        "tensorboard-2.20.0.dist-info/licenses/LICENSE": "3cdf6d3c9843007d564c8886a89ed4a05fc351440c1d4b9fadb98e9a5c203939",
-        "tensorboard-2.20.0.dist-info/METADATA": "965d3d732fbd7f3f4c674fc63f627d5888a61d721968ff206147c37604a745f2",
-        "tensorboard-2.20.0.dist-info/WHEEL": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
-        "tensorboard-2.20.0.dist-info/entry_points.txt": "155d7b0b01bf45380524e80ff11a8528eb4b76b9be8829b813320d4f16f232cf",
-        "tensorboard-2.20.0.dist-info/top_level.txt": "e343f8721988b553b0a36173edd440445690bdca7a64a99ef4985c35b1bc77ca",
-        "tensorboard-2.20.0.dist-info/RECORD": "3b20b8b5bbb2e92cecd83bde74d940b3144a61cebe9a4939e36085f7498a0ec7"
+        "tensorboard/util/timing.py": "7f6ff0f7c569291d1365d03ef3c905c5e216765e72e841c0fc39fa04e8aca455"
     }
 }

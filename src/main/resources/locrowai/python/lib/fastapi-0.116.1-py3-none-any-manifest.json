@@ -1,10 +1,6 @@
 {
     "id": "fastapi-0.116.1-py3-none-any.whl",
     "hashes": {
-        "fastapi-0.116.1.dist-info/METADATA": "a67bb8b3aac0b0db81ebab18841e7d505c51b99bf6b9ae9f6c7fe350ce873369",
-        "fastapi-0.116.1.dist-info/WHEEL": "f4fdb2811c43ad3273de0b1a81cd19f7aba4af18ebf8b14118e82fdc0b8a9420",
-        "fastapi-0.116.1.dist-info/entry_points.txt": "1827fe59b219c72193e0c526acf1a3d5c387619a06b0d3c702f3644fa86719e0",
-        "fastapi-0.116.1.dist-info/licenses/LICENSE": "4ec89ffc81485b97fec584b2d4a961032eeffe834453894fd9c1274906cc744e",
         "fastapi/__init__.py": "f94f2f5bd2b71f2efcbffdced040ab11f3263ed4ae1da035c80aa5f7a6ddf2db",
         "fastapi/__main__.py": "6ca78f5cb74ee12b1548ceabf525682e2724243711d9cd1c4cec5944aab6e984",
         "fastapi/_compat.py": "3f019365de9dfaeda8e9817d33ca506a1b81b43ff7ab72a98fbbd4e7e9e00a17",
@@ -33,7 +29,6 @@
         "fastapi/openapi/utils.py": "7b4d06fe9d0876989f7c151aab7d415328a5a176e995df11af22989d82a2b1d6",
         "fastapi/param_functions.py": "24734f2c862fa00c1d9d965abc856cc4e6adf31db77d7fca977deb7a1ec72a5f",
         "fastapi/params.py": "838e746b150142040938376d33b581c596d08fd67ae229c5bda76b8078a405b5",
-        "fastapi/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "fastapi/requests.py": "cdac9ea4a15c89e9c1965bf7b27996236d06934a073552d4e030e1a9705be0b5",
         "fastapi/responses.py": "40d410970a4a850a083d94d35a4a5cf5dfd019e199fda5503da0d5de743c9bb7",
         "fastapi/routing.py": "f9268e82a6ac78ac399a54c293e165892e96c7995afc28dd57916a48f0e65bd8",
@@ -49,7 +44,6 @@
         "fastapi/testclient.py": "9c1bda0265fae9895d45e24d6573ce935b1fba8d90ea1b3c6cebc86827a9e8b4",
         "fastapi/types.py": "9c56f7eac2b70d2a2aa32a3b322c32de678a2b951d1418240202d2cd09545722",
         "fastapi/utils.py": "cbc063e6db4c688f6d4b80fad0e5205ea2a792d06bf7d35d6149c71d5f4b8286",
-        "fastapi/websockets.py": "e35f6e9dc60e6c42991b461cad7b1c7d04182d25a8135d23ab154c7ad19d47df",
-        "fastapi-0.116.1.dist-info/RECORD": "f159d8498fcdc1bc0ebef3a788e77d1b5316a6e8b731aa4cc8466adbc014ce25"
+        "fastapi/websockets.py": "e35f6e9dc60e6c42991b461cad7b1c7d04182d25a8135d23ab154c7ad19d47df"
     }
 }

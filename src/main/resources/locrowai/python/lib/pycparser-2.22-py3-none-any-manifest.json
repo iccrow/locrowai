@@ -4,7 +4,6 @@
         "pycparser/__init__.py": "86b7fe032b9560d1d01930f436fd9bcb0c684cddcdd590acd379bef7e4034b5e",
         "pycparser/_ast_gen.py": "d094559c35be270fb7223565a3c8def6b6c0729e8aa3bb681c09c1e738bb8744",
         "pycparser/_build_tables.py": "e1dfd4908c49e187c74d59fac41cc1039db00e8eeac60d41e9a64025825ab3d4",
-        "pycparser/_c_ast.cfg": "95de5ecc4f72cc82452150147f0edecc94a5322e275ca342cdf9aa8cec904cda",
         "pycparser/ast_transforms.py": "193318954816997779c09572a2f5d8d6acf302a8f1cc2a55560d3aeb874a181b",
         "pycparser/c_ast.py": "1d678eadf61d098d2ee57698844d62eb4b95c84df231675cc73102517f83a89c",
         "pycparser/c_generator.py": "ca2e8c72ac6ff3c279b9ef24e7e9951b1877889dfb883e10c85fac59c1a30bef",
@@ -18,11 +17,6 @@
         "pycparser/ply/ctokens.py": "30a92c9cde344de84f86055fc422618e3fc18cbf78ddaa6b78004a633f9b9746",
         "pycparser/ply/lex.py": "ac2322d328e56668c7e523578ff61db3557148391a1b6b614bbdf9d58bdf37e2",
         "pycparser/ply/yacc.py": "79ab520e444b811afa5f7fa1a0393f49042fd3ae51d0174bd8aedf439e028153",
-        "pycparser/ply/ygen.py": "d8960d798b6b3f3d49ccb48b3b77781ac4bccc953c8d8fc8fc2475548f605ab0",
-        "pycparser-2.22.dist-info/LICENSE": "0c846399369ea76ddd7b5c44fe6d16497415fcf015f5cbb508c24bf98b81c5b1",
-        "pycparser-2.22.dist-info/METADATA": "dd7381f278201f88a3975ec30a352193b83aaa2a0c24ba6b525124c18819bd6f",
-        "pycparser-2.22.dist-info/WHEEL": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
-        "pycparser-2.22.dist-info/top_level.txt": "73e94f712ef82fff0aa07ec813a3d0179a1fca2ad140d57856191b48520f7963",
-        "pycparser-2.22.dist-info/RECORD": "b310fdc9b71055b2ebb0fb434cbe9336a3dd533460c3e2731378bbd470dbad4a"
+        "pycparser/ply/ygen.py": "d8960d798b6b3f3d49ccb48b3b77781ac4bccc953c8d8fc8fc2475548f605ab0"
     }
 }

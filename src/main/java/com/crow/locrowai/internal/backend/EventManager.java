@@ -27,7 +27,7 @@ class EventManager {
     static class ModEvents {
 
         @SubscribeEvent
-        static void init(FMLCommonSetupEvent event) throws IOException {
+        static void init(FMLCommonSetupEvent event) {
 
             AIRegistry.init();
 
@@ -37,7 +37,7 @@ class EventManager {
                 Thread thread = new Thread(() -> {
                     try {
                         InstallationManager.installing.set(true);
-                        InstallationManager.currentStageIndex.set(3);
+                        InstallationManager.currentStageIndex.set(4);
                         InstallationManager.stagePercent.set(0);
                         if (!EnvironmentInstaller.verify()) {
                             InstallationManager.hadError.set(true);
@@ -45,7 +45,7 @@ class EventManager {
                             DistExecutor.safeRunWhenOn(Dist.CLIENT, LoadManager::showTamperWarning);
                             return;
                         }
-                        InstallationManager.currentStageIndex.set(4);
+                        InstallationManager.currentStageIndex.set(5);
                         InstallationManager.stagePercent.set(0);
                         if (!ExtensionInstaller.verify()) {
                             InstallationManager.hadError.set(true);

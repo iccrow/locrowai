@@ -1,10 +1,6 @@
 {
     "id": "tensorboard_data_server-0.7.2-py3-none-any.whl",
     "hashes": {
-        "tensorboard_data_server/__init__.py": "78204e97bfc44e702a8903915f7f63476befb49ff0742f030718286ee6f8fa33",
-        "tensorboard_data_server-0.7.2.dist-info/METADATA": "6b38aea33eeccd55a2644d9b7eb6c61d574a496188f4ac498e68e6230b1b9096",
-        "tensorboard_data_server-0.7.2.dist-info/WHEEL": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
-        "tensorboard_data_server-0.7.2.dist-info/top_level.txt": "c5515f6aae4129ae4cce6731d57e365051d8f2f1cae8a5a6ba35697395651e00",
-        "tensorboard_data_server-0.7.2.dist-info/RECORD": "39f5e9be50ad7cff2e5ffa92eaa8c64627b8f05a5983ba0c080a1aa3aaf04f73"
+        "tensorboard_data_server/__init__.py": "78204e97bfc44e702a8903915f7f63476befb49ff0742f030718286ee6f8fa33"
     }
 }

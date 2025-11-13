@@ -2,11 +2,6 @@
     "id": "argbind-0.3.9-py2.py3-none-any.whl",
     "hashes": {
         "argbind/__init__.py": "8b3d62a77663fd80d470a9568f0d93099ccf70e081192e533849541d2c9e15a3",
-        "argbind/argbind.py": "952a03c2bb3334d9d4915fe92b9e0816c0986ccf5dc9e4f9217f3deac58e077c",
-        "argbind-0.3.9.dist-info/licenses/LICENSE.md": "0820a7c2f431f1d79b289a362f394322de156624353d5f0cc9f75cc6489d7db4",
-        "argbind-0.3.9.dist-info/METADATA": "8808635e2e4247bc7e8ed66af7052a4f53d0797efdf28d46ec23c3afc9f388d3",
-        "argbind-0.3.9.dist-info/WHEEL": "24d5a1d459b551dc08415d3be609429f8315b8246cd2ca2d248abe27aadbc425",
-        "argbind-0.3.9.dist-info/top_level.txt": "e08f3535270b8a310c5580372d6bd7e2ada4021eb5f301bce0904b24b5d84307",
-        "argbind-0.3.9.dist-info/RECORD": "70b14480e3e039b75983edfc2395dd2bca4d9529ad25bc631d0fb084320618c8"
+        "argbind/argbind.py": "952a03c2bb3334d9d4915fe92b9e0816c0986ccf5dc9e4f9217f3deac58e077c"
     }
 }

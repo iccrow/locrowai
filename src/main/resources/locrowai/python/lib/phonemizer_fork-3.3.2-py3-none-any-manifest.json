@@ -23,18 +23,6 @@
         "phonemizer/backend/espeak/wrapper.py": "a37e2701939ea9d8744e003327c46a5bdfddbbdc47cd776e187a31bd54a0021c",
         "phonemizer/backend/festival/__init__.py": "9c70ed4b398778a6eb28453698378f557e4b1e0042d3da91b0b9622e9ce0f2c6",
         "phonemizer/backend/festival/festival.py": "ed582fe4eea35b0d1b79962269d4529f11220a3a81e355096284322dc24ab1bb",
-        "phonemizer/backend/festival/lispy.py": "c62a4fa0507e1321560f39dbf4059070ca58ce119b14976067811f9f34a0f642",
-        "phonemizer/share/festival/phonemize.scm": "023d0ecbf932285eeb404a15bbe1f4a4fcf0e1458dc13d52caef0ee80b36547f",
-        "phonemizer/share/segments/chintang.g2p": "e1e7d5fde4221a045064bf9be77138d583de0a9ad3264e8d1037268094edc8bd",
-        "phonemizer/share/segments/cree.g2p": "6c286b2d3b8775b01f479f37f48bba727a88131543c7214fd57286550c82bacc",
-        "phonemizer/share/segments/inuktitut.g2p": "dce5c58d22940a179ac8d35d210b19fcada19262fdd5a3e55b74298543c2cfbd",
-        "phonemizer/share/segments/japanese.g2p": "c70947602bbba64b5b103aabbc310e572456dcd59e4b518ae16f32b7959c9a0e",
-        "phonemizer/share/segments/sesotho.g2p": "2824b4b0f0c605dc93d501954591303ae0b32a7d256e333fcc75cea9fff50909",
-        "phonemizer/share/segments/yucatec.g2p": "23dc6f1dfc046655f525492e181ccc7ed1f475020b3ed0ea08a357762c222eb3",
-        "phonemizer_fork-3.3.2.dist-info/METADATA": "8b85e61f526e6abc4cfe2f9dbf56dfc6a436a16941163186f686f632b43ea64d",
-        "phonemizer_fork-3.3.2.dist-info/WHEEL": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
-        "phonemizer_fork-3.3.2.dist-info/entry_points.txt": "3e09e70ce3ef721ce45a09e5aca463ef24c259af09f0368145b9f8762ccfe590",
-        "phonemizer_fork-3.3.2.dist-info/licenses/LICENSE": "d62f065830aa3739cc031156b9690805c7b2e811b4a178c8b4acd8725d561c94",
-        "phonemizer_fork-3.3.2.dist-info/RECORD": "4cf26ef0fb5b65041521bee1353e27443dc827422e93266533ab4cc71063062b"
+        "phonemizer/backend/festival/lispy.py": "c62a4fa0507e1321560f39dbf4059070ca58ce119b14976067811f9f34a0f642"
     }
 }

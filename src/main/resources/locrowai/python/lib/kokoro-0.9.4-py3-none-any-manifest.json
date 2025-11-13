@@ -7,11 +7,6 @@
         "kokoro/istftnet.py": "eb45e18d73d09e5a42801dedf16b6e3fb07d9741a142cd48fb8ebc1f68c11f26",
         "kokoro/model.py": "301c55350a068c4ed3b4cbd1209d2afb848bebca72db5657405e47e9dfb604db",
         "kokoro/modules.py": "569e3caed16147fa4f66f7fff33ff632954d0a598094c947a5b0fd095c17d5d0",
-        "kokoro/pipeline.py": "09da32aab781f7a163cbf9f6e379d53db40957cbbab50bc26a21c8440c0eabd6",
-        "kokoro-0.9.4.dist-info/METADATA": "df4f6feeac0374af0e6fc7d3f1fb533614dd1dc0633ad1a47ca208e29c2ba391",
-        "kokoro-0.9.4.dist-info/WHEEL": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
-        "kokoro-0.9.4.dist-info/entry_points.txt": "7c0e8a73ecc60f5e740ac6ab4833f8a1d77f935025add37c0efc0ff37c0f5950",
-        "kokoro-0.9.4.dist-info/licenses/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-        "kokoro-0.9.4.dist-info/RECORD": "3d1545ba49ffd8ecd78e79efad7d308d34031518cfca2093501d0fb3e2de74b3"
+        "kokoro/pipeline.py": "09da32aab781f7a163cbf9f6e379d53db40957cbbab50bc26a21c8440c0eabd6"
     }
 }

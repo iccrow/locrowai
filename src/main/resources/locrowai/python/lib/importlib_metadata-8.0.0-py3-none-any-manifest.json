@@ -10,14 +10,8 @@
         "importlib_metadata/_meta.py": "9f167b0bc19595c04500a5b254e9ff767ee8b7fb7005c6e6d4d9af8c87ad0472",
         "importlib_metadata/_text.py": "1c2b0592c66924b7933f734493f9e0ac079755146d4ebb7287d78e001a113f80",
         "importlib_metadata/diagnose.py": "9e4491322a309669212d884a86f0a0f60966b7fd750a8c7e1262f311ba984daf",
-        "importlib_metadata/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "importlib_metadata/compat/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "importlib_metadata/compat/py311.py": "baa9be2beba88728f5d38d931f86bd12bfc8e68efaebb0efba5703fa00bf7d20",
-        "importlib_metadata/compat/py39.py": "70f90cbfafb48a52bed09c3f4e49f4c586ce28965ce1624a407a30d1cd93e38c",
-        "importlib_metadata-8.0.0.dist-info/LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-        "importlib_metadata-8.0.0.dist-info/METADATA": "6a7b90effee1e09d5b484cdf7232016a43e2d9cc9543bcbb8e494b1ec05e1f59",
-        "importlib_metadata-8.0.0.dist-info/WHEEL": "9a0b8c95618c5fe5479cca4a3a38d089d228d6cb1194216ee1ae26069cf5b363",
-        "importlib_metadata-8.0.0.dist-info/top_level.txt": "08eddf0fdcb29403625e4acca38a872d5fe6a972f6b02e4914a82dd725804fe0",
-        "importlib_metadata-8.0.0.dist-info/RECORD": "1362955e07eaebabe2776d3a34329c49223cd4208037a09a105d15a0ac58ae54"
+        "importlib_metadata/compat/py39.py": "70f90cbfafb48a52bed09c3f4e49f4c586ce28965ce1624a407a30d1cd93e38c"
     }
 }

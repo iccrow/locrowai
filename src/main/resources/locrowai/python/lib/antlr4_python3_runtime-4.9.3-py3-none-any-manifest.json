@@ -56,11 +56,6 @@
         "antlr4/tree/Trees.py": "26d43b7185a62b023d4c804feb2f572208e5352e26623bf7011c0e7f059ce558",
         "antlr4/tree/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "antlr4/xpath/XPath.py": "3bdb38f840ef2db01b632b4ffdb69ef59da484b974880b51ccf02d55bb9650ce",
-        "antlr4/xpath/__init__.py": "82c9d076d4c7f085200a2554a507f3871c76a4546f92c5bbe928f0224ddf6129",
-        "antlr4_python3_runtime-4.9.3.data/scripts/pygrun": "19e5db997a20d119517c06c855cf5a09e0edce61268d81faa5c26f50cc844868",
-        "antlr4_python3_runtime-4.9.3.dist-info/METADATA": "d1de5c7416841a56a3d73795e7f30587c2b8f3ba01fbbff68c094e308c629e7d",
-        "antlr4_python3_runtime-4.9.3.dist-info/WHEEL": "4a63b1614ee9ccd281a804af409ec38d7dd719417dda5ac684c6f747afe28aa2",
-        "antlr4_python3_runtime-4.9.3.dist-info/top_level.txt": "3aca19b21f5b6f7d308176f6cc1523743c18838e8c7d5f9155903a3e4f29701d",
-        "antlr4_python3_runtime-4.9.3.dist-info/RECORD": "c0e17ade05d80a4aeb18fd2b3873d97a6898f70c8fcdf6055167885e6cd8e5ef"
+        "antlr4/xpath/__init__.py": "82c9d076d4c7f085200a2554a507f3871c76a4546f92c5bbe928f0224ddf6129"
     }
 }

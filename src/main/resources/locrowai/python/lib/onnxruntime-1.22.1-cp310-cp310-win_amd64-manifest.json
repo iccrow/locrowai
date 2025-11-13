@@ -1,9 +1,6 @@
 {
     "id": "onnxruntime-1.22.1-cp310-cp310-win_amd64.whl",
     "hashes": {
-        "onnxruntime/LICENSE": "c250d6278f0b47a6439fb7592b08b58a55eb9f535aa49a1db63211c3f982b674",
-        "onnxruntime/Privacy.md": "bfb7712b075f3f07e3ebee5dc2a296d1de32dbf71ad28663f73d1538cb6c3b08",
-        "onnxruntime/ThirdPartyNotices.txt": "e00f828e0a33de591a355ae6606d2625f5758da7d2c844db7821c9dd3e3647b6",
         "onnxruntime/__init__.py": "2dd8a60340800fdd70cc1fb4a26b1b0ba0a0e47bf97f6836289c0ee186b43db0",
         "onnxruntime/backend/__init__.py": "e48d5896c6b07fdc3a30d98ae1188dd7003e10442a94a2b061335907e9bf93a3",
         "onnxruntime/backend/backend.py": "c4f03af4b7fbaf0c3081e5a86770a0076252a04c6e2007611e677a44ea75f6c7",
@@ -21,9 +18,6 @@
         "onnxruntime/capi/onnxruntime_validation.py": "ae82931967ad7f94a31430023b5dd99425514a1ccf1ec073962e5c16d342cf79",
         "onnxruntime/capi/version_info.py": "f269b55535c5f31831e8df2f14d7b44e28a4f6a760f55be2f5fdf66cf13d92dc",
         "onnxruntime/datasets/__init__.py": "0ea45da4c7d1b437e1564090bb995399f490f861b87444c73567680787c0ee55",
-        "onnxruntime/datasets/logreg_iris.onnx": "8224784c98d73412d9fd99abcd57a38568bd590980d0fbe5916464531c52e8fc",
-        "onnxruntime/datasets/mul_1.onnx": "71f431c4e9321ec6fbeb158d02ed240459a7dcc98673fa79a4f439ce42efaf10",
-        "onnxruntime/datasets/sigmoid.onnx": "5340aba67a7e3475162ad794378af55f1718f55f9a5d74b4af60ecc7f7a624b6",
         "onnxruntime/quantization/__init__.py": "80bd68e48e61f7cf163427f327528ca5202f936c63830d0772a62c7d770ababc",
         "onnxruntime/quantization/base_quantizer.py": "561ccd2bc4193ba8bb690afaadabc3d8aa1253edf3db282336df26e8f4d01f4c",
         "onnxruntime/quantization/calibrate.py": "a5d9a01623cc30c189ce1ea5177cc5593a62e4f09c9399f0ad219640cab1c582",
@@ -93,9 +87,6 @@
         "onnxruntime/tools/symbolic_shape_infer.py": "bd7b6eafd244885546460932cf3fa4b2810ba6883ded514113ab318ce22e86d6",
         "onnxruntime/tools/update_onnx_opset.py": "7e995bd72a55fa9161bbc5ec8b9bbf6c37c8ec4b02e336a62644f389c7204367",
         "onnxruntime/tools/mobile_helpers/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "onnxruntime/tools/mobile_helpers/coreml_supported_mlprogram_ops.md": "731eaa59b775348d3066281f2153a2f932b3885e3f0abc776e6ef3812ac966a0",
-        "onnxruntime/tools/mobile_helpers/coreml_supported_neuralnetwork_ops.md": "249070bf4e02fe8d8ad5458eb6d0ed6ab9c2ef1145650daebef2198381059960",
-        "onnxruntime/tools/mobile_helpers/nnapi_supported_ops.md": "b89ce7132cbb640765ae42907a858516ce79acf13e90e78f2098afef8d6bf7c4",
         "onnxruntime/tools/mobile_helpers/usability_checker.py": "25391c77a81f10f598412af3eda8d20e0bc5c45734ac6eb0dcbfafba4fe264ba",
         "onnxruntime/tools/ort_format_model/__init__.py": "5ecab42ccfb312436c50b6d34efcb19f3e1d0f3a9ea5e13c044807cc9198383f",
         "onnxruntime/tools/ort_format_model/operator_type_usage_processors.py": "ae5f546ff4110b907417d32ed0b6d8f3a6ec5679147fb5d89f53edc02d4d3cd3",
@@ -306,11 +297,6 @@
         "onnxruntime/transformers/models/whisper/whisper_encoder_decoder_init.py": "59950a9c56cca3f65864bbe5a8decf9a276103c9112f623392742f684a48186a",
         "onnxruntime/transformers/models/whisper/whisper_helper.py": "e3756e21f4da1443e5c722de11ccfa8034f862228180f1b76379e35148655e3a",
         "onnxruntime/transformers/models/whisper/whisper_inputs.py": "9b972efc5c66421d4a2eee5aa5c7cbd0b71f4e5ac05ba8e43a0a05bb5d5b9347",
-        "onnxruntime/transformers/models/whisper/whisper_jump_times.py": "77d6e04d1c0fd5ebd0493bb86fd9b394258f7ca64fdc4fdcbd9681747620be9c",
-        "onnxruntime-1.22.1.dist-info/METADATA": "e75bae1dbc3e766b0af9d83af7fa26145643da1f9b7cc268b4cc918a66e73509",
-        "onnxruntime-1.22.1.dist-info/WHEEL": "294b810ba97101b1c22a294ab9af11f56fd333bd7ffbd4a0e6e10fdee0d67285",
-        "onnxruntime-1.22.1.dist-info/entry_points.txt": "eea2d2e056c65f03d98df7695401a99e693d23a9ba1f90b1127c1c0b1d489a3b",
-        "onnxruntime-1.22.1.dist-info/top_level.txt": "ce4fdf2447a4ad39bd0cbc57d8bc067a0a2456a3fa6e5a8f845a0c22e87436ff",
-        "onnxruntime-1.22.1.dist-info/RECORD": "9a64bf4acae996a173fc01d8b3a174a3efeeb804a439d7c9f437309aef284a08"
+        "onnxruntime/transformers/models/whisper/whisper_jump_times.py": "77d6e04d1c0fd5ebd0493bb86fd9b394258f7ca64fdc4fdcbd9681747620be9c"
     }
 }

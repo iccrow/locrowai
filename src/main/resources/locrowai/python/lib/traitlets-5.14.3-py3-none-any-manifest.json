@@ -4,7 +4,6 @@
         "traitlets/__init__.py": "a2040be9b1c774396085125f9d8035fc453394d9790368d1d8d543c2bf505e7e",
         "traitlets/_version.py": "b7df970be497e7f8fb394ae1923086ff8cfea29de081368d84112ae5d5d4cc78",
         "traitlets/log.py": "8b2cd32a37e8d574efc196ded10ebe9609d7ab115ad692d6faddd20433ae073c",
-        "traitlets/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "traitlets/traitlets.py": "a6b2bc5668fb926cd8416599ea45c282d6f44f165ab914f8eb8a71d112372a65",
         "traitlets/config/__init__.py": "ad436afcf8a0ee3cab86644426ab9bba65c5b702ec30271a5a0c725ff3c3630d",
         "traitlets/config/application.py": "53a151b45cbf34eb2f884fb261094f14008fef16c71c2db7985ea6493cc1c526",
@@ -25,10 +24,6 @@
         "traitlets/utils/nested_update.py": "441fc0b30a7eb2c6591cadba553a441079cd6a5714363bce5f813ecb56f7074d",
         "traitlets/utils/sentinel.py": "6f7d5fe73eaca1a65696b76ad824503ceb7fd63df5af632c45fe8674ed96a40a",
         "traitlets/utils/text.py": "9d78d4729bc91a6a178550dffcef9cac10a6135a0791b59be9b6288c0db0f50d",
-        "traitlets/utils/warnings.py": "677e00ad12948dc5fb06cf10befbc38b75bad086b588cfddf9de6db585a125f4",
-        "traitlets-5.14.3.dist-info/METADATA": "ca0707dd88c2f8bbfd99800813df0b2cd19b884921efce72dcc9bf604fee5d56",
-        "traitlets-5.14.3.dist-info/WHEEL": "a2ca21c68b212074c524554f86c8b552466e2d118c1d15d9cf01015b67b38eb7",
-        "traitlets-5.14.3.dist-info/licenses/LICENSE": "2f51727d9063b54856773cb51388bdb79f2936ee4a1b692ef553d8c4201311ab",
-        "traitlets-5.14.3.dist-info/RECORD": "ba39d80498e64c3c77ff7dd0e60e95e3f25458193f8a1cd8fcddf98d66a827c9"
+        "traitlets/utils/warnings.py": "677e00ad12948dc5fb06cf10befbc38b75bad086b588cfddf9de6db585a125f4"
     }
 }

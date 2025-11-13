@@ -6,13 +6,8 @@
         "platformdirs/android.py": "af40ec85505ff913b58d72465fc0b84e297b1755d6b7e6e47563209af1226988",
         "platformdirs/api.py": "53d133237118c5c5d6502b48191965aab70df7d8b62d26359aadbe1adb14c044",
         "platformdirs/macos.py": "5256f2159f11ceedf19dd0aa4041eb7ec613787c187456a9d48a33fb2c6f793e",
-        "platformdirs/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "platformdirs/unix.py": "5999a4500fbe2f724d4469b3df6b37e587e80f789c6bac4a20f74257f1e12dcb",
         "platformdirs/version.py": "75d37711c50f7deafb09baa6c85366834dd1deefaa0e7df64ff7cbb31db9f829",
-        "platformdirs/windows.py": "205a62a21501c313ed0b39722b036dc725b8264f2169ae96f28e7d99fac35d5a",
-        "platformdirs-4.3.8.dist-info/METADATA": "1168c7cab15fd6a6aeaf7aabb9e5d69531e67fef6c3f544e02266cb9a63d8d00",
-        "platformdirs-4.3.8.dist-info/WHEEL": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
-        "platformdirs-4.3.8.dist-info/licenses/LICENSE": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6",
-        "platformdirs-4.3.8.dist-info/RECORD": "2b16f5d0669affe2d43b00733335cefad75450c53beba1437ccf0f625d911ecf"
+        "platformdirs/windows.py": "205a62a21501c313ed0b39722b036dc725b8264f2169ae96f28e7d99fac35d5a"
     }
 }

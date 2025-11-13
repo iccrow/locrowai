@@ -4,12 +4,6 @@
         "_sounddevice.py": "9b8a984b2b27681ecfbfc47326ea7f38a406a4de73069344f3c702dfdfd9472a",
         "sounddevice.py": "815d4e4083a1110ea7ae9e5b7985bc5cb6ff7ca979e845ff6f0338715f745d07",
         "_sounddevice_data/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "_sounddevice_data/portaudio-binaries/README.md": "b3cb053566b6f38c38bdf4822e53f8f8a2a377e05c503fdd69c52e5d1c6c104c",
-        "_sounddevice_data/portaudio-binaries/libportaudio64bit.dll": "433b77811ed6a2509cd15d9af826335c458cd0ef5f424b02b97597c74e170462",
-        "sounddevice-0.5.0.dist-info/LICENSE": "e217f072c28beaf7d06879366dc3f230495589825af7c67509043dcbfd7812e5",
-        "sounddevice-0.5.0.dist-info/METADATA": "128f37b0bdf9d2f2341dd1eea0f352126cf11fd222158ac27bfec2fb7296b7ae",
-        "sounddevice-0.5.0.dist-info/WHEEL": "6ade31c25e89757764647c5da398b14f027b10db557ed4b2db0aa6b1d9a8ff85",
-        "sounddevice-0.5.0.dist-info/top_level.txt": "e31ffd20949631be92b5b1c17be8db1d60b57097ffba7850c3168c060847fcbe",
-        "sounddevice-0.5.0.dist-info/RECORD": "39d4735e94aba46c67fcdb6b3340e389164908c10f104a4dc8e545ff5343ecba"
+        "_sounddevice_data/portaudio-binaries/libportaudio64bit.dll": "433b77811ed6a2509cd15d9af826335c458cd0ef5f424b02b97597c74e170462"
     }
 }

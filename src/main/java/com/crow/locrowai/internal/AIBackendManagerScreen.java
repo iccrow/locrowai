@@ -65,7 +65,7 @@ public class AIBackendManagerScreen extends Screen {
     private final AtomicBoolean sizeComputing = new AtomicBoolean(false);
 
     public AIBackendManagerScreen(Screen parent) {
-        super(Component.literal("AI Package Manager"));
+        super(Component.literal("AI Backend Manager"));
         this.parent = parent;
     }
 
@@ -84,7 +84,7 @@ public class AIBackendManagerScreen extends Screen {
         y += 26;
 
         // Install
-        installButton = this.addRenderableWidget(Button.builder(Component.literal("Install AI Packages"), btn -> {
+        installButton = this.addRenderableWidget(Button.builder(Component.literal("Restart to Install"), btn -> {
             if (actionRunning.get() || InstallationManager.installing.get()) return;
             actionRunning.set(true);
             new Thread(() -> {
@@ -98,7 +98,7 @@ public class AIBackendManagerScreen extends Screen {
         }).bounds(midX - 100, y, 200, 20).build());
 
         // Delete
-        deleteButton = this.addRenderableWidget(Button.builder(Component.literal("Delete AI Packages"), btn -> {
+        deleteButton = this.addRenderableWidget(Button.builder(Component.literal("Delete AI Backend"), btn -> {
             if (actionRunning.get() || InstallationManager.installing.get()) return;
             confirmAndRun("Delete AI packages? This will remove installed files.", () -> {
                 actionRunning.set(true);

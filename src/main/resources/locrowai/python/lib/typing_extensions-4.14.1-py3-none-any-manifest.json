@@ -1,10 +1,6 @@
 {
     "id": "typing_extensions-4.14.1-py3-none-any.whl",
     "hashes": {
-        "typing_extensions.py": "161d25b79642827ceceedc808473807cbd19afcdbd298531891e78dc2970560c",
-        "typing_extensions-4.14.1.dist-info/licenses/LICENSE": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
-        "typing_extensions-4.14.1.dist-info/WHEEL": "1b68144734c4b66791f27add5d425f3620775585718a03d0f9b110ba3a4d88db",
-        "typing_extensions-4.14.1.dist-info/METADATA": "f0b4b77a7174c372b22f85988a69457ec91c9e401183eb2ffcbead1db3cc4b9b",
-        "typing_extensions-4.14.1.dist-info/RECORD": "86de265628d5f9ba504f46c61cd3d914549d3ff0af9b78cd9c90bbb65cfbc39d"
+        "typing_extensions.py": "161d25b79642827ceceedc808473807cbd19afcdbd298531891e78dc2970560c"
     }
 }

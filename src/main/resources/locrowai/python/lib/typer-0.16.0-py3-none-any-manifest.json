@@ -1,10 +1,6 @@
 {
     "id": "typer-0.16.0-py3-none-any.whl",
     "hashes": {
-        "typer-0.16.0.dist-info/METADATA": "e27e0553d974811e4985a184dc4463667fda1c0925a3ae0290593f83323591d3",
-        "typer-0.16.0.dist-info/WHEEL": "b527d1673447b61bafeefc6923869e86b74df6c70b8e4f9d08990f2f3907c468",
-        "typer-0.16.0.dist-info/entry_points.txt": "60ed770728aa59eb9ab3d5742400cb5004591547bf73053fef099336fc41610f",
-        "typer-0.16.0.dist-info/licenses/LICENSE": "58992cebcf8dfb6e40c4e2112ed12126c243666dca3912a3d78b7ecac4859d49",
         "typer/__init__.py": "0f7bbe17696d2fe7e8e12f061a9d20f8e11aa2f7d34a9f96e9e02fd632aa054f",
         "typer/__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
         "typer/_completion_classes.py": "3f1f5b579e98e09fc5f52fec508da23e9521fe2fbe0a1a1cc6b9381c0badd871",
@@ -18,10 +14,8 @@
         "typer/main.py": "5296f686b5e2772cc2912650e417438a91b7738291539bfb2fe7d5fbd6f5f4cc",
         "typer/models.py": "43abfd05062eb4d947e388bb7e7d186d9f8e7915ec8226f5a3fb51e204e6aa8c",
         "typer/params.py": "311542c113f334c90e75853a54d54691ac17fe00286336e209f2ffb58711eb1f",
-        "typer/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "typer/rich_utils.py": "b2fca04d34943acf782b7aff54d9e63233b518e5c655ad06a97e7d93673beda5",
         "typer/testing.py": "31bfc7a939293f0db8aac558c4242b0c9a63abfa0e1e582a6696ae5a87f192ad",
-        "typer/utils.py": "1b4a9d7435f4e98b47b8c24d0a68fe7eb2c96246317d46bb8b03ba28e4d7d852",
-        "typer-0.16.0.dist-info/RECORD": "1aa3b162fef5840090b226130684fb8f43938423863e11aba30406c6a84152b7"
+        "typer/utils.py": "1b4a9d7435f4e98b47b8c24d0a68fe7eb2c96246317d46bb8b03ba28e4d7d852"
     }
 }

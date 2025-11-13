@@ -1,11 +1,6 @@
 {
     "id": "safehttpx-0.1.6-py3-none-any.whl",
     "hashes": {
-        "safehttpx/__init__.py": "771f1b7676aea283c54f3ddaa475d1279a40bb9e074fed4e4d162850e2d5e7e9",
-        "safehttpx/version.txt": "52cebe7a4ad2b5e462c257d8f92deb4259832c2672044540060188fba604b064",
-        "safehttpx-0.1.6.dist-info/METADATA": "b491c918ac108fa08a3a8bc9072fd564d8646eedee8344afd3d254f55dd5fb6c",
-        "safehttpx-0.1.6.dist-info/WHEEL": "0b615483066088b6f39d1fa4d1bff9937022ff568048e5c3b2cde5cc252c52e8",
-        "safehttpx-0.1.6.dist-info/licenses/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-        "safehttpx-0.1.6.dist-info/RECORD": "d6640c070f05e7474a48357d15f32cb17f997af114254f4edecaceb41844db71"
+        "safehttpx/__init__.py": "771f1b7676aea283c54f3ddaa475d1279a40bb9e074fed4e4d162850e2d5e7e9"
     }
 }

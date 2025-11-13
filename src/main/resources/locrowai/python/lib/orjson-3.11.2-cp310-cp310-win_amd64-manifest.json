@@ -1,14 +1,7 @@
 {
     "id": "orjson-3.11.2-cp310-cp310-win_amd64.whl",
     "hashes": {
-        "orjson-3.11.2.dist-info/METADATA": "8d84a3b18f7749af23d9df6a05cf9f379ce9026cb06147d993deb8638f3192bc",
-        "orjson-3.11.2.dist-info/WHEEL": "81392c0dc526e2f104b7e5926750a761c49b04dc94b66da6a7d97395fdd8774c",
-        "orjson-3.11.2.dist-info/licenses/LICENSE-APACHE": "7cfd738c53d61c79f07e348f622bf7707c9084237054d37fbe07788a75f5881c",
-        "orjson-3.11.2.dist-info/licenses/LICENSE-MIT": "36516aefdc84c5d5a1e7485425913a22dbda69eb1930c5e84d6ae4972b5194b9",
-        "orjson/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "orjson/__init__.py": "198ed4eeaa6df801c493b327403dc7b4fb5882c58a51d7942500bffe84ea1e37",
-        "orjson/__init__.pyi": "6df587a760de38206913c52dfb4e72aba1e17846626a76baea723a564b4ec3af",
-        "orjson/orjson.cp310-win_amd64.pyd": "1128ef1666ecf7aa8d8319527aec27e5c083586767d3f10c0f8abb3bd354aac7",
-        "orjson-3.11.2.dist-info/RECORD": "9576bd89ed3a49738f1be7e965d97e8fcb59b0dfa2cc25c040bfa87eb4cce730"
+        "orjson/orjson.cp310-win_amd64.pyd": "1128ef1666ecf7aa8d8319527aec27e5c083586767d3f10c0f8abb3bd354aac7"
     }
 }

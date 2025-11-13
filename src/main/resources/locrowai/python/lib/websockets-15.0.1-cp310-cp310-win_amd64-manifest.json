@@ -15,11 +15,9 @@
         "websockets/http11.py": "afc15a76faa15ac533e747f3d3f331feab928b2bb62718a50a6e17f1f5e6c135",
         "websockets/imports.py": "a05756931ca98ff762baa9de46e0393961172cc43aa40b63fab2aa154e8f99d8",
         "websockets/protocol.py": "3181bb4e7eeb151c6ab8b1aa450b06376052f6613b2864f27246cba32ce7b1f9",
-        "websockets/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "websockets/server.py": "f7986d2d546378fe38e56b275a4170d88ce55fac05e98eb4f64a358159b6fb1a",
         "websockets/speedups.c": "8fda7fa34691f14d5db7b5570054ce6736251a389294756b4ee8e9133a8fd7db",
         "websockets/speedups.cp310-win_amd64.pyd": "9a57ace5f1b503e9a6dc5be8d97a3947b4d50322c7fd91b3023e4c0d8b29b1a3",
-        "websockets/speedups.pyi": "b582227e81f8429a278fa1d3f2b864d8c40e56b7c1156f13e5261c6b179f39d0",
         "websockets/streams.py": "e83f98a2c55b4e86d4c4562db12e6ba79dfe220d021fb1007ada0e3fd5f20f4f",
         "websockets/typing.py": "70b3a35a7d633e0c50b9c3915d94ccc522d964df9f8c3d2a0dc8da5638a8665e",
         "websockets/uri.py": "fd9856833b8bfde906586bbc405a1d7bfd2b80b376b68cfdbb530fbb9a290daf",
@@ -51,12 +49,6 @@
         "websockets/sync/messages.py": "5ba63e0591e0cae43a854443b19da2b5ec22e6500c27d95ded7d300255766649",
         "websockets/sync/router.py": "13a8758af2d433d0ec9074019fb2d665086f577c9b62a705204a6c438525943f",
         "websockets/sync/server.py": "977bbe8f12347444f0ebdfd899a474b00db507ad2510f41356003aa08059f06c",
-        "websockets/sync/utils.py": "260415c4efcd7105d977c9ba843797a5243fb8de86605f2ef572c767b9acbf79",
-        "websockets-15.0.1.dist-info/LICENSE": "0f44514998aca209d3482d10204a8adf2aa4296ff157a36a5c0922f2280632d3",
-        "websockets-15.0.1.dist-info/METADATA": "841a67852caccd5d2772768f5fa9db1e9d2202e13bc7655d7e31cbcd09f3d789",
-        "websockets-15.0.1.dist-info/WHEEL": "80c48f0458cfca7be0146da87e6784a0cd547fd887fc6b09776241cbe6f1a624",
-        "websockets-15.0.1.dist-info/entry_points.txt": "0e7867e1d9b912c23864c02c1e574617a0b005766b1979d1edc9cadbe5d1ef36",
-        "websockets-15.0.1.dist-info/top_level.txt": "08ca5d2a49712acbd980283296dc5458e1e26d95d9d6e60856971af71b10f079",
-        "websockets-15.0.1.dist-info/RECORD": "6c7b0299654da7a45a1c20a739ba23b272b3513d79afd7e824519003185e85d9"
+        "websockets/sync/utils.py": "260415c4efcd7105d977c9ba843797a5243fb8de86605f2ef572c767b9acbf79"
     }
 }
