@@ -1,8 +1,8 @@
-import threading
 from typing import Optional
 from rvc_python.infer import RVCInference
 
-from api import get_default_device, clear_torch_cache
+from api.torch import get_default_device, clear_torch_cache
+from api.threading import ModelLock
 
 class _ModelMetadata:
     def __init__(
@@ -21,8 +21,6 @@ class _ModelMetadata:
         self.rms_mix_rate = rms_mix_rate
         self.f0up_key = f0up_key
 
-
-_lock = threading.Lock()
 _rvc: Optional[RVCInference] = None
 _metadata: Optional[_ModelMetadata] = None
 
@@ -35,35 +33,42 @@ def _load_new_model(
     rms_mix_rate: float,
     f0up_key: int,
 ) -> tuple[_ModelMetadata, RVCInference]:
-    with _lock:
-        metadata = _ModelMetadata(
-            model_name=model_name,
-            device=device,
-            f0method=f0method,
-            filter_radius=filter_radius,
-            rms_mix_rate=rms_mix_rate,
-            f0up_key=f0up_key,
-        )
+    metadata = _ModelMetadata(
+        model_name=model_name,
+        device=device,
+        f0method=f0method,
+        filter_radius=filter_radius,
+        rms_mix_rate=rms_mix_rate,
+        f0up_key=f0up_key,
+    )
 
-        # Initialize inference engine
-        model = RVCInference(device=device)
+    # Initialize inference engine
+    model = RVCInference(device=device)
 
-        # Set runtime parameters
-        model.set_params(
-            f0method=f0method,
-            filter_radius=filter_radius,
-            rms_mix_rate=rms_mix_rate,
-            f0up_key=f0up_key,
-        )
+    # Set runtime parameters
+    model.set_params(
+        f0method=f0method,
+        filter_radius=filter_radius,
+        rms_mix_rate=rms_mix_rate,
+        f0up_key=f0up_key,
+    )
 
-        # Load voice model and index
-        model_path = f"extensions/rvc/models/{model_name}.pth"
-        index_path = f"extensions/rvc/models/{model_name}.index"
-        model.load_model(model_path, index_path=index_path)
+    # Load voice model and index
+    model_path = f"extensions/rvc/models/{model_name}.pth"
+    index_path = f"extensions/rvc/models/{model_name}.index"
+    model.load_model(model_path, index_path=index_path)
 
-        return metadata, model
+    return metadata, model
 
+def _unload_model():
+    """Unload the currently loaded RVCInference instance."""
+    global _rvc, _metadata
+    if _rvc is not None:
+        _rvc = None
+        _metadata = None
+        clear_torch_cache()
 
+@ModelLock("rvc")
 def load_model(
     model_name: str,
     device: str = get_default_device(),
@@ -80,6 +85,7 @@ def load_model(
     """
     global _rvc, _metadata
     if _rvc is None or overwrite:
+        _unload_model()
         _metadata, _rvc = _load_new_model(
             model_name=model_name,
             device=device,
@@ -90,15 +96,10 @@ def load_model(
         )
     return _metadata
 
-
+@ModelLock("rvc")
 def unload_model():
     """Unload the currently loaded RVCInference instance."""
-    global _rvc, _metadata
-    if _rvc is not None:
-        with _lock:
-            _rvc = None
-            _metadata = None
-            clear_torch_cache()
+    _unload_model()
 
 
 def get_rvc() -> RVCInference | None:

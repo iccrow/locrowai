@@ -1,7 +1,12 @@
 {
-    "id": "addict-2.4.0-py3-none-any",
+    "id": "addict-2.4.0-py3-none-any.whl",
     "hashes": {
         "addict/__init__.py": "c6694d898615a000f7fc57e681f38cd9c737c08d7b19282c3013836c546cfe66",
-        "addict/addict.py": "49c39f72568033bba0c99a17396d871cbf60097b7f5cf7be8b96d32e263cb9f5"
+        "addict/addict.py": "49c39f72568033bba0c99a17396d871cbf60097b7f5cf7be8b96d32e263cb9f5",
+        "addict-2.4.0.dist-info/LICENSE": "ca488d33c512d0b226142090af90e89ae266a901a293f89fd642dfec931e22c1",
+        "addict-2.4.0.dist-info/METADATA": "66320967996f85fa211f1216a7bf5f921d13b41b0de5db97f389daddbc54eaf4",
+        "addict-2.4.0.dist-info/WHEEL": "11546323af45e6a5639bf620a9c4d73e74c0bf705f494af4595007b923f75e8a",
+        "addict-2.4.0.dist-info/top_level.txt": "1867d02accf537e6d2458ccda72a7c198f2e004aa1dd259a5d16c09c150a8c70",
+        "addict-2.4.0.dist-info/RECORD": "df5806c70ddb71cbd56837630199664a7acc3a5269a5058e270d6f948b89ad81"
     }
 }

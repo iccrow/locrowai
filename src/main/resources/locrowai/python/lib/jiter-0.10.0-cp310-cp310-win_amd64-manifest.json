@@ -1,7 +1,12 @@
 {
-    "id": "jiter-0.10.0-cp310-cp310-win_amd64",
+    "id": "jiter-0.10.0-cp310-cp310-win_amd64.whl",
     "hashes": {
+        "jiter-0.10.0.dist-info/METADATA": "f01f0aef54468f78c5b2749c5525dd9441e567b9d095e6db58d445fcd1b07318",
+        "jiter-0.10.0.dist-info/WHEEL": "b6f31e840bb062cc06f5d326c076fa456ecefbd00001c9e77974366a408082bc",
         "jiter/__init__.py": "169f4790e8b18986034a20bff34be6889fec0a80864fc380878f3296d9b494fd",
-        "jiter/jiter.cp310-win_amd64.pyd": "3dfc9cd09a6fe26d8b1f22642326c27a7ee726f678ec9cf769c72fbb516e7596"
+        "jiter/__init__.pyi": "b2395e0e8c88f09598ea69e7668bead56711b98aa1b7e461eb802e6031d6f4cc",
+        "jiter/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "jiter/jiter.cp310-win_amd64.pyd": "3dfc9cd09a6fe26d8b1f22642326c27a7ee726f678ec9cf769c72fbb516e7596",
+        "jiter-0.10.0.dist-info/RECORD": "e6b4a08a857af866ca1f547a891813604404d61a6d7bf95e7b2555e5c6d5df70"
     }
 }

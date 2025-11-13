@@ -1,11 +1,16 @@
 {
-    "id": "crcmod-1.7-cp310-cp310-win_amd64",
+    "id": "crcmod-1.7-cp310-cp310-win_amd64.whl",
     "hashes": {
         "crcmod/__init__.py": "08f018091d5412443ea1d2a67aa374ac45b60d150dc8097de0eec318582fdd6a",
         "crcmod/_crcfunext.cp310-win_amd64.pyd": "655fe65f095172d04a09e79a920ac4499c0887b978ac6cbf216c6ea8c88f36b4",
         "crcmod/_crcfunpy.py": "046b8a0c3e34a39920235d878e5022ed6951df74031454adaf58bde4652eaa20",
         "crcmod/crcmod.py": "2ce34d54bd210a16785161d5cae0b91894a4ba8545e8a6f047bb08209a6729db",
         "crcmod/predefined.py": "6957449a0d0d120463a2aadf33161a92991e814362a77f5ccc7a38a4d71a8f9e",
-        "crcmod/test.py": "0723d05a13a369a8261b65081358932a54e7905b6c50c4281a42a3510f7f191a"
+        "crcmod/test.py": "0723d05a13a369a8261b65081358932a54e7905b6c50c4281a42a3510f7f191a",
+        "crcmod-1.7.dist-info/licenses/LICENSE": "89480768826f408daea1f3caff0509c2cc9606e10f6bb0ccfd12a3d604842c35",
+        "crcmod-1.7.dist-info/METADATA": "e306eccf9e4b26805bbacda4285dce1e056d9653602933521688fc18b1bed860",
+        "crcmod-1.7.dist-info/WHEEL": "294b810ba97101b1c22a294ab9af11f56fd333bd7ffbd4a0e6e10fdee0d67285",
+        "crcmod-1.7.dist-info/top_level.txt": "700cda374dcfe9543c5860cb4cc32d8f0b66f8d9bec734458447580154872d8d",
+        "crcmod-1.7.dist-info/RECORD": "d936b96fd6d0a1470f148407d62f0bea5b9638a3c199944b4d9cff9229e2240d"
     }
 }

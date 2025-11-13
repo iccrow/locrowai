@@ -1,6 +1,7 @@
 from pydantic import BaseModel
 from typing import List
-from api import Function, register
+from api.extensions import Function, register
+from api.threading import ModelLock
 from .model_loader import get_llm
 
 
@@ -22,6 +23,7 @@ class ChatReturns(BaseModel):
 @register("/llm/chat")
 class ChatFunc(Function[ChatParams, ChatReturns]):
 
+    @ModelLock("llm")
     def exec(self):
         llm = get_llm()
         if llm is None:

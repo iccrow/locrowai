@@ -1,6 +1,11 @@
 {
-    "id": "jaraco.context-5.3.0-py3-none-any",
+    "id": "jaraco.context-5.3.0-py3-none-any.whl",
     "hashes": {
-        "jaraco/context.py": "444a0b2310e43b931f118a30b7f5a8ba9342468c414b9bfb617d8f6d6f2521cb"
+        "jaraco/context.py": "444a0b2310e43b931f118a30b7f5a8ba9342468c414b9bfb617d8f6d6f2521cb",
+        "jaraco.context-5.3.0.dist-info/LICENSE": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+        "jaraco.context-5.3.0.dist-info/METADATA": "c43b60b897a3d2d37d8845c252fc44261d9aef171e21154111a9012d2afffed6",
+        "jaraco.context-5.3.0.dist-info/WHEEL": "189eedfe4581172c1b6a02b97a8f48a14c0b5baa3239e4ca990fbd8871553714",
+        "jaraco.context-5.3.0.dist-info/top_level.txt": "d099cddcb7d71f82c845f5cbf9014e18227341664edc42f1e11d5dfe5a2ea103",
+        "jaraco.context-5.3.0.dist-info/RECORD": "f1424f57364761d3c210825721fc1aff7078bbf6d605c1cb62c60bd7262da7a7"
     }
 }

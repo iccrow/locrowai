@@ -1,6 +1,7 @@
 from pydantic import BaseModel
 
-from api import Function, register
+from api.extensions import Function, register
+from api.threading import ModelLock
 from .model_loader import get_model
 
 class InferParams(BaseModel):
@@ -19,7 +20,8 @@ class InferFunc(Function[InferParams, InferReturns]):
 
     def exec(self):
         model = get_model()
-        segments, info = model.transcribe(self.params.path, beam_size=self.params.beam_size, language=self.params.language)
+        with ModelLock("whisper"):
+            segments, info = model.transcribe(self.params.path, beam_size=self.params.beam_size, language=self.params.language)
         
         transcript = ""
         timestamps = []

@@ -3,7 +3,7 @@ from pydantic import BaseModel, ConfigDict
 import uuid
 import os
 
-from api import Function, register
+from api.extensions import Function, register
 
 class CacheParams(BaseModel):
     model_config = ConfigDict(arbitrary_types_allowed=True)

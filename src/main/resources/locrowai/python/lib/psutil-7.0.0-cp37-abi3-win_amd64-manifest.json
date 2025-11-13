@@ -1,5 +1,5 @@
 {
-    "id": "psutil-7.0.0-cp37-abi3-win_amd64",
+    "id": "psutil-7.0.0-cp37-abi3-win_amd64.whl",
     "hashes": {
         "psutil/__init__.py": "96f6567584375b47e5719796d6f6cde50828487baaa1f5c19ccc4764bcf082b5",
         "psutil/_common.py": "b4f13b615cc2d19201859cd8773a8e16787e81e25500b6f2058dd3480c00497c",
@@ -29,6 +29,11 @@
         "psutil/tests/test_system.py": "822e4c722fe92f9cdae90d56a779cebf827a063ecbf8878cefaad1e7ed6b1599",
         "psutil/tests/test_testutils.py": "21473798c1c62867673e97ff9a13166c3ab45032bdb172380d9676770ba34bb0",
         "psutil/tests/test_unicode.py": "907d3c4861668b46f19cbf8b1c403b257d1fc1ab863ef63d5b7cdf910ba6813c",
-        "psutil/tests/test_windows.py": "669838124f4a1e4968607a601ed1c8ad80435c88127fc1e9a5259c8168288161"
+        "psutil/tests/test_windows.py": "669838124f4a1e4968607a601ed1c8ad80435c88127fc1e9a5259c8168288161",
+        "psutil-7.0.0.dist-info/LICENSE": "c7adc4d5d1337a548b967421f1fbe258b93033a0417708fd6f4e38f8ecbceb80",
+        "psutil-7.0.0.dist-info/METADATA": "8c4198dfca297dfee074ee46394207f317965c25dc1af8ad38862b954795a7c1",
+        "psutil-7.0.0.dist-info/WHEEL": "f845f90d0ccd190128c8bf7d43ed0fd3e0fe0976dfa9a7de9da01e89243f51f9",
+        "psutil-7.0.0.dist-info/top_level.txt": "8023619f9ef0ce4b038d20084a680c2746a25f342e964d062616f6f81032620c",
+        "psutil-7.0.0.dist-info/RECORD": "14d490eb89d61171f658aaed6cc44ac2deaca92b38815835a0b90c01456031a9"
     }
 }

@@ -1,11 +1,16 @@
 {
-    "id": "autocommand-2.2.2-py3-none-any",
+    "id": "autocommand-2.2.2-py3-none-any.whl",
     "hashes": {
         "autocommand/__init__.py": "ce4a39467be896f6fe5178c2c7fd80acf4c6056c142b9418e0b21020a611ec0b",
         "autocommand/autoasync.py": "00c772af1352e29a9625f3ffc6ea0e70898e1d60fea93ef1d3ac2628dd55a7e5",
         "autocommand/autocommand.py": "866904990ef61ed2f9e609d44558c33a7b1f62519de652d76ef4f8286e3de90c",
         "autocommand/automain.py": "0366fc8bbe7833173f0e353d585afabea6035a5873d1c9fc9a2bbc77c12cc55f",
         "autocommand/autoparse.py": "5955a66493dc6f350a5cfe34ada430ff41c3f2a3c9d95f551b57851669a7171c",
-        "autocommand/errors.py": "eda6b7ae887d1deaddea720aa501cd584b25584f28abb1a21d8554b91a8e4670"
+        "autocommand/errors.py": "eda6b7ae887d1deaddea720aa501cd584b25584f28abb1a21d8554b91a8e4670",
+        "autocommand-2.2.2.dist-info/LICENSE": "ade78d04982d69972d444a8e14a94f87a2334dd3855cc80348ea8e240aa0df2d",
+        "autocommand-2.2.2.dist-info/METADATA": "3800d9b91dceea2065a6ed6279383362e97ac38b8e56b9343f404ee531860099",
+        "autocommand-2.2.2.dist-info/WHEEL": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "autocommand-2.2.2.dist-info/top_level.txt": "0337e180a292f04740c16513485f2681e5506d7398f64a241c1ea44aac30aaed",
+        "autocommand-2.2.2.dist-info/RECORD": "8b1001ffbae6202b03e7a5dbbb003d2a7d8a7ea48fa2b2830e35627c41ade974"
     }
 }

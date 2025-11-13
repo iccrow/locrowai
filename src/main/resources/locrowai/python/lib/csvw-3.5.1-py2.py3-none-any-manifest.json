@@ -1,5 +1,5 @@
 {
-    "id": "csvw-3.5.1-py2.py3-none-any",
+    "id": "csvw-3.5.1-py2.py3-none-any.whl",
     "hashes": {
         "csvw/__init__.py": "aef84d3491329d9bd463292417f67bfb3052f317a0ff720ed62a23efb5d10ea0",
         "csvw/__main__.py": "37515ff01bb3f3fc69d456f0fe734711c9aafd65b693c48a88b7a0b90e7f1794",
@@ -10,6 +10,12 @@
         "csvw/frictionless.py": "62e0b7e9b2fb06cdde959f8c2292c1a5c34890a0ade3d8c0d3e56a1b2356e3ed",
         "csvw/jsonld.py": "370f9597c1c6de0282ac05b959d0ecdf072daf5f0573f47fad34b1a86c99a84f",
         "csvw/metadata.py": "955135bcda5745c23157c7b8adc669e6dd928563261fa19b70726b3cfeae7c47",
-        "csvw/utils.py": "e3ac165e98e6a5dedeb16f7a31e08fc9da82310a1763199b95a9702a66e7ceb7"
+        "csvw/utils.py": "e3ac165e98e6a5dedeb16f7a31e08fc9da82310a1763199b95a9702a66e7ceb7",
+        "csvw-3.5.1.dist-info/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "csvw-3.5.1.dist-info/METADATA": "92118eb248c7940b373f7483f998667109d42cb66a3b652716f445db76a44afb",
+        "csvw-3.5.1.dist-info/WHEEL": "4c9e3d77bdec36cd741746b37b55bf6d35b63ff5fbf85e185ce941aa8a80fa36",
+        "csvw-3.5.1.dist-info/entry_points.txt": "7e4f4842d00622901e5805dedc8df118da33878c30ffb6fcd1cfef0f6185b842",
+        "csvw-3.5.1.dist-info/top_level.txt": "9a4977979bd06a281d9dc70d701dc84f927f3eebb6469e4f5581eaa143a1d15a",
+        "csvw-3.5.1.dist-info/RECORD": "2c1f25180a224534e5bbff487cf4673447d1c8af920aa1c78cfcce5a49bebfc9"
     }
 }

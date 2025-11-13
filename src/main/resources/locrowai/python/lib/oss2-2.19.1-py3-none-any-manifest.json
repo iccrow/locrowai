@@ -1,5 +1,5 @@
 {
-    "id": "oss2-2.19.1-py3-none-any",
+    "id": "oss2-2.19.1-py3-none-any.whl",
     "hashes": {
         "oss2/__init__.py": "83f9f9e6e505d9e566a983cba42b6d09f3042c9791c96529a3fa93641bac0dfb",
         "oss2/api.py": "dae275ee2909a11d7148e738606e7954a2591eaaf2d82bafc67109a89a167c12",
@@ -20,6 +20,11 @@
         "oss2/select_response.py": "e8f79a7ecf09a6f98f1165347ad6101fa039a76bdd491fb6118a60533a317da8",
         "oss2/task_queue.py": "a773d956d982cbb6de4589f1bc4267dde9b7339194b0d16b4e8c0f8a11f97fc0",
         "oss2/utils.py": "e3a59eb304af0e486c08bae9be29ce6c21c4ff2e1ed5dfb38b5462f9a2cfc420",
-        "oss2/xml_utils.py": "0ba6478b2197baabab2085794c824b1b938f36bf3dc0d7cd9574661ca40d7b83"
+        "oss2/xml_utils.py": "0ba6478b2197baabab2085794c824b1b938f36bf3dc0d7cd9574661ca40d7b83",
+        "oss2-2.19.1.dist-info/licenses/LICENSE": "2c10901365cafb8d9cd0258f197bcb21932c16d9faf42aa51c5bd8a8393947fe",
+        "oss2-2.19.1.dist-info/METADATA": "02b56b4949d89f6d161f2fcc39fb829adb8ca0580e8ccad6a561261c7d51d158",
+        "oss2-2.19.1.dist-info/WHEEL": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "oss2-2.19.1.dist-info/top_level.txt": "43fa9c6606ff497ae4e3224a353501c3e16e0afb8e8d164bd3b26d0e1a1cdd2c",
+        "oss2-2.19.1.dist-info/RECORD": "390958cd30647d62a2940c9a466a2080b0941afd79fe0d8b53187b45966d596c"
     }
 }

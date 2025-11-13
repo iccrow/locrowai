@@ -1,5 +1,5 @@
 {
-    "id": "python_multipart-0.0.20-py3-none-any",
+    "id": "python_multipart-0.0.20-py3-none-any.whl",
     "hashes": {
         "multipart/__init__.py": "fedb713801674cde2379a73effc35e5e9697618a343cf108a7c3a0a386053471",
         "multipart/decoders.py": "5ef900c1353d5053e25e4734864be8bc77f45ba1f7bcafb689e5a585abf4da14",
@@ -8,6 +8,11 @@
         "python_multipart/__init__.py": "365c3a62b73ffea5e70992e8d7b3b36c9476c369b0892164ebd206e16977e445",
         "python_multipart/decoders.py": "24ce3714c367fc428fd0c236664b991e135ad0c3804a8211d14e53bdd1b9f399",
         "python_multipart/exceptions.py": "6bd6ee48ebff7a21d9a2e9042617565fd2c961227ab7b5ce2b7644696a106659",
-        "python_multipart/multipart.py": "a64de8dde0772976cdc73381c5b12309dcfed444846483175487e5d7682b1bea"
+        "python_multipart/multipart.py": "a64de8dde0772976cdc73381c5b12309dcfed444846483175487e5d7682b1bea",
+        "python_multipart/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "python_multipart-0.0.20.dist-info/METADATA": "8761ad3ce55285b564a4152b8e9e4a137b7a7a224985dd3f5826825eb6f94e05",
+        "python_multipart-0.0.20.dist-info/WHEEL": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "python_multipart-0.0.20.dist-info/licenses/LICENSE.txt": "a8e833176cd617daf00b9d6d39fa15ca8edebc6d1643079cd2f4893c0c289be2",
+        "python_multipart-0.0.20.dist-info/RECORD": "7e82678124bbf827e607e0f6e817cf8b62458a9f5e509de7a731d19c16ee47ad"
     }
 }

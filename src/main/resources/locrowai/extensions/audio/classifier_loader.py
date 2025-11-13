@@ -1,9 +1,8 @@
-import gc
-import threading
 from typing import Optional
 from speechbrain.inference.speaker import EncoderClassifier
 
-from api import clear_torch_cache
+from api.torch import clear_torch_cache
+from api.threading import ModelLock
 
 
 class _ModelMetadata:
@@ -17,32 +16,37 @@ class _ModelMetadata:
         self.savedir = savedir
         self.run_opts = run_opts
 
-
-_lock = threading.Lock()
 _classifier: Optional[EncoderClassifier] = None
 _metadata: Optional[_ModelMetadata] = None
-
 
 def _load_new_model(
     source: str,
     savedir: Optional[str],
     run_opts: Optional[dict]
 ) -> tuple[_ModelMetadata, EncoderClassifier]:
-    with _lock:
-        metadata = _ModelMetadata(
-            source=source,
-            savedir=savedir,
-            run_opts=run_opts,
-        )
-        model = EncoderClassifier.from_hparams(
-            source=source,
-            savedir=savedir,
-            run_opts=run_opts,
-            freeze_params=True,
-        )
-        return metadata, model
+    metadata = _ModelMetadata(
+        source=source,
+        savedir=savedir,
+        run_opts=run_opts,
+    )
+    model = EncoderClassifier.from_hparams(
+        source=source,
+        savedir=savedir,
+        run_opts=run_opts,
+        freeze_params=True,
+    )
+    return metadata, model
 
+def _unload_model():
+    """Unload the currently loaded speaker encoder."""
+    global _classifier, _metadata
+    if _classifier is not None:
+        _classifier
+        _classifier = None
+        _metadata = None
+        clear_torch_cache()
 
+@ModelLock("audio_classifier")
 def load_model(
     source: str = "speechbrain/spkrec-ecapa-voxceleb",
     savedir: Optional[str] = None,
@@ -56,7 +60,7 @@ def load_model(
     """
     global _classifier, _metadata
     if _classifier is None or overwrite:
-        unload_model()
+        _unload_model()
         _metadata, _classifier = _load_new_model(
             source=source,
             savedir=savedir,
@@ -64,16 +68,10 @@ def load_model(
         )
     return _metadata
 
-
+@ModelLock("audio_classifier")
 def unload_model():
     """Unload the currently loaded speaker encoder."""
-    global _classifier, _metadata
-    if _classifier is not None:
-        with _lock:
-            _classifier
-            _classifier = None
-            _metadata = None
-            clear_torch_cache()
+    _unload_model()
 
 
 def get_classifier() -> EncoderClassifier | None:

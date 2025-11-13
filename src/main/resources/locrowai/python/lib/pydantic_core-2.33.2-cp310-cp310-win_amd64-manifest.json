@@ -1,8 +1,14 @@
 {
-    "id": "pydantic_core-2.33.2-cp310-cp310-win_amd64",
+    "id": "pydantic_core-2.33.2-cp310-cp310-win_amd64.whl",
     "hashes": {
+        "pydantic_core-2.33.2.dist-info/METADATA": "904297200149e3a7d901f4dee47a94b2ba4819b88c1b70e29d6cf1809028e24a",
+        "pydantic_core-2.33.2.dist-info/WHEEL": "efb0ea92fc41e07a998ad0512bf338f4d452db4ec929bd0ca2d3048e7c44590f",
+        "pydantic_core-2.33.2.dist-info/licenses/LICENSE": "fbe7f615f18d135c07000e5a86325db27f42c7729699ef166ac1f7a3f4586bf4",
         "pydantic_core/core_schema.py": "0dde97753c3b138c1e3d661ab7d5aed86fcb89f68389db386e3869134626ace2",
+        "pydantic_core/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "pydantic_core/_pydantic_core.pyi": "2fc3d8ecda3246dd80107ae6e9295ec12450492e4da2a93e852f9a4011c497cf",
         "pydantic_core/__init__.py": "97fba68b21328d4af0816785bad91cff4980d2f1d539436106811599d0801f57",
-        "pydantic_core/_pydantic_core.cp310-win_amd64.pyd": "c47d5d5811326d08324e656b96d0b60792be1719de62342c9409d2abe8957c0f"
+        "pydantic_core/_pydantic_core.cp310-win_amd64.pyd": "c47d5d5811326d08324e656b96d0b60792be1719de62342c9409d2abe8957c0f",
+        "pydantic_core-2.33.2.dist-info/RECORD": "97c188ede7e575cc67f88814ec099a5490e72225db4b19cbd605d4f8007403df"
     }
 }

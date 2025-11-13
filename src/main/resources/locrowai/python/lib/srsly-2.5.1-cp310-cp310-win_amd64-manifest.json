@@ -1,5 +1,5 @@
 {
-    "id": "srsly-2.5.1-cp310-cp310-win_amd64",
+    "id": "srsly-2.5.1-cp310-cp310-win_amd64.whl",
     "hashes": {
         "srsly/__init__.py": "f49a8bd82ed41a2fbddbe82a0b7793c3498cb5fb8441305ac110e9dff831b73c",
         "srsly/_json_api.py": "8f81d97271554ab782fab278c04e6a7dda377c46a84f695c0162e8c1e7d2e8c3",
@@ -51,6 +51,7 @@
         "srsly/ruamel_yaml/main.py": "ac4d2d8a62643136ec27221d73adde57d953a02ea2df2cb69ca79125943806e2",
         "srsly/ruamel_yaml/nodes.py": "9f4f876fb8f993ced8d20a992daeff5d3acef87a73d4872186372fa9b91ee1ad",
         "srsly/ruamel_yaml/parser.py": "fd6fc68f63daf914d9351c87ea95cf76474554f2acbd95ec1c25d4d1a0ac4350",
+        "srsly/ruamel_yaml/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "srsly/ruamel_yaml/reader.py": "acc06303ddde4f881cd8b58ee183c7c4ebb7b1ec951008ea8f729de1d6f4c1d8",
         "srsly/ruamel_yaml/representer.py": "2565a903d733b9bd42583a50cc2301d6d54fb3986d18d5203a539f800811c110",
         "srsly/ruamel_yaml/resolver.py": "5ea8924f8f92022a0f7e1a095238fe540685d1dbc901f77f70c1a30e4e88a57e",
@@ -126,6 +127,7 @@
         "srsly/tests/ruamel_yaml/test_yamlobject.py": "20feafc198cb431dd98592fc2d266707c04001bb22b5e5b1031534766caa39fa",
         "srsly/tests/ruamel_yaml/test_z_check_debug_leftovers.py": "214d3d851efb08095f9f6c5f1aa6e74d75ad36d76e884ee296062117dbf882f7",
         "srsly/tests/ruamel_yaml/test_z_data.py": "db2e22bcec9f847cb917d57ed80daa32fd203112ade26053dc6eb35556a66b9f",
+        "srsly/tests/ujson/334-reproducer.json": "a16e6062f28c1878d15ab7810afff7752842a57e4cb39c09505e8ed91e32bdf9",
         "srsly/tests/ujson/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "srsly/tests/ujson/test_ujson.py": "4e3456612dea7ad16f476e0776623ed62cdddf92e5b0b6943d5c5b1bd879cd89",
         "srsly/ujson/JSONtoObj.c": "558154eb4176f569c2bf3de35527dc7c6cc2078ff48df3d640a6d64da0ed0571",
@@ -135,8 +137,16 @@
         "srsly/ujson/ujson.c": "4e7dc76ea382c7f4c547a0de408725252315079c040b1319faa752281910bd82",
         "srsly/ujson/ujson.cp310-win_amd64.pyd": "ac6ae64e3009b039ca400295cf7622f7c4768aaee8b047b727ee2f77df252e50",
         "srsly/ujson/version.h": "ee2b493b334348553ed0a82615684a8d31fe6d98f28c7250f2910a9c07c91e14",
+        "srsly/ujson/lib/dconv_wrapper.cc": "1a255438066f976b57706d3c292d3cbb3f11df588a99cdbfca5a48711b496dca",
         "srsly/ujson/lib/ultrajson.h": "f4cf186f565a6ebbd9f9f04465396d58414bc3c5c205af1671b0657ce26ce785",
         "srsly/ujson/lib/ultrajsondec.c": "44468c02bb428b34bde1331af701bb0325a97158056c84cf2d9493091afde804",
-        "srsly/ujson/lib/ultrajsonenc.c": "bbc958169afbb5180c646f18a5e22986cadb404847b6ff756a2411c962a402a4"
+        "srsly/ujson/lib/ultrajsonenc.c": "bbc958169afbb5180c646f18a5e22986cadb404847b6ff756a2411c962a402a4",
+        "srsly-2.5.1.dist-info/LICENSE": "65970ad1daa80696ad98dfb1ba116bc2e63e7529d207c261918d57e5fb10c74d",
+        "srsly-2.5.1.dist-info/METADATA": "b81663f07fbf06b9f45253a93cd5457e8c1b75f2ca5885950d8e10c499562a79",
+        "srsly-2.5.1.dist-info/WHEEL": "af319f66051c19e2928081c660cbaa838c44e153c7c676a57571fa046d338d59",
+        "srsly-2.5.1.dist-info/entry_points.txt": "7a088eebbd38341671361233f7abff8a15cbd02df0459ced0aa7dcdcc3785727",
+        "srsly-2.5.1.dist-info/top_level.txt": "4d785aced296163b862a54c5349712c0342460dd042c7aa88416bd02ba4ad2e2",
+        "srsly-2.5.1.dist-info/zip-safe": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+        "srsly-2.5.1.dist-info/RECORD": "f7cf98d85878a653054e84a8ed2aed0cf2876b182100583ef39a8e468c965a59"
     }
 }

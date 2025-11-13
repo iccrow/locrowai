@@ -1,5 +1,5 @@
 {
-    "id": "torchaudio-2.4.1+cu121-cp310-cp310-win_amd64",
+    "id": "torchaudio-2.4.1+cu121-cp310-cp310-win_amd64.whl",
     "hashes": {
         "torchaudio/__init__.py": "9145a793070a111323ee6f81e04f36e9a1995866b9b09b350c4a4b3fa2d9a04b",
         "torchaudio/kaldi_io.py": "69cc32b2be9f01257d21c39317401b54f0a8fd5413bb533600e9f54979b718f1",
@@ -141,6 +141,11 @@
         "torio/lib/libtorio_ffmpeg5.pyd": "d3db0aeab74a63a326d9921483f207d99371e3a99d0f53f673439791c70d3aa3",
         "torio/lib/libtorio_ffmpeg6.pyd": "6f8eb39b9d9b423b5bc7f76156766ca4364edae5633cf46bf5f5983d3ca3a79c",
         "torio/utils/__init__.py": "b90579f129728a452beb21781c84c0482bee5fefdf9f36de0f1151cc5b9c404e",
-        "torio/utils/ffmpeg_utils.py": "dbeed74bb084641d3e33df8bb394e48b8bfb69718989583b5a8b805198eddd72"
+        "torio/utils/ffmpeg_utils.py": "dbeed74bb084641d3e33df8bb394e48b8bfb69718989583b5a8b805198eddd72",
+        "torchaudio-2.4.1+cu121.dist-info/LICENSE": "32638e179931bfe551eabf67b0e67a13b483e166b58dd7263634ab7f89f396f5",
+        "torchaudio-2.4.1+cu121.dist-info/METADATA": "fed41675162729fa5ee4628b0196a73146c67cce0397c0b441a03a3cc529ede9",
+        "torchaudio-2.4.1+cu121.dist-info/WHEEL": "7ec5bafbe5857eecd7dac71e7c4e897dc499e5d5e0e61e7dbbc96a9692f9baea",
+        "torchaudio-2.4.1+cu121.dist-info/top_level.txt": "193d0c92d11b1caa0b9ef77eea28bbfdd84956fb21ba93ae8e4f38d017075385",
+        "torchaudio-2.4.1+cu121.dist-info/RECORD": "362c5dde8091526c54b245a0bc996e746b6dfca5c187c1e2f52263873e1706cc"
     }
 }

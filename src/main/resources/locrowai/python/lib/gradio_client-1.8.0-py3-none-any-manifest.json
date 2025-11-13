@@ -1,6 +1,7 @@
 {
-    "id": "gradio_client-1.8.0-py3-none-any",
+    "id": "gradio_client-1.8.0-py3-none-any.whl",
     "hashes": {
+        "gradio_client/CHANGELOG.md": "91088cb40193590fdf36bd705ecdac96805a5ed41f1ffd0189d54bcfee4c6fdb",
         "gradio_client/__init__.py": "1ad547345a53599a3484bec26538f01a23f7325da21d0c83a1fdb92e19b149dd",
         "gradio_client/client.py": "d7d0854dbe3defe2706870ef90db7e26d3e040565128a2333d5c8770d3c04f4e",
         "gradio_client/compatibility.py": "7d5877927e8ad49deb84976de74609d6047e8262f4e26687e2bfe40819ffbce3",
@@ -8,10 +9,15 @@
         "gradio_client/documentation.py": "fd25f2d3a7c2705f5a454a35eb77b12a84f3f8aab0337b6982a822412427b32e",
         "gradio_client/exceptions.py": "98f5f52d6b4b85e02acd0bcb61d32c6939a6329d2a09e8dce941b8a3a438d594",
         "gradio_client/media_data.py": "19065025badb8f7744dff4c851c9833859a9f036ee0643fb0d04f1613e8d3776",
+        "gradio_client/package.json": "790bf37bca9dc58d37836cbb2713091188ec93fd0545c97261688978e1cc609c",
         "gradio_client/serializing.py": "820fb277f0c31a9ade0d8670ae626a3412fc7bc5025c3f35c00b2ee28ac08c38",
+        "gradio_client/types.json": "85304936ce59c970b5f9ffb451fcc57b3761ccda773a752136cdd0bfe9ae010d",
         "gradio_client/utils.py": "f4a3dc4c4bdc09b4c005b221523cbfd292711b82857b31ee1f8d86cf374c1c6c",
         "gradio_client/cli/__init__.py": "8d6e266232dd43e51b3ea28d30a9a190d2cabb6941536a439f881328f5fed1b8",
         "gradio_client/cli/deploy_discord.py": "d51e929173043ba30df9faa05d534eb2f463cf9a6b90e6cbb91159bf9774be08",
-        "gradio_client/templates/discord_chat.py": "f0ddbc886dd564d0d3ba377e38e050a1e9aa8f989b4e314c8539bea384d659cd"
+        "gradio_client/templates/discord_chat.py": "f0ddbc886dd564d0d3ba377e38e050a1e9aa8f989b4e314c8539bea384d659cd",
+        "gradio_client-1.8.0.dist-info/METADATA": "85d2e4bff5531415d782cac956341d505b2722f96269807375a3a190a3452cc6",
+        "gradio_client-1.8.0.dist-info/WHEEL": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "gradio_client-1.8.0.dist-info/RECORD": "fe57936b67ff57e1cfb367ff299caab6a1b2462fdd768df065d6c639917fe7f1"
     }
 }

@@ -1,5 +1,5 @@
 {
-    "id": "transformers-4.46.3-py3-none-any",
+    "id": "transformers-4.46.3-py3-none-any.whl",
     "hashes": {
         "transformers/__init__.py": "71a729a440bba6c0c9d1f9209c6edd61edb21380c89154461be00063d86bc829",
         "transformers/activations.py": "10c37e915ce2b52d539a5b52ecaaf644e2b0c56d282db00778098d74342ebeee",
@@ -143,13 +143,17 @@
         "transformers/kernels/deformable_detr/cpu/ms_deform_attn_cpu.cpp": "55c0869bd22bbe056f9b266dd0ac8fd7a43e38d99b7a0e9b2b071c3fa29a74bd",
         "transformers/kernels/deformable_detr/cpu/ms_deform_attn_cpu.h": "9ef56c2a3f6769b43b21a358e1d8b9c55c7abbed252227d0bcb836242a318a29",
         "transformers/kernels/deformable_detr/cuda/ms_deform_attn_cuda.cu": "f57f76192dec88db1e87f4e819fc109befcdfe8fd94019a09b4ac06bab690b39",
+        "transformers/kernels/deformable_detr/cuda/ms_deform_attn_cuda.cuh": "1c3edb3162e81ab0cac3b5d43cf8082c201d392a35202f1122ffcac8a0272dbd",
         "transformers/kernels/deformable_detr/cuda/ms_deform_attn_cuda.h": "c713f5eda7abf92894f49e4048b1ddb4b2328459870b988b70f20f356db192b8",
+        "transformers/kernels/deformable_detr/cuda/ms_deform_im2col_cuda.cuh": "05137cfb27d21d8f0284b8a3f23165dbfcf62cbd0b1052ae545e81ca2f982c06",
         "transformers/kernels/deta/ms_deform_attn.h": "1f66c15c6ca5d11fafd83a86573d756aca11bf16e367d89607d763a26653a606",
         "transformers/kernels/deta/vision.cpp": "f11bd9cbb3ff30cc79404b33a3f33034e0dd7492d0f2629c9a631f80b602fc70",
         "transformers/kernels/deta/cpu/ms_deform_attn_cpu.cpp": "55c0869bd22bbe056f9b266dd0ac8fd7a43e38d99b7a0e9b2b071c3fa29a74bd",
         "transformers/kernels/deta/cpu/ms_deform_attn_cpu.h": "9ef56c2a3f6769b43b21a358e1d8b9c55c7abbed252227d0bcb836242a318a29",
         "transformers/kernels/deta/cuda/ms_deform_attn_cuda.cu": "339f9b5bd839cfeba94c530d3c87e7c8b02a293c463028c03ea06bd069961d7f",
+        "transformers/kernels/deta/cuda/ms_deform_attn_cuda.cuh": "872801db4561dd1b6d392742b93173f15d1ddc25cda7e43cf71db6ad8983db9f",
         "transformers/kernels/deta/cuda/ms_deform_attn_cuda.h": "acf58e38ca3743215d07990c89ec690292c567876746dc780a5b84006c2c7cef",
+        "transformers/kernels/deta/cuda/ms_deform_im2col_cuda.cuh": "05137cfb27d21d8f0284b8a3f23165dbfcf62cbd0b1052ae545e81ca2f982c06",
         "transformers/kernels/falcon_mamba/__init__.py": "6edd23f39d45d6eb87edf952b13bc8a9d87dcdd2954ce54a5adddd6ad6f5e522",
         "transformers/kernels/falcon_mamba/selective_scan_with_ln_interface.py": "eb8f68243d2ca31d48f930a466e44c8d89b7b564244375683d72cd78e70dfecb",
         "transformers/kernels/mra/cuda_kernel.cu": "2f1c51613ca64a80444295971c0d0f333c19c29a257305fb985023c14f3e64c7",
@@ -1842,6 +1846,12 @@
         "transformers/utils/quantization_config.py": "e866ef639458c4f3a927db4334c6734d4ec0e0ab0fd45d3b572ccbc4dcbccc99",
         "transformers/utils/sentencepiece_model_pb2.py": "5e242cf6e304bac7c064feade8806e4d35fdca5ecb88ec89122ec86fe5b39aad",
         "transformers/utils/sentencepiece_model_pb2_new.py": "22cfe530953c3259971939112fe52df610d627012661e5de74f0873c56aa9703",
-        "transformers/utils/versions.py": "0be4eaaf8a864871fae328080424a8f2003a6b3cfb0dbce1f3375cff28cc917f"
+        "transformers/utils/versions.py": "0be4eaaf8a864871fae328080424a8f2003a6b3cfb0dbce1f3375cff28cc917f",
+        "transformers-4.46.3.dist-info/LICENSE": "77fd4710def9ec3c0f6225800e0235f15a425abd4a8b03559127fcd782612049",
+        "transformers-4.46.3.dist-info/METADATA": "dc9f165315eabd5a0af0cadd6bd6b466661fe1bbda50afcdf48da4ee659cf227",
+        "transformers-4.46.3.dist-info/WHEEL": "3fd8f0fa01237bc07207bfe15e82029c7b550ab13031087eeb7d2d2af4167a17",
+        "transformers-4.46.3.dist-info/entry_points.txt": "920756ff417fb5736b58a4995ca58a7940ff2ea5607238bd8fb6ad197bdef33e",
+        "transformers-4.46.3.dist-info/top_level.txt": "18b05a793a3f0927619c7bdbc50d24ce91077652ee03fdf77e822881a5b19ed2",
+        "transformers-4.46.3.dist-info/RECORD": "e87515d24ce3519f9f048985d655d4d30da4c7167407a4b34687b2344c9014ab"
     }
 }

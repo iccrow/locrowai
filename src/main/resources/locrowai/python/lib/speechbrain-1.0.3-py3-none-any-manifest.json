@@ -1,8 +1,10 @@
 {
-    "id": "speechbrain-1.0.3-py3-none-any",
+    "id": "speechbrain-1.0.3-py3-none-any.whl",
     "hashes": {
         "speechbrain/__init__.py": "d0fa13fc7a36cca3d6335e4ca06176803177e81046320f9b9d268cc60705668e",
         "speechbrain/core.py": "c510aabc8ab49a3098da1c1b90b05d648eb6ad536cb87e6ee89cf62aa37236ab",
+        "speechbrain/log-config.yaml": "519f8b2c34b0d345e27e9a18e66db0d9577e9c0aea79ed269074b916f24467c0",
+        "speechbrain/version.txt": "f5e5c9534532840fcd45bb002e69ed85c61dba2753450e26b448b7df1481e24d",
         "speechbrain/alignment/__init__.py": "02f6541342d31c8ef405efa179889a908f84127d698b31b189dae07475678d3d",
         "speechbrain/alignment/aligner.py": "5aa4ec77bfc5e5bdb76ce4b9612707ce87efd37e6363de5b3b504aea82a90cce",
         "speechbrain/alignment/ctc_segmentation.py": "a6592139fd3dac6efa7065c89a06f6697baf9257363b6322787a4cb6168e5388",
@@ -225,6 +227,11 @@
         "speechbrain/utils/train_logger.py": "488e5cb8d52b3a56c9bd90c7bfeee61d372e3731ed78ca64a5b179dc916f6aa5",
         "speechbrain/wordemb/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "speechbrain/wordemb/transformer.py": "a063523ecc6e54355143bd1a983753e84f8dd47eae41c0f8d0d0467d6b79cc16",
-        "speechbrain/wordemb/util.py": "48711f4afb1909d7831e3b616ca38311421832a52268db173b57b31ae7741033"
+        "speechbrain/wordemb/util.py": "48711f4afb1909d7831e3b616ca38311421832a52268db173b57b31ae7741033",
+        "speechbrain-1.0.3.dist-info/licenses/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "speechbrain-1.0.3.dist-info/METADATA": "bd1adf6ba05394d40105a494553ceb155c7aaa008d1abf61d7c13744e024bf6c",
+        "speechbrain-1.0.3.dist-info/WHEEL": "0a6c85234931e5c7443132e238d4116c64308c8a11d5a21807b782010e0a3c9d",
+        "speechbrain-1.0.3.dist-info/top_level.txt": "b44d11da03363772615253fa4e147ad897e2149a13b1e4f79a52cea6ec8071b1",
+        "speechbrain-1.0.3.dist-info/RECORD": "ae4cd8fe3e02be60ffa92925d7606914d00a295820f08a5092a0e50ea98d6996"
     }
 }

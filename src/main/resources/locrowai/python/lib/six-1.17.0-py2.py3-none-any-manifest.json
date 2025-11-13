@@ -1,6 +1,11 @@
 {
-    "id": "six-1.17.0-py2.py3-none-any",
+    "id": "six-1.17.0-py2.py3-none-any.whl",
     "hashes": {
-        "six.py": "c51c91f703d3d4b3696c923cb5fec213e05e75d9215393befac7f2fa6a3904df"
+        "six.py": "c51c91f703d3d4b3696c923cb5fec213e05e75d9215393befac7f2fa6a3904df",
+        "six-1.17.0.dist-info/LICENSE": "4375ba20e2b9c6c4e7cad2940a628fd90e95cc3d50ee92aae755715d8ba1fbd0",
+        "six-1.17.0.dist-info/METADATA": "562042078c2752549f6d8a7c86dbc5dd708088a7be6d80672ec7b07100b72468",
+        "six-1.17.0.dist-info/WHEEL": "a7178d5f925db427b9f0f51260ff6ea6673b8dd44f82f4f41a6f646f5487955c",
+        "six-1.17.0.dist-info/top_level.txt": "fe2547fe2604b445e70fc9d819062960552f9145bdb043b51986e478a4806a2b",
+        "six-1.17.0.dist-info/RECORD": "5067d83422e8d7118fdca18230fc735d9f9afabf72647606bacc7a70d5f6901d"
     }
 }

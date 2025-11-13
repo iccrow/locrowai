@@ -1,5 +1,5 @@
 {
-    "id": "descript_audiotools-0.7.2-py2.py3-none-any",
+    "id": "descript_audiotools-0.7.2-py2.py3-none-any.whl",
     "hashes": {
         "audiotools/__init__.py": "32802ba52ee91b2126cbf6e476aceb4846bf7729eab4b7acbe192f9a051d816b",
         "audiotools/post.py": "799dbd4ba7da16b4de4f84501f805cbc3fe654e4d5cb2d00613f26486c1b9819",
@@ -15,6 +15,9 @@
         "audiotools/core/util.py": "57b15a72a64ea4ca5d40dcf90debc3760cd298dc2ea2c9f4dd4dc865296a506c",
         "audiotools/core/whisper.py": "122f69a56d6094003a18ccd6afc5814b5b0a50a3c4f0443baeb7c6224ee85a7c",
         "audiotools/core/templates/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "audiotools/core/templates/headers.html": "df5ec8009ce7247d452a3e98fde8465413b9199778c3b873194d3e734acf4633",
+        "audiotools/core/templates/pandoc.css": "dcc23c988517151fcf9544e9102aded261ed8eaad7a8d23ac0b5f9147bdc5fc9",
+        "audiotools/core/templates/widget.html": "09a57ed097879565cf747b585f9f8d421bebaf6508508c2472d1323e638bfa45",
         "audiotools/data/__init__.py": "994be9d62a6589fa9ff039fcb7f9ebeafdc4a421220e1a2a579fa5138d65f5c0",
         "audiotools/data/datasets.py": "e2469b6898658fd0c69c59849d9b5262c939979e0041af0997060be787910dce",
         "audiotools/data/preprocess.py": "e45ef67c25aed2e82983532ff3e81a08a98c32dc93ea7b227a46d4ff59912de5",
@@ -29,6 +32,10 @@
         "audiotools/ml/experiment.py": "0155858821fd6ba32508d1fac6ff6ede7aaf4225c4e78a7f17cf646220984a5c",
         "audiotools/ml/layers/__init__.py": "d7afb6656720acf90b1d302e8e077f3058ad40dc268e85baf7709483529864da",
         "audiotools/ml/layers/base.py": "a4404a7445824c23531b5998f46b61edcf24a0386b2ab8d0437bcb8b65238137",
-        "audiotools/ml/layers/spectral_gate.py": "21e0735a8ffb247c42bbe5474e27619f6f59b5d7dde5f83c9ec8922abe5abf31"
+        "audiotools/ml/layers/spectral_gate.py": "21e0735a8ffb247c42bbe5474e27619f6f59b5d7dde5f83c9ec8922abe5abf31",
+        "descript_audiotools-0.7.2.dist-info/METADATA": "372061546038802fc02e6131343face2f5798518d672bd9c006d2677f4f56f4b",
+        "descript_audiotools-0.7.2.dist-info/WHEEL": "6bece9151209cceab941fba10736e1880d5e1d3ccd0899fc39d46f85d357d119",
+        "descript_audiotools-0.7.2.dist-info/top_level.txt": "2c0815dc686ad4e7fc8a84650718cca70c57319fa490b39e6b98e75f3b2bbb7c",
+        "descript_audiotools-0.7.2.dist-info/RECORD": "5415d0c32e2eef96ed0467c6717363f37fb9dbaa1ee3973dcb5b1f80db4cc547"
     }
 }

@@ -1,5 +1,5 @@
 {
-    "id": "pydub-0.25.1-py2.py3-none-any",
+    "id": "pydub-0.25.1-py2.py3-none-any.whl",
     "hashes": {
         "pydub/__init__.py": "c355efd5ac1b691ddf3214cd135fa0ae77ecc200114cd42b2a90737d9fbe5410",
         "pydub/audio_segment.py": "35fe55907198d6ff49a9becdb4461fc11a4badfaaeb1f05d3c6399b22ed1e428",
@@ -11,6 +11,12 @@
         "pydub/pyaudioop.py": "0e9fdc4200326230f8395d991eec6d288d8a001b8f8bd618351505f20891f344",
         "pydub/scipy_effects.py": "536a7c010b95ade4e9e4caed500cd16d680e1d473a0f0ab44c01bf46d120fbb8",
         "pydub/silence.py": "17a315d1595a3ba9adba2b232c692cfd447e1959b33b5bfceff34abf3c11737d",
-        "pydub/utils.py": "5bbd6980915b6cd3f769d1fadf29f4128d022cb560cd71bb5876125e95af7727"
+        "pydub/utils.py": "5bbd6980915b6cd3f769d1fadf29f4128d022cb560cd71bb5876125e95af7727",
+        "pydub-0.25.1.dist-info/AUTHORS": "0326363d2f48d9e9cec819d49f17297805fe36730d58b413e320ed83c208cbbf",
+        "pydub-0.25.1.dist-info/LICENSE": "ae856536224cc7a389e968771fc5f259814bdd0da63539cf72282adbaef6897a",
+        "pydub-0.25.1.dist-info/METADATA": "7f433cfd956d6e2628508f5e8d721e274dc9a3d03935b8bed15d5b56ab398989",
+        "pydub-0.25.1.dist-info/WHEEL": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934",
+        "pydub-0.25.1.dist-info/top_level.txt": "3c78620c241565dc9c6717ca2f6950a33aee053e9986fc99030aa346bc37b74c",
+        "pydub-0.25.1.dist-info/RECORD": "dbd3a871c9ee72afaa3071e3e1021ff7f84067852689c473e201a5b561eae4aa"
     }
 }

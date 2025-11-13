@@ -1,20 +1,7 @@
-from __future__ import annotations
-from pydantic import BaseModel, Field, ValidationError, TypeAdapter
-from typing import Any, Generic, TypeVar, ClassVar, Type
 import gc
-
-functions: dict[str, Type[Function]] = {}
-
-def register(id_: str):
-    def deco(cls):
-        print("[REGISTER] Registering function: " + id_)
-        cls.id = id_
-        functions[id_] = cls
-        return cls
-    return deco
+import torch
 
 def get_default_device() -> str:
-    import torch
     if torch.cuda.is_available():
         return "cuda"
     elif torch.xpu.is_available():
@@ -25,7 +12,6 @@ def get_default_device() -> str:
         return "cpu"
 
 def clear_torch_cache():
-    import torch
 
     if torch.cuda.is_available():
         torch.cuda.empty_cache()
@@ -42,7 +28,6 @@ def get_best_dtype_for_device(device: str, quantize: bool = False) -> str:
     
     Supports CUDA, XPU (Intel), and Metal (MPS).
     """
-    import torch
 
     fallback = "int8" if quantize else "float32"
 
@@ -69,43 +54,3 @@ def get_best_dtype_for_device(device: str, quantize: bool = False) -> str:
         return "float16"
     else:
         return fallback
-
-P = TypeVar("P", bound=BaseModel)
-R = TypeVar("R", bound=BaseModel)
-
-class Function(BaseModel, Generic[P, R]):
-    id: ClassVar[str] = "__UNSET__"
-
-    params: P
-    returns: R | None = None
-    passes: dict[str, Any] = Field(default_factory=dict)
-
-    def exec(self):
-        raise NotImplementedError
-    
-    def cleanup(self):
-        pass
-
-    @classmethod
-    def parse_params(cls, data: dict) -> P:
-        anno = cls.model_fields['params'].annotation
-        return TypeAdapter(anno).validate_python(data)
-    
-    # @classmethod
-    # def parse_returns(cls, data: dict) -> R:
-    #     return cls.returns_model.model_validate(data)
-    
-# class AddParams(BaseModel):
-#     a: int = 0
-#     b: int = 0
-
-# class AddReturns(BaseModel):
-#     value: int = 0
-
-# class AddFunction(Function[AddParams, AddReturns]):
-#     id: Literal["add"] = "add"
-
-# add = AddFunction(params=AddParams(a=1,b=2))
-# nxt = AddFunction()
-
-# add.feed(nxt=nxt, mapping=Mapping(R2P={"value":"a"}), feeds={"b": 2})

@@ -1,12 +1,19 @@
 {
-    "id": "confection-0.1.5-py3-none-any",
+    "id": "confection-0.1.5-py3-none-any.whl",
     "hashes": {
         "confection/__init__.py": "c2e86db314fa6859345c4a2ef4ff8c9b12272944b96bb784821088caf6d7607b",
+        "confection/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "confection/util.py": "d22a211d074380577c79ce7b9a18f8d7303bc2284abd33dc5ca2efec9a0a2dba",
         "confection/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "confection/tests/conftest.py": "d3a4089816c6c44ee902fdf1f0931e84937dc6f183f18f67ef532161020c3766",
         "confection/tests/test_config.py": "a649c648b8a1a2d33b88b8b42987827ce4f1d6e1d6c5a5dc2960b28f1ccb63f2",
         "confection/tests/test_frozen_structures.py": "389caa93ec58e21bbcc83ac06d7f1c4a9bc0f4594ba65e3d1884a1d5c990d9c6",
-        "confection/tests/util.py": "092521f703a6e4e3007636c33f8bc34f418e747193f118180aaf02521c7548b9"
+        "confection/tests/util.py": "092521f703a6e4e3007636c33f8bc34f418e747193f118180aaf02521c7548b9",
+        "confection-0.1.5.dist-info/LICENSE": "f7f74ea82f9a10d7ce2ba05dd7e460c8c2bb42a6cc7d9ae71ab35661b5f71c9b",
+        "confection-0.1.5.dist-info/METADATA": "13820084fcc28cddb6a59089945dac7f3c34d817c4de47219da661bfe1ffba53",
+        "confection-0.1.5.dist-info/WHEEL": "189eedfe4581172c1b6a02b97a8f48a14c0b5baa3239e4ca990fbd8871553714",
+        "confection-0.1.5.dist-info/top_level.txt": "216d0c8253e5baa5673f6e9b0f6c7b6036ae04d12069f722ca394a77bb367733",
+        "confection-0.1.5.dist-info/zip-safe": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "confection-0.1.5.dist-info/RECORD": "1b13fa215e4e95fd1ed6b1069b456e1e7cb53955ef27d2e9fd40bbbe6c4e8072"
     }
 }

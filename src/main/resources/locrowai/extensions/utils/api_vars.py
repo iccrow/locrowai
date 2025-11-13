@@ -1,7 +1,7 @@
 from typing import Any, Dict
 from pydantic import BaseModel, ConfigDict
 
-from api import Function, register
+from api.extensions import Function, register
 
 class VarParams(BaseModel):
     model_config = ConfigDict(extra="allow", arbitrary_types_allowed=True)

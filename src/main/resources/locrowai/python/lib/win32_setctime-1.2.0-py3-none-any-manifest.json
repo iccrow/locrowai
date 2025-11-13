@@ -1,7 +1,13 @@
 {
-    "id": "win32_setctime-1.2.0-py3-none-any",
+    "id": "win32_setctime-1.2.0-py3-none-any.whl",
     "hashes": {
         "win32_setctime/__init__.py": "970503c746d442512613af38c7fc9028cf4e8c8478e3ec7e95fecfe43e184d66",
-        "win32_setctime/_setctime.py": "4c3f3e9577e86f78b6774c520a7e36aede1ee85880c9f8aef1c01f71428f642c"
+        "win32_setctime/_setctime.py": "4c3f3e9577e86f78b6774c520a7e36aede1ee85880c9f8aef1c01f71428f642c",
+        "win32_setctime/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "win32_setctime-1.2.0.dist-info/LICENSE": "2f2d766c4cef27a40d4b3c17d3e02e5b5b9ddffba2544a93f99ffafe05778518",
+        "win32_setctime-1.2.0.dist-info/METADATA": "7783ade002f8b2e6cbb04d97213fad766d2b84e17e5868fbf7c8c5b25b2e1509",
+        "win32_setctime-1.2.0.dist-info/WHEEL": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "win32_setctime-1.2.0.dist-info/top_level.txt": "2406b6cba4fcc2834ad005fe738b070d7799927dcdb4468ccd35cc21ce03b328",
+        "win32_setctime-1.2.0.dist-info/RECORD": "3657f56db20fbcab7fa74fe595b3e45720230c2c80a304d83968cc0415968834"
     }
 }

@@ -1,5 +1,5 @@
 {
-    "id": "diskcache-5.6.3-py3-none-any",
+    "id": "diskcache-5.6.3-py3-none-any.whl",
     "hashes": {
         "diskcache/__init__.py": "25c12dcf6db81becac1e6832c5621ddbc034c107c22227f499dbf8b6a0be6719",
         "diskcache/cli.py": "455bfa1729fb87fd04e41a00549cdb6e33963c31d73b466336087d83908144ff",
@@ -7,6 +7,11 @@
         "diskcache/djangocache.py": "497f2397677ebdf38c1bb85766eba1d950a764450ffa61c68d82e933645d31a4",
         "diskcache/fanout.py": "1381a4fa9b801ac6a2ab27f8e5894b7554dfd9133583b432f933d2ba0d44969a",
         "diskcache/persistent.py": "0a2af708f7ad01f0021e5084cd8d4fe41fd8ad93cf796aaca0aae4b81071702a",
-        "diskcache/recipes.py": "76be82b59ebb9d17b75cc5018f627a0ffb9fb6ab8c8bfacda59060f22ea57d13"
+        "diskcache/recipes.py": "76be82b59ebb9d17b75cc5018f627a0ffb9fb6ab8c8bfacda59060f22ea57d13",
+        "diskcache-5.6.3.dist-info/LICENSE": "583546baa3fd93607d845126570677a401f508e228b5044fefbc3949af179672",
+        "diskcache-5.6.3.dist-info/METADATA": "6fc70cff43a3c6666531e6c268e90059fb93ae58aed708163c0ceecab24dbaef",
+        "diskcache-5.6.3.dist-info/WHEEL": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "diskcache-5.6.3.dist-info/top_level.txt": "0397ea83f00780e41cff4a35359f94a3906c6fb095ddf47df49fa9d7e178cae0",
+        "diskcache-5.6.3.dist-info/RECORD": "fc5a1748556f39ebfa4d0df23f0a82c33d3dd00c59a6edd3be87a9784492c9fe"
     }
 }

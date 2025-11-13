@@ -1,8 +1,15 @@
 {
-    "id": "certifi-2025.8.3-py3-none-any",
+    "id": "certifi-2025.8.3-py3-none-any.whl",
     "hashes": {
         "certifi/__init__.py": "d1ae6ba3829361ea77ecea3467c4f27023d768394e12dbee8f6a4d599ff5b7c6",
         "certifi/__main__.py": "c410688fdd394d45812d118034e71fee88ba7beddd30fe1c1281bd3b232cd758",
-        "certifi/core.py": "5c55f2727746e697f7edac9e17c377d8752e0da7ecca191531b3b80403d61dad"
+        "certifi/cacert.pem": "9102e6a3644a071ba6cdbd4a53698f291c4a64b18450a08bc046548b6db5cc8b",
+        "certifi/core.py": "5c55f2727746e697f7edac9e17c377d8752e0da7ecca191531b3b80403d61dad",
+        "certifi/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "certifi-2025.8.3.dist-info/licenses/LICENSE": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7",
+        "certifi-2025.8.3.dist-info/METADATA": "cf8b06ddfa2c6cfde7be2b9bfd352949bef5cf46cf9aca775dae9921ab4651ee",
+        "certifi-2025.8.3.dist-info/WHEEL": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "certifi-2025.8.3.dist-info/top_level.txt": "28cbb8bd409fb232eb90f6d235d81d7a44bea552730402453bffe723c345ebe5",
+        "certifi-2025.8.3.dist-info/RECORD": "b8d54b20cfd13a5b842d5915d83e3633e8a5397cef110ae6ff7b5d70fe6a4fd8"
     }
 }

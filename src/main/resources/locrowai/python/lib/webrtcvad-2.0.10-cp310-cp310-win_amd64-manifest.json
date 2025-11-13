@@ -1,7 +1,12 @@
 {
-    "id": "webrtcvad-2.0.10-cp310-cp310-win_amd64",
+    "id": "webrtcvad-2.0.10-cp310-cp310-win_amd64.whl",
     "hashes": {
         "_webrtcvad.cp310-win_amd64.pyd": "8685e7387abcb59ac99fc090def612840ece42132cc0ef533a758abda30a56bb",
-        "webrtcvad.py": "12568950f61abd5533615d77f1aef82041480c82bbcdbce0d374c12912ea7e57"
+        "webrtcvad.py": "12568950f61abd5533615d77f1aef82041480c82bbcdbce0d374c12912ea7e57",
+        "webrtcvad-2.0.10.dist-info/LICENSE": "c652961f6c92f978ebe4acea6b8b68d4d2d777bd0a1df130c9deffca12d482cd",
+        "webrtcvad-2.0.10.dist-info/METADATA": "dafcd7b35b0a1c3dc38d458556deef57949e02444f2a91a3e98640e85f0f5f1e",
+        "webrtcvad-2.0.10.dist-info/WHEEL": "3555e90fb6f81b1a6cd1c77676ce6baf94c6f16e00a44c31fe2e49f7da8c6791",
+        "webrtcvad-2.0.10.dist-info/top_level.txt": "da8c0167bcdfa5d9246d3087cdc732b049cab22026fce09a3c084e4dfdccab01",
+        "webrtcvad-2.0.10.dist-info/RECORD": "ab502d74682e4dbd9b623e5415dd1cc2d93e88134630be67ae49644ea33a893b"
     }
 }

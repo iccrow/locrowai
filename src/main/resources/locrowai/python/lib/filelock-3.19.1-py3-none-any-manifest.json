@@ -1,5 +1,5 @@
 {
-    "id": "filelock-3.19.1-py3-none-any",
+    "id": "filelock-3.19.1-py3-none-any.whl",
     "hashes": {
         "filelock/__init__.py": "fedffe380197a3fab23daf65350d589f355812f496dc8d289cfab3a689ac5558",
         "filelock/_api.py": "d9a01305e277fa3b4c8f93929bb104e77f6235a4c1b1fd77297b5c04ca22f283",
@@ -9,6 +9,11 @@
         "filelock/_util.py": "4070683452187db013861a2d1f743c13669c15cf38c291b8f7e4febaed35ed91",
         "filelock/_windows.py": "f24e1720197fcd955f182da0cf4904afc0d906fa4d6bcc1d53da9e33562b05bf",
         "filelock/asyncio.py": "2c3f7292c0b6e055749a1fe1ce0cd58b89a63a316055509bed92db2ea25caace",
-        "filelock/version.py": "5b47d0246aa2f31a86ab19bc11d87ea0f64023768987958fb4c62925bd45c0a4"
+        "filelock/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "filelock/version.py": "5b47d0246aa2f31a86ab19bc11d87ea0f64023768987958fb4c62925bd45c0a4",
+        "filelock-3.19.1.dist-info/METADATA": "822e98d63d6669cd35e35b0907f41ad8c4ef870c92260d84a868dd7e1040e0e8",
+        "filelock-3.19.1.dist-info/WHEEL": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "filelock-3.19.1.dist-info/licenses/LICENSE": "88d9b4eb60579c191ec391ca04c16130572d7eedc4a86daa58bf28c6e14c9bcd",
+        "filelock-3.19.1.dist-info/RECORD": "2c45264d5c27b786d5059c573c8b35b3937895d0dc8321b7d1c1b6f8d0926941"
     }
 }

@@ -1,5 +1,5 @@
 {
-    "id": "python_dotenv-1.1.1-py3-none-any",
+    "id": "python_dotenv-1.1.1-py3-none-any.whl",
     "hashes": {
         "dotenv/__init__.py": "58153949f4a2280852de1ceed7bca436ebb06eec320c25fdd52cefe2f51e3ae3",
         "dotenv/__main__.py": "3744612c6ee71c8aad9491f0c1ea48a3ecdb24f371f6c7b0082446639dbc87fe",
@@ -7,7 +7,14 @@
         "dotenv/ipython.py": "6af23a69ecff4719c1a6d62072122ab85d934a0288f863a1637a698aedd5b961",
         "dotenv/main.py": "1c98244b45d971dd1fd9565a546c6551cace121a8172643a2f3f6142b31f6aeb",
         "dotenv/parser.py": "4205391f0330336c0caadd2fcfa7474c9e27ccf9b0a91aaf8b8312c9e5627e05",
+        "dotenv/py.typed": "f0f8f2675695a10a5156fb7bd66bafbaae6a13e8d315990af862c792175e6e67",
         "dotenv/variables.py": "083d2a5cebefa41deae51a4140c0fda97eaf1d7ed2c96f92ba2c063054a5b74f",
-        "dotenv/version.py": "abcff90b47fef261d635bea6330d36ce560f9c419706abce98fdf3d0213064a3"
+        "dotenv/version.py": "abcff90b47fef261d635bea6330d36ce560f9c419706abce98fdf3d0213064a3",
+        "python_dotenv-1.1.1.dist-info/licenses/LICENSE": "80619b7049f08c81683ad0e01f08f257a840652dd71ee83146d36658c7d2c2b9",
+        "python_dotenv-1.1.1.dist-info/METADATA": "7442ef48a5f067e35b40a01efa4fae24cf2486654df1933dd81e6dc98f34d726",
+        "python_dotenv-1.1.1.dist-info/WHEEL": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "python_dotenv-1.1.1.dist-info/entry_points.txt": "c91975ac26ecc1bd6741343f8194650b0e507da6f3b541a77c658b8655c535d2",
+        "python_dotenv-1.1.1.dist-info/top_level.txt": "7b2a941f848724dafa6a139897122e9d3af85e29c4f19e5a8d62ddacadebd03f",
+        "python_dotenv-1.1.1.dist-info/RECORD": "5749ef131d041f9192ced4b331264261716c68c691d93863cc3c2db5c5298a6e"
     }
 }

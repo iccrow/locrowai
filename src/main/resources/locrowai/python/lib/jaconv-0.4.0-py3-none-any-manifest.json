@@ -1,9 +1,21 @@
 {
-    "id": "jaconv-0.4.0-py3-none-any",
+    "id": "jaconv-0.4.0-py3-none-any.whl",
     "hashes": {
         "jaconv/__init__.py": "a16d74e7c7c5c483a54fe735ab03746ec76c43ddbb40f3df14f7f7e559ac2400",
+        "jaconv/__init__.pyi": "0c600e3752b7b75062409dec545494e5ad5e7a614bb6a1941711784e04ca61a0",
         "jaconv/compat.py": "d9e766026e6aa6cd8691aa58cba1c5ee5e4902d33d25285de3f3fc11928e0ae5",
+        "jaconv/compat.pyi": "e688fb7029e96ff70493a8435e6ba18df6d462ec1c4e314a51272b4eadcdb1c0",
         "jaconv/conv_table.py": "89bdff0654748617cbadab1754b98e97c44ad815eab5dac72d21218a43141340",
-        "jaconv/jaconv.py": "2b64a23a06785721a09c59f512044164a8129c2bfcf15bffb81758848bce1915"
+        "jaconv/conv_table.pyi": "7c70ea6e9c1a13f29b0fa7ca0ec0d5328727c9b95530101a930ddcdffaf9c262",
+        "jaconv/jaconv.py": "2b64a23a06785721a09c59f512044164a8129c2bfcf15bffb81758848bce1915",
+        "jaconv/jaconv.pyi": "979983b9479e9849dd6d28b54be98f0e41e391ed5065ad4f5c01bac255e6be7e",
+        "jaconv/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "jaconv-0.4.0.data/data/CHANGES.rst": "f824aab118bfad10951b554935035e853c795886886c416e93106029203987cd",
+        "jaconv-0.4.0.data/data/README.rst": "8d1cf7f760b685c847cbdc867f576721e1c9754a607ba6671aac482a295738ee",
+        "jaconv-0.4.0.dist-info/licenses/LICENSE": "3ce05b9340c7f51a5085c657dd790ea1e864290b66a88fe07bb6ffa1b8681ad0",
+        "jaconv-0.4.0.dist-info/METADATA": "bb22e47d133c5878709db37c6a0219c2b319a2bb418204fd07ab05514cc34f92",
+        "jaconv-0.4.0.dist-info/WHEEL": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "jaconv-0.4.0.dist-info/top_level.txt": "e1577dce04c21ec8e25ef65354c77d7747a7ec98a5d5c73214d8a912dee08faf",
+        "jaconv-0.4.0.dist-info/RECORD": "4afa0b00a0c8c0e9bd73b95982c3ea7f5f63c09c016cf28f7c3a8ecf5e613d15"
     }
 }

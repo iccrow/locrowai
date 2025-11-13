@@ -1,5 +1,5 @@
 {
-    "id": "cloudpathlib-0.21.1-py3-none-any",
+    "id": "cloudpathlib-0.21.1-py3-none-any.whl",
     "hashes": {
         "cloudpathlib/__init__.py": "abcb6558d24a61d67d9c72fd4c6cba37c7b5718f13862856f5a726c0984ba69b",
         "cloudpathlib/anypath.py": "d1099518ee2de8bed48fb62e55e2e290053804d711b499e18e030b6bdf345f28",
@@ -7,6 +7,7 @@
         "cloudpathlib/cloudpath.py": "95b68571d58297219d77b61ba62252fb35b72f00432141b6c7c64419d8f6d3cb",
         "cloudpathlib/enums.py": "f3b30d491701a573940f9e9420e2198147ab4ae8363e91f45818a94e47d15003",
         "cloudpathlib/exceptions.py": "35ebd20fcd3b1ca59c75bf0f2d0fd4e1d788f3036ee939813eba23b3416b6dfc",
+        "cloudpathlib/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "cloudpathlib/url_utils.py": "7c03bd445abd341315f2a06f926704dc304c00f02d5b93e5ed7b9707d8b8f5bf",
         "cloudpathlib/azure/__init__.py": "7b2903d81a9bc727753527accaeeff298b259bfe57d0ea89a548d9b515fd0187",
         "cloudpathlib/azure/azblobclient.py": "768ec22bf0b4bb57e97aeee20269405d7e9bf74ba3343a620f23d8314e294729",
@@ -24,6 +25,10 @@
         "cloudpathlib/local/implementations/s3.py": "ba7a26fdbe179152ff5fb57227fb8b0dcb8b19c3bc55caee396559297d2949e5",
         "cloudpathlib/s3/__init__.py": "a386804f297d9d5438e8948aa4804b04f9dbca267935c983dadc583c0b884761",
         "cloudpathlib/s3/s3client.py": "7b6088c7f3599ee442b5830db9be9377a8f7dab67d350807ae83242518f3f8b4",
-        "cloudpathlib/s3/s3path.py": "fdd2cbe733fc40cdcfb32e3338bc8b932b9f2c7daf7cd173dec938d2b5c3f431"
+        "cloudpathlib/s3/s3path.py": "fdd2cbe733fc40cdcfb32e3338bc8b932b9f2c7daf7cd173dec938d2b5c3f431",
+        "cloudpathlib-0.21.1.dist-info/licenses/LICENSE": "7ab01fa6c3fb599011ca55017e9f09f9e67b868fb421736a665992db7712c135",
+        "cloudpathlib-0.21.1.dist-info/WHEEL": "1b68144734c4b66791f27add5d425f3620775585718a03d0f9b110ba3a4d88db",
+        "cloudpathlib-0.21.1.dist-info/METADATA": "8def81b48c4218bee52f79cff00d8fca7df5b75f1008716ac5e9c6ece4ab8082",
+        "cloudpathlib-0.21.1.dist-info/RECORD": "1fa6cb49f126b62a5e997609a9d06357ea100aedaa4d85897d20e2a8b3cd8fe2"
     }
 }

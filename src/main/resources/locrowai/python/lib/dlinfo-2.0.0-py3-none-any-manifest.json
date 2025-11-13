@@ -1,8 +1,13 @@
 {
-    "id": "dlinfo-2.0.0-py3-none-any",
+    "id": "dlinfo-2.0.0-py3-none-any.whl",
     "hashes": {
         "dlinfo/__init__.py": "9ae2659358c5401cf97bbd2123937c9ed95a2b26cfbb8f3dd07a11bb530a67f3",
         "dlinfo/_glibc.py": "3d811bd992cbdbdc40a1d2d11da09cbb6060dc5ee52cccb123516ac3dddd2aaa",
-        "dlinfo/_macosx.py": "87c94e89e2e6efe8682188738a9c851ee8f9d8919ec18540bc669fc1c6280162"
+        "dlinfo/_macosx.py": "87c94e89e2e6efe8682188738a9c851ee8f9d8919ec18540bc669fc1c6280162",
+        "dlinfo-2.0.0.dist-info/LICENSE": "1fd86a529dead7ed5730b366080bbd10665d588913fd2d9ce50eb3a161095fb9",
+        "dlinfo-2.0.0.dist-info/METADATA": "380c36fadd6b34f01daa6a4ab51379cd2563b47f9ffbf40f7c700bb0a68df138",
+        "dlinfo-2.0.0.dist-info/WHEEL": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "dlinfo-2.0.0.dist-info/top_level.txt": "259d26021d8944fc0a531d226606c603d6cfa37cd45dd67b24b5a5e13014c621",
+        "dlinfo-2.0.0.dist-info/RECORD": "bff38c1d686711964b9a451871f3723a18c5ca84678b28d5460a41dcd50351fa"
     }
 }

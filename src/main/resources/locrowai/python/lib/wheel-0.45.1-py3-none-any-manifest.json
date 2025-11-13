@@ -1,5 +1,5 @@
 {
-    "id": "wheel-0.45.1-py3-none-any",
+    "id": "wheel-0.45.1-py3-none-any.whl",
     "hashes": {
         "wheel/__init__.py": "9abc4c9ef757002babfcb59e81b51f879839cac599addeb75099fcf74c2f18d9",
         "wheel/__main__.py": "3643149ee4c219c3a4818d0804b8010950bf04619c58e471d8af236064b5d941",
@@ -16,6 +16,10 @@
         "wheel/cli/tags.py": "947c3e2da5ab912e49cbfa96730fbaa528de34ceb20230e7a8a2371392534c25",
         "wheel/cli/unpack.py": "63f27bca7c4f4a81454d3ec7d1f3206c195512bc320c670e6e099ee4c06ecf9f",
         "wheel/vendored/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "wheel/vendored/vendor.txt": "67610d8c1d62e69adf7b3f0274cd5276bddce99c6fdab451a253292e60677001",
+        "wheel/vendored/packaging/LICENSE": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+        "wheel/vendored/packaging/LICENSE.APACHE": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+        "wheel/vendored/packaging/LICENSE.BSD": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
         "wheel/vendored/packaging/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "wheel/vendored/packaging/_elffile.py": "85b98af0e0fa67b7d8ea1c229c7114703d5bcbb73390688d62eed28671449369",
         "wheel/vendored/packaging/_manylinux.py": "3fbb1d479ffb5c1634f4b55860f8479b274c2482303d75ac878a2593be14ba3e",
@@ -28,6 +32,11 @@
         "wheel/vendored/packaging/specifiers.py": "2164add12acb48fef685e5a1002f142f4786bdab3b5c84078ea8958957e63ca1",
         "wheel/vendored/packaging/tags.py": "7de7475e2387901c4d6535e8b57bfcb973e630553d69ef93281ba38181e281c0",
         "wheel/vendored/packaging/utils.py": "5e07663f7cb1f7ec101058ceecebcc8fd46311fe49951e4714547af6fed243d1",
-        "wheel/vendored/packaging/version.py": "3c525a6190f1060cb191f6211f7490c38a9f13d202096ad39a2b6fab5e32ddbb"
+        "wheel/vendored/packaging/version.py": "3c525a6190f1060cb191f6211f7490c38a9f13d202096ad39a2b6fab5e32ddbb",
+        "wheel-0.45.1.dist-info/entry_points.txt": "ad363505b90f1e1906326e10dc5d29233241cd6da4331a06d68ae27dfbc6740d",
+        "wheel-0.45.1.dist-info/LICENSE.txt": "30c23618679108f3e8ea1d2a658c7ca417bdfc891c98ef1a89fa4ff0c9828654",
+        "wheel-0.45.1.dist-info/WHEEL": "0a950253178741b44de54191407611268acee407fe432fdf1cc72d710f034862",
+        "wheel-0.45.1.dist-info/METADATA": "98acfce07ee6ee3b31272cde21c4d53918936f434f315dfd2af3886211a09a30",
+        "wheel-0.45.1.dist-info/RECORD": "ed1d1f5cd219e4c830e505ac498d2856b87c8e8821ee4bfed65dd5b0060f556e"
     }
 }

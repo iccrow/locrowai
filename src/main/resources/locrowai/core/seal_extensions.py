@@ -9,27 +9,13 @@ import importlib
 from tqdm import tqdm
 
 from import_tracker import start_requirements, get_requirements, clear_tracked, stop_tracking
-from api import functions
+from api.extensions import functions
 
-HASH_EXTENSIONS = [
-    ".py",
-    ".pyd",
-    ".so",
-    ".dll",
-    ".dylib",
-    ".pyx",
-    ".pxd",
-    ".exe",
-    ".c",
-    ".cpp",
-    ".cu",
-    ".h",
-    ".hpp",
-    ".lua",
-    ".bin",
-    ".bat",
-    ".sh"
-]
+BLACKLIST = (
+    ".pyc",
+    "manifest.json",
+    "manifest.json.sig.b64",
+)
 
 PRIVATE_KEY = Path("keys/private.pem")
 
@@ -60,9 +46,11 @@ for extension in tqdm(extensions.glob("*/__init__.py")):
 
     importlib.import_module(f'extensions.{extension.parent.name}')
     for func in functions.values():
-        func.warmup()
+        print(f"Warmup: {func.__name__}")
+        if hasattr(func, "warmup"):
+            func.warmup()
     
-    functions = {}
+    functions.clear()
 
     reqs = sorted(get_requirements())
 
@@ -71,15 +59,14 @@ for extension in tqdm(extensions.glob("*/__init__.py")):
     _hashes = {}
 
     for file in extension.parent.rglob("*"):
-        if file.is_dir() or file == manifest_path or file == manifest_path.with_suffix(".json.sig.b64"):
+        if file.is_dir():
             continue
         key = file.relative_to(extension.parent).as_posix()
-        if file.suffix in HASH_EXTENSIONS:
+        if not file.name.endswith(BLACKLIST) and not key.startswith(("models\\", "models/", "cache\\", "cache/")):
             with file.open("rb") as f:
                 data = f.read()
                 file_hash = sha256_bytes(data)
                 _hashes[key] = file_hash
-        elif file.suffix != ".pyc": _hashes[key] = None
 
     with manifest_path.open("r+") as manifest_file:
         content = json.load(manifest_file)

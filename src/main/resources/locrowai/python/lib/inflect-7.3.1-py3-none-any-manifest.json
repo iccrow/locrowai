@@ -1,8 +1,14 @@
 {
-    "id": "inflect-7.3.1-py3-none-any",
+    "id": "inflect-7.3.1-py3-none-any.whl",
     "hashes": {
         "inflect/__init__.py": "271cb51c95d9899f3990778b021926bf3e84313745a817be76ebeddf847a20e7",
+        "inflect/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "inflect/compat/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "inflect/compat/py38.py": "a0e6d57d59d65fdfcea673ae1099f59856c9c55870c91e5ea5b8933570c36aca"
+        "inflect/compat/py38.py": "a0e6d57d59d65fdfcea673ae1099f59856c9c55870c91e5ea5b8933570c36aca",
+        "inflect-7.3.1.dist-info/LICENSE": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+        "inflect-7.3.1.dist-info/METADATA": "66030d634580651b3e53cc19895d9231f8d22aa06b327817c8332cfc20303308",
+        "inflect-7.3.1.dist-info/WHEEL": "cb8997f92397e1f6089289ec0060393743b2fbcfe0238157c391cd235c6abd68",
+        "inflect-7.3.1.dist-info/top_level.txt": "9b9dae8dda75d02a93ea38755d0c594fa9049ed727bfeed397b52218d4f35990",
+        "inflect-7.3.1.dist-info/RECORD": "da62402f71ac0189bd86355a7aec27b0cd541b60f33bbe6daa2d65efed8611ef"
     }
 }

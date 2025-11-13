@@ -1,5 +1,5 @@
 {
-    "id": "networkx-3.4.2-py3-none-any",
+    "id": "networkx-3.4.2-py3-none-any.whl",
     "hashes": {
         "networkx/__init__.py": "bd5f9b6329a5f492b9395f0873f75cb4be59191e4dab01787f37789ac4766fd5",
         "networkx/conftest.py": "d30a5773da6b1982d2c39806f95bee9a696d2f11f946d29e1b0af116c0a17b81",
@@ -249,11 +249,15 @@
         "networkx/algorithms/flow/shortestaugmentingpath.py": "8175dd918de71f8774857567d0fdbe9337c2dc31dcb8276bb9d15dc5eb5f94a2",
         "networkx/algorithms/flow/utils.py": "6c27a21408b215ee3ea6d902a29a3f3e740a17dc58e4cf01afcee1253ddf4564",
         "networkx/algorithms/flow/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "networkx/algorithms/flow/tests/gl1.gpickle.bz2": "cf8f81ceb5eaaee1621aa60b892d83e596a6173f6f6517359b679ff3daa1b0f8",
+        "networkx/algorithms/flow/tests/gw1.gpickle.bz2": "6f79f0e90fa4c51ec79165f15963e1ed89477576e06bcaa67ae622c260411931",
+        "networkx/algorithms/flow/tests/netgen-2.gpickle.bz2": "3b17e66cdeda8edb8d1dec72626c77f1f65dd4675e3f76dc2fc4fd84aa038e30",
         "networkx/algorithms/flow/tests/test_gomory_hu.py": "696b5b237007a1f20ae8b0c99e68fd507d5039fba55ec8b937207b6cdc95d95c",
         "networkx/algorithms/flow/tests/test_maxflow.py": "e02b463aa7b29680311526a36b13df1aec95844d11dc87497f64ae220e241ca4",
         "networkx/algorithms/flow/tests/test_maxflow_large_graph.py": "d5aee94b48b9b23fe4a302de9444dc1ddadfed198f1210099e6093d37259d0af",
         "networkx/algorithms/flow/tests/test_mincost.py": "9f87c52c3c032f2ed36aefbf7b2d42a316702a1163936f062c62630b2c610a59",
         "networkx/algorithms/flow/tests/test_networksimplex.py": "6ec57196f1c00f42bb6837af09c55a6bdb9134db1601ebf0eb250a963d93f0da",
+        "networkx/algorithms/flow/tests/wlm3.gpickle.bz2": "ccacba1e0fbfb30bec361f0e48ec88c999d3474fcda5ddf93bd444ace17cfa0e",
         "networkx/algorithms/isomorphism/__init__.py": "80f450fbf5fac4dda52593d0370f3a2158f835e98699b4184de8dfe72277d8de",
         "networkx/algorithms/isomorphism/ismags.py": "4e964fe710f12c84c218e93c0d3e040556960db6e3cc4513e593820cd180868d",
         "networkx/algorithms/isomorphism/isomorph.py": "620d80ba4bf4b5564843aea3c730d2e033c18d7e8330ac13d3f58d1f5d9fb209",
@@ -264,6 +268,10 @@
         "networkx/algorithms/isomorphism/vf2pp.py": "58d5dfee0d2eddcf11dc8b17d98b8fde0594e6c8dbd2eaa3b834af9ada1bfd01",
         "networkx/algorithms/isomorphism/vf2userfunc.py": "1e23f0cabee7245d504bdc3af4ccca7fac06bcef1c823bdd4b9bd6e7d8b009ec",
         "networkx/algorithms/isomorphism/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "networkx/algorithms/isomorphism/tests/iso_r01_s80.A99": "84acccb582d447c3aaa7da66251e91c06eeaa37d5a34f65c9d7cb82870c686a5",
+        "networkx/algorithms/isomorphism/tests/iso_r01_s80.B99": "007c7f5b6c46e0911ccf5c4aa0de53c021d513af943b63e2301cb29e47784cf1",
+        "networkx/algorithms/isomorphism/tests/si2_b06_m200.A99": "3559cf140e766a6365dea339e46d55f5e2fd6653fd370ba00653dffb37a44c55",
+        "networkx/algorithms/isomorphism/tests/si2_b06_m200.B99": "f9c9480e9d392c53511c0d818218464decae5c3a8106a03d5e9133a41ecabbb3",
         "networkx/algorithms/isomorphism/tests/test_ismags.py": "f03d635a8b1aacd27467309881fc32d2607ad9855900cbc6f9417d434a5e45ad",
         "networkx/algorithms/isomorphism/tests/test_isomorphism.py": "905fa8e1d4e307b01dd0d3879d41a888e08236bdcc5929899bf60173e5af8609",
         "networkx/algorithms/isomorphism/tests/test_isomorphvf2.py": "aa2b2079a08b3bccad7f4f433fbcc036c9d67401cfbb596f265e069a0db30fa3",
@@ -426,7 +434,9 @@
         "networkx/drawing/tests/test_layout.py": "21697b70215bfde1a8c23002179b648bdbe84e13b31cda4f8239289f31fea734",
         "networkx/drawing/tests/test_pydot.py": "5fd6faea05aa320753132449ed99b2e642fd72bdb6c1a23af3c2bd04951fe019",
         "networkx/drawing/tests/test_pylab.py": "2a05a23708247529fe037ebe0cfebc64589b6dbe89595e1238903b3b8df76395",
+        "networkx/drawing/tests/baseline/test_house_with_colors.png": "1508bda48445c23ab882f801f1c0dd0472f97ae414245c3ab1094005fda4455a",
         "networkx/generators/__init__.py": "128601e5ce59138aec34a66f9754d1432d95a360f74f61fe62e9f20f68bab1ad",
+        "networkx/generators/atlas.dat.gz": "73fc416df0164923607751cb759f4ae81deb5f6550bf25be59c86de3b747e41d",
         "networkx/generators/atlas.py": "d3b5de8338f98ff4a202983382f7b6ad24d7a749e65b00b0efed647948dbbd1a",
         "networkx/generators/classic.py": "ebc9429d27a8e74b95d72a1ce99be39dc911ee501bae151d9e2c84a20733bc1e",
         "networkx/generators/cographs.py": "f96478ff2acd93f5f99e3ede81bec0db678a3d5ca639d21833e21fb52447e160",
@@ -566,6 +576,12 @@
         "networkx/utils/tests/test_misc.py": "ce40f5a583b8c41b81c6519efa753ca24717ea17c3320bb4389646bb84ccacdd",
         "networkx/utils/tests/test_random_sequence.py": "3aef887821726e26d9bb27288a7e60510cf30be8b2e726a76459abaaf746b7a4",
         "networkx/utils/tests/test_rcm.py": "52f50092099030693f367f784c9c90b257b803948b405a8c41695dd6d890da59",
-        "networkx/utils/tests/test_unionfind.py": "8fe0c5e57c9e273ab586878080de4dc9ed80bbb10f0f4e34b7ca12e00c362305"
+        "networkx/utils/tests/test_unionfind.py": "8fe0c5e57c9e273ab586878080de4dc9ed80bbb10f0f4e34b7ca12e00c362305",
+        "networkx-3.4.2.dist-info/LICENSE.txt": "5b433b90f755eb9bbd06feff1d1a4f5f232c5208a185694199e45fa95d762792",
+        "networkx-3.4.2.dist-info/METADATA": "2e5265dda876ef3c44fefa9e9553499bc564c89a16c95e38bdaf9babc556d1d7",
+        "networkx-3.4.2.dist-info/WHEEL": "39531ce547ee010892a6580ed3f59d5bbbd754602df4775deaab4de07a2d7720",
+        "networkx-3.4.2.dist-info/entry_points.txt": "1f68d9683b0327f8bd1f64b05a9c2e15e97c06b67dc472aebe1f83400596f654",
+        "networkx-3.4.2.dist-info/top_level.txt": "b37324fbb28e96efa40f7f70f1783f297a0fe59fcc56f801faea64cae384e079",
+        "networkx-3.4.2.dist-info/RECORD": "5b75069ca5a32849662314372f143e986601aa47ebc9460ce7ad5105c34a572a"
     }
 }

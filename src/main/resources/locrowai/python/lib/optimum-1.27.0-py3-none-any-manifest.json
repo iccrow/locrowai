@@ -1,5 +1,5 @@
 {
-    "id": "optimum-1.27.0-py3-none-any",
+    "id": "optimum-1.27.0-py3-none-any.whl",
     "hashes": {
         "optimum/configuration_utils.py": "a5a8f75e329e8070672066d41334e106bc8920c6bf4e5ec1638a5cdb97be5ce6",
         "optimum/conftest.py": "30979b8ba9c793d59efb625566786b914cbcbb963694a1db6d69b7cb9e9c0f3f",
@@ -127,6 +127,12 @@
         "optimum/utils/preprocessing/question_answering.py": "bcc021e7e983d2bf10ae4e22f46d224eff5eb1f33038a1ec69abb621f2f7c32b",
         "optimum/utils/preprocessing/task_processors_manager.py": "b2f1a0828d286dd84cbd483e080731de592da6e01a0a2aaa88fc9cb6904f9a5d",
         "optimum/utils/preprocessing/text_classification.py": "aadb5d44e6d32b235eb47647959f305af1df323f84011a5c620bd6cae80595c1",
-        "optimum/utils/preprocessing/token_classification.py": "ee649e116de0e92d3054e203cb64fdbd49af0c37db1e650796eb94794322b531"
+        "optimum/utils/preprocessing/token_classification.py": "ee649e116de0e92d3054e203cb64fdbd49af0c37db1e650796eb94794322b531",
+        "optimum-1.27.0.dist-info/licenses/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "optimum-1.27.0.dist-info/METADATA": "67fe85f0d4e11e177b4cf29ce6476c9a4735422e62906cb80563eb880f7572e1",
+        "optimum-1.27.0.dist-info/WHEEL": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "optimum-1.27.0.dist-info/entry_points.txt": "d7ffe5bf68e93612dbe5e6c2aaa6ecf0514f84e7e2f7fde71f574fd65bef67db",
+        "optimum-1.27.0.dist-info/top_level.txt": "adcd6b57eb8f667575124ee10b0879ea9bcc08a722a7ae496c74515acf18aaef",
+        "optimum-1.27.0.dist-info/RECORD": "83466c71971664eae75066e8ea6748fd6d1a490c568fbcbd0fd9a5bf30bbc852"
     }
 }

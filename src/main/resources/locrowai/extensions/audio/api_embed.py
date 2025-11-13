@@ -2,7 +2,8 @@ from pydantic import BaseModel, ConfigDict
 from torch import Tensor
 import torchaudio
 
-from api import Function, register
+from api.extensions import Function, register
+from api.threading import ModelLock
 from .classifier_loader import get_classifier
 
 class EmbedParams(BaseModel):
@@ -21,7 +22,8 @@ class EmbedFunc(Function[EmbedParams, EmbedReturns]):
             raise RuntimeError("No speaker embedding model is loaded.")
         
         signal, fs = torchaudio.load(self.params.path)
-        embeddings = model.encode_batch(signal)
+        with ModelLock("audio_classifier"):
+            embeddings = model.encode_batch(signal)
 
         self.returns = EmbedReturns(embeddings=embeddings)
     

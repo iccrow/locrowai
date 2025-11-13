@@ -1,5 +1,5 @@
 {
-    "id": "future-1.0.0-py3-none-any",
+    "id": "future-1.0.0-py3-none-any.whl",
     "hashes": {
         "future/__init__.py": "4fd3cd2eeeb272656da444cbc51bab9ae7ee4406a8b0809699674013165be5af",
         "future/backports/__init__.py": "e505ef43f8dce57c7aa787526879d95cf65acc112e9ca0ca85b523c59d170f52",
@@ -46,7 +46,21 @@
         "future/backports/http/cookies.py": "0ecc835060c46c25c003d26aeacbacc1273beae499a94bb7f5a7430cd8fc5c6c",
         "future/backports/http/server.py": "d4268cc60cc77fd9588664c9c84eeda298234489489fd7278e0c3c604bf0255e",
         "future/backports/test/__init__.py": "f5d5f12199e4234f7961f1c2f9721a545e9ddf51a3798d4083c4c4cdc1607a93",
+        "future/backports/test/badcert.pem": "262a107916641c7f211ac5898c0177535cd0bdc5aa872cc6e883842694d8f521",
+        "future/backports/test/badkey.pem": "81a04af69c7f806ec39ab2cac5f0fa7fa8beb6802601105355fb3e606151405d",
+        "future/backports/test/dh512.pem": "7544ec8ed2db2be7de9aba2b52b4c617caaf2e3853893fe7e14a3957abbffc6b",
+        "future/backports/test/https_svn_python_org_root.pem": "c0e0773a79dceb622ef6410577c19c1e177fb2eb9c623a49340de3c9f1de2560",
+        "future/backports/test/keycert.passwd.pem": "6417e754ba5b06d00e7ffda009d890fb2ac11e646c37349ff150b75294192238",
+        "future/backports/test/keycert.pem": "c4f5e2e6274f71055bae183106a1764cd1a6eac499d9a2d5544b7a0d6ce994bf",
+        "future/backports/test/keycert2.pem": "0c1e3a144018bfc056c1027ee51cc2ebde85c4f37b08e37e42c8be478a682607",
+        "future/backports/test/nokia.pem": "b34d31d2e3c349a6b90c727f0b0ce5561837395749e3b7f8ce0a9075dd1201f4",
+        "future/backports/test/nullbytecert.pem": "3454585a198ffea4f78c67d58d1ebe89a0be1107612058e25ed4cb37964f2a71",
+        "future/backports/test/nullcert.pem": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "future/backports/test/pystone.py": "7efca827fb55a2f4cd6b16c999d24cc2bf45e929e063e53889b50b9ddff052a0",
+        "future/backports/test/sha256.pem": "df007e190a8473b8eaf8f63060041a3dbb53befafbb2d93f0d5999c4581e85f0",
+        "future/backports/test/ssl_cert.pem": "33ad3b8c935e21e1c6f419537ff8da4243c92389cec5224f9fece6100696e373",
+        "future/backports/test/ssl_key.passwd.pem": "23f587e2c070f55b3d67e06f9ae5d8d1ac3cb71f1abefeab9b950be12fe93f4d",
+        "future/backports/test/ssl_key.pem": "54a194f91dd461a6695535e5edc856978bc46040dea1bebd49fbd14d0f1aabfe",
         "future/backports/test/ssl_servers.py": "fa977b1cc6658ee65f15101b0808803ffd86d38a2b2132458fe4bd75dafaa3ce",
         "future/backports/test/support.py": "a13434f50acb71b98565784c1aa3f3dd5ad865d760c692461093d08707e21b69",
         "future/backports/urllib/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -197,6 +211,12 @@
         "past/types/basestring.py": "94eeba68780e574daf91aea4a2c9d1e8658ad22342d06dbc36e81bd4c3faf7e1",
         "past/types/olddict.py": "d18b5f7d9e79558e80c90febc2ee03678bdc46ca7a773f9d4337337b237c84b9",
         "past/types/oldstr.py": "26e17c541048e0e192819dcfca153a2f14808937c45b3747531d07c20d775926",
-        "past/utils/__init__.py": "7bc975b0e7dd8832777647240562cd5af0b56a10b9057e616870b64c674d800f"
+        "past/utils/__init__.py": "7bc975b0e7dd8832777647240562cd5af0b56a10b9057e616870b64c674d800f",
+        "future-1.0.0.dist-info/LICENSE.txt": "beba04103c3a9fff928b59c77d5fbeb03a3e4bd0d7ac3d1e1f8994a21e30ee3b",
+        "future-1.0.0.dist-info/METADATA": "30d35a50a3116d9026558ab9026ffed4db58675562102a526bc56c4235db913e",
+        "future-1.0.0.dist-info/WHEEL": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "future-1.0.0.dist-info/entry_points.txt": "53d2ed3fad0a48d5e88f9f26cd5e536e8b41177ef58135b3acaaf32481fcd0ac",
+        "future-1.0.0.dist-info/top_level.txt": "0d3d02ddacf681bfae25a8fe7ecd21e16c076252550e9d04bcb76e775cb9672c",
+        "future-1.0.0.dist-info/RECORD": "9aae5f5410ec7ba2e9c4d9cf7e0f71bbc70f4228789eba481cd772f7f16a7dbf"
     }
 }

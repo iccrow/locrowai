@@ -1,13 +1,22 @@
 {
-    "id": "bitarray-3.6.1-cp310-cp310-win_amd64",
+    "id": "bitarray-3.6.1-cp310-cp310-win_amd64.whl",
     "hashes": {
         "bitarray/__init__.py": "eed656092101176549d5827d02d8f9e442ad8797f1acbbe00f757df8ab555e5e",
+        "bitarray/__init__.pyi": "fc437f0fcce56a3b8d811819522623b09d36eb547d3fd3b05f015421f27f0d5e",
         "bitarray/_bitarray.cp310-win_amd64.pyd": "a1a3421bd21ae137cf2229529ed1b50d885ba3fd046c296d99a9a3518c10de0c",
         "bitarray/_util.cp310-win_amd64.pyd": "b78d5627c822cfb71c5d8d7271581979a1b8758709814d168187d1f32090e87d",
         "bitarray/bitarray.h": "5bdd617f7232d07b0801d91bf4b87ec5fe4bc93a7c55c3a57ca0bcd4b4f2078a",
+        "bitarray/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "bitarray/pythoncapi_compat.h": "42137acab7b170637a052a2fc6161d428ce3507ecde811ceb77dcc5db7f8e0ca",
+        "bitarray/test_281.pickle": "19a03cbec666732659988cc60cfea9a5f69196cb61531809f6d32cca3a729e87",
         "bitarray/test_bitarray.py": "cb7b3d82a4f6d165b5245c234788e22b99cac5a2fb25663909a24cbc642f06c7",
         "bitarray/test_util.py": "6fea8f67b7e3d89058f0330f987e8a5acb2f0c891594d36a21f64914963c40d4",
-        "bitarray/util.py": "993a253a94139f4e7ff60012d780673cc4c6c5f87f95a1f68fff729569a0fe3d"
+        "bitarray/util.py": "993a253a94139f4e7ff60012d780673cc4c6c5f87f95a1f68fff729569a0fe3d",
+        "bitarray/util.pyi": "bf9a2f0648bae61bfba73bce56f3d7ae29ac69e074b1cc99ddc2b3aca3b7bc03",
+        "bitarray-3.6.1.dist-info/licenses/LICENSE": "adc11d8b7ec490c241dbd5ca3a8e48231b17133f89e9450416efb42fd9f54096",
+        "bitarray-3.6.1.dist-info/METADATA": "b4f5701fc183c2d10e9252a172378631e179a36f47b57813f6bc9143426b8b61",
+        "bitarray-3.6.1.dist-info/WHEEL": "294b810ba97101b1c22a294ab9af11f56fd333bd7ffbd4a0e6e10fdee0d67285",
+        "bitarray-3.6.1.dist-info/top_level.txt": "70b7687881e8b53c21e1e1d27bcab2f2e985ef3cf2c5433dd08f3315bdbfc618",
+        "bitarray-3.6.1.dist-info/RECORD": "14a0d866b0ee00530f383e8df67a156664e278031b4413e734cee649b1dd63b2"
     }
 }

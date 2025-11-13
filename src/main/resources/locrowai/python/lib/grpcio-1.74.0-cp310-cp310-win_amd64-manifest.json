@@ -1,5 +1,5 @@
 {
-    "id": "grpcio-1.74.0-cp310-cp310-win_amd64",
+    "id": "grpcio-1.74.0-cp310-cp310-win_amd64.whl",
     "hashes": {
         "grpc/__init__.py": "565ec98772954c21c0b4dd244a8c8786d7ba06f301638ffa13441031912f3011",
         "grpc/_auth.py": "ec6198a543d72aa53bfe217f8e788dd5f0d6721d3fd53df1d27921cd17ec7f8d",
@@ -17,6 +17,7 @@
         "grpc/_utilities.py": "9fa771c915917c38c7f1b9a0aed7843c335dbdefdf55561465784c93ef3e65c3",
         "grpc/_cython/__init__.py": "bfe6cc9a17e79183fb911e8cc3dc0f2c6fdc09a824f992a25198baa726a9d865",
         "grpc/_cython/cygrpc.cp310-win_amd64.pyd": "d53415b81bdfa336db81f4b605e53b27d8c19d7cc2aad18aab10d35809e1ac40",
+        "grpc/_cython/_credentials/roots.pem": "890af1e9222a5a76b0c0beec4c570aa32d1ad592088fcf5610de95478a8de638",
         "grpc/_cython/_cygrpc/__init__.py": "bfe6cc9a17e79183fb911e8cc3dc0f2c6fdc09a824f992a25198baa726a9d865",
         "grpc/aio/__init__.py": "c30e8d6c33ec7375c016cf16498ca445820c7a643cc31e2d9e81fb51317a0d48",
         "grpc/aio/_base_call.py": "daee9003c7f57047c33a310f8c7dc4ae6b618e2f723fa3e2119c8c9bd252d4b8",
@@ -57,6 +58,11 @@
         "grpc/framework/interfaces/base/utilities.py": "7cdfbf0d418665d6dbf07c0798e99660771244765b5a23f2d5271139bf730b37",
         "grpc/framework/interfaces/face/__init__.py": "bfe6cc9a17e79183fb911e8cc3dc0f2c6fdc09a824f992a25198baa726a9d865",
         "grpc/framework/interfaces/face/face.py": "325de5a0344bc2bba73240acfc1f6213ab8911b57741209c896c4b5b2906698a",
-        "grpc/framework/interfaces/face/utilities.py": "8b685c532daad5b19f676606833f2f4751e18f1777566a964003791ba4de97ed"
+        "grpc/framework/interfaces/face/utilities.py": "8b685c532daad5b19f676606833f2f4751e18f1777566a964003791ba4de97ed",
+        "grpcio-1.74.0.dist-info/LICENSE": "af63ec8303fd513c39054a7fdbb2957eca94fa9f8ef05be15139d6312f22277b",
+        "grpcio-1.74.0.dist-info/METADATA": "f780077e5e719c09469e4149a13911cdf40d1ab452f1cc9cabbb5c7f79f108d4",
+        "grpcio-1.74.0.dist-info/WHEEL": "94ee82aad2c70808b7f17dc4b356b84759408d916f374d7420c442168d92ecc7",
+        "grpcio-1.74.0.dist-info/top_level.txt": "78477626afda550169dfc6d65bc3dfc23cffe6289ba9e3854fedb35e53c0abff",
+        "grpcio-1.74.0.dist-info/RECORD": "87dffac171be1868f795bcdc874c527ec28b7ac8d6e5451c389f99a85fec3dc0"
     }
 }

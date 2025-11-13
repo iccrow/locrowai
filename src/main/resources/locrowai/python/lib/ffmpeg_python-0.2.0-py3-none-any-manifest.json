@@ -1,5 +1,5 @@
 {
-    "id": "ffmpeg_python-0.2.0-py3-none-any",
+    "id": "ffmpeg_python-0.2.0-py3-none-any.whl",
     "hashes": {
         "ffmpeg/__init__.py": "95f4258ed5eca0f325657c54e5e7438ffa1bd4d416d2a5fa7a995cbed358c335",
         "ffmpeg/_ffmpeg.py": "67e1b6e03efe0672b2ce15f7e67d4aa125da2976f5137c6203582be8da8365bf",
@@ -9,6 +9,11 @@
         "ffmpeg/_utils.py": "7342cd4c17a706de27f85b286f21c8223ca90d1bf2e61278cafe0a66d37afbf7",
         "ffmpeg/_view.py": "e988b69f28c5581b0bc74557f6dd05e564f67007061c1b4456b57f3e9ea3e543",
         "ffmpeg/dag.py": "0d4da438f9e6233da6e35c1021c9ced114b3be5ae10872b694f02011955668ba",
-        "ffmpeg/nodes.py": "ae8f6b2febc1b6847f16a23dd38dff08b4be84f64f362f5ae510e32b6bfb9ed3"
+        "ffmpeg/nodes.py": "ae8f6b2febc1b6847f16a23dd38dff08b4be84f64f362f5ae510e32b6bfb9ed3",
+        "ffmpeg_python-0.2.0.dist-info/LICENSE": "40815e0df8f66931bf913c6ba1af6ae07f6a463290af9a345bc71456b519fcc2",
+        "ffmpeg_python-0.2.0.dist-info/METADATA": "51bcd63570093fa6d1c45413c3839fc413c85f182628a5170d76ed21d68be294",
+        "ffmpeg_python-0.2.0.dist-info/WHEEL": "4bc4b954bfacb4e4d26436311f27f428fede76cd09ef6aab2b412fbb74dfc806",
+        "ffmpeg_python-0.2.0.dist-info/top_level.txt": "cfadbc1b87f5aa6d688a2d97920127e67ae6f4fa3c2dce69108a9ef7a7a87659",
+        "ffmpeg_python-0.2.0.dist-info/RECORD": "37de6567c87d49392c9439800f0ff42a12697f2b8636ad2857e9d57ebfec4e53"
     }
 }

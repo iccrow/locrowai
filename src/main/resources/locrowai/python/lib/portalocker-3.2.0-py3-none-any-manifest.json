@@ -1,5 +1,5 @@
 {
-    "id": "portalocker-3.2.0-py3-none-any",
+    "id": "portalocker-3.2.0-py3-none-any.whl",
     "hashes": {
         "portalocker/__about__.py": "5694ce3540287a159b9f0fc102aec3123b5f1e2e80f02a3cc592741484c7d075",
         "portalocker/__init__.py": "4554d27efbb4aca971e64eab5b9b012d0540ec9e13af418a6ecbf31fb109df4a",
@@ -7,8 +7,14 @@
         "portalocker/constants.py": "e186981596710576b5c173339bfc5a7d3c2c1df190a8668da35bc7be50ae7863",
         "portalocker/exceptions.py": "c10329e24fc54f4b9591e87506526bc7590927419869e6bf3d3e341e8ca4d2be",
         "portalocker/portalocker.py": "df98c8b4d3c4127f8e0a8666008cbfc78c69928b0b060aed76e5a10be1fa359d",
+        "portalocker/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "portalocker/redis.py": "f22b181c75eb4181c0858b05d78355460e75a024de4899144b8d62ce83f58981",
         "portalocker/types.py": "e6f2d08065fb583f2b333a5f704dc5b02d9c0efdb22cc2d2ff3b71f4963d71ab",
-        "portalocker/utils.py": "c861d79110faa5b0100006359adb75f1ce4e28750f16fa0b86c6960b3c831e47"
+        "portalocker/utils.py": "c861d79110faa5b0100006359adb75f1ce4e28750f16fa0b86c6960b3c831e47",
+        "portalocker-3.2.0.dist-info/licenses/LICENSE": "a50570fa3b3102a42d7babb0569238b0b3c0aedce0063c8e4d65060dfd3f7293",
+        "portalocker-3.2.0.dist-info/METADATA": "1a6cc9434cfd4a373630949c8807ab6c30f4783ad2024151eea755f0766ecc03",
+        "portalocker-3.2.0.dist-info/WHEEL": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "portalocker-3.2.0.dist-info/top_level.txt": "a9f204c16d97f1c82d0f4705248216691f9c9ca368e04491ed16a2c317fe50d0",
+        "portalocker-3.2.0.dist-info/RECORD": "04dfcac2f0ec547ae49a6411c06e5dae6be2d0286cf366307337e1bf62ad825e"
     }
 }

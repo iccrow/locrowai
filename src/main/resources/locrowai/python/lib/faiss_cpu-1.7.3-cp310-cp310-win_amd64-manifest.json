@@ -1,5 +1,5 @@
 {
-    "id": "faiss_cpu-1.7.3-cp310-cp310-win_amd64",
+    "id": "faiss_cpu-1.7.3-cp310-cp310-win_amd64.whl",
     "hashes": {
         "faiss/array_conversions.py": "65fa1a9c00933c203fe12c4475eeb059796b0e0832b74fe1a4e6dad78a99c1fd",
         "faiss/class_wrappers.py": "73fa5881d3c2566d9ec77a0ad185034d933666b86113a7260df95453b8fa9ec7",
@@ -8,6 +8,7 @@
         "faiss/loader.py": "e374a5ac5a01aab37ffc20afc09fe97ed9dd0b627bdb5ef9e4cad10f6812e69e",
         "faiss/python_callbacks.h": "3b5a5839f069d43a5d96bb85beca1b2d915f8a9244e6b458dd480a9c52e4e5e8",
         "faiss/setup.py": "b4600f88e41285f00141ed5cc925970614273811464b5138f0181d21b95f49a6",
+        "faiss/swigfaiss.i": "9a50cc71457efd2bc258b180266c827c55708bcc9878263d1e32badf68d82d5c",
         "faiss/swigfaiss.py": "855f9cecb2a1c194cde75fa46eb5a8442f06e008569edca4e866464aea0f4c99",
         "faiss/_swigfaiss.cp310-win_amd64.pyd": "139ae1c6003fc1d0f04302ada4d404f5c1e97a6ab2bc817b7d21de720251aa95",
         "faiss/__init__.py": "486f05551d38684b98454ced715348995a9507fd7641a2b85b71849157a07b3c",
@@ -24,6 +25,12 @@
         "faiss/contrib/torch_utils.py": "313424a3ee5ebdc0cb71b8a90474b9ef6ccf5ef1aed2e4fd57408cc9b3c3fd07",
         "faiss/contrib/vecs_io.py": "8f3eea0c9c5c8d204b41755b020267c154582ff59cf8069303999762f98907f7",
         "faiss/contrib/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "faiss_cpu-1.7.3.dist-info/DELVEWHEEL": "24456117fb0036d46b9e89cc6a81d5a8736946079a2f8418bb419b4d10b9beb7",
+        "faiss_cpu-1.7.3.dist-info/LICENSE": "489c5da9d4367b1168fcd018edc1022d2310262c1e705dda03e7db5581c94c2e",
+        "faiss_cpu-1.7.3.dist-info/METADATA": "c96ecc89617ad12831925588a3b4b324f89a64d7f562111e4c516ac0e77b9bf4",
+        "faiss_cpu-1.7.3.dist-info/RECORD": "fe03ed8de3de18acd9384b4e86ddb984df664793cb55b4848e7a53e8ff017b6b",
+        "faiss_cpu-1.7.3.dist-info/top_level.txt": "9ebd92fb560086a02e025149ba49ed0ef4465df2352a6c2750db3f88594d8a28",
+        "faiss_cpu-1.7.3.dist-info/WHEEL": "ae7792da3f1036603074d28737ceacebea8fec031c59982a884a07ddb75b87f6",
         "faiss_cpu.libs/flang-6eb4555b6a5a30f68c242ed302be298b.dll": "c359483dc34b6134af2e1bf9583e7ce678307db04f43e987df3318de55a2d7b1",
         "faiss_cpu.libs/flangrti-928596d9cbd274cc0ca9d378992f02e2.dll": "da45532f8bda0646a037c1d5ca78c9141af36884413812cbd2cc9ea34f98101a",
         "faiss_cpu.libs/libomp-10696628d5be958139abcbad98e18607.dll": "10696628d5be958139abcbad98e1860762b07a10ba79e21d22150d2dda9a149b",

@@ -1,5 +1,5 @@
 {
-    "id": "torchcrepe-0.0.24-py3-none-any",
+    "id": "torchcrepe-0.0.24-py3-none-any.whl",
     "hashes": {
         "torchcrepe/__init__.py": "342f0c620521cf2f45da04e3b736258266ddf597858936e436f6bf32c932baea",
         "torchcrepe/__main__.py": "1a78dc8221c99ab831c83a9ffc5f0cfb8cf6381ce015351cc9ff5fc0e0b02c6f",
@@ -10,6 +10,13 @@
         "torchcrepe/load.py": "201b0bf68f83053881a053bbdc56a75205dd84e0ec0d2c02751b6e6c3e9737bb",
         "torchcrepe/loudness.py": "d7599ba8cbbf6536441def147212063a25bcab3e51d4bfb4495df05712d04807",
         "torchcrepe/model.py": "028e240a191d5ddb28d0af6febe999b9f692f22459e49bf9c5681c9dfea4bd22",
-        "torchcrepe/threshold.py": "a45e8c189ba46c0c4e3c0b7d58fb1db75a2f61d6a7bad75e8fcec3ce5c83ec74"
+        "torchcrepe/threshold.py": "a45e8c189ba46c0c4e3c0b7d58fb1db75a2f61d6a7bad75e8fcec3ce5c83ec74",
+        "torchcrepe/assets/full.pth": "133225604dedd2e4005f8bbd1bd0a2ec073ba8b7a6cd31ff6d5edbbfa3539986",
+        "torchcrepe/assets/tiny.pth": "d4993eea36ed1a0ad9ac549c740dae5265b049ce72004f00c2f59e01c0be8432",
+        "torchcrepe-0.0.24.dist-info/licenses/LICENSE": "2e1d0b22e64e0f0937cb213dbe45b0b02c97d278c4db8bae926ae031325b2417",
+        "torchcrepe-0.0.24.dist-info/METADATA": "23b9abe3a52f7ee9f015d527cc119b5598bcffe2df6db4a86ed0e11925381aa5",
+        "torchcrepe-0.0.24.dist-info/WHEEL": "370dfa0e3ba1ff9543ba42b41fbf10cce5fefc5404a3a577ee6de7926f7a82d5",
+        "torchcrepe-0.0.24.dist-info/top_level.txt": "04d383a2c14303ea03b28d062394b3d9d850aebabe628ecddb69345a1c8a01ff",
+        "torchcrepe-0.0.24.dist-info/RECORD": "5ce7139298ffe60a9dc93d42b7e2581444f4e32a4af21af1c343c1b55c959d01"
     }
 }

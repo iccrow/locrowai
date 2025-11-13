@@ -1,13 +1,18 @@
 {
-    "id": "safetensors-0.5.3-cp38-abi3-win_amd64",
+    "id": "safetensors-0.5.3-cp38-abi3-win_amd64.whl",
     "hashes": {
+        "safetensors-0.5.3.dist-info/METADATA": "7f1ab4ef80b13057294d9176fe642edaf90306f1985a94133e57ce74528a7f22",
+        "safetensors-0.5.3.dist-info/WHEEL": "fe0d4cd9033792dd52b26fec1ce83fdd3518ec6c4d13651ecac95bf590ed3f09",
         "safetensors/flax.py": "97209f5d64f03aa90abdf21bb1fcb5953368b25a999b946306fbe0e9dd593595",
         "safetensors/mlx.py": "31f842065f4cf6e5b906716781183708da1b8bb7d95f14b7ba527db28f3670d1",
         "safetensors/numpy.py": "1c1030cbd6d740828cfee937dbc917899f2d00886d8aae2eb2782a016bbf97c6",
         "safetensors/paddle.py": "64ac9eaf3c756f055bfa1075d2c2909e9488d33fd4fa20e49e6044ab15731512",
+        "safetensors/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "safetensors/tensorflow.py": "86f38b1638ab126fa6665cca7306de359bad81c2ad5319da10fd9596b19df997",
         "safetensors/torch.py": "f0813222404860b2fd9534aab5a6ecb99b29547829b5861cd57d9df12f00597b",
         "safetensors/__init__.py": "c71127e607382561e3034c2769f6f45b0c2ad66d905f095b9b99ec22d191a8ed",
-        "safetensors/_safetensors_rust.pyd": "4cb45b0e12a81dba2341a8dbf575537e789e9268870953eb449c919f442da6ac"
+        "safetensors/__init__.pyi": "2748836f3c2ca9b6512e5c1166d23e9dcb2e565838f303fcf3dcf33f81c56da4",
+        "safetensors/_safetensors_rust.pyd": "4cb45b0e12a81dba2341a8dbf575537e789e9268870953eb449c919f442da6ac",
+        "safetensors-0.5.3.dist-info/RECORD": "67314476016ad34308b4b8321a3497f73087f662ad4559fa4aa8c5e26010ace6"
     }
 }

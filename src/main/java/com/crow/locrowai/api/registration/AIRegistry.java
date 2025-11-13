@@ -8,6 +8,7 @@ import net.minecraftforge.forgespi.language.IModInfo;
 import net.minecraftforge.forgespi.language.ModFileScanData;
 import org.objectweb.asm.Type;
 
+import java.lang.reflect.Constructor;
 import java.util.*;
 
 public class AIRegistry {
@@ -49,7 +50,10 @@ public class AIRegistry {
                 contexts.put(MODID, context);
                 loaders.put(MODID, loader);
 
-                AIPlugin registrant = (AIPlugin) clazz.getDeclaredConstructor().newInstance();
+                Constructor<?> constructor = clazz.getDeclaredConstructor();
+                constructor.setAccessible(true);
+
+                AIPlugin registrant = (AIPlugin) constructor.newInstance();
 
                 registrant.register(context);
 

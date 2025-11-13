@@ -1,5 +1,5 @@
 {
-    "id": "python_dateutil-2.9.0.post0-py2.py3-none-any",
+    "id": "python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
     "hashes": {
         "dateutil/__init__.py": "32a6a6ebb58ef4891399417223aeaf4ba2284974e9f46dfcf0369d1f62c230b6",
         "dateutil/_common.py": "efbc34cb2b64af19586d29fefa50d53d431a6d45d147d237941bffbd0454a946",
@@ -18,6 +18,13 @@
         "dateutil/tz/tz.py": "1149c474c7de4e15e263a978b21f7205a6d9eb7fcf3b3cb4d734ac87db619f5a",
         "dateutil/tz/win.py": "c49b335a04b0135c4fc7f1c98f86647a9cae902fe1372d35e9631c5e16d1681f",
         "dateutil/zoneinfo/__init__.py": "298834a6d842323729e4c5d21220499f79cc8d978d65abfbae5270e7eb73d52e",
-        "dateutil/zoneinfo/rebuild.py": "322a98cc2207bcd6cc1fe2dd4582effb84f410803b8432ade462d1d084532dd2"
+        "dateutil/zoneinfo/dateutil-zoneinfo.tar.gz": "d3ea52e7b6e968de0d884df1288193596fa95b803db4f92a18279a7398004475",
+        "dateutil/zoneinfo/rebuild.py": "322a98cc2207bcd6cc1fe2dd4582effb84f410803b8432ade462d1d084532dd2",
+        "python_dateutil-2.9.0.post0.dist-info/LICENSE": "ba00f51a0d92823b5a1cde27d8b5b9d2321e67ed8da9bc163eff96d5e17e577e",
+        "python_dateutil-2.9.0.post0.dist-info/METADATA": "a9d436da322be808332f98d88325998e87cb693a678a9969feb4cfad729a6e93",
+        "python_dateutil-2.9.0.post0.dist-info/WHEEL": "f86fedd281ae13b503d03ad2a55667ab584730157d0c3d97912e6fed7a664e79",
+        "python_dateutil-2.9.0.post0.dist-info/top_level.txt": "e2d8dd5a485166f17b2c0fc161efcbf60076c3fa766becf9cba02b8da464a2df",
+        "python_dateutil-2.9.0.post0.dist-info/zip-safe": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "python_dateutil-2.9.0.post0.dist-info/RECORD": "fc7aa54068c354d522c07153aad6d77b2d8625ec21e45442dc6056682ef3c74a"
     }
 }

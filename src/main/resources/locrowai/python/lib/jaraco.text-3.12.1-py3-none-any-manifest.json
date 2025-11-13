@@ -1,11 +1,17 @@
 {
-    "id": "jaraco.text-3.12.1-py3-none-any",
+    "id": "jaraco.text-3.12.1-py3-none-any.whl",
     "hashes": {
+        "jaraco/text/Lorem ipsum.txt": "37fedcffbf73c4eb9f058f47677cb33203a436ff9390e4d38a8e01c9dad28e0b",
         "jaraco/text/__init__.py": "636614a9747fa2b5280da6384a43d17ba65985be4750707f021f5108db15ca1a",
         "jaraco/text/layouts.py": "1d30bc6924cb67bb978a9c8e5daa51302d79f23b9e7232ba455c22b5f999f7fc",
         "jaraco/text/show-newlines.py": "58641aeb97bc97285bf762d438ba959fa29a0ada1e560570b3a5ad49198b93ac",
         "jaraco/text/strip-prefix.py": "35f55757c255368ea7a9cb980127cc57bff2e04a3cccc42a942386bc09d1215c",
         "jaraco/text/to-dvorak.py": "d5235c6d2b2f212a575e0f8b9f26c81c763e45414e42bdfacdc1e4635a5616ac",
-        "jaraco/text/to-qwerty.py": "b3850c4149cfc059ff741e6e642dbb06eac7390718a277417f322954be69133c"
+        "jaraco/text/to-qwerty.py": "b3850c4149cfc059ff741e6e642dbb06eac7390718a277417f322954be69133c",
+        "jaraco.text-3.12.1.dist-info/LICENSE": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+        "jaraco.text-3.12.1.dist-info/METADATA": "03359d9ba56231f0ce3e840c7cb5a7db380141218949ccaa78ddbd4dcb965d52",
+        "jaraco.text-3.12.1.dist-info/WHEEL": "189eedfe4581172c1b6a02b97a8f48a14c0b5baa3239e4ca990fbd8871553714",
+        "jaraco.text-3.12.1.dist-info/top_level.txt": "d099cddcb7d71f82c845f5cbf9014e18227341664edc42f1e11d5dfe5a2ea103",
+        "jaraco.text-3.12.1.dist-info/RECORD": "410f928f2aee2cc27bc3e9619137011b90cb3d74bf6da8ac4257922072292a29"
     }
 }

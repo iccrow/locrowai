@@ -1,5 +1,5 @@
 {
-    "id": "rich-14.1.0-py3-none-any",
+    "id": "rich-14.1.0-py3-none-any.whl",
     "hashes": {
         "rich/__init__.py": "961d9672820e269e4ce7f95b02c494306bfca2225eba644e6b31c7fc060c4bc2",
         "rich/__main__.py": "6285da3c171bf8b7903038fd8e165e8c2498d032b880fe7bb8e96781b3f17f89",
@@ -61,6 +61,7 @@
         "rich/progress_bar.py": "9994cfa4953071f71d8100934f3de4c98f9f73bf5d74bc2dc7a1a18717e8d3ae",
         "rich/prompt.py": "934094216fb7239e631a4f14dced5688485d17ac976b612259e46a461b895d60",
         "rich/protocol.py": "5adfb61d977aece622a295240933b3ee5337f2fca8e6bdc711067d4ce3c39794",
+        "rich/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "rich/region.py": "acd4fdc59ad56536085d90b43589f8d42250c1835b47e29e70f3b14e042f07c6",
         "rich/repr.py": "1c8b2eacf2d92bd1ab6b2ef9977fef431ed2dbb0334e9023e0285749f7b515eb",
         "rich/rule.py": "ba63b6d568f0d0571801e4c1dd4ba634b0ac0d685e8f3c678e57f65708978832",
@@ -78,6 +79,10 @@
         "rich/theme.py": "a0dca15e119a82d0e56c3c9eded56eddeb16396934bcd92ec45c3efee9e568ad",
         "rich/themes.py": "d318132e8cdf69b79b62d709b43742e50917e4855411abe2a83509261e185459",
         "rich/traceback.py": "32d34cc03683387df91d16de07f2b1d9178c8df3df442f087d15193ccb8a14f1",
-        "rich/tree.py": "4283b0838db816477019f47c2b4b59e90eeab7358d0143ff9b8b05698b86ea7c"
+        "rich/tree.py": "4283b0838db816477019f47c2b4b59e90eeab7358d0143ff9b8b05698b86ea7c",
+        "rich-14.1.0.dist-info/LICENSE": "deed7c17a4318158190a3ea239cc879a5a50271cebb98ae7025f48fbe58dca15",
+        "rich-14.1.0.dist-info/METADATA": "2212693c8768e47fd2b22ef83ae6367a577348e091455362fea879f8ae7738cb",
+        "rich-14.1.0.dist-info/WHEEL": "b0ff78e83ee31421de373e48ab87cbe0bbbe3eb5ab16c81f2d76db91c8886708",
+        "rich-14.1.0.dist-info/RECORD": "8576aa73a6ae6d4256eb94d52944e6539d853655a49363f5c8402a0c49e46c03"
     }
 }

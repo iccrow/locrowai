@@ -1,5 +1,5 @@
 {
-    "id": "pillow-11.3.0-cp310-cp310-win_amd64",
+    "id": "pillow-11.3.0-cp310-cp310-win_amd64.whl",
     "hashes": {
         "PIL/AvifImagePlugin.py": "f9f90be4b251b3d9c09a2de065038e3234a5230dbd6845c1160bd828d5d72a3b",
         "PIL/BdfFontFile.py": "6c0a5b325daf61171e40a22448315ad34d98c2bf65695ae9d8d18af71ce54bff",
@@ -90,20 +90,35 @@
         "PIL/__init__.py": "67eb17066b48015983c2ac01748e8be115a35b172056f437bf8486d0dc4a7965",
         "PIL/__main__.py": "5fc788a469661df9e9ef36b3a7999d6afdb6f08b5c7f696488c3f4b4b53a5fd7",
         "PIL/_avif.cp310-win_amd64.pyd": "478b9453ac59bf8063a1c70ce883f4b369ce02a0018c4c72a3b3a01e1b5b5200",
+        "PIL/_avif.pyi": "cc3f2f0283c2f1a1085637dc90bb45b24456e6c6a255e977fac254036a476867",
         "PIL/_binary.py": "71bf69fbf9b0cc162e9a556c59b9e84d6b2b2e8e7db68c00e9ab4b399be33b7c",
         "PIL/_deprecate.py": "f94017b068c58193f92d6a3d9f7aadae0496f30f636664bcff206f858cc55f40",
         "PIL/_imaging.cp310-win_amd64.pyd": "93c38c01b4420f5d8e19b11e2d652b7e5ed7ec015b7995432209e13dba722b94",
+        "PIL/_imaging.pyi": "d1cdc60b6d178079fc1da22b1183c4aef080041abfc226c99516bc03746c524f",
         "PIL/_imagingcms.cp310-win_amd64.pyd": "5159b12252444b1e104d3bec95ecd40d26e342642122ec313fb2267530d55af8",
+        "PIL/_imagingcms.pyi": "a01d1d57d933aa7664dc2b67573819bf0a51b0f52a6e5b41675f712e29fbb87a",
         "PIL/_imagingft.cp310-win_amd64.pyd": "118fcedcf66ed255a8eed7bd0e4e3922f6b72ce5fd9b3983e7fd2ff31688ba7c",
+        "PIL/_imagingft.pyi": "109ed16e6a8649ec214fa13910cd72d5d99c3947613c63f4bb80ee6f6299646d",
         "PIL/_imagingmath.cp310-win_amd64.pyd": "42761e92419fe6cd394e82c497c605bb24ff18e12a7c6bb62e62aa0d1aa08baf",
+        "PIL/_imagingmath.pyi": "cc3f2f0283c2f1a1085637dc90bb45b24456e6c6a255e977fac254036a476867",
         "PIL/_imagingmorph.cp310-win_amd64.pyd": "700aceccee9c8e0c16cc118c41588c5d19af6b9c31c9a76f1c2d58241595482c",
+        "PIL/_imagingmorph.pyi": "cc3f2f0283c2f1a1085637dc90bb45b24456e6c6a255e977fac254036a476867",
         "PIL/_imagingtk.cp310-win_amd64.pyd": "cacf5b1b40a90b77445aff929ac8ab0667bdd022cdbd6e5bc9a76b613dab3300",
+        "PIL/_imagingtk.pyi": "cc3f2f0283c2f1a1085637dc90bb45b24456e6c6a255e977fac254036a476867",
         "PIL/_tkinter_finder.py": "1f5530ddd57b8161c88ffa2c527245c56875691b10d8c74aa4d3f7bd0c10716d",
         "PIL/_typing.py": "08dea032bb8f642eb46312fbaba185922d7ffdc9d5f6935d8f2678a2bf1b8f5b",
         "PIL/_util.py": "7354856f47a1f43fd2868e3e60c14364fe583a5a643a272a63b9394c24ab8ff0",
         "PIL/_version.py": "deccf14282412ee1e5c2bd0123857f2dd5490d1f0150c2d66af50feacbad7aec",
         "PIL/_webp.cp310-win_amd64.pyd": "f9d3ce8cbdb95ec507f96fd763ac7abd61621852effa339ec97c942159e5a810",
+        "PIL/_webp.pyi": "cc3f2f0283c2f1a1085637dc90bb45b24456e6c6a255e977fac254036a476867",
         "PIL/features.py": "e8abe01e6a744dc1097a930188505145a382b4307cac77eccbf422904b3c3308",
-        "PIL/report.py": "ea6ecd3afd5adb8e7bed9889a315fcf62a7925e3a07f63b517de5febed4ae5a3"
+        "PIL/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "PIL/report.py": "ea6ecd3afd5adb8e7bed9889a315fcf62a7925e3a07f63b517de5febed4ae5a3",
+        "pillow-11.3.0.dist-info/licenses/LICENSE": "19544bf53af689a3319a4fb5067370f0f0d68d2c5300a2157674f5ef8a4fd965",
+        "pillow-11.3.0.dist-info/METADATA": "f64a8de5505192ea2dc96230bd156f3a94009613f21618b21585014996c07aed",
+        "pillow-11.3.0.dist-info/WHEEL": "294b810ba97101b1c22a294ab9af11f56fd333bd7ffbd4a0e6e10fdee0d67285",
+        "pillow-11.3.0.dist-info/top_level.txt": "ae266aae4fa1c99aa1e5fd59d19c228b774a7f112c07286ef5c53d20e0c5f8d6",
+        "pillow-11.3.0.dist-info/zip-safe": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+        "pillow-11.3.0.dist-info/RECORD": "898bf54832a2afa71aff05629253b68948b2f31f68c075bb455211e53faa44ea"
     }
 }

@@ -1,5 +1,5 @@
 {
-    "id": "misaki-0.9.4-py3-none-any",
+    "id": "misaki-0.9.4-py3-none-any.whl",
     "hashes": {
         "misaki/__init__.py": "3ebbe9b05a7115f57ef4291eaea1fcc3d6a3ee3a78e19ce5436d855dfe483889",
         "misaki/cutlet.py": "7695fc7d853ae4e99679dff4ca0c8404d4804a6fb1059a9d6ad02baeabc4d4de",
@@ -16,13 +16,26 @@
         "misaki/zh.py": "97d16aec581832845d2566cb24da2ba045d4552fb65a5017a6eac8feef654c81",
         "misaki/zh_frontend.py": "002023955e31c692cea2dcd0dea1836df84a9ff8dab966f5ae43ce276bdd1c0c",
         "misaki/data/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "misaki/data/gb_gold.json": "29e62f4b60261c88f7f3c2c7811ca3825978948090b72d2b27d565b729282f71",
+        "misaki/data/gb_silver.json": "48131e2d92ccc41655f4543e87e0f938e71463eb5a54be7f0693bb712ebb6bce",
+        "misaki/data/ja_words.txt": "a93a8e8aee24db307a32becb8bf01c4c2908ecf37e6c91f7a705fafdfeba67ff",
+        "misaki/data/us_gold.json": "dc414872a49a28ae6c141463d502fd945f3b2fde040484fdc47d00cc4612686f",
+        "misaki/data/us_silver.json": "de8f67be911bb6c659187b4a65fd966b6a30e56350e0f790d763210b053ac475",
+        "misaki/data/vi_acronyms.json": "5da337cdde5231e72680fa4bf29f5dfe906f769492e9ee950ac2d73a28eba529",
+        "misaki/data/vi_symbols.json": "d963c9261f6ae0211c5941a357dff58f3599b5db98ed38e4cc722bc67ffcb728",
+        "misaki/data/vi_teencode.json": "e35baf886a44a92e08c5d900abbcf921eb69efa198821e2a9de85ca8f5dfa7f3",
+        "misaki/g2pkc/README.md": "d524b5cbb0713a18e4e28454509ac4458fafbb8597c7888fd5b5aced2d0f9725",
         "misaki/g2pkc/__init__.py": "da28d02dc1522ffa1ee96c44cc9aa954b85a1945c289c4ea4a594cfab95a2097",
         "misaki/g2pkc/english.py": "b484b8dbd9cd3f8296a200255874072cf021147e495f1017f65d4e0a342df062",
         "misaki/g2pkc/g2pk.py": "e2685e1fbc5ef32addd43edbef833734f311d47060533e6c8b0014ef70269970",
+        "misaki/g2pkc/idioms.txt": "d49682e430bf7743715d0510a5e1b32cd902db80fcdeaea783d9abcaec3f7ac5",
         "misaki/g2pkc/numerals.py": "cf0d8bbca3750ff53289a9386afc223bfcd8ed3ce9c6a288a9ee997899000581",
         "misaki/g2pkc/regular.py": "8e376b276548d915d281cf75d2b1574e03eb660f00b8b04d7086434d5b030fe9",
+        "misaki/g2pkc/rules.txt": "b7e6b3ddeec1b1406aac0ba98665da9921a2088faaf4843a1f8120e83c4ce33f",
         "misaki/g2pkc/special.py": "b582ba792e3e63776f78ea5e535223bede0bd379cf35a7b4092c602d6597a9cb",
+        "misaki/g2pkc/table.csv": "61aca8535fd75f16ca71df59bc5eeab625073edfd50732fda3f12b30ccade31f",
         "misaki/g2pkc/utils.py": "4fc55b1cdee023b48ba5b91f7a628e9c0bb573ed618d942d8e50519bb4f9a4a5",
+        "misaki/vi_cleaner/README.md": "536d404258c8fd4bee33faa197d200ada8612e528496b4c23b30ee1944507787",
         "misaki/vi_cleaner/__init__.py": "7937b8bd3c3cfd671b5cf0e454f41ff624d36553ec672320feb6a2d00e5cc0cf",
         "misaki/vi_cleaner/abbreviation_vi.py": "c027efb3cfc19911d1e5b50c07704a82b2372d86aadd0bd370351341e07d407e",
         "misaki/vi_cleaner/acronym_vi.py": "c8666d780b61f2423b71d18fd96b6bc8aa686c532d82a6bab7e9515612c286dd",
@@ -37,6 +50,7 @@
         "misaki/vi_cleaner/roman_number_vi.py": "cf11dec24144891ba38fecced02caeb5ccf8c563d933f7d63addda860a13cfda",
         "misaki/vi_cleaner/sentence_utils.py": "0e14a6b4347a1b9282875d1520d49f53acd58e364b01882bc3b747319171442c",
         "misaki/vi_cleaner/symbol_vi.py": "dfe4a22e17a432ee00f24842a6ee08063a3b3e4a1fb1c738d813f53ed6dbb405",
+        "misaki/zh_normalization/README.md": "c924781e357b337e6436bd17e1c98cb3579c860af1686f802e3860645ea719a5",
         "misaki/zh_normalization/__init__.py": "ac9cc41fb823a28d35443faeb79f53d34f0a6b8dcd11dfdd9e19e9378c1819a3",
         "misaki/zh_normalization/char_convert.py": "84341ec93b420a28467ccfee223d23e262f7ee0a4da00402f662c656b119e190",
         "misaki/zh_normalization/chronology.py": "29d1ec8e40cffa5b16df3363fc8ac2365835b7bfaffd4d25a0f566f202fb03fc",
@@ -44,6 +58,10 @@
         "misaki/zh_normalization/num.py": "68e020afa07fb0649fd6bf7be8658011f112465bbdf1b3e8cf13dbd10efff539",
         "misaki/zh_normalization/phonecode.py": "f85112737ead372fc834cf189fcb076b9fdf0821a55191168df8f15d2471348b",
         "misaki/zh_normalization/quantifier.py": "e2eb980bb14f485f0f828b0c762b73742606638b65433257de421d0e061c3336",
-        "misaki/zh_normalization/text_normalization.py": "af667225b44b5ef1ba70f427ab9f48bdb2af736cbd56c3e895bc8025507598d9"
+        "misaki/zh_normalization/text_normalization.py": "af667225b44b5ef1ba70f427ab9f48bdb2af736cbd56c3e895bc8025507598d9",
+        "misaki-0.9.4.dist-info/METADATA": "90a060bb617b1ffa63b2220ca42200a56093e76c0899c1684684cede80086e39",
+        "misaki-0.9.4.dist-info/WHEEL": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "misaki-0.9.4.dist-info/licenses/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "misaki-0.9.4.dist-info/RECORD": "34018feda5add9e3bb5ce3c6089c1bea9125fce546b385fa496655178eff7b78"
     }
 }

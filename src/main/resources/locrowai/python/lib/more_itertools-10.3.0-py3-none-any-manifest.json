@@ -1,8 +1,16 @@
 {
-    "id": "more_itertools-10.3.0-py3-none-any",
+    "id": "more_itertools-10.3.0-py3-none-any.whl",
     "hashes": {
         "more_itertools/__init__.py": "76d01b1a34c39a7fe08625396177e1c83cb4a610255d576de649590397d46be4",
+        "more_itertools/__init__.pyi": "e41dde4f338dd4106e38ba1bd6f09f97211bda549deaeb17410f82bfe85791e0",
         "more_itertools/more.py": "d44e64cc59dc44a4c3c34718bf5c915cc80376e9ecb4b41dd504ad7272fa53dd",
-        "more_itertools/recipes.py": "59e76185f846560aface28bc7c86c62559914f0d1929188b2a76010c626fe276"
+        "more_itertools/more.pyi": "8975deaade3c3717bc5469885a99155ee2a947615836ebb60d4f2740b5820aed",
+        "more_itertools/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "more_itertools/recipes.py": "59e76185f846560aface28bc7c86c62559914f0d1929188b2a76010c626fe276",
+        "more_itertools/recipes.pyi": "4ff99d1a970575facfdc94966f0cd83fd272355f86a3eed13dfa717dfb405a50",
+        "more_itertools-10.3.0.dist-info/LICENSE": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46",
+        "more_itertools-10.3.0.dist-info/WHEEL": "ad282afc9a4717d7c7475971e77ab083fd7ed8bca9644fea99cb976d552af78f",
+        "more_itertools-10.3.0.dist-info/METADATA": "0453bdd0ef9f2cd89540ca63ee8212e73b73809514419dd3037d8fe471f737e0",
+        "more_itertools-10.3.0.dist-info/RECORD": "1b1811c4113a5643bcac58fd9b7bf3159fe9f5fad53c66ba01c131a276dd0c94"
     }
 }

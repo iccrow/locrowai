@@ -1,5 +1,5 @@
 {
-    "id": "rdflib-7.1.4-py3-none-any",
+    "id": "rdflib-7.1.4-py3-none-any.whl",
     "hashes": {
         "rdflib/__init__.py": "e399d57c95e3ea0294378d5d29f7a2b405e24714ad5780e045a0070c93a6d926",
         "rdflib/_networking.py": "87b7e63f817e50e065d772e0c28852559f9e16194ebc1990b450ad9fb06e9e63",
@@ -108,6 +108,7 @@
         "rdflib/plugins/stores/regexmatching.py": "e2731b70937b6b215d965e95852526080588c0c04704e814fd8b7c2d3bd0d80a",
         "rdflib/plugins/stores/sparqlconnector.py": "a7eb4af0759b8072ffe8824b7ddb1a69006553b31067b7b3e1486f988c3acca2",
         "rdflib/plugins/stores/sparqlstore.py": "11a4b35ad7b3069920387d4bb3c0370a931d30bc09dd694c7291f229bbe82534",
+        "rdflib/py.typed": "293f563729f8f3bf198ac8a13638c5dc19b6aaef11f6cd85e62ac9ae0f2fc614",
         "rdflib/query.py": "666f92761d88b68c00e4d38623ba15bffe57cd27bc1987b07f4e26c704cd1f08",
         "rdflib/resource.py": "dd6522f1e3914fca5f7226cc8cc7acfb561e6937a8fc72af790d4b416c2639b1",
         "rdflib/serializer.py": "66819442076f8a90b63105feac3bf605a9a06ffacd3d555bf01cda1c80947d5d",
@@ -123,6 +124,11 @@
         "rdflib/tools/rdfs2dot.py": "90b7fd70af9c0b95840aa4510f54ba564fba736f9593f9278b2b5bc6f59fe426",
         "rdflib/util.py": "e66137e28069db9c778d64e38a302d18243ba013aabf09c52b568ecfbc4b65c5",
         "rdflib/void.py": "2ac0ff6e6267240eb85da85f953caad459bee44b479046be06be3e28b0939b58",
-        "rdflib/xsd_datetime.py": "abff05da68fdb526fc4004453fa747e34c672abf8b87bc84ed4da38acb627b33"
+        "rdflib/xsd_datetime.py": "abff05da68fdb526fc4004453fa747e34c672abf8b87bc84ed4da38acb627b33",
+        "rdflib-7.1.4.dist-info/LICENSE": "f2941b0bacfc46c6bfe13cd98cab68adb7843574c3782997e3a2764cd545be23",
+        "rdflib-7.1.4.dist-info/METADATA": "f2f6d953888502067c9e771694865901ad049846591f9cb137078c9c7ebb4d0b",
+        "rdflib-7.1.4.dist-info/WHEEL": "21865023defa1c9aaa3a9414e8f1e427c7dbded30d0458e0f829fea7001b6853",
+        "rdflib-7.1.4.dist-info/entry_points.txt": "509d94c13f26f53bd5ed4add24cd9f704444c04c4bfd141511f9c80fe42791d9",
+        "rdflib-7.1.4.dist-info/RECORD": "86fcf84d58c06de24198dca1b727ecf6d843d52853491c53e6a162cf6ea02e7e"
     }
 }

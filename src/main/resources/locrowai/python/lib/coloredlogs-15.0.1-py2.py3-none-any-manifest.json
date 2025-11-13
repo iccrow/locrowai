@@ -1,12 +1,19 @@
 {
-    "id": "coloredlogs-15.0.1-py2.py3-none-any",
+    "id": "coloredlogs-15.0.1-py2.py3-none-any.whl",
     "hashes": {
+        "coloredlogs.pth": "dda83a855986efa5cd87f0248b0199c0086eb0e8e7fece7d6741959c5ce39536",
         "coloredlogs/__init__.py": "1716a2235a50d09cd161bc762b97ff02bf566b599e64b8395ca1961ca80f04da",
         "coloredlogs/cli.py": "89a1e05157873e5e6221e70a1b558932c94e24429d844bac6f18fb078af5b072",
         "coloredlogs/demo.py": "09a3d518e07aac2b490f27aa9345412e2d2dd398e05049e2b81fff558a39921a",
         "coloredlogs/syslog.py": "f97c91533236d102934ed56a84902d7d873e963c3472bb23c6a8d60e3aab72a5",
         "coloredlogs/tests.py": "a1efe95a74c67cd108eeca58dff540eb67d7ff4f59115155111bebf6c04caa73",
         "coloredlogs/converter/__init__.py": "b74f1ef55f3e11df72f5e35262fdf1d431f485781a5c7266416a79e23fdada79",
-        "coloredlogs/converter/colors.py": "d4dd8fa426be11830c5b20ba0f0ed21b6597d600baec5f45e4eb5e7855b9d923"
+        "coloredlogs/converter/colors.py": "d4dd8fa426be11830c5b20ba0f0ed21b6597d600baec5f45e4eb5e7855b9d923",
+        "coloredlogs-15.0.1.dist-info/LICENSE.txt": "0bef4ffb1855b65570304f2018c6d44e4bab97bd5df8716ecd7800014d717267",
+        "coloredlogs-15.0.1.dist-info/METADATA": "1663baba746f35eefb249d945345d88566cc4f3643863eb31a91258c3cac674c",
+        "coloredlogs-15.0.1.dist-info/WHEEL": "9064fbe0b5b245466b2f85602e1ebf835d8879597ff6ef5956169dae05d95046",
+        "coloredlogs-15.0.1.dist-info/entry_points.txt": "b8e99830f8f2ed7e9e7df995879ea2dd4dcdf52d770d3468cc93809dc06d646d",
+        "coloredlogs-15.0.1.dist-info/top_level.txt": "0f72ee46fbac110f3129484fa303d498f58d9bcf054b0f2db37c76ba5bc24b24",
+        "coloredlogs-15.0.1.dist-info/RECORD": "e73214da04054b935c67260d4f4f57f097da639809f686839cc8007995ca4949"
     }
 }

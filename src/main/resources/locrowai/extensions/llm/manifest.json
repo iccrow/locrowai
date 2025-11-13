@@ -11,19 +11,38 @@
     "author": "iccrow",
     "models": [],
     "hashes": {
-        "api_chat.py": "d2ff7d63d477c4467d168ff0cd8e2282748eb6f798bd768ce120cee96a4c69ff",
-        "api_load_model.py": "229aa63145f3e5f1143eff99f1e586dfefde09b369ab6c9c6626ff1fe113f5f8",
-        "model_loader.py": "96746208f5f4aa9a8f3498d2fb5e60ea4ac2d39bceb910832427590247ad1505",
+        "api_chat.py": "2460b7134f49f6c599007722d4391b3f6d03f700ee6afc927466fded0920446a",
+        "api_load_model.py": "3622bc1e1758310bcf0fd9690056fca79c1b83400c87109ea7f1cda41178740a",
+        "model_loader.py": "4c4c9347b4fde7e3e8637063f29d6ee2f594b024f8a77f2eb47eb7eb2d67fbfb",
         "__init__.py": "c197036f536e8c4a714fc62c01a6c5c873932fd3de9944edb3e6e3c643625d11"
     },
     "requirements": [
+        "Cython",
         "annotated_types",
+        "anyio",
+        "attr",
+        "click",
+        "cython",
         "diskcache",
+        "distro",
+        "exceptiongroup",
+        "fsspec",
+        "httpx",
+        "huggingface_hub",
+        "idna",
         "jinja2",
         "llama_cpp",
         "markupsafe",
         "numpy",
+        "openai",
         "pydantic",
-        "typing_extensions"
+        "pydantic_core",
+        "pygments",
+        "requests",
+        "rich",
+        "sniffio",
+        "tqdm",
+        "typing_extensions",
+        "urllib3"
     ]
 }

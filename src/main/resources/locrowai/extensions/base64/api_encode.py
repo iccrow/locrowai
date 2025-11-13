@@ -1,7 +1,7 @@
 import base64
 from pydantic import BaseModel
 
-from api import Function, register
+from api.extensions import Function, register
 
 class EncodeParams(BaseModel):
     bytes: bytes

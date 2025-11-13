@@ -1,5 +1,5 @@
 {
-    "id": "fsspec-2025.7.0-py3-none-any",
+    "id": "fsspec-2025.7.0-py3-none-any.whl",
     "hashes": {
         "fsspec/__init__.py": "2fbab034153588c35077c39ff3b1d848d153f605a534c48449a242f1f63401a4",
         "fsspec/_version.py": "071b6484149b3f603d67da4b0a835293f97a373698f520caf5d9a30e02173b9e",
@@ -56,6 +56,10 @@
         "fsspec/tests/abstract/mv.py": "93c79410122b46b18cb0163938e6835dd1a7414286c0321f43276e07a603dcdb",
         "fsspec/tests/abstract/open.py": "162d8f04f60b6d1ab2b05f1c166d2bc27078d6431d415623abc706c835e9dc15",
         "fsspec/tests/abstract/pipe.py": "2c5cc8acb081e462d77fdaf314a26613c01d1bb2d0fe1e1b268ef4afc14b3ea3",
-        "fsspec/tests/abstract/put.py": "eda8a1d7b38a07f219661d4c92ad5e043223a1b86d310988f31f8fc3e4bf6999"
+        "fsspec/tests/abstract/put.py": "eda8a1d7b38a07f219661d4c92ad5e043223a1b86d310988f31f8fc3e4bf6999",
+        "fsspec-2025.7.0.dist-info/METADATA": "7cf1214db37ac22e8a3b3dc892225070e4d8bd05d5123cd3bfd833c97f8a4472",
+        "fsspec-2025.7.0.dist-info/WHEEL": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "fsspec-2025.7.0.dist-info/licenses/LICENSE": "2dc35496ce53a7307915c008a844aad53e772b49b34cdd00445067691407ec94",
+        "fsspec-2025.7.0.dist-info/RECORD": "85036c62f54fa02c70fccad63e120e3a72ff9b4a8ee344092e390e9e735e51da"
     }
 }

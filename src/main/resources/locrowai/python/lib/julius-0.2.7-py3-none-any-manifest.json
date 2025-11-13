@@ -1,5 +1,5 @@
 {
-    "id": "julius-0.2.7-py3-none-any",
+    "id": "julius-0.2.7-py3-none-any.whl",
     "hashes": {
         "julius/__init__.py": "3b71bb8319225fecc80efbd2659ee2b3abd21aff4c7bab04c85b6d9914f66028",
         "julius/bands.py": "efb81e4262ab302ae14b4855ca0714f5f01599dbde13b83dfb39c08be122f2af",
@@ -7,7 +7,13 @@
         "julius/fftconv.py": "4a24ff5f389228c7bf92007dedd09082e5471ae724ceaf8698aeff1892509853",
         "julius/filters.py": "915d4418416b0a1100f088a959bb6d39935e98b23dba6fe9784c6f184f3433e2",
         "julius/lowpass.py": "3dd0d86f1a581615621cef78b438c9a3bd55816874d1b124a1ce953f8913ee68",
+        "julius/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "julius/resample.py": "94a66e6d7c2527510d3067f31daa5ac98331cad9c0cf2423d8cbb9c5912a26db",
-        "julius/utils.py": "b65ddefe9dc5c291ccebf312db3f25fc29439c29a4178d40a8bd702ba8d7b669"
+        "julius/utils.py": "b65ddefe9dc5c291ccebf312db3f25fc29439c29a4178d40a8bd702ba8d7b669",
+        "julius-0.2.7.dist-info/licenses/LICENSE": "60f83da40026e37e259b69158852384ff2ee20615d9103a3f86b6cff48784661",
+        "julius-0.2.7.dist-info/METADATA": "69721a51a21083ce7e3c5ec6a75ea0bdd09ad995c52c97d93be965e593f077df",
+        "julius-0.2.7.dist-info/WHEEL": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "julius-0.2.7.dist-info/top_level.txt": "236fb37009530049b67ab9b1fe483b08a54735607c02a9b98c2176cb2166ed42",
+        "julius-0.2.7.dist-info/RECORD": "9a2d5e51250e78eb806a6cbd3d0b81968eac05ce837c324765db08552de68d17"
     }
 }

@@ -1,9 +1,10 @@
 {
-    "id": "anyio-4.10.0-py3-none-any",
+    "id": "anyio-4.10.0-py3-none-any.whl",
     "hashes": {
         "anyio/__init__.py": "cf72325a0590bb10a2f8a53099afb52d2cace16079d2657637c16f4bdfc878f1",
         "anyio/from_thread.py": "b7c07f6a6a8506a949cbc5f5f2686fa58921cde497991b08f9ea7a620d381f83",
         "anyio/lowlevel.py": "222b159237b9930a8e0a97be460063182be5afe24114606b9286d1ee267716fe",
+        "anyio/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "anyio/pytest_plugin.py": "a9737093d3daee13d0296a1c80b97daa28ea2863241b3747db025afa33e41943",
         "anyio/to_interpreter.py": "674fa42c2c652138c51bf44cfd335d525127a20f78978f065d50d9f34c345117",
         "anyio/to_process.py": "66faee7a544cf87366a836aa978b1d34e0e0d900ffb92970482c675783a1b1f4",
@@ -41,6 +42,12 @@
         "anyio/streams/memory.py": "19c6c5ddc6a176c74566d71365a20aa595cf0d92a8823d7cc163cf984d0e9865",
         "anyio/streams/stapled.py": "534f690ab98ec3d9243617bab4aa29b26d5020c4f59454c5bed6fe03b4887b89",
         "anyio/streams/text.py": "b4227c9636af18cf8763468bfb94f0c6ff8acb0d417d1d01e0eb55201ea467dc",
-        "anyio/streams/tls.py": "b2249a691c97f979df0bb25b9fd563b48755cc9903b2f216ff6a5211585e0c54"
+        "anyio/streams/tls.py": "b2249a691c97f979df0bb25b9fd563b48755cc9903b2f216ff6a5211585e0c54",
+        "anyio-4.10.0.dist-info/licenses/LICENSE": "5361ac9dc58f2ef5fd2e9b09c68297c17f04950909bbc8023bdb82eacf22c2b0",
+        "anyio-4.10.0.dist-info/METADATA": "d400ffeb480f82ac562ac3b9e055136ca0d01f29e2e63ff9ebf5d08a7289f4b4",
+        "anyio-4.10.0.dist-info/WHEEL": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "anyio-4.10.0.dist-info/entry_points.txt": "fdde98bbaba269998d7b40b2768c22ac4f429a0ef350bda0d3cb50a684b742f7",
+        "anyio-4.10.0.dist-info/top_level.txt": "420952322597f3fe5da685401081dd118cefa8531d4985a60a3ead630d884e44",
+        "anyio-4.10.0.dist-info/RECORD": "6525a38fe98623ca66d051ce041ff46ec8f2557bf6d416b5589d2c52c82d34d4"
     }
 }

@@ -3,7 +3,7 @@ from pydantic import BaseModel
 import io
 import soundfile as sf
 
-from api import Function, register
+from api.extensions import Function, register
 
 class PCMConvertParams(BaseModel):
     audio: bytes

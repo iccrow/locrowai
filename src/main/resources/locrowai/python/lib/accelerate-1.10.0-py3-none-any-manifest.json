@@ -1,5 +1,5 @@
 {
-    "id": "accelerate-1.10.0-py3-none-any",
+    "id": "accelerate-1.10.0-py3-none-any.whl",
     "hashes": {
         "accelerate/__init__.py": "2ef952f8a29e99536a50da95129217ebdb2853b9c8d65e61726653d7d345cfb0",
         "accelerate/accelerator.py": "9005e9a74cd819701578ea9a86e8cd71c16152f0e2308ed1b6f447c0797837f9",
@@ -83,6 +83,12 @@
         "accelerate/utils/torch_xla.py": "3ead6dbaa3745ffa560d5cdae988237cee39ba825da11551168acb78b43316eb",
         "accelerate/utils/tqdm.py": "93c7bd26789e4c44070823416a2072b3b84fc569446f244049d2266beab2fd7f",
         "accelerate/utils/transformer_engine.py": "3c436ad73843cc43671457d5e212f38598a22e8dbcb5016f9ae86940f95cdd2d",
-        "accelerate/utils/versions.py": "52099c6e3066fbee82231d596a648032300afc1ff6978f0b6de68dca0a9e8fc3"
+        "accelerate/utils/versions.py": "52099c6e3066fbee82231d596a648032300afc1ff6978f0b6de68dca0a9e8fc3",
+        "accelerate-1.10.0.dist-info/licenses/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "accelerate-1.10.0.dist-info/METADATA": "b1b068615d1d3845cb002df74c610685cea5d2abb0583c8200cf6b6b1d206890",
+        "accelerate-1.10.0.dist-info/WHEEL": "95353a07a7887d8a224094d935cf9fc9a47a0692fa7a14f3537c466319f69fc9",
+        "accelerate-1.10.0.dist-info/entry_points.txt": "569cbc81419f67ed559ccdb6dbd7dbf02a4934b05d307ff0b49f4f43b6ffdad4",
+        "accelerate-1.10.0.dist-info/top_level.txt": "7ac55f7714e276c8d0f74cec37facfa632c52788a3465c789a72eb1b4f6196de",
+        "accelerate-1.10.0.dist-info/RECORD": "376a68373760eac90754b4eff3b4f2bfa57f903342f70ce1b23b6a048d41b7bd"
     }
 }

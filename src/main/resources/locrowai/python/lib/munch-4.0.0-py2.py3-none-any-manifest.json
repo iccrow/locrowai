@@ -1,6 +1,13 @@
 {
-    "id": "munch-4.0.0-py2.py3-none-any",
+    "id": "munch-4.0.0-py2.py3-none-any.whl",
     "hashes": {
-        "munch/__init__.py": "5752d6c0a320d9875c2722c2a4ebc2fe0c923ab36138fdc1cbe64b48c9efee86"
+        "munch/__init__.py": "5752d6c0a320d9875c2722c2a4ebc2fe0c923ab36138fdc1cbe64b48c9efee86",
+        "munch-4.0.0.dist-info/AUTHORS": "de7761956108db05e505b9b5661faa5b0258f717100081da649defa687410602",
+        "munch-4.0.0.dist-info/LICENSE.txt": "57ca95c92059c8380625192462979bd32994aae3fcdf902ff6eb1e467eeb0469",
+        "munch-4.0.0.dist-info/METADATA": "bec081ff1dfe5b6a47981f4aeb5c7fc321db93740eeda907e381528d2c8b7b09",
+        "munch-4.0.0.dist-info/WHEEL": "6bece9151209cceab941fba10736e1880d5e1d3ccd0899fc39d46f85d357d119",
+        "munch-4.0.0.dist-info/pbr.json": "e889f88a1eb0d6c37ad0b48e117dcbc2859b61a1661aed66b8c3733ef06d575a",
+        "munch-4.0.0.dist-info/top_level.txt": "3d11cdf0c61a579e22b2c5ec73edd275ef8d74a04b2fb057b1a7ddec76b0f081",
+        "munch-4.0.0.dist-info/RECORD": "bb40202ac433db9ebd8e963c479da770830a35a502b083a23e63ac5a90dfe878"
     }
 }

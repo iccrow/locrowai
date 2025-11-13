@@ -1,8 +1,13 @@
 {
-    "id": "termcolor-3.1.0-py3-none-any",
+    "id": "termcolor-3.1.0-py3-none-any.whl",
     "hashes": {
         "termcolor/__init__.py": "a53be7cf03aece56affe5069e0faccef97771145cf0def9bba00fe67c186f179",
         "termcolor/__main__.py": "def2ea0de65d7b2351586a4d152a15bfbfb3485797e7d4012a345008b14c7472",
-        "termcolor/termcolor.py": "073c8789f62859b92c5c517bc988dd81615282e19290004d35eb1f4a5ac74111"
+        "termcolor/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "termcolor/termcolor.py": "073c8789f62859b92c5c517bc988dd81615282e19290004d35eb1f4a5ac74111",
+        "termcolor-3.1.0.dist-info/METADATA": "f56675a9eed04059269e713ee86b40fd296c0df8c3107687be429c457da39d38",
+        "termcolor-3.1.0.dist-info/WHEEL": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "termcolor-3.1.0.dist-info/licenses/COPYING.txt": "e79b6bd82962c1330caaa7c42278567b08667777673f8e2371a624d5715d4c0e",
+        "termcolor-3.1.0.dist-info/RECORD": "b5816a1d26485d5a89ef7981fdf2e72680173dc71b9f210ee8fdb38d81238274"
     }
 }

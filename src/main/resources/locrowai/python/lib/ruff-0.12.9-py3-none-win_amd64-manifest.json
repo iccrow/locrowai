@@ -1,8 +1,12 @@
 {
-    "id": "ruff-0.12.9-py3-none-win_amd64",
+    "id": "ruff-0.12.9-py3-none-win_amd64.whl",
     "hashes": {
+        "ruff-0.12.9.dist-info/METADATA": "5b5f818aae99a9fd781222381f1ee7015d8cae5ff9a090e7157eae6aecbaa8cf",
+        "ruff-0.12.9.dist-info/WHEEL": "c68bdae9c6ee9a5d6a1003385a82d38bfda992bedecca995d16b6058256cf114",
+        "ruff-0.12.9.dist-info/licenses/LICENSE": "3209c0b7fb7257c05b16433728c1e974bac40000fef171b8e9e89f095623c954",
         "ruff/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "ruff/__main__.py": "c351217f3cf2f2d30ceebedd16b2a68b70e499367257fc49e342bfb31a0ee97d",
-        "ruff-0.12.9.data/scripts/ruff.exe": "6e7a1d626c5a424e2d90f989a32ed5e91769cfbd03a1f9692366db952ed0cc6b"
+        "ruff-0.12.9.data/scripts/ruff.exe": "6e7a1d626c5a424e2d90f989a32ed5e91769cfbd03a1f9692366db952ed0cc6b",
+        "ruff-0.12.9.dist-info/RECORD": "eceef506aed42c8a6b6e0ffa1ae2f19593bdec50f4ca4c20c9acfe7cf5fee209"
     }
 }

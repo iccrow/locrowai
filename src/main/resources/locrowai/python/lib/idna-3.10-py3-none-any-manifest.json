@@ -1,5 +1,5 @@
 {
-    "id": "idna-3.10-py3-none-any",
+    "id": "idna-3.10-py3-none-any.whl",
     "hashes": {
         "idna/__init__.py": "30fa8d0cb65b5ea19a35d5f1005862a853ca1105e3bb68cd42109ecbafb97893",
         "idna/codec.py": "3c47b0dc8b70ce35b887299b6ac9edcb6376397bcd7201c1f898eb06ec473d86",
@@ -8,6 +8,11 @@
         "idna/idnadata.py": "5b7d067081afb4e598c008d98f8663ba8b94bad0ba7df80dbb28c9cbb7d9fa5a",
         "idna/intranges.py": "6a652d91d8587101bc66bf82a0c33f91545a731922bc2d568313756fadca29d5",
         "idna/package_data.py": "ab9f52dce5ec739548f23eaf483d2c18133293acd9e2f58544413cf3208960ab",
-        "idna/uts46data.py": "aedf742bd278d20512c29a433c2ae18e08b9000ea958ceb974419149feab2213"
+        "idna/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "idna/uts46data.py": "aedf742bd278d20512c29a433c2ae18e08b9000ea958ceb974419149feab2213",
+        "idna-3.10.dist-info/LICENSE.md": "a59f0b0ef3635874109a4461ca44ff7a70d50696e814767bfaf721d4c9b0db0f",
+        "idna-3.10.dist-info/WHEEL": "1196c6921ec87b83e865f450f08d19b8ff5592537f4ef719e83484e546abe33e",
+        "idna-3.10.dist-info/METADATA": "5114796720df4353c2106864628a23a9f8b645ad2d6aedbefa58701b85d27e32",
+        "idna-3.10.dist-info/RECORD": "df0b52be67fa3a7483fb1274d20d5c2f9870e375b6aeb3089de625291f2d330c"
     }
 }

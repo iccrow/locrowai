@@ -1,5 +1,5 @@
 {
-    "id": "descript_audio_codec-1.0.0-py3-none-any",
+    "id": "descript_audio_codec-1.0.0-py3-none-any.whl",
     "hashes": {
         "dac/__init__.py": "15575d30dc28e2ac6978b1c4f67b3b79a8e4198e1645ef7ccbfb2706b988b5fe",
         "dac/__main__.py": "94c3f738a79bdccaebfc1c92b015a46ddb9d9bbba1a41c29ef38d082b61dce6e",
@@ -18,6 +18,11 @@
         "dac/utils/encode.py": "6052fd02ba78c37401c2b5087a8b50ea9e2be806975c317ba8534cdfc47f0f4c",
         "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "tests/test_cli.py": "d5beb1a00f799c137e2b822925fd8c1ce4ca1ffcbfe5242a7352bea1127fc083",
-        "tests/test_train.py": "99cbd2e1326ac15cad61fce8d124d89c4753682955d8370a9f0cd95e4c9e279b"
+        "tests/test_train.py": "99cbd2e1326ac15cad61fce8d124d89c4753682955d8370a9f0cd95e4c9e279b",
+        "descript_audio_codec-1.0.0.dist-info/LICENSE": "5d7a5f644313f30aad5ef032669ada67efdacefecb2c7d7b875683698bd70e87",
+        "descript_audio_codec-1.0.0.dist-info/METADATA": "d92df8260daf76a1198f5571b86cc3346ad6de7a8779951e3e76c0cffa73e4e5",
+        "descript_audio_codec-1.0.0.dist-info/WHEEL": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f",
+        "descript_audio_codec-1.0.0.dist-info/top_level.txt": "7b827ba0a32cf362ffbe7b2fd59e0ccc1a93f0634d51e68e839ec460a578761c",
+        "descript_audio_codec-1.0.0.dist-info/RECORD": "78dc6443376b95e1e51a1566747ed6b6253082f50b3ae42a1e359d031afa1f2c"
     }
 }

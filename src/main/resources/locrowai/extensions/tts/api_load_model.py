@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from api import Function, register
+from api.extensions import Function, register
 
 from .model_loader import load_model, unload_model
 

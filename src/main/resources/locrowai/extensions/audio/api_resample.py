@@ -2,7 +2,7 @@ import librosa
 import numpy as np
 from pydantic import BaseModel
 
-from api import Function, register
+from api.extensions import Function, register
 
 class ResampleParams(BaseModel):
     audio: bytes

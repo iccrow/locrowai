@@ -3,7 +3,8 @@ from pydantic import BaseModel
 import numpy as np
 import io
 
-from api import Function, register
+from api.extensions import Function, register
+from api.threading import ModelLock
 from .model_loader import get_pipeline
 
 class TTSParams(BaseModel):
@@ -31,16 +32,17 @@ class TTSFunc(Function[TTSParams, TTSReturns]):
         chunks = []
         timestamps = []
 
-        for result in generator:
-            audio = result.audio.cpu().numpy()  # Convert to numpy
-            chunks.append(audio[:int(-24000*0.4)].tobytes())  # Append byte data
-            tokens = result.tokens
-            for t in tokens:
-                timestamps.append({
-                    "start": t.start_ts,
-                    "end": t.end_ts,
-                    "text": t.text + t.whitespace
-                })
+        with ModelLock("tts"):
+            for result in generator:
+                audio = result.audio.cpu().numpy()  # Convert to numpy
+                chunks.append(audio[:int(-24000*0.4)].tobytes())  # Append byte data
+                tokens = result.tokens
+                for t in tokens:
+                    timestamps.append({
+                        "start": t.start_ts,
+                        "end": t.end_ts,
+                        "text": t.text + t.whitespace
+                    })
 
         chunks = b''.join(chunks)
 

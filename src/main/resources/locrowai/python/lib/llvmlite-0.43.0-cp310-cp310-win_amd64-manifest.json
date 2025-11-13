@@ -1,5 +1,5 @@
 {
-    "id": "llvmlite-0.43.0-cp310-cp310-win_amd64",
+    "id": "llvmlite-0.43.0-cp310-cp310-win_amd64.whl",
     "hashes": {
         "llvmlite/__init__.py": "1f51abcba5944bb61c178e96c5ca867382790f9244ac278ceb40dbd9ac0314cf",
         "llvmlite/_version.py": "8a35c8e675c349c0849edb42ce76512773e14a2c485d03f88594814073a3a317",
@@ -39,6 +39,12 @@
         "llvmlite/tests/test_binding.py": "7f89e53090e682b15a49fb5fd51f417f4245aa2ed42d74a4cb7c848e91282d98",
         "llvmlite/tests/test_ir.py": "dfa6f7b9c18f4a3b62562fa4e4b5d20e4b235b4326c2dcb276006e2e3db8a607",
         "llvmlite/tests/test_refprune.py": "d41ac253def50be4b6c56651751ef591801667fa9d885bb6b25904a18f805470",
-        "llvmlite/tests/test_valuerepr.py": "b9213235256ea362456432fb40044582c6ca88dce04761c500b7302bac974867"
+        "llvmlite/tests/test_valuerepr.py": "b9213235256ea362456432fb40044582c6ca88dce04761c500b7302bac974867",
+        "llvmlite-0.43.0.dist-info/LICENSE": "f33fc26711517954abcfa59043ee07d01a6623b661c1d26cc69b0933ce4ffb98",
+        "llvmlite-0.43.0.dist-info/LICENSE.thirdparty": "7b564c7af9ab446d245ba66adc8cda2f61d1d162f842899557499e80b715993a",
+        "llvmlite-0.43.0.dist-info/METADATA": "dec04243e5e376b9b5d6d598f39df95bd3f5c196cc4a846fdea958d811af9bcc",
+        "llvmlite-0.43.0.dist-info/WHEEL": "94ee82aad2c70808b7f17dc4b356b84759408d916f374d7420c442168d92ecc7",
+        "llvmlite-0.43.0.dist-info/top_level.txt": "5898bc1aaf768c0db0bff695d4eb21a7d899fb331ae3729c9b0f349167866060",
+        "llvmlite-0.43.0.dist-info/RECORD": "5c17be2017eae17e57f54e4696429979244aa0d69a46cb5e3dc4d562ea8ed0ff"
     }
 }

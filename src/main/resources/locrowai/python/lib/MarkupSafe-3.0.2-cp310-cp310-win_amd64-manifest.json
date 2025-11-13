@@ -1,9 +1,16 @@
 {
-    "id": "MarkupSafe-3.0.2-cp310-cp310-win_amd64",
+    "id": "MarkupSafe-3.0.2-cp310-cp310-win_amd64.whl",
     "hashes": {
         "markupsafe/__init__.py": "a5111eacfc2f8a707adad34230ec2ac414b660757a479d9672ad5dfab078679a",
         "markupsafe/_native.py": "da9b64278d3209ca7d92adcbd4daa98237e9641fa86e789828514a50e9078784",
         "markupsafe/_speedups.c": "4a09548e7e34b62f5881000efbe3a0912caff6d5eaf6fbda1f2561428c2ce0e9",
-        "markupsafe/_speedups.cp310-win_amd64.pyd": "453be1f94cc94d7ec9ff88fe0398d99a7ab044a05ed294220cf77f8fad237edf"
+        "markupsafe/_speedups.cp310-win_amd64.pyd": "453be1f94cc94d7ec9ff88fe0398d99a7ab044a05ed294220cf77f8fad237edf",
+        "markupsafe/_speedups.pyi": "2d20e65d839e7c7e07569017b8bf2c97b02db4bc34a178759e3568559a76c2a4",
+        "markupsafe/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "MarkupSafe-3.0.2.dist-info/LICENSE.txt": "4631ec0db5fd90a547e336817264c6798214338146f8ac94b4a57f96ee8c9ec4",
+        "MarkupSafe-3.0.2.dist-info/METADATA": "9e1a1a6e3ba9046e358ff2713c2277ca582b67a171f2830215b88b17d29a7ea7",
+        "MarkupSafe-3.0.2.dist-info/WHEEL": "22a8963704d23cfbe8ad1ee64decee458d9eaa3fffe3824a2a48ce89ec035fae",
+        "MarkupSafe-3.0.2.dist-info/top_level.txt": "ab2d0f9637b9209bafb020637a32728430a310075c0cb2bfd9a81571ec7c67a5",
+        "MarkupSafe-3.0.2.dist-info/RECORD": "545f81bc9ce20c7e5c790d239959fdec6516c9593f42389c2d780b77d938bf1f"
     }
 }

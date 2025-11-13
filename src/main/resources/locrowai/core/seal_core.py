@@ -7,25 +7,14 @@ from cryptography.hazmat.primitives.serialization import load_pem_private_key
 import json
 from tqdm import tqdm
 
-HASH_EXTENSIONS = [
-    ".py",
-    ".pyd",
-    ".so",
-    ".dll",
-    ".dylib",
-    ".pyx",
-    ".pxd",
-    ".exe",
-    ".c",
-    ".cpp",
-    ".cu",
-    ".h",
-    ".hpp",
-    ".lua",
-    ".bin",
-    ".bat",
-    ".sh"
-]
+BLACKLIST = (
+    ".pyc",
+    "requirements.txt",
+    "wheels.txt",
+    "python-manifest.json",
+    "core-manifest.json",
+    "core-manifest.json.sig.b64",
+)
 
 PRIVATE_KEY = Path("keys/private.pem")
 
@@ -48,22 +37,22 @@ core = []
 
 core.extend(list(Path(".").glob("*")))
 core.extend(list(Path("sample").glob("*")))
+core.extend(list(Path("api").rglob("*")))
 print(core)
 
 manifest_path = Path("core-manifest.json")
 _hashes = {}
 
 for file in tqdm(core):
-    if file.is_dir() or file == manifest_path or file == manifest_path.with_suffix(".json.sig.b64"):
+    if file.is_dir():
         continue
     key = file.relative_to(Path(".")).as_posix()
-    if file.suffix in HASH_EXTENSIONS:
+    if not file.name.endswith(BLACKLIST):
         print(f"Hashing {file}")
         with file.open("rb") as f:
             data = f.read()
             file_hash = sha256_bytes(data)
             _hashes[key] = file_hash
-    elif file.suffix != ".pyc" and file.name != "wheels.txt": _hashes[key] = None
 
 with manifest_path.open("r+") as manifest_file:
     content = json.load(manifest_file)

@@ -1,17 +1,20 @@
 {
-    "id": "cython-3.1.3-cp310-cp310-win_amd64",
+    "id": "cython-3.1.3-cp310-cp310-win_amd64.whl",
     "hashes": {
         "cython.py": "47c7bdd9af7b7b74f4609237815b06b25d6d37ed86dc541225b4758c68be6f8f",
         "Cython/CodeWriter.py": "7d40072319101082a448932d12f419f34cf6a7fcd097d284e9b02edab1a0e499",
         "Cython/Coverage.py": "c6e246de1f6ff6311c2139cfaeebf582ce52ac23b6a879d53df87d0c9ab9935d",
         "Cython/Debugging.py": "82bfa06cdc8dd723d301d1a012b657bff97449277086cc8d7f17e1691105b2c3",
         "Cython/Shadow.py": "358378b5dd7979943e433392ec8a89806d4d30a59641fca190521ab7528e8384",
+        "Cython/Shadow.pyi": "16116a5f6c0ae690df17715a17dfb7e0e33f69e91deaa1ecc4b7358e5c228c61",
         "Cython/StringIOTree.cp310-win_amd64.pyd": "0f1f165ecfa7fd379fa7fb47ef0710691ae57bea76cb81ec0e5ff0a4bdd0df9d",
         "Cython/StringIOTree.py": "b4ac13df3b06e9eca0c03e6aaa06bfdc8827b315567bacf70a031b06131f77cb",
         "Cython/TestUtils.py": "ca8725ed111cfc1b9425e3c3820c04390edaaad1907d0156af19f855730a4952",
         "Cython/Utils.cp310-win_amd64.pyd": "aa13378f57e8c8695f38de8662fe9fd483acf91e1ded8bf0f6b3f442dd33c730",
         "Cython/Utils.py": "8a87a6ec06756de0415faf0bbe705dad10ef4a0d32a9a5d75bb91d6c6db0134f",
         "Cython/__init__.py": "3a7d486ff2c4d8a12da224fa0f4fec5cc24cd2f8fcf3bd4341ae105d04ae8605",
+        "Cython/__init__.pyi": "8e820911d6d814c137353e6e8db01b71594263e596b91a8759a983c9c5bd7520",
+        "Cython/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "Cython/Build/BuildExecutable.py": "f580d9acb40d5b4b669c94c4b2300327ee29850dbc5fae9b43c121392dbfcf03",
         "Cython/Build/Cache.py": "d922710d43fd59f876300c624eeef78b4a97b715bd00222ac29ca9d4071744ca",
         "Cython/Build/Cythonize.py": "354b64c7183104af225c4952910b22a05b9eff8de1c19ac6e06023b3de19d127",
@@ -113,6 +116,7 @@
         "Cython/Debugger/Tests/TestLibCython.py": "8d879432b5433fd996ff9fceb3be45006d4c9655faea6e2bbeac89a34dd91074",
         "Cython/Debugger/Tests/__init__.py": "a93afb978b35bb5d2970c7c58cff5c159192d4f293eafd8c97fbf2dddadeb68d",
         "Cython/Debugger/Tests/cfuncs.c": "d2454454686f733c191261c5e6672863efc3fc68dc95ae1b9391831ac569ec05",
+        "Cython/Debugger/Tests/codefile": "b90c246adb2ba787e05aee2660669a9a76d85deb474661ea39d94e150d050ebf",
         "Cython/Debugger/Tests/test_libcython_in_gdb.py": "0e21fe795f079952434754003a81076c8167c26d1d5de161c72a46999a7d541c",
         "Cython/Debugger/Tests/test_libpython_in_gdb.py": "d2cdd0884367c4f651a1e924064a59a6414a2121da416af50bf1685a2c7c2ad6",
         "Cython/Distutils/__init__.py": "4c83f353d1ebd66731a1609631a4a9a87b45ac5bc8f633d2555def6387bf0ffd",
@@ -320,8 +324,15 @@
         "Cython/Utility/UFuncs_C.c": "67a211c72b857ca76bff492b46f3697be8d109f5ea10b2bf93d5ed1605484cd9",
         "Cython/Utility/__init__.py": "26bd18caeb46de67121091607355a37a969a07049b2161afa0667887ad59958b",
         "Cython/Utility/arrayarray.h": "6325a9d9d68f9c505092ac9e0e67120efbd2e0d91ac393f958fb57072445f4ae",
+        "cython-3.1.3.dist-info/licenses/COPYING.txt": "6c11fd8aeed5089832a121ec3b1c646ed5998824532aa0681dd55c4295a5ea86",
+        "cython-3.1.3.dist-info/licenses/LICENSE.txt": "0536c944c8b9103a27f131538e3798bfbd723dfa89882a4f9120be176f049c35",
         "pyximport/__init__.py": "35c79573d255fa27c5890fd731cc95c00b37892083f6b8049cd0975d43af391c",
         "pyximport/pyxbuild.py": "dd2170aaed1b519806501bb25a9806274334a4e99cce4a8143bcc8f2c7467646",
-        "pyximport/pyximport.py": "c1085fb7b345e1b2353faeb2600852e53c54efecf5cff38865376035b0812613"
+        "pyximport/pyximport.py": "c1085fb7b345e1b2353faeb2600852e53c54efecf5cff38865376035b0812613",
+        "cython-3.1.3.dist-info/METADATA": "a95c82ca22e6e3c3f30f77ee8455f3d09c5cf0a2ecf953f5fac2a74ca37e7150",
+        "cython-3.1.3.dist-info/WHEEL": "294b810ba97101b1c22a294ab9af11f56fd333bd7ffbd4a0e6e10fdee0d67285",
+        "cython-3.1.3.dist-info/entry_points.txt": "554f0d5fc82743215bcaa8963337e1f411ef60cba84114b735b9b790a70a41e6",
+        "cython-3.1.3.dist-info/top_level.txt": "8cb57cb5957df2209b21f8894780d5cd35f946ed58fe960c679f7090c09ee926",
+        "cython-3.1.3.dist-info/RECORD": "457544ad8aba75f73f0932098079612ce4e2dbd062051f94e108bfb5a5e330c2"
     }
 }

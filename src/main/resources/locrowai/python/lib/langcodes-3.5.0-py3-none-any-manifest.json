@@ -1,18 +1,26 @@
 {
-    "id": "langcodes-3.5.0-py3-none-any",
+    "id": "langcodes-3.5.0-py3-none-any.whl",
     "hashes": {
         "langcodes/__init__.py": "9b7769efdb31520d12e9b5495c7593f99da5d279445f82f5fd13d3408e3dd4e6",
         "langcodes/build_data.py": "3f95e5a044282a0372014ab7e9d860fee11c11dd08e318e079cb3e7e1b7ea276",
         "langcodes/data_dicts.py": "f0058d862155868728592920b816378c4b7237f28e6c4dbab779e02945df9f5a",
         "langcodes/language_distance.py": "ae9bd4fa0945227fb01f15baf760af16cb737dd585233afee86857f73bd719cd",
         "langcodes/language_lists.py": "a47dfde7e202966c4be88f2e2848fb354dd17acaecaa9b427b3c0f59e28c3f51",
+        "langcodes/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "langcodes/registry_parser.py": "7ff6caa97a0f28321a2f1a52eaabe088fbed7f36591faa4c38d3b0d63c9c98f7",
         "langcodes/tag_parser.py": "75acc6e38e0f779442dad6f4c6db5ab913fc74dbad095f016b7e8f522c6bba56",
         "langcodes/util.py": "bc79374b623e0f949a70ee74bab4b1e33d9eef8ea16f4f1123e682e2ee7b3d1a",
+        "langcodes/data/language-subtag-registry.txt": "c7b8078016e99de39bf5e758a376d54ac51bccb3c4e0d89502d2b11cb19070ce",
+        "langcodes/tests/README.md": "9cbb997a2a481cd614786e72955ee3225a350d9eed206544c3aa6b75c58c369d",
         "langcodes/tests/test_alpha3.py": "28b7fedf4e18eb4c2c2ca721a1a8ae671433b109d7b26629f5e1966511a953af",
         "langcodes/tests/test_issue_59.py": "37572822d53fefd9ca37168a398fc691cfe441de53912cded91ff1302336447d",
         "langcodes/tests/test_language.py": "e06650b974d31900327f920b1c3f50067675262cc7ee61605e48b0bc328e6bf8",
         "langcodes/tests/test_language_data.py": "2fbd5a9409a1361090151cc6c2208209e18305406340cd33c549dc76c5102d75",
-        "langcodes/tests/test_wikt_languages.py": "45acb6efa1ff693c4ba0391ddd600cf23626aacf236d3a81404f93004066ad9c"
+        "langcodes/tests/test_wikt_languages.py": "45acb6efa1ff693c4ba0391ddd600cf23626aacf236d3a81404f93004066ad9c",
+        "langcodes-3.5.0.dist-info/LICENSE.txt": "a0cceca169e5eed22f00f4c001c3851026e56cb60632904548889eb79a3c226d",
+        "langcodes-3.5.0.dist-info/METADATA": "c5d3f4b9d989e949387ec6d5a1d692f17ffa35cb350fb75ec4a7bb75ad9e061e",
+        "langcodes-3.5.0.dist-info/WHEEL": "474e8f0375156074e1c07bf1b9158ca9a19cafe3ee9e25da8708e641114c1246",
+        "langcodes-3.5.0.dist-info/top_level.txt": "fea4847d2ee4c6758428634e9ad4517649c7eac4270e8e7219db1d00581c11f3",
+        "langcodes-3.5.0.dist-info/RECORD": "f11d03024f3ddd01fa41d21d9ff2860caef92b451e27427373b581a3330dc6c8"
     }
 }

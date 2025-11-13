@@ -1,5 +1,5 @@
 {
-    "id": "flatbuffers-25.2.10-py2.py3-none-any",
+    "id": "flatbuffers-25.2.10-py2.py3-none-any.whl",
     "hashes": {
         "flatbuffers/__init__.py": "abbb76ecdceeb76a959ee8cf211660ae4dc739b992db66133e6b96f79045e446",
         "flatbuffers/_version.py": "d665aa440cc2d4423924f3a7bf8737f0754388993f3422f4f2ef3631216a7086",
@@ -10,6 +10,11 @@
         "flatbuffers/number_types.py": "f082ae2a8f36dafe2042f50e3bf0830ae25f83876218138b3818f990b57b74fa",
         "flatbuffers/packer.py": "a70df2fcd33e58e11c6df4fa373002b3353d3cf1124180d969ba1f811c6c8fe8",
         "flatbuffers/table.py": "f0e99e922a84cb043fa4ca93ed0e144c9c8c094f1e5610012a996b29208d4219",
-        "flatbuffers/util.py": "21bd5c4b1f5fb2017d058f388989744e38fba9fb4d867888ed9116c89c2f6461"
+        "flatbuffers/util.py": "21bd5c4b1f5fb2017d058f388989744e38fba9fb4d867888ed9116c89c2f6461",
+        "flatbuffers-25.2.10.dist-info/LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "flatbuffers-25.2.10.dist-info/METADATA": "304b2ef58070ef87861162bc834c1147791f8689524007875b43e2f566c5ce92",
+        "flatbuffers-25.2.10.dist-info/WHEEL": "2a1f69028b59551163f7b135e724c0e22003a977507c85531dc35a6538f17863",
+        "flatbuffers-25.2.10.dist-info/top_level.txt": "5175562c0f32b3a1dea93cfaadf29eb28714aba967f992fc9a1642fdcab90447",
+        "flatbuffers-25.2.10.dist-info/RECORD": "fb81be6af80d7c8cf55540d8c7e670aab6fcbf441901b4cfa5db67eab9f3ffe5"
     }
 }

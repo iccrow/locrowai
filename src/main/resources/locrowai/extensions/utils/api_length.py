@@ -1,7 +1,7 @@
 from typing import Any
 from pydantic import BaseModel, ConfigDict, field_validator
 
-from api import Function, register
+from api.extensions import Function, register
 
 class LengthParams(BaseModel):
     model_config = ConfigDict(arbitrary_types_allowed=True)

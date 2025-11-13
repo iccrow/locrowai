@@ -1,5 +1,5 @@
 {
-    "id": "modelscope-1.18.1-py3-none-any",
+    "id": "modelscope-1.18.1-py3-none-any.whl",
     "hashes": {
         "modelscope/__init__.py": "ccadc8e6c33793c4c435adbfd670fb25c7a0e55a5e4701645e284fbbe9c4c726",
         "modelscope/metainfo.py": "2bf838c061e37cfa32d15a71f8b700b04e11b4279ea12c1a90301fae0b62a92b",
@@ -14,6 +14,8 @@
         "modelscope/cli/pipeline.py": "6a16ab18e2567ab774d715a6e4eb3cbcd12e4ed4fef01e76c4a0a3dcd37cfd24",
         "modelscope/cli/plugins.py": "c478c13920aee04477c875dcba928a1dff129d940485e2f1996eafd3b94af040",
         "modelscope/cli/server.py": "36d7a9fa0612cd1f61a20c80c10cf63df46cd20e3a0f14d8d728069c3cdf9f25",
+        "modelscope/cli/template/readme.tpl": "2174faefd609561e267547da722b6b1935596c511592dda540fc0ddf24d769c1",
+        "modelscope/cli/template/template.tpl": "fe9e849ffbc3cf48dd91744996a046c80c2368143ee9872b1597aa96db3a72b3",
         "modelscope/configs/examples/configuration.py": "440c86757fa3570e5324288f7f25dbaee87ede92b41b29e9ea13e7e7471c6aea",
         "modelscope/exporters/__init__.py": "e4675590ab311094fc9d502d343a99fc15bcf44e6d624190993b519898a1db0b",
         "modelscope/exporters/base.py": "fd9d29b514b7daaedcdd90530d7cfebfbca17c298edf83cd52aa126eddc9057f",
@@ -2747,6 +2749,8 @@
         "modelscope/utils/metric.py": "c5e510f42396be57a7cd61776d7882501fd0d8866ac9ba853bb1584231125e6b",
         "modelscope/utils/model_tag.py": "93054053ad19925ff38414da188a2d7e12bd2105ea1da9dc78f42dced01aa815",
         "modelscope/utils/model_type_helper.py": "3a95d66cc97c63b4054b79fc58a096ef5a3023f93d8dfc5a12727474fb9681c2",
+        "modelscope/utils/pipeline_inputs.json": "c4f9f48bc7a65614740e169e836b7aa9ad22dc986290df695ddc6069a27bd081",
+        "modelscope/utils/pipeline_schema.json": "0c63670de0e8e49d41c09c1969108c7af88c6343d8c6cd89368cc65f2637a3e4",
         "modelscope/utils/plugins.py": "eda468149fced081b5372655d97dfae33f91f96af218b5551efd259e5e75775e",
         "modelscope/utils/pre_compile.py": "c51acf994d4c74c47f54ba64bbe074380af7f19ecc977f966773a86b5bde5356",
         "modelscope/utils/registry.py": "d92a1bcd1ff24bb98cb1f395a0a7d1e32368b5a806e2eb0540ba5716cc217e90",
@@ -2784,6 +2788,11 @@
         "modelscope/utils/nlp/space/utils.py": "c092992d23620a85c08c10818597d4361bbe61b8b9b71fa1f1e840b0cb3727e9",
         "modelscope/utils/nlp/space/utils_dst.py": "4e51088449ce7c270ea91d71d755329263f2717ba13ffd27a8ed5b6118e9480a",
         "modelscope/utils/nlp/space_T_en/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "modelscope/utils/nlp/space_T_en/utils.py": "976a08c6e244a76dfd9a714ad2207ab6c92e1dc0133dac426cabc9403ea781e4"
+        "modelscope/utils/nlp/space_T_en/utils.py": "976a08c6e244a76dfd9a714ad2207ab6c92e1dc0133dac426cabc9403ea781e4",
+        "modelscope-1.18.1.dist-info/METADATA": "d807be15575aaab167c66942a563c7c24fcc4ebdc58ea6f5c6cfbf0c778477fa",
+        "modelscope-1.18.1.dist-info/WHEEL": "78e2e134019ad845b7c1697f4d4e3ce21eead54360cb42578e3a2a2a8c400107",
+        "modelscope-1.18.1.dist-info/entry_points.txt": "52789d9522b8b344cde760eef8bee503a5c0e168a1456b8bcb645d859232a54f",
+        "modelscope-1.18.1.dist-info/top_level.txt": "fdee52934dac75a9dce9a2f3eee4c25abfcea0568b9b014801a2c7de6b2b1535",
+        "modelscope-1.18.1.dist-info/RECORD": "4e9fd3b01acaaee5a68dbf38afbcffff6fab13063228d5b11b92e99d242e030a"
     }
 }

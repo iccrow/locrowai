@@ -1,7 +1,7 @@
 import torch
 from pydantic import BaseModel, ConfigDict
 
-from api import Function, register
+from api.extensions import Function, register
 
 similarity = torch.nn.CosineSimilarity(dim=-1, eps=1e-6)
 

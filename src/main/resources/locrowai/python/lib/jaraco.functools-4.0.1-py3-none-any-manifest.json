@@ -1,6 +1,13 @@
 {
-    "id": "jaraco.functools-4.0.1-py3-none-any",
+    "id": "jaraco.functools-4.0.1-py3-none-any.whl",
     "hashes": {
-        "jaraco/functools/__init__.py": "844009692dae49946e17f258e02c421c8621efd669c5a3e9f4e887cabf44275c"
+        "jaraco/functools/__init__.py": "844009692dae49946e17f258e02c421c8621efd669c5a3e9f4e887cabf44275c",
+        "jaraco/functools/__init__.pyi": "824dddb201f3a3917f53be07cc0be9362bc500f0a43c9d5bdbec8277ad9d7e7c",
+        "jaraco/functools/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "jaraco.functools-4.0.1.dist-info/LICENSE": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+        "jaraco.functools-4.0.1.dist-info/METADATA": "8b86946900d7fa38dd1102b9c1ebe17a0cb1f09c8b7e29f61f2bda4a4dc51eca",
+        "jaraco.functools-4.0.1.dist-info/WHEEL": "189eedfe4581172c1b6a02b97a8f48a14c0b5baa3239e4ca990fbd8871553714",
+        "jaraco.functools-4.0.1.dist-info/top_level.txt": "d099cddcb7d71f82c845f5cbf9014e18227341664edc42f1e11d5dfe5a2ea103",
+        "jaraco.functools-4.0.1.dist-info/RECORD": "7cc910e063744c77a5c523c8a3539c098535f2fbed297f816011f13941ec9d3c"
     }
 }

@@ -1,5 +1,5 @@
 {
-    "id": "segments-2.3.0-py2.py3-none-any",
+    "id": "segments-2.3.0-py2.py3-none-any.whl",
     "hashes": {
         "segments/__init__.py": "39ee7248d8369d1ed32367eadc62f2807fd98884c8ade205293202926e9067c1",
         "segments/__main__.py": "b32f548d82756c1f608c44ff10c92434349a940e336dbdb7421f2d325dff52fe",
@@ -7,6 +7,12 @@
         "segments/profile.py": "74eada1bf6b17cc833bb203f57f9f175e4ef19f025f5376f0b629387d7a683f6",
         "segments/tokenizer.py": "cb2ade577601b7f805c0ef083fca07cc847f125e3ac045e9b1c5f0e7be28d34c",
         "segments/tree.py": "01e4e9df533b5c1eb2a2e7a348f3628538adcc18f191b9eff40cda2bdf50e613",
-        "segments/util.py": "6fb5bae21c8a7b409e79f0df16ef335c20c9324c98ef391dbccb6f32e4baea5f"
+        "segments/util.py": "6fb5bae21c8a7b409e79f0df16ef335c20c9324c98ef391dbccb6f32e4baea5f",
+        "segments-2.3.0.dist-info/LICENSE": "cb5e8e7e5f4a3988e1063c142c60dc2df75605f4c46515e776e3aca6df976e14",
+        "segments-2.3.0.dist-info/METADATA": "aad9e744598c9636a42ac71b1ef7b9524d2bbe5bef42e67f0ea36f01afe12e62",
+        "segments-2.3.0.dist-info/WHEEL": "4c9e3d77bdec36cd741746b37b55bf6d35b63ff5fbf85e185ce941aa8a80fa36",
+        "segments-2.3.0.dist-info/entry_points.txt": "12cfc0dab35dc69822abb4845df8e5adb9b69ef99c472c15c2b244a78718d607",
+        "segments-2.3.0.dist-info/top_level.txt": "e9cf312aaeafb77341cf2e8c49f14809ff953092f714cb085f783d6dfb7b066d",
+        "segments-2.3.0.dist-info/RECORD": "1b05c8e1035fc5acf8430aec6d46f73c6a71467ce6f844781fb327525b91910e"
     }
 }

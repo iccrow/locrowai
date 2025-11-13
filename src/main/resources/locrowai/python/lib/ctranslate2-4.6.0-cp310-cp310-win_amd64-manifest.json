@@ -1,5 +1,5 @@
 {
-    "id": "ctranslate2-4.6.0-cp310-cp310-win_amd64",
+    "id": "ctranslate2-4.6.0-cp310-cp310-win_amd64.whl",
     "hashes": {
         "ctranslate2/__init__.py": "1e6925c14dc10a752040000641e0813abe38412e57d27a6bfd60e4061d9ee8ba",
         "ctranslate2/_ext.cp310-win_amd64.pyd": "7ff18feb19e65431b7635bb991e0cfdafbdc81cff19d9ca21c89cec95c94e9b4",
@@ -28,6 +28,11 @@
         "ctranslate2/specs/transformer_spec.py": "bc14e705a67c9ec951105f0548928fe95bdec9802f4b6fcbd21f32a8f021a58d",
         "ctranslate2/specs/wav2vec2_spec.py": "3484ecb8eb9fd85e5b535f9a5e2b7cf9612d595f5f1f612aec0efce7b532621a",
         "ctranslate2/specs/wav2vec2bert_spec.py": "520b6c2560bd98c809edb9f84ffc60d6e5cad2ba80e3ef6d4f628c19580f2a7c",
-        "ctranslate2/specs/whisper_spec.py": "fef9b5b1ce723a8c0e2788b2bdcc4c5eb82df9470b26b653f0eb4fb1c5177104"
+        "ctranslate2/specs/whisper_spec.py": "fef9b5b1ce723a8c0e2788b2bdcc4c5eb82df9470b26b653f0eb4fb1c5177104",
+        "ctranslate2-4.6.0.dist-info/METADATA": "f4ae9a4146d2e74d551d27d0b3061d65cfc8a59bbbe77f69836a71b147323c72",
+        "ctranslate2-4.6.0.dist-info/WHEEL": "c6dab1613aa47bf5e15cd860c3276f96ba156b22330558c90cc06922081ef7db",
+        "ctranslate2-4.6.0.dist-info/entry_points.txt": "6479288eeb7f4e65511e5d1b2481a6d9bf70aabf7c18026ac4df6b949b50b21b",
+        "ctranslate2-4.6.0.dist-info/top_level.txt": "d6151a5b370522e4a8d81008507140dceb20b2ee92d608aad32e91a2cbfc1ce4",
+        "ctranslate2-4.6.0.dist-info/RECORD": "b61f8389e5e4e973da4440415b136de09fd5a2e53c579dd3bff11be6b3f43f1e"
     }
 }

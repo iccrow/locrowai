@@ -1,8 +1,14 @@
 {
-    "id": "matplotlib_inline-0.1.7-py3-none-any",
+    "id": "matplotlib_inline-0.1.7-py3-none-any.whl",
     "hashes": {
         "matplotlib_inline/__init__.py": "b67405db2b572951ee751ccfba9e32987752ca0256f339e6d8ec7709517d150b",
         "matplotlib_inline/backend_inline.py": "a51daa41c742a170047a7ec55c8c89be044c692e15f6991eaff21b69b44e1fa1",
-        "matplotlib_inline/config.py": "67cece0aff8b4ad6213b04362e61c3371c24027f412c52936c723b5d2013d497"
+        "matplotlib_inline/config.py": "67cece0aff8b4ad6213b04362e61c3371c24027f412c52936c723b5d2013d497",
+        "matplotlib_inline-0.1.7.dist-info/LICENSE": "8521b036c6448e0e0aa7213d4713b6fdee0f4c64c9f320450f77346bf5c0e8e4",
+        "matplotlib_inline-0.1.7.dist-info/METADATA": "5f3db719d37e5dd05a79dc4a3935170ae0a1011acdf4dbc770a1dd9e4a6fd3c1",
+        "matplotlib_inline-0.1.7.dist-info/WHEEL": "189eedfe4581172c1b6a02b97a8f48a14c0b5baa3239e4ca990fbd8871553714",
+        "matplotlib_inline-0.1.7.dist-info/entry_points.txt": "37149d877863509809ef767a14deb425629de0b977d08cb59e5228340bd81885",
+        "matplotlib_inline-0.1.7.dist-info/top_level.txt": "d15889a91b4964b212ec87e31eb520608e9122f598d1c7e4d4e8c0969e3466cc",
+        "matplotlib_inline-0.1.7.dist-info/RECORD": "b8cdb1f8ceeb855eb462ea1d4a977e85400089101a9fed4ce6d8aea46950a01f"
     }
 }

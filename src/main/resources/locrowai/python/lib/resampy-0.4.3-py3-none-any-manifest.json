@@ -1,10 +1,17 @@
 {
-    "id": "resampy-0.4.3-py3-none-any",
+    "id": "resampy-0.4.3-py3-none-any.whl",
     "hashes": {
         "resampy/__init__.py": "f65e7016ed411b1d8568ea983a268eed36862d15cd12e261583f451522f43774",
         "resampy/core.py": "37ee3601e0bca43e24c67ea840365001f464bee554b5480aa096e98aa147a479",
         "resampy/filters.py": "31871f3246bdd78adba1d087da4472869b2b6442ae969204f1a1c963a73090ae",
         "resampy/interpn.py": "50ce892d76ca103fc072f252e50a84d6d78da38f513135fdaf9d712c2647e247",
-        "resampy/version.py": "fe614a7caecc39917621a62b6c40422f7510d76e7bbaa6996ecb9baca6383dd2"
+        "resampy/version.py": "fe614a7caecc39917621a62b6c40422f7510d76e7bbaa6996ecb9baca6383dd2",
+        "resampy/data/kaiser_best.npz": "344c4eb7d35ef9845192a506aaa5836ca243033a90e6363a9d25fc5cd12a5328",
+        "resampy/data/kaiser_fast.npz": "8289150d2cd8f5cae2b60af483fcce0b9dd8a740c6294277f569317573e0a095",
+        "resampy-0.4.3.dist-info/LICENSE.md": "9c21cf3da6675e5b28ba7bda19c7b1a8da9772a5244c59648435f412a6738886",
+        "resampy-0.4.3.dist-info/METADATA": "ff3e4ce6f2d5b8151c1236fbb664b4171ce6f485602a7aa92e59d657b62e2f85",
+        "resampy-0.4.3.dist-info/WHEEL": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "resampy-0.4.3.dist-info/top_level.txt": "c586fc1e348f05e05ae9dade0df8b400bc38880f04b27205bf55d593f8116619",
+        "resampy-0.4.3.dist-info/RECORD": "3dc7756e46c3ede81244a35ef13558efc075e30c2f60157da9ac185608aa25fc"
     }
 }

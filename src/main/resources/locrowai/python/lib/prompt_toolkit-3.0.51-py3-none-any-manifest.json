@@ -1,5 +1,5 @@
 {
-    "id": "prompt_toolkit-3.0.51-py3-none-any",
+    "id": "prompt_toolkit-3.0.51-py3-none-any.whl",
     "hashes": {
         "prompt_toolkit/__init__.py": "6d9f0cae7f574b859a7afc55c04c0a2ca67d1293c8e483c0d71eab451eed9152",
         "prompt_toolkit/auto_suggest.py": "a9289ac6568a8cbc8d109f1b24dd3ae3582ab08cd9dcb07670ecaaf3cc4141be",
@@ -14,6 +14,7 @@
         "prompt_toolkit/log.py": "eadca9a4bfe39dec1d51cde3d8ea299552f09cff5d48c3a422c272fec811f486",
         "prompt_toolkit/mouse_events.py": "e2650725b1bc5abad0ce7c3bcff8ec3ab76695d0b964c44ce200c3532e75a729",
         "prompt_toolkit/patch_stdout.py": "f2011a41dab291d05cce5be9dc5ace8c39441b4db2797a182ab0c01aa8f8f168",
+        "prompt_toolkit/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "prompt_toolkit/renderer.py": "878afb6d285a9d0caf87d9eb4907f1bc76543d3e993d41f5903e4d6debb64706",
         "prompt_toolkit/search.py": "e86a3f2ed05e06520c91d502a9bf9614204a2dc85def4920b5c72a3f9772bf4f",
         "prompt_toolkit/selection.py": "3facd039a841aaab7561999f436f95f622633a8e1cc65d1b76653ffb48decc92",
@@ -144,6 +145,12 @@
         "prompt_toolkit/widgets/base.py": "cdd7c9f7e90c191a687048be1aa0c83a0b7da6bc5190df0607c0f5b93d38d3d5",
         "prompt_toolkit/widgets/dialogs.py": "2b600271fd2b297c29050190723493ab668d7922271a6925cd944f9e176d6537",
         "prompt_toolkit/widgets/menus.py": "49e5fe965693a45d6955a936970dfb9803f44850ce3484594f9a2adb7980460f",
-        "prompt_toolkit/widgets/toolbars.py": "328c4ec5a6bc622de726f1f81bc382c2536ec31dd7594274ec9d1aec3d7bff0d"
+        "prompt_toolkit/widgets/toolbars.py": "328c4ec5a6bc622de726f1f81bc382c2536ec31dd7594274ec9d1aec3d7bff0d",
+        "prompt_toolkit-3.0.51.dist-info/licenses/AUTHORS.rst": "d3dc62c6bc8436658495ab89aea37511e7fa9391d282657239c9cfb80dbd42e5",
+        "prompt_toolkit-3.0.51.dist-info/licenses/LICENSE": "303574d9bdd85c757d6025017942bf17baeedf2778f62bd7f425d07d880f4c4a",
+        "prompt_toolkit-3.0.51.dist-info/METADATA": "95ec155e6d19940391684ac5c1f44a90d0cfb6afb58655ddfdce7cbf24f77ef6",
+        "prompt_toolkit-3.0.51.dist-info/WHEEL": "0a6c85234931e5c7443132e238d4116c64308c8a11d5a21807b782010e0a3c9d",
+        "prompt_toolkit-3.0.51.dist-info/top_level.txt": "e6b257ac41b1eacb782a49a138f47a9742130db579df1fd7cba32eaceba45df0",
+        "prompt_toolkit-3.0.51.dist-info/RECORD": "5c6ceecb1682783eb9e70e323672e75f1e2067e763ef98894bcbfc85ae14f23f"
     }
 }

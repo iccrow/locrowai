@@ -1,7 +1,8 @@
 {
-    "id": "loguru-0.7.3-py3-none-any",
+    "id": "loguru-0.7.3-py3-none-any.whl",
     "hashes": {
         "loguru/__init__.py": "196e5e0ff9f2234516dcb9385ccbf6524c0a6d72b0a97ca5c81bd225a7c3df19",
+        "loguru/__init__.pyi": "be163b821fa2578b753cc99c42cbae8f2057f3e1cfb8d8fc011fcecade1ba633",
         "loguru/_asyncio_loop.py": "2daf17ccb8ef458a4d8b295990e1702ca81df9644c5f34d9640a04ce52faf306",
         "loguru/_better_exceptions.py": "20f2376022ac6cbded0f44e984f8529e9c8172941c81238ab24355f04243f10c",
         "loguru/_colorama.py": "e48737715229a7341aee6cf65db2892e68e288fa479b80156ea85289729522cd",
@@ -19,6 +20,10 @@
         "loguru/_logger.py": "569946c9f694f27227c06bf108add2dd8866efc562c779a47e5e01aaaa4f6960",
         "loguru/_recattrs.py": "8efe77b3d9d252043419c61623213f719e540ede0d57311319a89346da62ac31",
         "loguru/_simple_sinks.py": "899d5792f9f17dec3f0158db6761d9d3f730f1ad7df786021a71f95e62fdf2c4",
-        "loguru/_string_parsers.py": "1315374e15cab45a52eca672aa3c67fb30fdb2a6eee56874b60af59d0f1d68aa"
+        "loguru/_string_parsers.py": "1315374e15cab45a52eca672aa3c67fb30fdb2a6eee56874b60af59d0f1d68aa",
+        "loguru/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "loguru-0.7.3.dist-info/WHEEL": "0a950253178741b44de54191407611268acee407fe432fdf1cc72d710f034862",
+        "loguru-0.7.3.dist-info/METADATA": "3a371f8b089014fdaee055edc440d448242847926ad67613621af402f9975fd9",
+        "loguru-0.7.3.dist-info/RECORD": "af8d04df636e994a766aa581b8ce278c9a939ff0e156aad9db6882c3c7bbbc84"
     }
 }

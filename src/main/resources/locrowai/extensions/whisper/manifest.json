@@ -11,9 +11,9 @@
     "author": "iccrow",
     "models": [],
     "hashes": {
-        "api_infer.py": "bf1a0ccfeee4f7dec97581bafa5ab5e70035811d130315d538e28fb529afc7f7",
-        "api_load_model.py": "e9e16f09feb7dde1232fff825c1a74c74285ee59a0689ade1fb07f1719a5ecdd",
-        "model_loader.py": "4c99a2d7d39da1aeb5dce0c55c6b2ccaf6d36479c2cffff1c7784d9888791085",
+        "api_infer.py": "5e3b0b230d7e5a2339e384020560eabe013939b05d80e4b69ae685b8cdef7341",
+        "api_load_model.py": "b1b8f5e4019eb48e65f61d74ad9e701d5051d7c72f63817a8c5c71ff75941dca",
+        "model_loader.py": "31f223ffa72f3b1fb74b6305e884bc538c9974823c4703ec77ffdf5aee2ebe32",
         "__init__.py": "66078120c55dcf162aab9536dc143d7939984c3a7c8c2370e202f5feb0dd1d0b"
     },
     "requirements": [
@@ -32,6 +32,7 @@
         "torch",
         "tqdm",
         "transformers",
+        "urllib3",
         "yaml"
     ]
 }

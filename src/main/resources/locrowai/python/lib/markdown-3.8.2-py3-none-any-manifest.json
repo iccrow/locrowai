@@ -1,5 +1,5 @@
 {
-    "id": "markdown-3.8.2-py3-none-any",
+    "id": "markdown-3.8.2-py3-none-any.whl",
     "hashes": {
         "markdown/__init__.py": "75fcf0c1da46f4bf102c43c1a4b14f207c7f04dd39e9a657a7dc5989f4f16085",
         "markdown/__main__.py": "624e4ad0b779374b45f49fd0d190bbce85a54800589e92aa0c02e04f2758e995",
@@ -33,6 +33,12 @@
         "markdown/extensions/smarty.py": "3370f4d7905cbd774a8bf0ce861654d4440af1e759615b34b0ed360bd251a241",
         "markdown/extensions/tables.py": "7f76c5a7e7c0da6d87c2c0de05390b975c8efd22185f45d96baac7b594a6ceed",
         "markdown/extensions/toc.py": "be0e6ce44f320f1a352ad0bbe4a085197d5227c3566f9e881d4904c0b9eee097",
-        "markdown/extensions/wikilinks.py": "8fb0f6b28ce271aeaca973946bf1ae017a88cf1a7eec78bad1b7d7ca68ae99af"
+        "markdown/extensions/wikilinks.py": "8fb0f6b28ce271aeaca973946bf1ae017a88cf1a7eec78bad1b7d7ca68ae99af",
+        "markdown-3.8.2.dist-info/licenses/LICENSE.md": "7ba4eb6d10b32b2d11dce13821340351cdbbb30ba8ccc67841db2ffd86e79aca",
+        "markdown-3.8.2.dist-info/METADATA": "41d7b3a0429da636e50937ccf2de64aa73e66a53334415146b7b0bd36b294c56",
+        "markdown-3.8.2.dist-info/WHEEL": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "markdown-3.8.2.dist-info/entry_points.txt": "94c1328a203f659c9f3c20650ef88197e4a253471fa1eb842a9c31c37eb5b0a4",
+        "markdown-3.8.2.dist-info/top_level.txt": "200c6cf31eb5f115e81f5b82a9e2cbc57b0379f26f13f98889baff338b0e9729",
+        "markdown-3.8.2.dist-info/RECORD": "4659e5ba7b65ec6acf968358c5ed5abda0b4eb9d0127f182b6634722a50fbaae"
     }
 }

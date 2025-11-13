@@ -4,7 +4,7 @@ from typing import Dict, Optional, Any
 
 from pydantic import BaseModel, ConfigDict
 
-from api import Function, register
+from api.extensions import Function, register
 
 # === Params / Returns models ===
 

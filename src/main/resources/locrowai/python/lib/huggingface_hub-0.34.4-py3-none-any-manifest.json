@@ -1,5 +1,5 @@
 {
-    "id": "huggingface_hub-0.34.4-py3-none-any",
+    "id": "huggingface_hub-0.34.4-py3-none-any.whl",
     "hashes": {
         "huggingface_hub/__init__.py": "32c52a4dce43733af03b0b4486433d63bb64180947bc3b4d4c36d641c104a930",
         "huggingface_hub/_commit_api.py": "ebc1f1167244dacf909866511d06afe6438c4ec79857f6508b4e000da4266549",
@@ -27,6 +27,7 @@
         "huggingface_hub/inference_api.py": "6f8f8d84f4a7f5be389d8295f2d0ca5e8766138255744ca63162f80951a4ce51",
         "huggingface_hub/keras_mixin.py": "58635065139dc3aca32750c64cf64fc0a0317f551b933031d5d46276479bd9f9",
         "huggingface_hub/lfs.py": "9fe4c88caec9eda5c6df38bfff49e477a68d904e1d8ce7fd083e9d610390e4ff",
+        "huggingface_hub/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "huggingface_hub/repocard.py": "2b1428253be731503a98aa62efaeb43ba74ab5bc38c1124c071c97b8feefbf35",
         "huggingface_hub/repocard_data.py": "86be11785a4440c35d87ff43c7e2fe209a08d44947ca4fa1fbc651ab055860e1",
         "huggingface_hub/repository.py": "2deaeade4afbb42fa851d664e62d42761000f3866f622aa368647bee3da23b29",
@@ -128,6 +129,8 @@
         "huggingface_hub/serialization/_dduf.py": "b38db6dfdacb887c1a244dfa4031264b9187ec34a643ffc17df88724ee518c88",
         "huggingface_hub/serialization/_tensorflow.py": "cc73af10c83e2470b9e459b8ae80d3dcb5020cee7307daad5d97df1b4eb94403",
         "huggingface_hub/serialization/_torch.py": "8e9066b92649ca6329bcb70370c68dc43bbf7c4e55918fe90151fc7bcb2d608a",
+        "huggingface_hub/templates/datasetcard_template.md": "5be10ca91eb09dd6eb9d9a2b915bf9e944563c6e3d97b3004c6788d35e644efb",
+        "huggingface_hub/templates/modelcard_template.md": "e00a80ad2ddca9db5b8ade41a3e0e18dc9c3151fa9cdae6112b2cb4cf33862e7",
         "huggingface_hub/utils/__init__.py": "3917d5927e43d30b8b22ad768e3853ce7e7f73817c7d13f107b4c6fa279d9ee4",
         "huggingface_hub/utils/_auth.py": "231bdedafc5d7ed1d75e4d91daf7f22f3955a034f7f5392af87ae8bbd28252fc",
         "huggingface_hub/utils/_cache_assets.py": "91a8bbec73d031f62944ea2e301402aff81d04269e4e6f7de92aa3d1d1316cd8",
@@ -157,6 +160,12 @@
         "huggingface_hub/utils/insecure_hashlib.py": "88069ea5abc56790e17dae67f0aa3345f429aca9af7234a7b775f9f0e525f5f4",
         "huggingface_hub/utils/logging.py": "d00f1f175ca1dcbf4a6bf6c20d7da69785391edd2d63c0ebdc971b46f585bb0a",
         "huggingface_hub/utils/sha.py": "3859cd1826dad2c35c4f6814c1a54226795dc6596dac71ded034bf3c2a55dc2e",
-        "huggingface_hub/utils/tqdm.py": "c4029cc9f9cd1ec67b2f4f56b84339130e7e3038626a12c009b6cddb332670bb"
+        "huggingface_hub/utils/tqdm.py": "c4029cc9f9cd1ec67b2f4f56b84339130e7e3038626a12c009b6cddb332670bb",
+        "huggingface_hub-0.34.4.dist-info/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "huggingface_hub-0.34.4.dist-info/METADATA": "b04cbfbc9bbdbb19b602fc6fa06e3d7aa749c73c4361164f3a9781af88ca8643",
+        "huggingface_hub-0.34.4.dist-info/WHEEL": "b59a1e1a3b56c5645f769944ec4ddde3954f94b3509ef6ca8989f1ee0c00cbc0",
+        "huggingface_hub-0.34.4.dist-info/entry_points.txt": "1c8ccb863c0f4ceed4fe77295b80249b302e69a76bd5a8e661a816e6675be533",
+        "huggingface_hub-0.34.4.dist-info/top_level.txt": "f0ace5409018e26894be302cb0e009a1da8a3b0de16ab373ba2c0643da8b4929",
+        "huggingface_hub-0.34.4.dist-info/RECORD": "dbdecfbdab95be74f1609257f53184e028522a97a3b6c5b6bbb1b0f071ef060b"
     }
 }

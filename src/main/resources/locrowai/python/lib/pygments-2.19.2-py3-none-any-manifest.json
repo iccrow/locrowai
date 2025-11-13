@@ -1,5 +1,5 @@
 {
-    "id": "pygments-2.19.2-py3-none-any",
+    "id": "pygments-2.19.2-py3-none-any.whl",
     "hashes": {
         "pygments/__init__.py": "ff7513f3a4c6a47b96f057a4759f2e2e2744647d4d86670b88ecb628a34f0ade",
         "pygments/__main__.py": "a7c009ca8c8238c606bf3587767ab4fc0f6a69a56a6a3d369c8bb7c61269d7fe",
@@ -338,6 +338,12 @@
         "pygments/styles/vim.py": "27bfd3aafac69135ff5ee4c75b4227e70a8f2c050f456cabd75db65ee7995a63",
         "pygments/styles/vs.py": "b3b627cdb20fb855372c891edbb99ce250104a7d91def6db1dcd5b68c19253f5",
         "pygments/styles/xcode.py": "3db41dce019a0386bd2c05358b9f1a958f643382059505f98c743039899ffd19",
-        "pygments/styles/zenburn.py": "b2e6442b30530987617f6731370718ed401324ad6dab979884674171775fe8c5"
+        "pygments/styles/zenburn.py": "b2e6442b30530987617f6731370718ed401324ad6dab979884674171775fe8c5",
+        "pygments-2.19.2.dist-info/METADATA": "7ae100d67d67006c6479803dd835fcf47a9b59fac794441ea8e66aa7f5984d82",
+        "pygments-2.19.2.dist-info/WHEEL": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "pygments-2.19.2.dist-info/entry_points.txt": "b945f0f9784c281117e2959c0ada6e4d39cf84bde1ece104da35a2e75550b1af",
+        "pygments-2.19.2.dist-info/licenses/AUTHORS": "0660e318a6f215802adc8731ab85d0c65ff27cfcca3f5d28597f306476195bd9",
+        "pygments-2.19.2.dist-info/licenses/LICENSE": "a9d66f1d526df02e29dce73436d34e56e8632f46c275bbdffc70569e882f9f17",
+        "pygments-2.19.2.dist-info/RECORD": "2bd16db9fe95446e3452ed34554d490aee40154ea9145373984364e9752d08e1"
     }
 }

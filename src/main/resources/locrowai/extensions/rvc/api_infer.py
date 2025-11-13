@@ -4,7 +4,8 @@ import numpy as np
 import os, tempfile, io
 from pydantic import BaseModel
 
-from api import Function, register
+from api.extensions import Function, register
+from api.threading import ModelLock
 
 class InferParams(BaseModel):
     audio: bytes
@@ -27,7 +28,8 @@ class InferFunc(Function[InferParams, InferReturns]):
             with open(in_path, "wb") as f:
                 f.write(self.params.audio)
             
-            rvc.infer_file(in_path, out_path)
+            with ModelLock("rvc"):
+                rvc.infer_file(in_path, out_path)
 
             audio, sr = sf.read(out_path, dtype='float32')
 

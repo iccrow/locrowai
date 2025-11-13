@@ -1,7 +1,10 @@
 {
-    "id": "tokenizers-0.20.3-cp310-none-win_amd64",
+    "id": "tokenizers-0.20.3-cp310-none-win_amd64.whl",
     "hashes": {
+        "tokenizers-0.20.3.dist-info/METADATA": "06e2af186898ee4cf703840830108022e38871539720309bbc740df9a20a4b9f",
+        "tokenizers-0.20.3.dist-info/WHEEL": "8391d6aa1fc44f5b74d2378da7bc86e3f3270a61b06de606cd4c3a061744b8cd",
         "tokenizers/decoders/__init__.py": "c5f7eb42df58c6db8a2ce0449099d964fbb4de8cdfdec9bec752a0c45f9fd034",
+        "tokenizers/decoders/__init__.pyi": "00264373f8f0ec326cacb696fd35bbca79678d98457b1c1a68c3f7fda5449931",
         "tokenizers/implementations/base_tokenizer.py": "9ce523b574e00c949d2230c39c1ce85842d49f3a51cbac8bc9585438be6de716",
         "tokenizers/implementations/bert_wordpiece.py": "8d150c4985350bb9d510364c29dc86dd5a7bf825289e0135906261bce3ff1073",
         "tokenizers/implementations/byte_level_bpe.py": "8820994965bd9f04207de5de3a2c15117eec2cd7cfb10c4eec20ae1264da1d7c",
@@ -10,13 +13,21 @@
         "tokenizers/implementations/sentencepiece_unigram.py": "e529623d0b14fdc001d4faadeee7cbf70f1f06b3682e2c550beaea178311726d",
         "tokenizers/implementations/__init__.py": "f592367091cf0940995cfdfb18d9911ed07321888a5b3caa932d6bb5c61dacfc",
         "tokenizers/models/__init__.py": "a84ef7ab270f00a71ecbfa52f28bf5148cf5d0bd986f3cb513ed4a19e7b6ed08",
+        "tokenizers/models/__init__.pyi": "bc4247bbe0b92e06ea05db664a01812239078786ef0f1e76d15d31636827b48a",
         "tokenizers/normalizers/__init__.py": "3e06ffc04d50428bf7b7f496e2f72c5d8ea55410d8c8635f606909324df023b7",
+        "tokenizers/normalizers/__init__.pyi": "24b13b4ab6834586bc7b07d82c8c3ed53ba34e6cc546ad234c27fad4bed29d00",
         "tokenizers/pre_tokenizers/__init__.py": "6562cf586da78684e88cbc8720350f46c6b557c76ba96b9f2558f36d1991ed44",
+        "tokenizers/pre_tokenizers/__init__.pyi": "64a0d6345678eeee549e19ab23e480709e35fa1694afc0f62eafd337e984ad8b",
         "tokenizers/processors/__init__.py": "5f538a2adaf721479e75ef39988d5c2c5d0caa60d196becb345318744cb928c5",
+        "tokenizers/processors/__init__.pyi": "a8ca1aa5cfee7f16eb2fe655024a58ba02f3c71bb3d54041372a048b24a3b7ee",
+        "tokenizers/tools/visualizer-styles.css": "83df1126e7140a36273cbc17c9c7dc57e7406c7333a89a6767b3683ff7025019",
         "tokenizers/tools/visualizer.py": "f2de7551a6e4c583c0aeadc8e549bddce4fca368c140b2c6c61ed83f1684264a",
         "tokenizers/tools/__init__.py": "9892d5ac737514fdb709fe3f1095a8614761f324dbe416c914d7daf04739bc73",
         "tokenizers/trainers/__init__.py": "bfd09db6855abb00fa6f5c0003a47982848b66c9416cf139bd91ccd9df2c80a3",
+        "tokenizers/trainers/__init__.pyi": "d779b68c6315867e1d272c647e0cd1f892afb811afba3edfbe0c091e56e7414b",
         "tokenizers/__init__.py": "009e4d74a395fdd67f48ec3da05175338967d1f87586877ebe8ab37981d2ef55",
-        "tokenizers/tokenizers.cp310-win_amd64.pyd": "d6b92918a3c8d224a8660cf49cc8aa675f6d6b775156d7a65020d9656cc7b759"
+        "tokenizers/__init__.pyi": "c4987585a84456a2db2dc6a3e71dd83079bee28f8b5010c8d01792943b908e56",
+        "tokenizers/tokenizers.cp310-win_amd64.pyd": "d6b92918a3c8d224a8660cf49cc8aa675f6d6b775156d7a65020d9656cc7b759",
+        "tokenizers-0.20.3.dist-info/RECORD": "d1f76de2750ee41addf22ee7645c837ab44fbaad5e74c6b2ae48884ad95f353c"
     }
 }

@@ -1,5 +1,5 @@
 {
-    "id": "uvicorn-0.35.0-py3-none-any",
+    "id": "uvicorn-0.35.0-py3-none-any.whl",
     "hashes": {
         "uvicorn/__init__.py": "a4c2240013cb27d792d0eb833be6cfe74e9a55d2df5a51c3b64f6ecd24e01391",
         "uvicorn/__main__.py": "0d08b3cba9ca3f4cb084fa6708782644360831f72a64a544ccd2164198eab554",
@@ -9,6 +9,7 @@
         "uvicorn/importer.py": "9d1b74410deaa62dbae3e9ff991d25e790b675d33c9e8c133734f58ec59a6a6f",
         "uvicorn/logging.py": "f9e084e273899856ed07da9f349b8454d174635dcb1941eabc5cde9984f43da4",
         "uvicorn/main.py": "f37f8c10c55ce84ac476f51f5bac7e8042d827bf0689644d32c9ae8a783d0d42",
+        "uvicorn/py.typed": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
         "uvicorn/server.py": "dc0285339d166d99309ea8d917149df302c154891cc598e6bcff203d97fde7fb",
         "uvicorn/workers.py": "eca1a01806a9c4690679751c046ba73a348d748f51e38282a164c6100a8075fb",
         "uvicorn/lifespan/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -39,6 +40,11 @@
         "uvicorn/supervisors/basereload.py": "3005d243772464fc2acc9f149fdc83864dd6d32c8002b42d64bb8e1343889d27",
         "uvicorn/supervisors/multiprocess.py": "3a9b745ef3948f50c83176306f83a59096717a1fd18f07859d39833d822d38dc",
         "uvicorn/supervisors/statreload.py": "b986e59a8c4cdc86cf6ef303cebe406f0dbe5b291097c3714d3cde2df572be75",
-        "uvicorn/supervisors/watchfilesreload.py": "5bce986dbd04e5274c618b961c9ddba40157770e59babbcb45d15cbcb9d81080"
+        "uvicorn/supervisors/watchfilesreload.py": "5bce986dbd04e5274c618b961c9ddba40157770e59babbcb45d15cbcb9d81080",
+        "uvicorn-0.35.0.dist-info/METADATA": "6b5b15a36e6eddf6df7865d232615d60eb8f3e705717c5a31e562ad68736a93a",
+        "uvicorn-0.35.0.dist-info/WHEEL": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "uvicorn-0.35.0.dist-info/entry_points.txt": "156d70fa191cf50830686a28bccbe6d1963bdf0fcd7327167460147c3b0d1b1c",
+        "uvicorn-0.35.0.dist-info/licenses/LICENSE.md": "efe1acf3e62fb99c288b0ec73e5a773b7268ef4320fe757ea994214e4b63c371",
+        "uvicorn-0.35.0.dist-info/RECORD": "a2870df4ddfe0808b099e926f86d22bdf2936ffc2c328fa584ade373718a5ce1"
     }
 }

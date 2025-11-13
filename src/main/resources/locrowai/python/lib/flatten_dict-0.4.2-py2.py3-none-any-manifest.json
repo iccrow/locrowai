@@ -1,5 +1,5 @@
 {
-    "id": "flatten_dict-0.4.2-py2.py3-none-any",
+    "id": "flatten_dict-0.4.2-py2.py3-none-any.whl",
     "hashes": {
         "flatten_dict/__init__.py": "b3b48343f03d94eb1d140cd48cdc93f95d35c0306b5184dade87aa936c95743f",
         "flatten_dict/flatten_dict.py": "bf69afa16080e4e9169b4bfbe7bbc52ef5227d9946fd4c8d107ef349690cc4c2",
@@ -7,6 +7,10 @@
         "flatten_dict/reducers.py": "b658ffb42816256b422a4067cd82fcb32407ddb0661d2ff6f59908dcadf9657c",
         "flatten_dict/splitter.py": "1c22530c5281fdfc108b545e37f363cb68e47108dce30e4d1519f164f262e8b5",
         "flatten_dict/splitters.py": "311e3fff237d72fbd72d3201f222bbe25cf8b68d98701f1a266c86088c82de38",
-        "flatten_dict/tests/flatten_dict_test.py": "b2b7e87fe40241d6b582e72a793872fc10e95801ae46ef979248fc7730c67f92"
+        "flatten_dict/tests/flatten_dict_test.py": "b2b7e87fe40241d6b582e72a793872fc10e95801ae46ef979248fc7730c67f92",
+        "flatten_dict-0.4.2.dist-info/LICENSE": "da6cd56215d13ad5ea6e2af658a5a1c9142513d7f624401e167929caac5cffe7",
+        "flatten_dict-0.4.2.dist-info/WHEEL": "4dffc94c7454b1899171c42741f9f5b6a98d6ad99790d07438528cf81e18cae0",
+        "flatten_dict-0.4.2.dist-info/METADATA": "a78c8b192f55da4fae37c5a2aee459b99e7c0219dfec97ac557c0b93c7d43f89",
+        "flatten_dict-0.4.2.dist-info/RECORD": "3a151070c86dd81bb59436cf67c1d49bc2282a5eb8e04da61d8700821b126c77"
     }
 }

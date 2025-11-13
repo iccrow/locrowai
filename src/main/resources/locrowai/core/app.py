@@ -7,7 +7,7 @@ import uuid
 import re
 import json
 
-from api import Function, functions
+from api.extensions import Function, functions
 import loader
 
 app = FastAPI()
@@ -15,11 +15,6 @@ app = FastAPI()
 with open('core-manifest.json', 'r') as f:
     VERSION = json.load(f)["version"]
 
-
-# class NestedCall(BaseModel):
-#     id: str | None = None
-#     call: str
-#     feeds: Dict[str, Any] | None = None
 
 class Conditional(BaseModel):
     AND: List[Conditional] | None = None
@@ -284,8 +279,5 @@ if __name__ == "__main__":
         for fn_name, fn_obj in functions.items():
             if hasattr(fn_obj, "warmup"):
                 print(f"Warmup: {fn_name}")
-                try:
-                    fn_obj.warmup()
-                except Exception as e:
-                    print(f"Error during warmup of {fn_name}: {e}")
+                fn_obj.warmup()
         print("Warmup complete.")

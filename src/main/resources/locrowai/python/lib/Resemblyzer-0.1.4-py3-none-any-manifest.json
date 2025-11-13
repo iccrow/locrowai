@@ -1,9 +1,15 @@
 {
-    "id": "Resemblyzer-0.1.4-py3-none-any",
+    "id": "Resemblyzer-0.1.4-py3-none-any.whl",
     "hashes": {
         "resemblyzer/__init__.py": "69c841861afb2210b02b0ac80fd6936e48cbf802ba0da03b6baa63505e09f0e1",
         "resemblyzer/audio.py": "c43bd9e415b97487b8f1f6e0bcf4d41055ef2b2dc6a7a6d5c2dd35dcea360ff4",
         "resemblyzer/hparams.py": "511abe53b7515263ff33e1c0eaf82f7ffaa165f977b90def312182a15dfb81ae",
-        "resemblyzer/voice_encoder.py": "c9ad016fcc4e627d44b27f4597001eec360a6c6f41286297c820a65acfe90767"
+        "resemblyzer/pretrained.pt": "39373b86598fa3da9fcddee6142382efe09777e8d37dc9c0561f41f0070f134e",
+        "resemblyzer/voice_encoder.py": "c9ad016fcc4e627d44b27f4597001eec360a6c6f41286297c820a65acfe90767",
+        "Resemblyzer-0.1.4.dist-info/LICENSE": "835cbdc5bdc6c60fae874e544e7d5ba648d77d25ec72e4c2efc26b5fde0862c3",
+        "Resemblyzer-0.1.4.dist-info/METADATA": "a8dca4f91c66d1594216af85080202fc6475f09f8a0e4c5822ce0b60bf401eb2",
+        "Resemblyzer-0.1.4.dist-info/WHEEL": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "Resemblyzer-0.1.4.dist-info/top_level.txt": "229127f3a5ae511b45a2c4b74e0f6cecb7e4bc660ea3da8902e7967427a38f88",
+        "Resemblyzer-0.1.4.dist-info/RECORD": "ad31a532bfb1c22a9afe3af6d85b3c234e160683edb475b56572b0d137db2dea"
     }
 }

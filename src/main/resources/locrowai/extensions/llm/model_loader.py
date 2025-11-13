@@ -1,6 +1,7 @@
 from llama_cpp import Llama
-import threading
 from typing import Optional
+
+from api.threading import ModelLock
 
 
 class _ModelMetadata:
@@ -18,7 +19,6 @@ class _ModelMetadata:
         self.n_gpu_layers = n_gpu_layers
         self.verbose = verbose
 
-_lock = threading.Lock()
 _llm: Optional[Llama] = None
 _metadata: Optional[_ModelMetadata] = None
 
@@ -29,22 +29,29 @@ def _load_new_model(
     n_gpu_layers: int,
     verbose: bool,
 ) -> tuple[_ModelMetadata, Llama]:
-    with _lock:
-        return _ModelMetadata(
-            repo_id=repo_id,
-            filename=filename,
-            n_ctx=n_ctx,
-            n_gpu_layers=n_gpu_layers,
-            verbose=verbose,
-        ), Llama.from_pretrained(
-            repo_id=repo_id,
-            filename=filename,
-            n_ctx=n_ctx,
-            n_gpu_layers=n_gpu_layers,
-            verbose=verbose,
-        )
+    return _ModelMetadata(
+        repo_id=repo_id,
+        filename=filename,
+        n_ctx=n_ctx,
+        n_gpu_layers=n_gpu_layers,
+        verbose=verbose,
+    ), Llama.from_pretrained(
+        repo_id=repo_id,
+        filename=filename,
+        n_ctx=n_ctx,
+        n_gpu_layers=n_gpu_layers,
+        verbose=verbose,
+    )
 
+def _unload_model():
+    """Unload the currently loaded model."""
+    global _llm, _metadata
+    if _llm is not None:
+        _llm.close()
+        _llm = None
+        _metadata = None
 
+@ModelLock("llm")
 def load_model(
     repo_id: str = "bartowski/Llama-3.2-1B-Instruct-GGUF",
     filename: str = "Llama-3.2-1B-Instruct-Q8_0.gguf",
@@ -60,6 +67,7 @@ def load_model(
     """
     global _llm, _metadata
     if _llm is None or overwrite:
+        _unload_model()
         _metadata, _llm = _load_new_model(
             repo_id=repo_id,
             filename=filename,
@@ -69,14 +77,10 @@ def load_model(
         )
     return _metadata
 
+@ModelLock("llm")
 def unload_model():
     """Unload the currently loaded model."""
-    global _llm, _metadata
-    if _llm is not None:
-        with _lock:
-            _llm.close()
-            _llm = None
-            _metadata = None
+    _unload_model()
 
 def get_llm() -> Llama | None:
     """Return the loaded Llama instance, returns None if no model is loaded."""

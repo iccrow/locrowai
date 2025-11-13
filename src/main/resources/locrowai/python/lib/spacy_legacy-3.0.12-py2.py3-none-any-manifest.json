@@ -1,5 +1,5 @@
 {
-    "id": "spacy_legacy-3.0.12-py2.py3-none-any",
+    "id": "spacy_legacy-3.0.12-py2.py3-none-any.whl",
     "hashes": {
         "spacy_legacy/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "spacy_legacy/loggers.py": "ec71379cbeaf71f26298af97c332445ffd54fe8f3544219ed197470163fe28e1",
@@ -24,6 +24,13 @@
         "spacy_legacy/tests/pipeline/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "spacy_legacy/tests/pipeline/test_tagger.py": "d61c77ff2934f3de1017c5037b303a0e13daa3ace930e8358de4895a801fc352",
         "spacy_legacy/tests/pipeline/test_textcat.py": "4081fe1691ce2c56bb91d8acf7754f4c0cbd77663f21990c7f8a64dc0eff98cd",
-        "spacy_legacy/tests/pipeline/test_tok2vec.py": "848075f7d77bdab9cc365ca70d60cd0760cf631079000bc4f77d1477606d87ef"
+        "spacy_legacy/tests/pipeline/test_tok2vec.py": "848075f7d77bdab9cc365ca70d60cd0760cf631079000bc4f77d1477606d87ef",
+        "spacy_legacy-3.0.12.dist-info/LICENSE": "95437f29c5577d43e50a0c6a5b6e74b55984e41661d1e43e32cbafa3ca557099",
+        "spacy_legacy-3.0.12.dist-info/METADATA": "d7d8fd88b4c1a701001877c575575049a22449481344d7e798b2637a2555dfd2",
+        "spacy_legacy-3.0.12.dist-info/WHEEL": "6dbd8eb7db1c7251ca30e2c310763a076b227163a0ba08c529a26c4fbbf0310a",
+        "spacy_legacy-3.0.12.dist-info/entry_points.txt": "170757ea31e8e80fc4d7f0803b6eca13c5d3d51c45d400b05eafe68cae674a7b",
+        "spacy_legacy-3.0.12.dist-info/top_level.txt": "e011e168fd1330fb040781d339b7c60edab03117928fe8b2d45096e79e7f8bfe",
+        "spacy_legacy-3.0.12.dist-info/zip-safe": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "spacy_legacy-3.0.12.dist-info/RECORD": "31df58578ce569201f7be891eede4fae301cfdb1fa439b2235081e4dca4fadda"
     }
 }

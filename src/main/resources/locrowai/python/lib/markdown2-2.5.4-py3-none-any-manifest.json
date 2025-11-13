@@ -1,6 +1,12 @@
 {
-    "id": "markdown2-2.5.4-py3-none-any",
+    "id": "markdown2-2.5.4-py3-none-any.whl",
     "hashes": {
-        "markdown2.py": "6e98610498b1a3eb7f407161cf5a504e20a3514f153ebf376e9b474834b294b1"
+        "markdown2.py": "6e98610498b1a3eb7f407161cf5a504e20a3514f153ebf376e9b474834b294b1",
+        "markdown2-2.5.4.dist-info/LICENSE.txt": "f8c7c4d554409cf621b8d653dbfffb719745fd36f5c49b8305258649b403ef9c",
+        "markdown2-2.5.4.dist-info/METADATA": "cbe9ec9181560634639ad411b67fa89ab6f7c30b39435b522187926695e72dcb",
+        "markdown2-2.5.4.dist-info/WHEEL": "b59a1e1a3b56c5645f769944ec4ddde3954f94b3509ef6ca8989f1ee0c00cbc0",
+        "markdown2-2.5.4.dist-info/entry_points.txt": "6407de8928d9cf04522c960c3403ce57e70c81984401576b8c6fc4df0174933e",
+        "markdown2-2.5.4.dist-info/top_level.txt": "7c38d922c04d6d39e2331cc7b0cb91cb37e6bd66c13a852495feb27152ab78d7",
+        "markdown2-2.5.4.dist-info/RECORD": "dc3f86282efffb0cd9451621cfd48a58e623edf9af602351565aa06d73579602"
     }
 }

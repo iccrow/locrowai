@@ -1,11 +1,17 @@
 {
-    "id": "stack_data-0.6.3-py3-none-any",
+    "id": "stack_data-0.6.3-py3-none-any.whl",
     "hashes": {
         "stack_data/__init__.py": "a02d0f23f72687a4767af1c52e05056eb31912017f62f0a1ea91d76cfba83d2c",
         "stack_data/core.py": "12bf047de33bb1c3489791baa6645219a26ca59bc7c8c18b81def4a970e7065e",
         "stack_data/formatting.py": "74889ac38ec7e0f2ec5d946c782d231278a3e5116cf7c940aa5f2bec35784a5d",
+        "stack_data/py.typed": "e64f0169cbc512f44e3433509ba153b23e43c13f293199f20a4ec520770b92ff",
         "stack_data/serializing.py": "b402695ca71838019d03ed24f10026257673713d9428999e1c2002fde672b4ed",
         "stack_data/utils.py": "9c7939cddde3cff96db3a9dfff19a66d529320ce5cc112bae458a95f75fe8323",
-        "stack_data/version.py": "d08097f0f792996a223f220456233145892f0a3404d4abd03c9a7da39d8a463c"
+        "stack_data/version.py": "d08097f0f792996a223f220456233145892f0a3404d4abd03c9a7da39d8a463c",
+        "stack_data-0.6.3.dist-info/LICENSE.txt": "a476a2cb0ef4c41450340a577a28b91ac4c7f669136b2ee148047fabd5fc4181",
+        "stack_data-0.6.3.dist-info/METADATA": "f28a66f2adde54e7031355e09a166e437bc0d023a31c10c973ac494288ca4c6f",
+        "stack_data-0.6.3.dist-info/WHEEL": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "stack_data-0.6.3.dist-info/top_level.txt": "21aacf058618f5e7c99008149eeca43143f39d047e79b590618b1072a606c42a",
+        "stack_data-0.6.3.dist-info/RECORD": "ea7817c9b2ff5c9d6df919da546b646e76725c8229c41bbecd9f865b9093b2ac"
     }
 }

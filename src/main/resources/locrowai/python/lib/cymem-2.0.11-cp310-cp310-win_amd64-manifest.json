@@ -1,5 +1,5 @@
 {
-    "id": "cymem-2.0.11-cp310-cp310-win_amd64",
+    "id": "cymem-2.0.11-cp310-cp310-win_amd64.whl",
     "hashes": {
         "cymem/__init__.pxd": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "cymem/__init__.py": "e71d5709107c6fbd2ba2f52b143bec5a6e464fe48ae4268c7c574a64d7a9dd43",
@@ -8,6 +8,11 @@
         "cymem/cymem.pxd": "63d9cb08da06e858d4ee0e4e2173edc51ce86aa84d1509885375fc6696b8bbc9",
         "cymem/cymem.pyx": "ab09b11cd83cb935c9448c3dc9f9d68a9723d3ff0c4d0cad0b9959f3b3c66755",
         "cymem/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "cymem/tests/test_import.py": "55341aead07d53f935a083fa21050c8b0badbd95d45341b8087dd7b5b7979fcf"
+        "cymem/tests/test_import.py": "55341aead07d53f935a083fa21050c8b0badbd95d45341b8087dd7b5b7979fcf",
+        "cymem-2.0.11.dist-info/LICENSE": "89e53fd01751edb41e1c93d4be175f860ad742455d392fd6a89213570cd5e12c",
+        "cymem-2.0.11.dist-info/METADATA": "b698ffe180192d0f399699956ad928a69d605b36c784d396a5aa461e1adef038",
+        "cymem-2.0.11.dist-info/WHEEL": "af319f66051c19e2928081c660cbaa838c44e153c7c676a57571fa046d338d59",
+        "cymem-2.0.11.dist-info/top_level.txt": "7426300855938ff344ed9f7316bacaa80716b940ad839db329123897f5abafb4",
+        "cymem-2.0.11.dist-info/RECORD": "a7f2b4220097c23cfdd999cf1f6f7a352f3058bf62fe7219bd4cdeee7cf8ecc1"
     }
 }

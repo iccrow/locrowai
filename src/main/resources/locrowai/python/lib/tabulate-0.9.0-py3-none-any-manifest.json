@@ -1,7 +1,13 @@
 {
-    "id": "tabulate-0.9.0-py3-none-any",
+    "id": "tabulate-0.9.0-py3-none-any.whl",
     "hashes": {
         "tabulate/__init__.py": "5f7af0a28fcd713b830c97388675945fa8c4950b05b58f8d187c900a5752d57d",
-        "tabulate/version.py": "4155698e74e8afddf29be4dbe98fd7b4bffaa6643732da0dcb743a234a3762a8"
+        "tabulate/version.py": "4155698e74e8afddf29be4dbe98fd7b4bffaa6643732da0dcb743a234a3762a8",
+        "tabulate-0.9.0.dist-info/LICENSE": "cdfab50d37d8ead06468fb76a3abafcd05c16749ec8a18eebfa50fd48c7cb2d2",
+        "tabulate-0.9.0.dist-info/METADATA": "f2802aade2612091b45951f265af29174f90c3236f68cc8ccdeb646941e62969",
+        "tabulate-0.9.0.dist-info/WHEEL": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "tabulate-0.9.0.dist-info/entry_points.txt": "f039828416266b69f852a0b556490a6c3e4dbb832b7596ac511a1e4ed1b4255a",
+        "tabulate-0.9.0.dist-info/top_level.txt": "a9faa44366b3ecb4f151e45e3ed5fc8209a1dbde0a7f5111748fb5d5a5aa1595",
+        "tabulate-0.9.0.dist-info/RECORD": "d0d7f60f74b603df0888069b87b3526bd0573089e8fad81b1dbc6589b5c201f0"
     }
 }

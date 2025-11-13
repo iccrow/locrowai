@@ -1,5 +1,5 @@
 {
-    "id": "pydantic-2.11.7-py3-none-any",
+    "id": "pydantic-2.11.7-py3-none-any.whl",
     "hashes": {
         "pydantic/__init__.py": "0f7ffed1a44fa00179107e13e093d53982cd11cf8379a09c0ede94cc88cffc3d",
         "pydantic/_migration.py": "ffa54209558d601edf0e96cfd8ca96e1b5d7aa8d7b0b9fc9f74eeef7334941b3",
@@ -25,6 +25,7 @@
         "pydantic/mypy.py": "b5afa506655df0fe12ee9c76aa65a6faacaa4a405da9f05e388ccc8a553489f6",
         "pydantic/networks.py": "fd8a529c147690c7e8597efab1dab7e1c7c21fe316af9a2bd2f7b4b68c3b396a",
         "pydantic/parse.py": "c2477cd9d82dbd6b43f3de54fc8e84d61b6a3251a1052604577f5cb8149ea370",
+        "pydantic/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "pydantic/root_model.py": "4825e1a510a06607ea13d0065494c2ee4300a2329f7cbecf5788b4a9cc0e326d",
         "pydantic/schema.py": "56aaa3beafcb9daa5592779b51ddc1a7f275a768176599d94602f8f1b5441bba",
         "pydantic/tools.py": "88742977c489e43093b4f5796ad015d3a4fcf5b8d268c15e659d8b5fd95ab196",
@@ -98,12 +99,17 @@
         "pydantic/v1/mypy.py": "02265892fd76efe5ac80bf6fc2f2ea8f4752f1dcfe1d431b1fd62fbe5ab86df1",
         "pydantic/v1/networks.py": "1d836d2807ce98e9ca269b0383583a488923f563e153ffa2f25e5ed89281a46e",
         "pydantic/v1/parse.py": "049b5daa2651b5abfd55114298ec6863e2889909a33f2f80fcda288e21546716",
+        "pydantic/v1/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "pydantic/v1/schema.py": "6aa06e03ef9cabc8005648a6e4124f140487cce67c745b66157fdf346afa8a9e",
         "pydantic/v1/tools.py": "d650dd5c79348cbe6e3f7bb9442600bd402518296000efb8e6592af63edfc810",
         "pydantic/v1/types.py": "165b71e46a0ffea69498092d946cfb9c57896b5df2372dc5635f9170ccc456df",
         "pydantic/v1/typing.py": "1cdb6e2af807e041c879bdb2b6477b552c86ea6c4ff512aa12a12a97ed5a6f5e",
         "pydantic/v1/utils.py": "339151c9f3546f50369a4f6568680255d7c71dbdc0b5082b8cee6a7f205fe310",
         "pydantic/v1/validators.py": "9725249f5316847c65097e597c48058ff0801e88e888f71a41e31d10cf57be25",
-        "pydantic/v1/version.py": "1d79d75bed5b316e6a2a196be5180e10fa21ad90c20d2bb2cbcfa08bc182819a"
+        "pydantic/v1/version.py": "1d79d75bed5b316e6a2a196be5180e10fa21ad90c20d2bb2cbcfa08bc182819a",
+        "pydantic-2.11.7.dist-info/METADATA": "f791b40bde997db7ff175b238bff97d50cf9505a8aa307e0bf791d57ed1ae282",
+        "pydantic-2.11.7.dist-info/WHEEL": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "pydantic-2.11.7.dist-info/licenses/LICENSE": "a9e186f3ca16b5eef84318e7a701721351a00cb7b8ae3a4394b67b49e3529ef3",
+        "pydantic-2.11.7.dist-info/RECORD": "aeeb4e1447d8fa49d3895d1f32993f20e01e0cffea329fc0df32ce9f1c7c26a9"
     }
 }

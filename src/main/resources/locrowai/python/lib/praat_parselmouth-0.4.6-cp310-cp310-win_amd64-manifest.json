@@ -1,6 +1,11 @@
 {
-    "id": "praat_parselmouth-0.4.6-cp310-cp310-win_amd64",
+    "id": "praat_parselmouth-0.4.6-cp310-cp310-win_amd64.whl",
     "hashes": {
-        "parselmouth.cp310-win_amd64.pyd": "e4ea417f72a579f96bdd4b056ed50daff1a26ec5cc42498adbe27d29ddbf2738"
+        "parselmouth.cp310-win_amd64.pyd": "e4ea417f72a579f96bdd4b056ed50daff1a26ec5cc42498adbe27d29ddbf2738",
+        "praat_parselmouth-0.4.6.dist-info/licenses/LICENSE": "0b383d5a63da644f628d99c33976ea6487ed89aaa59f0b3257992deac1171e6b",
+        "praat_parselmouth-0.4.6.dist-info/METADATA": "74b87e236325248586a338af23629fc891322771c4058f4b56f9872b7e757a35",
+        "praat_parselmouth-0.4.6.dist-info/WHEEL": "82b5e78ff863cfd01c2569c31a8300cb2d17e468002cc02d22f35b44c0738269",
+        "praat_parselmouth-0.4.6.dist-info/top_level.txt": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "praat_parselmouth-0.4.6.dist-info/RECORD": "5471a5bff54aae291ec96308a6afda307d403b779ecd8b4eebb36b2ab950b7ce"
     }
 }

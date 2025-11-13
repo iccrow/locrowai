@@ -1,7 +1,7 @@
 import torch
 from pydantic import BaseModel, ConfigDict
 
-from api import Function, register
+from api.extensions import Function, register
 
 class CentroidParams(BaseModel):
     model_config = ConfigDict(arbitrary_types_allowed=True)

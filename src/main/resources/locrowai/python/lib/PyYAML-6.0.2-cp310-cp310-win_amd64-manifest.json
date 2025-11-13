@@ -1,5 +1,5 @@
 {
-    "id": "PyYAML-6.0.2-cp310-cp310-win_amd64",
+    "id": "PyYAML-6.0.2-cp310-cp310-win_amd64.whl",
     "hashes": {
         "_yaml/__init__.py": "d3801eff9a2cc5a8692476b75c165401fe308ba5d7df6811f03e97ea9eb81840",
         "yaml/__init__.py": "377e52d351cc7ac1537b469144c5a43e3d0f6bc2046c7a44f452bb72be4176dc",
@@ -19,6 +19,11 @@
         "yaml/resolver.py": "f4bf9561f9b89961f1503d558385fbae30d12bfed565de9bf76c33abb63620a6",
         "yaml/scanner.py": "60433788b652690c17710460da5d91e0c753d3318fd85f5e1e42862a71f25906",
         "yaml/serializer.py": "0a1b85826854d35863e31808f0668abfabdf33606e8f06bd8bb7761401e3edc0",
-        "yaml/tokens.py": "953408cd2570f0c83dc2fe39f7e4e388e41eeb05738aa69196a5f6ffcf6ba79e"
+        "yaml/tokens.py": "953408cd2570f0c83dc2fe39f7e4e388e41eeb05738aa69196a5f6ffcf6ba79e",
+        "PyYAML-6.0.2.dist-info/LICENSE": "8d3928f9dc4490fd635707cb88eb26bd764102a7282954307d3e5167a577e8a4",
+        "PyYAML-6.0.2.dist-info/METADATA": "f65c17a933ab5cfb6cfa32362e8e54c2e680628d21891034059aa3721d168c09",
+        "PyYAML-6.0.2.dist-info/WHEEL": "36a84bcad89da6254cc55cc2bf122b128b9e8a290b1e94594496996c11615d55",
+        "PyYAML-6.0.2.dist-info/top_level.txt": "ae98f42153138ac02387fd6f1b709c7fdbf98e9090c00cfa703d48554e597614",
+        "PyYAML-6.0.2.dist-info/RECORD": "1f8aa855d7490ed88549b57a78bd378f13f710b066d845e5cd3a122d742b6914"
     }
 }

@@ -1,10 +1,15 @@
 {
-    "id": "regex-2025.7.34-cp310-cp310-win_amd64",
+    "id": "regex-2025.7.34-cp310-cp310-win_amd64.whl",
     "hashes": {
         "regex/__init__.py": "ea089905244b99365fbd0adc5684ba31a2f980a730b5f66549701305ec78f655",
         "regex/_regex.cp310-win_amd64.pyd": "989fedb5496a1ee06450d5e25d3753b3262d862a0dee324c9fd5e1389259c2ac",
         "regex/_regex_core.py": "2d2871588990902a8aa878b4641277e5915a4a52496ac390d57316a904614f74",
         "regex/regex.py": "740681450e32d3ab08a94bc0f8e6a0eb0f1fe1a56b0581830bc10465b0fd39bc",
-        "regex/test_regex.py": "e7caa35c95ccb6d7a0fd469107954b5b0e4a938fef2318f781347334c86341a6"
+        "regex/test_regex.py": "e7caa35c95ccb6d7a0fd469107954b5b0e4a938fef2318f781347334c86341a6",
+        "regex-2025.7.34.dist-info/licenses/LICENSE.txt": "3d220c06594b826bbabf110312f60f385f99e57e529fa4b9e536f79091f8b4c7",
+        "regex-2025.7.34.dist-info/METADATA": "224b14d4acd695deceecca0583883de7d61b32f5ce8884ad4d2c9a4c4b7340dc",
+        "regex-2025.7.34.dist-info/WHEEL": "294b810ba97101b1c22a294ab9af11f56fd333bd7ffbd4a0e6e10fdee0d67285",
+        "regex-2025.7.34.dist-info/top_level.txt": "6909a20cc84d4c5dba7022b8ffb0fea9a56f85bc42946d30c824e7121933601b",
+        "regex-2025.7.34.dist-info/RECORD": "60d1677a7e64385ec5e08a35ebaf51ab52a3fb9bac817d9e45378a92db2bd5e4"
     }
 }

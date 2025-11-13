@@ -93,7 +93,7 @@
   "isodate": "isodate==0.7.2",
   "jaconv": "jaconv==0.4.0",
   "jamo": "jamo==0.4.1",
-  "jaraco": "jaraco.text==3.12.1",
+  "jaraco": "jaraco.text==3.12.1 jaraco.collections==5.1.0 jaraco.context==5.3.0 jaraco.functools==4.0.1",
   "jedi": "jedi==0.19.2",
   "jieba": "jieba==0.42.1",
   "jinja2": "Jinja2==3.1.6",

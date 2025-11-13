@@ -1,7 +1,12 @@
 {
-    "id": "HyperPyYAML-1.2.2-py3-none-any",
+    "id": "HyperPyYAML-1.2.2-py3-none-any.whl",
     "hashes": {
         "hyperpyyaml/__init__.py": "11a5fa7f726d13d41f3508ae1451e35a754c507495dd7c26c1892fefe8a30c81",
-        "hyperpyyaml/core.py": "2f5755a754cfc4b881b9e57193caab0694ca2efc1b1387a3dfcaffdc0249b884"
+        "hyperpyyaml/core.py": "2f5755a754cfc4b881b9e57193caab0694ca2efc1b1387a3dfcaffdc0249b884",
+        "HyperPyYAML-1.2.2.dist-info/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "HyperPyYAML-1.2.2.dist-info/METADATA": "84490fe511e68030b3146fee94d8b7178d753f4614d5b8fbee717e5e0121e1ef",
+        "HyperPyYAML-1.2.2.dist-info/WHEEL": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "HyperPyYAML-1.2.2.dist-info/top_level.txt": "7853c5ae5db469c91112fdd8d8718fc50404e01967ae3ca0449303fe072da60a",
+        "HyperPyYAML-1.2.2.dist-info/RECORD": "fe36243242a0bee7abf92ee01548ded587406c619e67bb85ce119712f2652586"
     }
 }

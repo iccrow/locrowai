@@ -1,5 +1,5 @@
 {
-    "id": "wrapt-1.17.3-cp310-cp310-win_amd64",
+    "id": "wrapt-1.17.3-cp310-cp310-win_amd64.whl",
     "hashes": {
         "wrapt/__init__.py": "51457a890ba6dba22f6f308837cc39fc2b0d2fc8b470998cac3df0ff47016c4c",
         "wrapt/__wrapt__.py": "7616c1c984fb0d562cbcad807cd253b5e9a2a12365fd6b469eff6bbbc35dd0f3",
@@ -9,6 +9,11 @@
         "wrapt/importer.py": "d32b175de34c7977ae85cc30ede6fc10f7be205a5f6e6ddb64a752da1a2609ea",
         "wrapt/patches.py": "3ddd901840f0b230369419c29b2c665d3ee1ad1c7b1360f0fb33a0202ba80b2f",
         "wrapt/weakrefs.py": "c816ffac0c9d816e063e7cbed92dd7868875a0389bb13b165b179ba5c4a2a62e",
-        "wrapt/wrappers.py": "31b0731693174b3e2d26dc5b4cad16a0fcde38676fe8e493814329268cef3036"
+        "wrapt/wrappers.py": "31b0731693174b3e2d26dc5b4cad16a0fcde38676fe8e493814329268cef3036",
+        "wrapt-1.17.3.dist-info/licenses/LICENSE": "2e7f2930afc3a623b1f3e75dc39f66657b4abb8c2df4a03fc37bf41d3d2e013b",
+        "wrapt-1.17.3.dist-info/METADATA": "469c64c08a49e5fda2ffc28f3be14a60eb1125e3f6d066a6cd7c8616e3c8e274",
+        "wrapt-1.17.3.dist-info/WHEEL": "294b810ba97101b1c22a294ab9af11f56fd333bd7ffbd4a0e6e10fdee0d67285",
+        "wrapt-1.17.3.dist-info/top_level.txt": "25fee472e5edc2350933038bd10cc02c38365a24a25e21fd4e128c8cdeb80d6d",
+        "wrapt-1.17.3.dist-info/RECORD": "093bae4bc43969025d30fcb0987d7fd4b53883812336523c146d1146c85936a2"
     }
 }

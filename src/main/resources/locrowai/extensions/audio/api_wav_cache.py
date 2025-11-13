@@ -4,7 +4,7 @@ import uuid
 import io
 import os
 
-from api import Function, register
+from api.extensions import Function, register
 
 class CacheParams(BaseModel):
     audio: bytes

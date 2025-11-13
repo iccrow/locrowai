@@ -4,7 +4,7 @@ import uuid
 import os
 import soundfile as sf
 
-from api import Function, register
+from api.extensions import Function, register
 
 class PCMCacheParams(BaseModel):
     audio: bytes       # raw PCM bytes

@@ -1,5 +1,6 @@
 from pydantic import BaseModel
-from api import Function, register, get_default_device, get_best_dtype_for_device
+from api.extensions import Function, register
+from api.torch import get_default_device, get_best_dtype_for_device
 from typing import Optional
 
 from .model_loader import load_model, get_model, unload_model

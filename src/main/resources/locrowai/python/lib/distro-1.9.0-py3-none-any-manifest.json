@@ -1,8 +1,15 @@
 {
-    "id": "distro-1.9.0-py3-none-any",
+    "id": "distro-1.9.0-py3-none-any.whl",
     "hashes": {
         "distro/__init__.py": "d9f1e317e49f80fbe3c8d67588787fc23a96751fd8a393831f0642d232c13e17",
         "distro/__main__.py": "6eef5ddd389fa0a72264572a441bb2815dc64ae4e19d50ff9b620ae1ccfde95b",
-        "distro/distro.py": "5ea6de7da7008434f8cebfedae76c0d79798f2f74ae064e08609af506ac433fe"
+        "distro/distro.py": "5ea6de7da7008434f8cebfedae76c0d79798f2f74ae064e08609af506ac433fe",
+        "distro/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "distro-1.9.0.dist-info/LICENSE": "cb5e8e7e5f4a3988e1063c142c60dc2df75605f4c46515e776e3aca6df976e14",
+        "distro-1.9.0.dist-info/METADATA": "31632ab2de5591131091b3397bdcdf797718579d85a75186f06839dd0c09e81d",
+        "distro-1.9.0.dist-info/WHEEL": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "distro-1.9.0.dist-info/entry_points.txt": "dce6e3a9031b875c5e410c2c5ad81b7c33433030fe11b8204753a3ff3f2cf617",
+        "distro-1.9.0.dist-info/top_level.txt": "8a475efd5fd711d481a9a19de6d12b88dff0cd81cb8135ffcd5b65b062c7bf04",
+        "distro-1.9.0.dist-info/RECORD": "266f66e611b79faea54fd2a924a68eca38349159da38f6e9a380d5acddaf252a"
     }
 }

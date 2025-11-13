@@ -1,5 +1,5 @@
 {
-    "id": "faster_whisper-1.2.0-py3-none-any",
+    "id": "faster_whisper-1.2.0-py3-none-any.whl",
     "hashes": {
         "faster_whisper/__init__.py": "5396c3a025a7b0cf81246fcd680c0bb7e384e2e587cc2e18f9518cef4c26d56c",
         "faster_whisper/audio.py": "60a1d8638f718cbf6d245aed3e5a5aa61c1f822a0b0fe9b48a7c928d47c23909",
@@ -9,6 +9,13 @@
         "faster_whisper/utils.py": "ad0401e8d5aeb9e5f226b52e04a0544a2be6afaaa1a00b1593928c0e61446438",
         "faster_whisper/vad.py": "807390d31eac395388692b08cb268aaffd2130a4c4e1ebedeb0dbea80d8352ac",
         "faster_whisper/version.py": "9e63c4d3d14066f47ff68acdabed21c209061d468942631c7313a5347de7a779",
-        "faster_whisper/assets/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "faster_whisper/assets/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "faster_whisper/assets/silero_decoder_v5.onnx": "8c20344f509846a07ccd85827e8857017fae67fabd58689bec1af79e1d488307",
+        "faster_whisper/assets/silero_encoder_v5.onnx": "0e9fc8f56407693d283f99045fb95c2b90fdca3433ce5f83e2c121fb4e615075",
+        "faster_whisper-1.2.0.dist-info/LICENSE": "af6798135e729f8aa6c853936d037dfdea449734d26b8ea6a89805fca758c0d5",
+        "faster_whisper-1.2.0.dist-info/METADATA": "e461e1f2d4da5de92edd19082491b73fa6f4c2905e38b1c4303155b829a78e3e",
+        "faster_whisper-1.2.0.dist-info/WHEEL": "b59a1e1a3b56c5645f769944ec4ddde3954f94b3509ef6ca8989f1ee0c00cbc0",
+        "faster_whisper-1.2.0.dist-info/top_level.txt": "636865f23cdf2058d3db77b66d6d7f8d4154e9894fcf7700374dfb847b76b188",
+        "faster_whisper-1.2.0.dist-info/RECORD": "d5303b4b43ad25f3fac705d10343977a7aa955bd0311c47a873cadae7b869f45"
     }
 }

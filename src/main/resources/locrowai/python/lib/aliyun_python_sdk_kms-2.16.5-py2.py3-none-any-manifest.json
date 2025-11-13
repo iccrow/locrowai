@@ -1,5 +1,5 @@
 {
-    "id": "aliyun_python_sdk_kms-2.16.5-py2.py3-none-any",
+    "id": "aliyun_python_sdk_kms-2.16.5-py2.py3-none-any.whl",
     "hashes": {
         "aliyunsdkkms/__init__.py": "e1c3a3ec19785d1008dea43f3f09f7e3582ebeb45b586990912a42ff671afb24",
         "aliyunsdkkms/endpoint.py": "b0c635f10957950336170be878750ca51b72f9922d751e722afcc0d3f3782ac2",
@@ -97,6 +97,11 @@
         "aliyunsdkkms/request/v20160120/UpdateSecretRotationPolicyRequest.py": "e3abd0063ee89aaf44fc1ee6ee544878e08f1c074af9948f5d60357ddc4e395c",
         "aliyunsdkkms/request/v20160120/UpdateSecretVersionStageRequest.py": "1f8c30087f9dab00158e8268b5cddd27b67b55021f6ef2ab0f6f0676305a578b",
         "aliyunsdkkms/request/v20160120/UploadCertificateRequest.py": "090a660d54d4fb77bc438d3dce34bb85fa1bfc000631637f59fa221f52d52a3a",
-        "aliyunsdkkms/request/v20160120/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "aliyunsdkkms/request/v20160120/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "aliyun_python_sdk_kms-2.16.5.dist-info/LICENSE": "0afc990787a5d5c6464f7732f4e628213c6d6bf11ada66a89dd2aa9a2f047295",
+        "aliyun_python_sdk_kms-2.16.5.dist-info/METADATA": "0b508689a5997fd692ca7e75d516691a1ee18e9bcf5dc07c8c695a53bfdcd78c",
+        "aliyun_python_sdk_kms-2.16.5.dist-info/WHEEL": "89896fe5f5f7e7b3d0c914f6a3ab70d5b37e61c2851472aa07f2f01cee703fe8",
+        "aliyun_python_sdk_kms-2.16.5.dist-info/top_level.txt": "099ff5c85113b08899f817b3b50d238dc1ae8db884af18140dfdfc92151612f4",
+        "aliyun_python_sdk_kms-2.16.5.dist-info/RECORD": "82e5d9f937611e810ad2e90d03b1a8f3ea4183bf0e68fdfe24f18efd0e517828"
     }
 }

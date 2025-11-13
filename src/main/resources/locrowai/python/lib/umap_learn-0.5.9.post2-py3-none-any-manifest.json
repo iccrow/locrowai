@@ -1,5 +1,5 @@
 {
-    "id": "umap_learn-0.5.9.post2-py3-none-any",
+    "id": "umap_learn-0.5.9.post2-py3-none-any.whl",
     "hashes": {
         "umap/__init__.py": "ff3c7da50cc742c3bc3b8c5faceacbcb476fccdbe65bd582edd4dc98a415f013",
         "umap/aligned_umap.py": "0ac061cde06b3aac49380d9914a1d742181c4d982ac534daa69beb6261868c6c",
@@ -11,6 +11,11 @@
         "umap/spectral.py": "244efc06cf6026643cd2adbbbfc92f2481210e8f1f4d5ac59c2b3a61b7a9e1f8",
         "umap/umap_.py": "6f9eab187af19b20a210e7e5265a940940cea2ede6af3f38da41ebb2edede303",
         "umap/utils.py": "fd10eaa1c241e48a043c03d9b1c4e4957233834ecb54e10fe5e79eb2d9dc3c62",
-        "umap/validation.py": "6e17b3da7448fa35ee40b1144d0caf3dbe7f2fa9d98e39d1131822091f2d94cf"
+        "umap/validation.py": "6e17b3da7448fa35ee40b1144d0caf3dbe7f2fa9d98e39d1131822091f2d94cf",
+        "umap_learn-0.5.9.post2.dist-info/licenses/LICENSE.txt": "46fc974145ef85e0992ac3173d03ffe6cdf2611292950e323c5a69b9ca35ff1e",
+        "umap_learn-0.5.9.post2.dist-info/METADATA": "6fb15f711ffd6128ec2cfe03bba135acdb3065cb1ab9e4e9949aecf27feff63b",
+        "umap_learn-0.5.9.post2.dist-info/WHEEL": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "umap_learn-0.5.9.post2.dist-info/top_level.txt": "2bf1553a88d436c588e29ed9d91ba6476f61958c39972fbe3b3b4fa890ae8110",
+        "umap_learn-0.5.9.post2.dist-info/RECORD": "2a348a8424937558905b823657b32552125a9a8f8a12375c942da89ae5cf27c5"
     }
 }
