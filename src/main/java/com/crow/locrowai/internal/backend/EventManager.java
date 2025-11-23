@@ -4,7 +4,7 @@ import com.crow.locrowai.api.registration.AIRegistry;
 import com.crow.locrowai.internal.Config;
 import com.crow.locrowai.internal.LocrowAI;
 import net.minecraft.client.Minecraft;
-import net.minecraft.network.chat.Component;
+
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.ClientPlayerNetworkEvent;
 import net.minecraftforge.client.event.ScreenEvent;
@@ -54,10 +54,6 @@ class EventManager {
                             return;
                         }
                         InstallationManager.installing.set(false);
-                        Minecraft mc = Minecraft.getInstance();
-//                        mc.execute(() -> {
-//                            mc.setScreen(new TitleOverlayScreen(mc.screen, Component.literal("WARNING: THIS IS A DRILL!!")));
-//                        });
                         LoadManager.load();
                     } catch (IOException e) {
                         throw new RuntimeException(e);
@@ -70,7 +66,21 @@ class EventManager {
     }
 
     @Mod.EventBusSubscriber(modid = LocrowAI.MODID, bus = Mod.EventBusSubscriber.Bus.FORGE)
-    static class ForgeEvents
+    static class ServerForgeEvents
+    {
+
+        @SubscribeEvent
+        public void onServerStarting(ServerStartingEvent event) {
+            if (Config.offloading) return;
+
+            if (!LoadManager.isRunning())
+                LoadManager.load();
+
+        }
+    }
+
+    @Mod.EventBusSubscriber(modid = LocrowAI.MODID, bus = Mod.EventBusSubscriber.Bus.FORGE, value = Dist.CLIENT)
+    static class ClientForgeEvents
     {
         @SubscribeEvent
         static void onScreenStart(ScreenEvent.Init.Post event) {
@@ -85,15 +95,6 @@ class EventManager {
         @SubscribeEvent
         public static void leaveServer(ClientPlayerNetworkEvent.LoggingOut event) {
             LoadManager.freeze().thenAccept(res -> LocrowAI.LOGGER().info("FREEZE TOOK: {}", res));
-        }
-
-        @SubscribeEvent
-        public void onServerStarting(ServerStartingEvent event) {
-            if (Config.offloading) return;
-
-            if (!LoadManager.isRunning())
-                LoadManager.load();
-
         }
     }
 }

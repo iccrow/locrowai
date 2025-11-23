@@ -1,7 +1,6 @@
 package com.crow.locrowai.internal;
 
 import com.mojang.logging.LogUtils;
-import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -25,8 +24,7 @@ public class LocrowAI
         context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
 
         if (FMLEnvironment.dist.isClient()) {
-            context.registerExtensionPoint(ConfigScreenHandler.ConfigScreenFactory.class,
-                    () -> new ConfigScreenHandler.ConfigScreenFactory((mc, prevScreen) -> new AIBackendManagerScreen(prevScreen)));
+            ClientInitializer.init(context);
         }
     }
 
