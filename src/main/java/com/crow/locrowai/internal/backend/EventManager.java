@@ -31,6 +31,8 @@ class EventManager {
 
             AIRegistry.init();
 
+            if (Config.offloading) return;
+
             if (!InstallationManager.isFullyInstalled())
                 InstallationManager.init();
             else {
